@@ -1,0 +1,204 @@
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { getProductBySlug, getRelatedProducts } from '@/lib/products';
+import ProductCard from '@/components/ProductCard';
+import AddToCartButton from './AddToCartButton';
+import ImageGallery from './ImageGallery';
+
+export async function generateMetadata({ params }) {
+  const product = getProductBySlug(params.slug);
+  if (!product) return {};
+  return {
+    title: `${product.name} — PawHaven`,
+    description: product.shortDescription,
+  };
+}
+
+function StarRating({ rating, count }) {
+  return (
+    <div className="flex items-center gap-2">
+      <div className="flex gap-0.5">
+        {[1, 2, 3, 4, 5].map((s) => (
+          <svg
+            key={s}
+            xmlns="http://www.w3.org/2000/svg"
+            className={`h-5 w-5 ${s <= Math.round(rating) ? 'text-amber-400' : 'text-gray-200'}`}
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        ))}
+      </div>
+      <span className="text-sm text-gray-600 font-medium">
+        {rating} · {count.toLocaleString()} reviews
+      </span>
+    </div>
+  );
+}
+
+export default function ProductPage({ params }) {
+  const product = getProductBySlug(params.slug);
+  if (!product) notFound();
+
+  const related = getRelatedProducts(product.slug, 3);
+  const savings = product.comparePrice
+    ? (product.comparePrice - product.price).toFixed(2)
+    : null;
+
+  return (
+    <div className="min-h-screen bg-white">
+      {/* Breadcrumb */}
+      <div className="bg-gray-50 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          <nav className="flex items-center gap-2 text-sm text-gray-500">
+            <Link href="/" className="hover:text-brand-500 transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/products" className="hover:text-brand-500 transition-colors">Shop</Link>
+            <span>/</span>
+            <span className="text-navy-900 font-medium">{product.name}</span>
+          </nav>
+        </div>
+      </div>
+
+      {/* Main product section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          {/* Left — Product image gallery */}
+          <div className="sticky top-24">
+            <ImageGallery product={product} />
+          </div>
+
+          {/* Right — Product info */}
+          <div className="space-y-6">
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-brand-500 font-semibold text-sm uppercase tracking-wider">
+                  {product.category} · {product.tag}
+                </span>
+              </div>
+              <h1 className="text-3xl sm:text-4xl font-black text-navy-900 leading-tight mb-3">
+                {product.name}
+              </h1>
+              <StarRating rating={product.rating} count={product.reviewCount} />
+            </div>
+
+            {/* Price */}
+            <div className="flex items-baseline gap-4 py-4 border-y border-gray-100">
+              <span className="text-4xl font-black text-navy-900">
+                ${product.price.toFixed(2)}
+              </span>
+              {product.comparePrice && (
+                <span className="text-xl text-gray-400 line-through">
+                  ${product.comparePrice.toFixed(2)}
+                </span>
+              )}
+              {savings && (
+                <span className="bg-red-50 text-red-600 text-sm font-bold px-3 py-1 rounded-full">
+                  You save ${savings}
+                </span>
+              )}
+            </div>
+
+            {/* Short description */}
+            <p className="text-gray-600 leading-relaxed text-base">
+              {product.shortDescription}
+            </p>
+
+            {/* Stock & shipping */}
+            <div className="bg-emerald-50 rounded-2xl p-4 flex flex-col gap-2">
+              <div className="flex items-center gap-2 text-emerald-700 text-sm font-semibold">
+                <span>✓</span>
+                <span>In Stock — {product.stock} units remaining</span>
+              </div>
+              <div className="flex items-center gap-2 text-emerald-700 text-sm">
+                <span>🚚</span>
+                <span>Estimated delivery: {product.shippingDays}</span>
+              </div>
+              <div className="flex items-center gap-2 text-emerald-700 text-sm">
+                <span>🎁</span>
+                <span>Free shipping on orders over $50</span>
+              </div>
+            </div>
+
+            {/* Add to cart */}
+            <AddToCartButton product={product} />
+
+            {/* Trust row */}
+            <div className="flex flex-wrap gap-3 pt-2">
+              {['🔒 Secure checkout', '↩️ 30-day returns', '🛡️ Buyer protection'].map((t) => (
+                <span key={t} className="text-xs text-gray-500 font-medium">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* ─── Description + Features ─── */}
+        <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div>
+            <h2 className="text-2xl font-black text-navy-900 mb-4">About This Product</h2>
+            <p className="text-gray-600 leading-relaxed text-base">{product.description}</p>
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-navy-900 mb-4">Key Features</h2>
+            <div className="space-y-4">
+              {product.features.map((f) => (
+                <div key={f.title} className="flex items-start gap-4 bg-gray-50 rounded-2xl p-4">
+                  <span className="text-2xl flex-shrink-0">{f.icon}</span>
+                  <div>
+                    <div className="font-bold text-navy-900 text-sm">{f.title}</div>
+                    <div className="text-gray-500 text-sm mt-0.5">{f.desc}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* ─── Reviews ─── */}
+        <div className="mt-20">
+          <h2 className="text-2xl font-black text-navy-900 mb-8">
+            Customer Reviews ({product.reviewCount.toLocaleString()})
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {product.reviews.map((review, i) => (
+              <div key={i} className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+                <div className="flex gap-0.5 mb-3">
+                  {Array.from({ length: review.rating }).map((_, j) => (
+                    <span key={j} className="text-amber-400">★</span>
+                  ))}
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed italic mb-4">
+                  "{review.text}"
+                </p>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-sm font-bold text-brand-600">
+                    {review.name.charAt(0)}
+                  </div>
+                  <div>
+                    <div className="font-semibold text-navy-900 text-sm">{review.name}</div>
+                    <div className="text-gray-400 text-xs">{review.date} · Verified Purchase</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ─── Related Products ─── */}
+        {related.length > 0 && (
+          <div className="mt-20">
+            <h2 className="text-2xl font-black text-navy-900 mb-8">You May Also Like</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {related.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
