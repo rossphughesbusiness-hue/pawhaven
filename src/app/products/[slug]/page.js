@@ -4,6 +4,7 @@ import { getProductBySlug, getRelatedProducts } from '@/lib/products';
 import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
+import ViewTracker from './ViewTracker';
 
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
@@ -48,6 +49,7 @@ export default function ProductPage({ params }) {
 
   return (
     <div className="min-h-screen bg-white">
+      <ViewTracker id={product.id} name={product.name} />
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
