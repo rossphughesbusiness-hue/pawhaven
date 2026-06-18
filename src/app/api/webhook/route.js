@@ -38,11 +38,6 @@ async function resolveVariantId(pid, selectedVariants, token) {
     if (!Array.isArray(variants) || variants.length === 0) return null;
 
     if (selectedVariants && Object.keys(selectedVariants).length > 0) {
-      // Build a lowercase match string from the customer's selections
-      const customerChoices = Object.values(selectedVariants)
-        .map((v) => v.toLowerCase())
-        .join(' ');
-
       // Try to find a variant whose label contains all chosen values
       const match = variants.find((v) => {
         const label = (v.variantNameEn || v.variantName || '').toLowerCase();
@@ -76,8 +71,6 @@ async function resolveVariantId(pid, selectedVariants, token) {
  */
 async function createCJOrder({ orderNumber, shipping, phone, products, token }) {
   const addr = shipping.address;
-
-  // Map country code → display name for common countries
   const countryNames = { US: 'United States', CA: 'Canada', GB: 'United Kingdom', AU: 'Australia' };
 
   const body = {
@@ -104,8 +97,144 @@ async function createCJOrder({ orderNumber, shipping, phone, products, token }) 
     body: JSON.stringify(body),
   });
 
+  return res.json();
+}
+
+// ─── Email helpers ────────────────────────────────────────────────────────────
+
+function buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, total, shippingLabel }) {
+  const addr = shipping?.address;
+  const addrLine = addr
+    ? [addr.line1, addr.line2, addr.city, addr.state, addr.postal_code, addr.country]
+        .filter(Boolean)
+        .join(', ')
+    : 'N/A';
+
+  const itemRows = lineItems
+    .map(
+      (li) => `
+      <tr>
+        <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;font-size:15px;color:#1a2b4a;">
+          ${li.description || li.price?.product?.name || 'Item'}
+          ${li.quantity > 1 ? `<span style="color:#888;font-size:13px;"> × ${li.quantity}</span>` : ''}
+        </td>
+        <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;font-size:15px;color:#1a2b4a;text-align:right;white-space:nowrap;">
+          $${((li.amount_total ?? li.amount_subtotal ?? 0) / 100).toFixed(2)}
+        </td>
+      </tr>`
+    )
+    .join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f7f8fa;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f7f8fa;padding:40px 0;">
+    <tr><td align="center">
+      <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:linear-gradient(135deg,#f97316,#fb923c);padding:32px 40px;text-align:center;">
+            <div style="font-size:28px;margin-bottom:4px;">🐾</div>
+            <div style="color:#ffffff;font-size:24px;font-weight:800;letter-spacing:-0.5px;">PawHaven</div>
+            <div style="color:rgba(255,255,255,0.85);font-size:13px;margin-top:2px;">Order Confirmed</div>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="padding:36px 40px;">
+            <p style="margin:0 0 8px;font-size:18px;font-weight:700;color:#1a2b4a;">
+              Thanks for your order, ${customerName}! 🎉
+            </p>
+            <p style="margin:0 0 28px;font-size:15px;color:#64748b;line-height:1.6;">
+              We've received your payment and your order is on its way to our fulfillment team.
+              You'll receive a shipping update once your package is on the move.
+            </p>
+
+            <!-- Order ref -->
+            <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 20px;margin-bottom:28px;">
+              <span style="font-size:12px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Order Reference</span><br>
+              <span style="font-size:14px;font-weight:700;color:#1a2b4a;font-family:monospace;">${orderRef}</span>
+            </div>
+
+            <!-- Items -->
+            <p style="margin:0 0 12px;font-size:13px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Items Ordered</p>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px;">
+              ${itemRows}
+              <tr>
+                <td style="padding:14px 0 0;font-size:15px;font-weight:800;color:#1a2b4a;">Total</td>
+                <td style="padding:14px 0 0;font-size:15px;font-weight:800;color:#f97316;text-align:right;">$${(total / 100).toFixed(2)}</td>
+              </tr>
+            </table>
+
+            <!-- Shipping -->
+            <div style="margin-top:28px;padding-top:24px;border-top:1px solid #f0f0f0;">
+              <p style="margin:0 0 12px;font-size:13px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Shipping To</p>
+              <p style="margin:0;font-size:15px;color:#1a2b4a;line-height:1.6;">
+                <strong>${shipping?.name || customerName}</strong><br>${addrLine}
+              </p>
+              ${shippingLabel ? `<p style="margin:10px 0 0;font-size:13px;color:#64748b;">🚚 ${shippingLabel} (5–12 business days)</p>` : ''}
+            </div>
+
+            <!-- CTA -->
+            <div style="margin-top:32px;text-align:center;">
+              <a href="https://pawhavenpets.org/products"
+                 style="display:inline-block;background:#f97316;color:#ffffff;font-weight:700;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
+                Shop More for Your Pet →
+              </a>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background:#f8fafc;padding:20px 40px;border-top:1px solid #f0f0f0;text-align:center;">
+            <p style="margin:0;font-size:12px;color:#94a3b8;line-height:1.6;">
+              Questions? Reply to this email or visit
+              <a href="https://pawhavenpets.org" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a>
+              <br>© ${new Date().getFullYear()} PawHaven. All rights reserved.
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+}
+
+async function sendConfirmationEmail({ to, customerName, orderRef, lineItems, shipping, total, shippingLabel }) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.warn('[webhook] RESEND_API_KEY not set — skipping confirmation email');
+    return;
+  }
+
+  const html = buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, total, shippingLabel });
+
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      from: 'PawHaven Orders <orders@pawhavenpets.org>',
+      to: [to],
+      subject: `Your PawHaven order is confirmed! 🐾`,
+      html,
+    }),
+  });
+
   const data = await res.json();
-  return data;
+  if (!res.ok) {
+    console.error('[webhook] Resend error:', JSON.stringify(data));
+  } else {
+    console.log(`[webhook] ✉️ Confirmation email sent to ${to} (id: ${data.id})`);
+  }
 }
 
 // ─── Webhook handler ─────────────────────────────────────────────────────────
@@ -132,7 +261,6 @@ export async function POST(req) {
 
   const session = event.data.object;
 
-  // Skip sessions that weren't paid
   if (session.payment_status !== 'paid') {
     console.log(`[webhook] Session ${session.id} not paid yet — skipping.`);
     return NextResponse.json({ received: true });
@@ -140,13 +268,28 @@ export async function POST(req) {
 
   console.log(`[webhook] Processing fulfilled order for session ${session.id}`);
 
-  // ── Parse fulfillment items from session metadata ──────────────────────────
-  const itemCount = parseInt(session.metadata?.item_count || '0', 10);
-  if (itemCount === 0) {
-    console.warn(`[webhook] No fulfillment metadata on session ${session.id}`);
-    return NextResponse.json({ received: true });
+  // ── Retrieve session with expanded line items (needed for email) ───────────
+  let fullSession;
+  try {
+    fullSession = await stripe.checkout.sessions.retrieve(session.id, {
+      expand: ['line_items'],
+    });
+  } catch (err) {
+    console.error('[webhook] Failed to expand session:', err.message);
+    fullSession = session;
   }
 
+  const lineItems = fullSession.line_items?.data || [];
+  const customerEmail = session.customer_details?.email;
+  const customerName = session.shipping_details?.name || session.customer_details?.name || 'there';
+  const orderRef = (session.payment_intent || session.id).slice(-12).toUpperCase();
+  const shippingOption = session.shipping_cost?.shipping_rate;
+  const shippingLabel = fullSession.shipping_cost?.amount_total > 0
+    ? 'Express Shipping'
+    : 'Standard Shipping';
+
+  // ── Parse fulfillment items from session metadata ──────────────────────────
+  const itemCount = parseInt(session.metadata?.item_count || '0', 10);
   const cartItems = [];
   for (let i = 0; i < itemCount; i++) {
     try {
@@ -158,64 +301,66 @@ export async function POST(req) {
   }
 
   const itemsWithSupplier = cartItems.filter((it) => it.pid);
-  if (itemsWithSupplier.length === 0) {
+
+  // ── CJDropshipping fulfillment ─────────────────────────────────────────────
+  if (itemsWithSupplier.length > 0) {
+    let cjToken;
+    try {
+      cjToken = await getCJToken();
+    } catch (err) {
+      console.error('[webhook] CJ authentication failed:', err.message);
+      cjToken = null;
+    }
+
+    if (cjToken) {
+      const cjProducts = [];
+      for (const item of itemsWithSupplier) {
+        const vid = await resolveVariantId(item.pid, item.v, cjToken);
+        if (!vid) {
+          console.error(`[webhook] Could not resolve variant for pid=${item.pid} — skipping`);
+          continue;
+        }
+        cjProducts.push({ vid, quantity: item.qty });
+      }
+
+      if (cjProducts.length > 0) {
+        const orderNumber = session.payment_intent || session.id;
+        const shipping = session.shipping_details;
+        const phone = session.customer_details?.phone;
+
+        try {
+          const result = await createCJOrder({ orderNumber, shipping, phone, products: cjProducts, token: cjToken });
+          if (result.code === 200) {
+            console.log(`[webhook] ✅ CJ order created for session ${session.id}:`, JSON.stringify(result.data));
+          } else {
+            console.error(`[webhook] ❌ CJ order failed for session ${session.id}:`, JSON.stringify(result));
+          }
+        } catch (err) {
+          console.error(`[webhook] CJ order error for session ${session.id}:`, err.message);
+        }
+      }
+    }
+  } else {
     console.warn(`[webhook] No supplier product IDs found in metadata for session ${session.id}`);
-    return NextResponse.json({ received: true });
   }
 
-  // ── Authenticate with CJDropshipping ──────────────────────────────────────
-  let cjToken;
-  try {
-    cjToken = await getCJToken();
-  } catch (err) {
-    console.error('[webhook] CJ authentication failed:', err.message);
-    // Return 200 so Stripe doesn't retry — we'll handle this via Vercel logs
-    return NextResponse.json({ received: true });
-  }
-
-  // ── Resolve CJ variant IDs for each product ───────────────────────────────
-  const cjProducts = [];
-  for (const item of itemsWithSupplier) {
-    const vid = await resolveVariantId(item.pid, item.v, cjToken);
-    if (!vid) {
-      console.error(`[webhook] Could not resolve variant for pid=${item.pid} — skipping`);
-      continue;
+  // ── Send customer confirmation email ───────────────────────────────────────
+  if (customerEmail) {
+    try {
+      await sendConfirmationEmail({
+        to: customerEmail,
+        customerName,
+        orderRef,
+        lineItems,
+        shipping: session.shipping_details,
+        total: session.amount_total,
+        shippingLabel,
+      });
+    } catch (err) {
+      console.error('[webhook] Email send error:', err.message);
     }
-    cjProducts.push({ vid, quantity: item.qty });
-  }
-
-  if (cjProducts.length === 0) {
-    console.error(`[webhook] No resolvable CJ variants for session ${session.id}`);
-    return NextResponse.json({ received: true });
-  }
-
-  // ── Create CJDropshipping order ────────────────────────────────────────────
-  const shipping = session.shipping_details;
-  const phone = session.customer_details?.phone;
-  const orderNumber = session.payment_intent || session.id;
-
-  try {
-    const result = await createCJOrder({
-      orderNumber,
-      shipping,
-      phone,
-      products: cjProducts,
-      token: cjToken,
-    });
-
-    if (result.code === 200) {
-      console.log(
-        `[webhook] ✅ CJ order created for session ${session.id}:`,
-        JSON.stringify(result.data)
-      );
-    } else {
-      console.error(
-        `[webhook] ❌ CJ order creation failed for session ${session.id}:`,
-        JSON.stringify(result)
-      );
-    }
-  } catch (err) {
-    console.error(`[webhook] CJ order error for session ${session.id}:`, err.message);
+  } else {
+    console.warn(`[webhook] No customer email for session ${session.id} — skipping confirmation`);
   }
 
   return NextResponse.json({ received: true });
