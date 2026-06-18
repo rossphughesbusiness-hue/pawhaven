@@ -2,6 +2,7 @@ import './globals.css';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import EmailPopup from '@/components/EmailPopup';
 import { CartProvider } from '@/context/CartContext';
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <EmailPopup />
         </CartProvider>
 
         {/* ── Google Analytics 4 ── */}

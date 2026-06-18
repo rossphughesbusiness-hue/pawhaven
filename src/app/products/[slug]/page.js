@@ -5,6 +5,7 @@ import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
 import ViewTracker from './ViewTracker';
+import ViewerCount from './ViewerCount';
 
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
@@ -127,6 +128,7 @@ export default function ProductPage({ params }) {
                 {product.name}
               </h1>
               <StarRating rating={product.rating} count={product.reviewCount} />
+              <ViewerCount productId={product.id} />
             </div>
 
             {/* Price */}
