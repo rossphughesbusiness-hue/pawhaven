@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ClearCart from './ClearCart';
 
 export const metadata = {
   title: 'Order Confirmed — PawHaven',
@@ -7,14 +8,17 @@ export const metadata = {
 export default function SuccessPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+      {/* Clears the cart on mount — client component, renders nothing */}
+      <ClearCart />
+
       <div className="text-center max-w-md">
         <div className="text-7xl mb-6">🎉</div>
         <h1 className="text-4xl font-black text-navy-900 mb-3">Order Confirmed!</h1>
         <p className="text-gray-500 mb-2">
-          Thank you for your order. You'll receive a confirmation email shortly.
+          Thank you for your order. A confirmation email is on its way to your inbox.
         </p>
         <p className="text-gray-400 text-sm mb-8">
-          Your pet accessories are on their way — estimated delivery in 5–8 business days.
+          Your pet accessories are being prepared for shipment — estimated delivery in 5–12 business days.
         </p>
         <Link
           href="/products"
