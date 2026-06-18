@@ -33,15 +33,30 @@ export async function POST(req) {
       };
     });
 
+    // Build fulfillment metadata: store each cart item's supplier info as a
+    // numbered key so the webhook can create the CJDropshipping order.
+    // Each value stays well under Stripe's 500-char-per-key limit.
+    const fulfillmentMeta = { item_count: String(items.length) };
+    items.forEach((item, idx) => {
+      fulfillmentMeta[`item_${idx}`] = JSON.stringify({
+        id: item.id,
+        pid: item.supplierProductId || '',
+        qty: item.quantity,
+        v: item.variants || {},
+      });
+    });
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items,
       mode: 'payment',
       success_url: `${baseUrl}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/cart`,
+      phone_number_collection: { enabled: true },
       shipping_address_collection: {
         allowed_countries: ['US', 'CA', 'GB', 'AU'],
       },
+      metadata: fulfillmentMeta,
       shipping_options: [
         {
           shipping_rate_data: {

@@ -23,8 +23,10 @@ export default function AddToCartButton({ product }) {
         name: product.name,
         price: product.price,
         emoji: product.emoji,
+        image: product.images?.[0] || null,
         gradientFrom: product.gradientFrom,
         gradientTo: product.gradientTo,
+        supplierProductId: product.supplierProductId || null,
         variants: selected,
       });
     }
