@@ -1,5 +1,7 @@
+import { Suspense } from 'react';
 import Link from 'next/link';
 import ClearCart from './ClearCart';
+import PurchaseEvents from './PurchaseEvents';
 
 export const metadata = {
   title: 'Order Confirmed — PawHaven',
@@ -8,8 +10,11 @@ export const metadata = {
 export default function SuccessPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
-      {/* Clears the cart on mount — client component, renders nothing */}
+      {/* Client components: clear cart + fire pixel purchase events */}
       <ClearCart />
+      <Suspense fallback={null}>
+        <PurchaseEvents />
+      </Suspense>
 
       <div className="text-center max-w-md">
         <div className="text-7xl mb-6">🎉</div>
