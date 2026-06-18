@@ -9,9 +9,24 @@ import ViewTracker from './ViewTracker';
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
   if (!product) return {};
+  const url = `https://pawhavenpets.org/products/${product.slug}`;
   return {
     title: `${product.name} — PawHaven`,
     description: product.shortDescription,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${product.name} — PawHaven`,
+      description: product.shortDescription,
+      url,
+      type: 'website',
+      images: product.images?.[0] ? [{ url: product.images[0], alt: product.name }] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.name,
+      description: product.shortDescription,
+      images: product.images?.[0] ? [product.images[0]] : [],
+    },
   };
 }
 
@@ -47,8 +62,37 @@ export default function ProductPage({ params }) {
     ? (product.comparePrice - product.price).toFixed(2)
     : null;
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.description,
+    image: product.images || [product.image],
+    sku: product.supplierSku || String(product.id),
+    brand: { '@type': 'Brand', name: 'PawHaven' },
+    offers: {
+      '@type': 'Offer',
+      url: `https://pawhavenpets.org/products/${product.slug}`,
+      priceCurrency: 'USD',
+      price: product.price.toFixed(2),
+      availability: product.stock > 0
+        ? 'https://schema.org/InStock'
+        : 'https://schema.org/OutOfStock',
+      seller: { '@type': 'Organization', name: 'PawHaven' },
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: product.rating,
+      reviewCount: product.reviewCount,
+    },
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ViewTracker id={product.id} name={product.name} />
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-100">
