@@ -34,6 +34,14 @@ export default function PurchaseEvents() {
             num_items: itemCount,
           });
         }
+
+        // ── TikTok Pixel CompletePayment event ──
+        if (typeof window.ttq !== 'undefined') {
+          window.ttq.track('CompletePayment', {
+            value: parseFloat(total),
+            currency,
+          });
+        }
       })
       .catch(() => {});
   }, [sessionId]);
