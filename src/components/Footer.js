@@ -67,9 +67,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
+                { href: '/contact', label: 'Help & FAQ' },
                 { href: '/legal/refund', label: 'Shipping & Returns' },
-                { href: '/legal/refund', label: 'Refund Policy' },
-                { href: 'mailto:support@pawhaven.com', label: 'Contact Us' },
+                { href: 'mailto:support@pawhavenpets.org', label: 'support@pawhavenpets.org' },
               ].map((link) => (
                 <li key={link.label}>
                   <Link

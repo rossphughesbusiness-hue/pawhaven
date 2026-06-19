@@ -30,13 +30,22 @@ export default function ProductsPage() {
   const [category, setCategory] = useState('All');
   const [tag, setTag] = useState('All');
   const [sort, setSort] = useState('featured');
+  const [search, setSearch] = useState('');
 
   const filtered = useMemo(() => {
     let list = products;
     if (category !== 'All') list = list.filter((p) => p.category === category);
     if (tag !== 'All')      list = list.filter((p) => p.tag === tag);
+    if (search.trim()) {
+      const q = search.trim().toLowerCase();
+      list = list.filter((p) =>
+        p.name.toLowerCase().includes(q) ||
+        p.shortDescription?.toLowerCase().includes(q) ||
+        p.tag?.toLowerCase().includes(q)
+      );
+    }
     return sortProducts(list, sort);
-  }, [category, tag, sort]);
+  }, [category, tag, sort, search]);
 
   function handleCategory(cat) {
     setCategory(cat);
@@ -76,6 +85,23 @@ export default function ProductsPage() {
                 {cat}
               </button>
             ))}
+          </div>
+
+          {/* Search */}
+          <div className="relative flex-1 max-w-xs">
+            <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search products…"
+              className="w-full pl-9 pr-4 py-2 border border-gray-200 rounded-xl text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-400"
+            />
+            {search && (
+              <button onClick={() => setSearch('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">×</button>
+            )}
           </div>
 
           {/* Spacer */}
@@ -126,7 +152,7 @@ export default function ProductsPage() {
             <h2 className="text-xl font-bold text-navy-900 mb-2">No products found</h2>
             <p className="text-gray-500 mb-4">Try a different category or filter.</p>
             <button
-              onClick={() => { setCategory('All'); setTag('All'); }}
+              onClick={() => { setCategory('All'); setTag('All'); setSearch(''); }}
               className="text-brand-500 font-semibold hover:underline"
             >
               Clear filters
