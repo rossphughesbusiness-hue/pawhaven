@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import Link from 'next/link';
 import ClearCart from './ClearCart';
 import PurchaseEvents from './PurchaseEvents';
+import TrackOrderLink from './TrackOrderLink';
 
 export const metadata = {
   title: 'Order Confirmed — PawHaven',
@@ -25,15 +26,20 @@ export default function SuccessPage() {
         <p className="text-gray-400 text-sm mb-8">
           Your pet accessories are being prepared for shipment — estimated delivery in 5–12 business days.
         </p>
-        <Link
-          href="/products"
-          className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white font-bold px-8 py-4 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-brand-500/40"
-        >
-          Continue Shopping
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </Link>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <Link
+            href="/products"
+            className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white font-bold px-8 py-4 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-brand-500/40"
+          >
+            Continue Shopping
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+          <Suspense fallback={null}>
+            <TrackOrderLink />
+          </Suspense>
+        </div>
       </div>
     </div>
   );

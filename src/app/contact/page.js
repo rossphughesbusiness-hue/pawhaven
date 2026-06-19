@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     q: 'How do I track my order?',
-    a: 'Once your order ships, you\'ll receive a confirmation email with your tracking number. You can use it to track your package on the carrier\'s website.',
+    a: 'Visit our Order Tracking page at pawhavenpets.org/order-tracking and enter your order ID (from your confirmation email) to see live status and your tracking number.',
   },
   {
     q: 'Is my payment secure?',
@@ -96,7 +96,7 @@ export default function ContactPage() {
         {/* Quick links */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
           {[
-            { icon: '📦', title: 'Track Your Order', desc: 'Check your confirmation email for a tracking link.', href: null },
+            { icon: '📦', title: 'Track Your Order', desc: 'Check your shipment status in real time.', href: '/order-tracking' },
             { icon: '↩️', title: 'Start a Return', desc: 'We offer 30-day hassle-free returns.', href: '/legal/refund' },
             { icon: '✉️', title: 'Email Support', desc: 'support@pawhavenpets.org', href: 'mailto:support@pawhavenpets.org' },
           ].map((item) => (

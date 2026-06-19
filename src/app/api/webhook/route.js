@@ -237,6 +237,19 @@ async function sendConfirmationEmail({ to, customerName, orderRef, lineItems, sh
   }
 }
 
+// ─── Redis helper ────────────────────────────────────────────────────────────
+
+async function redisSave(key, value, exSeconds = 7776000) {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return;
+  const encoded = encodeURIComponent(JSON.stringify(value));
+  await fetch(`${url}/set/${encodeURIComponent(key)}/${encoded}/ex/${exSeconds}`, {
+    headers: { Authorization: `Bearer ${token}` },
+    cache: 'no-store',
+  });
+}
+
 // ─── Webhook handler ─────────────────────────────────────────────────────────
 
 export async function POST(req) {
@@ -331,7 +344,17 @@ export async function POST(req) {
         try {
           const result = await createCJOrder({ orderNumber, shipping, phone, products: cjProducts, token: cjToken });
           if (result.code === 200) {
+            const cjOrderId = result.data?.orderId || result.data?.orderNum || orderNumber;
             console.log(`[webhook] ✅ CJ order created for session ${session.id}:`, JSON.stringify(result.data));
+            // Save CJ order ID to Redis for order tracking (90-day TTL)
+            await redisSave(`order:${session.id}`, {
+              cjOrderId,
+              orderRef,
+              customerEmail,
+              customerName,
+              status: 'processing',
+              createdAt: Date.now(),
+            });
           } else {
             console.error(`[webhook] ❌ CJ order failed for session ${session.id}:`, JSON.stringify(result));
           }
