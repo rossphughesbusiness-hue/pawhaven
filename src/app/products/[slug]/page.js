@@ -6,6 +6,7 @@ import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
 import ViewTracker from './ViewTracker';
 import ViewerCount from './ViewerCount';
+import TrustBadges from '@/components/TrustBadges';
 
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
@@ -172,14 +173,8 @@ export default function ProductPage({ params }) {
             {/* Add to cart */}
             <AddToCartButton product={product} />
 
-            {/* Trust row */}
-            <div className="flex flex-wrap gap-3 pt-2">
-              {['🔒 Secure checkout', '↩️ 30-day returns', '🛡️ Buyer protection'].map((t) => (
-                <span key={t} className="text-xs text-gray-500 font-medium">
-                  {t}
-                </span>
-              ))}
-            </div>
+            {/* Trust badges */}
+            <TrustBadges compact />
           </div>
         </div>
 

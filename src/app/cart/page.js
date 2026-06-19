@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
+import TrustBadges from '@/components/TrustBadges';
 
 function CartItem({ item }) {
   const { updateQty, removeItem } = useCart();
@@ -230,16 +231,8 @@ export default function CartPage() {
             </p>
 
             {/* Trust badges */}
-            <div className="mt-6 pt-6 border-t border-gray-100 space-y-2">
-              {[
-                '✓ 30-day hassle-free returns',
-                '✓ 256-bit SSL encryption',
-                '✓ Buyer protection guaranteed',
-              ].map((badge) => (
-                <div key={badge} className="text-xs text-gray-500 flex items-center gap-1">
-                  {badge}
-                </div>
-              ))}
+            <div className="mt-6 pt-6 border-t border-gray-100">
+              <TrustBadges />
             </div>
           </div>
         </div>
