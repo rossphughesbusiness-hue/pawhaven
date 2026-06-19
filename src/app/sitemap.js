@@ -25,6 +25,12 @@ export default function sitemap() {
     },
     ...productUrls,
     {
+      url: `${BASE}/contact`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${BASE}/privacy`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
