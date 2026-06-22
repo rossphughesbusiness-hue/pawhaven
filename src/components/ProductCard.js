@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import { useCart } from '@/context/CartContext';
+import WishlistButton from './WishlistButton';
 
 function StarRating({ rating }) {
   return (
@@ -93,7 +94,7 @@ export default function ProductCard({ product }) {
             <span className="text-xs text-brand-500 font-semibold uppercase tracking-wide">
               {product.tag}
             </span>
-            <span className="text-xs text-gray-400">{product.category}</span>
+            <WishlistButton product={product} size="sm" />
           </div>
 
           <h3 className="font-bold text-navy-900 text-base mb-2 group-hover:text-brand-600 transition-colors leading-tight">

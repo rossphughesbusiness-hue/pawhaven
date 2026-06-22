@@ -6,6 +6,7 @@ import EmailPopup from '@/components/EmailPopup';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import SalesPopup from '@/components/SalesPopup';
 import { CartProvider } from '@/context/CartContext';
+import { WishlistProvider } from '@/context/WishlistContext';
 
 const GA_ID             = process.env.NEXT_PUBLIC_GA_ID;
 const META_PIXEL_ID     = process.env.NEXT_PUBLIC_META_PIXEL_ID;
@@ -48,12 +49,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <CartProvider>
-          <AnnouncementBar />
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-          <EmailPopup />
-          <SalesPopup />
+          <WishlistProvider>
+            <AnnouncementBar />
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+            <EmailPopup />
+            <SalesPopup />
+          </WishlistProvider>
         </CartProvider>
 
         {/* ── Google Analytics 4 ── */}

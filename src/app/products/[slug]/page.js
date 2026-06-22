@@ -7,6 +7,7 @@ import ImageGallery from './ImageGallery';
 import ViewTracker from './ViewTracker';
 import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
+import WishlistButton from '@/components/WishlistButton';
 import CountdownTimer from './CountdownTimer';
 import StickyAddToCart from './StickyAddToCart';
 import RecentlyViewed from './RecentlyViewed';
@@ -128,9 +129,12 @@ export default function ProductPage({ params }) {
                   {product.category} · {product.tag}
                 </span>
               </div>
-              <h1 className="text-3xl sm:text-4xl font-black text-navy-900 leading-tight mb-3">
-                {product.name}
-              </h1>
+              <div className="flex items-start justify-between gap-4 mb-3">
+                <h1 className="text-3xl sm:text-4xl font-black text-navy-900 leading-tight">
+                  {product.name}
+                </h1>
+                <WishlistButton product={product} size="lg" className="mt-1 flex-shrink-0" />
+              </div>
               <StarRating rating={product.rating} count={product.reviewCount} />
               <ViewerCount productId={product.id} />
             </div>
