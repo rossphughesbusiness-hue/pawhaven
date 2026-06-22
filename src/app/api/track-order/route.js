@@ -63,10 +63,17 @@ async function getCJOrderStatus(cjOrderId, token) {
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
-  const sessionId = searchParams.get('session_id');
+  let sessionId = searchParams.get('session_id');
+  const ref = searchParams.get('ref');
+
+  // Support lookup by short order reference (e.g. the last-12-char orderRef)
+  if (!sessionId && ref) {
+    const sid = await redisGet(`order:ref:${ref.trim().toUpperCase()}`);
+    if (typeof sid === 'string') sessionId = sid;
+  }
 
   if (!sessionId) {
-    return NextResponse.json({ error: 'session_id required' }, { status: 400 });
+    return NextResponse.json({ error: 'session_id or ref required' }, { status: 400 });
   }
 
   // Look up order data from Redis

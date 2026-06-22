@@ -156,16 +156,20 @@ function OrderTrackingInner() {
   }, []);
 
   async function lookup(sid) {
-    const id = sid || sessionId.trim();
+    const id = (sid || sessionId).trim();
     if (!id) return;
     setLoading(true);
     setError('');
     setResult(null);
     try {
-      const res = await fetch(`/api/track-order?session_id=${encodeURIComponent(id)}`);
+      // session IDs start with cs_; everything else treated as short order ref
+      const param = id.startsWith('cs_')
+        ? `session_id=${encodeURIComponent(id)}`
+        : `ref=${encodeURIComponent(id)}`;
+      const res = await fetch(`/api/track-order?${param}`);
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error || 'Unable to find order. Please check your order ID and try again.');
+        setError(data.error || 'Unable to find order. Please check your order number and try again.');
       } else {
         setResult(data);
       }
@@ -201,7 +205,7 @@ function OrderTrackingInner() {
                 value={sessionId}
                 onChange={(e) => setSessionId(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && lookup()}
-                placeholder="cs_live_..."
+                placeholder="Order ref (e.g. A1B2C3D4E5F6) or cs_live_…"
                 style={{
                   flex: 1, padding: '12px 16px', borderRadius: 10, border: '1.5px solid #e2e8f0',
                   fontSize: 14, outline: 'none', fontFamily: 'monospace',
@@ -221,7 +225,7 @@ function OrderTrackingInner() {
               </button>
             </div>
             <p style={{ margin: '10px 0 0', fontSize: 12, color: '#94a3b8' }}>
-              Your order ID was in the confirmation email. It starts with <code>cs_live_</code>
+              Find your order reference number in your confirmation email.
             </p>
             {error && (
               <div style={{ marginTop: 14, padding: '12px 16px', background: '#fef2f2', border: '1px solid #fca5a5', borderRadius: 8, fontSize: 14, color: '#dc2626' }}>

@@ -347,14 +347,17 @@ export async function POST(req) {
             const cjOrderId = result.data?.orderId || result.data?.orderNum || orderNumber;
             console.log(`[webhook] ✅ CJ order created for session ${session.id}:`, JSON.stringify(result.data));
             // Save CJ order ID to Redis for order tracking (90-day TTL)
-            await redisSave(`order:${session.id}`, {
+            const orderData = {
               cjOrderId,
               orderRef,
               customerEmail,
               customerName,
               status: 'processing',
               createdAt: Date.now(),
-            });
+            };
+            await redisSave(`order:${session.id}`, orderData);
+            // Secondary index: look up by short order reference
+            await redisSave(`order:ref:${orderRef}`, session.id);
           } else {
             console.error(`[webhook] ❌ CJ order failed for session ${session.id}:`, JSON.stringify(result));
           }

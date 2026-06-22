@@ -72,7 +72,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
-                { href: '/contact', label: 'Help & FAQ' },
+                { href: '/faq', label: 'FAQ' },
+                { href: '/contact', label: 'Contact Us' },
                 { href: '/order-tracking', label: 'Track Your Order' },
                 { href: '/legal/refund', label: 'Shipping & Returns' },
                 { href: 'mailto:support@pawhavenpets.org', label: 'support@pawhavenpets.org' },
