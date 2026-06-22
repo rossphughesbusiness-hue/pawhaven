@@ -1,7 +1,9 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getProductBySlug, getRelatedProducts } from '@/lib/products';
+import { getProductBySlug, getRelatedProducts, products } from '@/lib/products';
 import { getRelatedPosts } from '@/lib/blog';
+import { getFBT } from '@/lib/fbt';
+import FrequentlyBoughtTogether from '@/components/FrequentlyBoughtTogether';
 import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
@@ -68,6 +70,7 @@ export default function ProductPage({ params }) {
 
   const related = getRelatedProducts(product.slug, 3);
   const relatedPosts = getRelatedPosts(product, 3);
+  const fbtCompanions = getFBT(product.slug, products);
   const savings = product.comparePrice
     ? (product.comparePrice - product.price).toFixed(2)
     : null;
@@ -252,6 +255,14 @@ export default function ProductPage({ params }) {
             ))}
           </div>
         </div>
+
+        {/* ─── Frequently Bought Together ─── */}
+        {fbtCompanions.length > 0 && (
+          <FrequentlyBoughtTogether
+            mainProduct={product}
+            companions={fbtCompanions}
+          />
+        )}
 
         {/* ─── From Our Blog ─── */}
         {relatedPosts.length > 0 && (
