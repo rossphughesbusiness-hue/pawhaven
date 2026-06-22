@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { useCart } from '@/context/CartContext';
 import WishlistButton from './WishlistButton';
+import { useCompare } from '@/context/CompareContext';
 
 function StarRating({ rating }) {
   return (
@@ -28,6 +29,8 @@ function StarRating({ rating }) {
 
 export default function ProductCard({ product }) {
   const { addItem } = useCart();
+  const { isComparing, toggle: toggleCompare, canAdd } = useCompare();
+  const comparing = isComparing(product.id);
   const [added, setAdded] = useState(false);
 
   function handleAddToCart(e) {
@@ -131,6 +134,21 @@ export default function ProductCard({ product }) {
             }`}
           >
             {added ? '✓ Added to Cart!' : 'Add to Cart'}
+          </button>
+
+          {/* Compare toggle */}
+          <button
+            onClick={(e) => { e.preventDefault(); toggleCompare(product.id); }}
+            disabled={!comparing && !canAdd(product.id)}
+            className={`mt-1.5 w-full py-1.5 rounded-xl text-xs font-medium transition-all duration-200 border ${
+              comparing
+                ? 'bg-brand-50 border-brand-300 text-brand-600'
+                : canAdd(product.id)
+                ? 'bg-transparent border-gray-200 text-gray-400 hover:border-gray-300 hover:text-gray-600'
+                : 'bg-transparent border-gray-100 text-gray-300 cursor-not-allowed'
+            }`}
+          >
+            {comparing ? '✓ Comparing' : canAdd(product.id) ? '+ Compare' : 'Max 3 selected'}
           </button>
         </div>
       </div>

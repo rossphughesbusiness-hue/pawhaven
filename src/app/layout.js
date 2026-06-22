@@ -7,6 +7,8 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import SalesPopup from '@/components/SalesPopup';
 import { CartProvider } from '@/context/CartContext';
 import { WishlistProvider } from '@/context/WishlistContext';
+import { CompareProvider } from '@/context/CompareContext';
+import CompareBar from '@/components/CompareBar';
 import CookieBanner from '@/components/CookieBanner';
 
 const GA_ID             = process.env.NEXT_PUBLIC_GA_ID;
@@ -58,13 +60,16 @@ export default function RootLayout({ children }) {
       <body>
         <CartProvider>
           <WishlistProvider>
-            <AnnouncementBar />
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-            <EmailPopup />
-            <SalesPopup />
-            <CookieBanner />
+            <CompareProvider>
+              <AnnouncementBar />
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+              <EmailPopup />
+              <SalesPopup />
+              <CompareBar />
+              <CookieBanner />
+            </CompareProvider>
           </WishlistProvider>
         </CartProvider>
 
