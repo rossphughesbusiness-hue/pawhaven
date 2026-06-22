@@ -4,6 +4,15 @@ import { getProductBySlug, getRelatedProducts, products } from '@/lib/products';
 import { getRelatedPosts } from '@/lib/blog';
 import { getFBT } from '@/lib/fbt';
 import FrequentlyBoughtTogether from '@/components/FrequentlyBoughtTogether';
+import SizeGuide from '@/components/SizeGuide';
+
+// Map product slugs to size guide type
+const SIZE_GUIDE_MAP = {
+  'reflective-step-in-harness':    'dog-harness',
+  'safeglow-led-collar':           'dog-collar',
+  'orthopedic-memory-foam-dog-bed': 'dog-bed',
+  'premium-cat-carrier-backpack':  'cat-carrier',
+};
 import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
@@ -71,6 +80,7 @@ export default function ProductPage({ params }) {
   const related = getRelatedProducts(product.slug, 3);
   const relatedPosts = getRelatedPosts(product, 3);
   const fbtCompanions = getFBT(product.slug, products);
+  const sizeGuideType = SIZE_GUIDE_MAP[product.slug] || null;
   const savings = product.comparePrice
     ? (product.comparePrice - product.price).toFixed(2)
     : null;
@@ -131,10 +141,11 @@ export default function ProductPage({ params }) {
           {/* Right — Product info */}
           <div className="space-y-6">
             <div>
-              <div className="flex items-center gap-2 mb-2">
+              <div className="flex items-center gap-3 mb-2 flex-wrap">
                 <span className="text-brand-500 font-semibold text-sm uppercase tracking-wider">
                   {product.category} · {product.tag}
                 </span>
+                {sizeGuideType && <SizeGuide type={sizeGuideType} />}
               </div>
               <div className="flex items-start justify-between gap-4 mb-3">
                 <h1 className="text-3xl sm:text-4xl font-black text-navy-900 leading-tight">
