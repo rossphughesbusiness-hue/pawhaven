@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
 import NewsletterForm from '@/components/NewsletterForm';
+import HomepageRecentlyViewed from '@/components/HomepageRecentlyViewed';
 import { products } from '@/lib/products';
 
 const trustItems = [
@@ -343,6 +344,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ─── RECENTLY VIEWED (returning visitors only) ─── */}
+      <HomepageRecentlyViewed />
 
       {/* ─── NEWSLETTER ─── */}
       <section className="py-20 bg-navy-900">
