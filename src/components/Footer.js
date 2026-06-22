@@ -45,6 +45,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { href: '/products', label: 'All Products' },
+                { href: '/bundles', label: 'Bundle Deals' },
                 { href: '/products?category=Dogs', label: 'Dog Accessories' },
                 { href: '/products?category=Cats', label: 'Cat Accessories' },
                 { href: '/blog', label: 'Pet Care Blog' },

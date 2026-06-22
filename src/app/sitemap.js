@@ -37,6 +37,12 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${BASE}/bundles`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
     ...productUrls,
     ...blogUrls,
     {

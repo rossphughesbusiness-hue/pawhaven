@@ -20,6 +20,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/products', label: 'Shop All' },
+    { href: '/bundles', label: '🎁 Bundles' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Help' },
   ];
