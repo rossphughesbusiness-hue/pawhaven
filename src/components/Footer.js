@@ -47,6 +47,7 @@ export default function Footer() {
                 { href: '/products', label: 'All Products' },
                 { href: '/products?category=Dogs', label: 'Dog Accessories' },
                 { href: '/products?category=Cats', label: 'Cat Accessories' },
+                { href: '/blog', label: 'Pet Care Blog' },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -68,6 +69,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { href: '/contact', label: 'Help & FAQ' },
+                { href: '/order-tracking', label: 'Track Your Order' },
                 { href: '/legal/refund', label: 'Shipping & Returns' },
                 { href: 'mailto:support@pawhavenpets.org', label: 'support@pawhavenpets.org' },
               ].map((link) => (

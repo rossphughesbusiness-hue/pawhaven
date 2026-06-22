@@ -1,4 +1,5 @@
 import { products } from '@/lib/products';
+import { getAllPosts } from '@/lib/blog';
 
 const BASE = 'https://pawhavenpets.org';
 
@@ -8,6 +9,13 @@ export default function sitemap() {
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
+  }));
+
+  const blogUrls = getAllPosts().map((p) => ({
+    url: `${BASE}/blog/${p.slug}`,
+    lastModified: new Date(p.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
   }));
 
   return [
@@ -23,7 +31,14 @@ export default function sitemap() {
       changeFrequency: 'daily',
       priority: 0.9,
     },
+    {
+      url: `${BASE}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
     ...productUrls,
+    ...blogUrls,
     {
       url: `${BASE}/contact`,
       lastModified: new Date(),
