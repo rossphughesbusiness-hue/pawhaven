@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 import TrustBadges from '@/components/TrustBadges';
+import ExitIntentPopup from '@/components/ExitIntentPopup';
 import { products } from '@/lib/products';
 
 function CartUpsell({ cartItems }) {
@@ -207,6 +208,23 @@ export default function CartPage() {
     setCouponError(null);
   }
 
+  // Called by ExitIntentPopup to auto-apply a code
+  async function applyExitCoupon(code) {
+    if (appliedCoupon) return; // already have a coupon
+    setCouponLoading(true);
+    setCouponError(null);
+    try {
+      const res = await fetch('/api/validate-coupon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code }),
+      });
+      const data = await res.json();
+      if (res.ok) setAppliedCoupon(data);
+    } catch {}
+    finally { setCouponLoading(false); }
+  }
+
   async function handleCheckout() {
     setCheckoutLoading(true);
     setCheckoutError(null);
@@ -232,6 +250,7 @@ export default function CartPage() {
   if (items.length === 0) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+        <ExitIntentPopup />
         <div className="text-center max-w-sm">
           <div className="text-7xl mb-6">🛒</div>
           <h1 className="text-3xl font-black text-navy-900 mb-3">Your cart is empty</h1>
@@ -254,6 +273,7 @@ export default function CartPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <ExitIntentPopup onApplyCoupon={applyExitCoupon} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-black text-navy-900 mb-2">Your Cart</h1>
         <p className="text-gray-500 mb-10">
