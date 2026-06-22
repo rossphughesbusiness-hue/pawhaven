@@ -56,6 +56,24 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/senior-dogs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
+      url: `${BASE}/puppies`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
+      url: `${BASE}/anxiety`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.80,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
