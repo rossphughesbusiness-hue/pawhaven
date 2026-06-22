@@ -35,8 +35,10 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/products', label: 'Shop All' },
+    { href: '/dogs', label: '🐶 Dogs' },
+    { href: '/cats', label: '🐱 Cats' },
     { href: '/bundles', label: '🎁 Bundles' },
-    { href: '/quiz', label: '✨ Pet Quiz' },
+    { href: '/quiz', label: '✨ Quiz' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Help' },
   ];
