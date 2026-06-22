@@ -19,6 +19,13 @@ export const metadata = {
     default: 'PawHaven — Premium Pet Accessories',
     template: '%s | PawHaven',
   },
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'PawHaven',
+  },
+  themeColor: '#f97316',
   description:
     'Shop vet-recommended pet accessories for dogs and cats. Free shipping on orders over $50. 30-day returns. 10,000+ happy pet owners.',
   keywords: [

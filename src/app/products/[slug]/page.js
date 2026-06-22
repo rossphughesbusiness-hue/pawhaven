@@ -8,6 +8,7 @@ import ViewTracker from './ViewTracker';
 import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
 import WishlistButton from '@/components/WishlistButton';
+import ShareButtons from '@/components/ShareButtons';
 import CountdownTimer from './CountdownTimer';
 import StickyAddToCart from './StickyAddToCart';
 import RecentlyViewed from './RecentlyViewed';
@@ -176,6 +177,9 @@ export default function ProductPage({ params }) {
                 <span>Free shipping on orders over $50</span>
               </div>
             </div>
+
+            {/* Share */}
+            <ShareButtons product={product} />
 
             {/* Countdown timer */}
             <CountdownTimer />
