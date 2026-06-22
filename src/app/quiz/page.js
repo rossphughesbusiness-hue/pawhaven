@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { products } from '@/lib/products';
 import { useCart } from '@/context/CartContext';
+import { trackAddToCart } from '@/lib/analytics';
 
 // ─── Quiz questions ───────────────────────────────────────────────────────────
 const STEPS = [
@@ -130,9 +131,10 @@ function RecommendationCard({ product }) {
       slug: product.slug,
       name: product.name,
       price: product.price,
-      image: product.image,
+      image: product.images?.[0] || product.image,
       emoji: product.emoji,
     });
+    trackAddToCart(product, 1);
     setAdded(true);
     setTimeout(() => setAdded(false), 1800);
   }
@@ -187,11 +189,90 @@ function RecommendationCard({ product }) {
   );
 }
 
+// ─── Email gate sub-component ─────────────────────────────────────────────────
+function EmailGate({ answers, onSubmit }) {
+  const [email, setEmail] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const petLabel = answers.pet === 'dog' ? 'dog' : answers.pet === 'cat' ? 'cat' : 'pet';
+  const goalLabel = {
+    health: 'better health', calm: 'reducing anxiety', play: 'more play',
+    walks: 'easier walks', travel: 'travel', groom: 'grooming',
+  }[answers.goal] || 'everything';
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    if (!email || !email.includes('@')) { setError('Please enter a valid email.'); return; }
+    setLoading(true);
+    setError('');
+    try {
+      await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, quizAnswers: answers }),
+      });
+    } catch {}
+    onSubmit(email);
+  }
+
+  function skip() { onSubmit(null); }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-brand-50 to-orange-50 flex flex-col">
+      <div className="max-w-lg mx-auto w-full px-4 sm:px-6 py-16 flex-1 flex flex-col justify-center">
+        <div className="text-center mb-8">
+          <div className="text-5xl mb-4">🎯</div>
+          <h2 className="text-3xl font-black text-navy-900 mb-3">
+            Your results are ready!
+          </h2>
+          <p className="text-gray-500 leading-relaxed">
+            We found the perfect picks for your <strong className="text-navy-900">{petLabel}</strong> focused on <strong className="text-navy-900">{goalLabel}</strong>. Enter your email to see them — we'll also send you a copy so you can revisit anytime.
+          </p>
+        </div>
+
+        <form onSubmit={handleSubmit} className="bg-white rounded-3xl shadow-lg p-8">
+          <label className="block text-sm font-bold text-navy-900 mb-2">
+            Your email address
+          </label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="you@example.com"
+            required
+            className="w-full border border-gray-200 rounded-2xl px-4 py-3.5 text-navy-900 placeholder-gray-400 focus:outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 mb-2 text-base"
+          />
+          {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
+          <p className="text-xs text-gray-400 mb-5">
+            We'll also send you a 10% off code. No spam, unsubscribe any time.
+          </p>
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full py-4 bg-brand-500 hover:bg-brand-400 text-white font-bold rounded-2xl transition-all duration-200 hover:shadow-lg hover:shadow-brand-500/40 disabled:opacity-60 text-base"
+          >
+            {loading ? 'One moment…' : 'See My Recommendations →'}
+          </button>
+          <button
+            type="button"
+            onClick={skip}
+            className="w-full mt-3 py-2 text-gray-400 hover:text-gray-600 text-sm transition-colors"
+          >
+            Skip — just show me the results
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
 // ─── Main quiz component ──────────────────────────────────────────────────────
 export default function QuizPage() {
   const [stepIdx, setStepIdx] = useState(0);
   const [answers, setAnswers] = useState({});
   const [done, setDone] = useState(false);
+  const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   // Filter out skipped steps
   const activeSteps = STEPS.filter((s) => !s.skip || !s.skip(answers));
@@ -213,9 +294,15 @@ export default function QuizPage() {
     setAnswers({});
     setStepIdx(0);
     setDone(false);
+    setEmailSubmitted(false);
   }
 
-  const recommendations = done ? getRecommendations(answers) : [];
+  const recommendations = (done && emailSubmitted) ? getRecommendations(answers) : [];
+
+  // ── Email gate (shown before results) ──
+  if (done && !emailSubmitted) {
+    return <EmailGate answers={answers} onSubmit={() => setEmailSubmitted(true)} />;
+  }
 
   // ── Results screen ──
   if (done) {
