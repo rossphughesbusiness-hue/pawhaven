@@ -8,6 +8,7 @@ import ViewTracker from './ViewTracker';
 import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
 import CountdownTimer from './CountdownTimer';
+import StickyAddToCart from './StickyAddToCart';
 
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
@@ -179,6 +180,9 @@ export default function ProductPage({ params }) {
 
             {/* Trust badges */}
             <TrustBadges compact />
+
+            {/* Sticky bar for mobile — appears when main button scrolls off screen */}
+            <StickyAddToCart product={product} />
           </div>
         </div>
 
