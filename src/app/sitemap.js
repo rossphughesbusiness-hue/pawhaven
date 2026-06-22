@@ -49,6 +49,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.75,
     },
+    {
+      url: `${BASE}/sale`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
     ...productUrls,
     ...blogUrls,
     {
