@@ -3,6 +3,7 @@ import ProductCard from '@/components/ProductCard';
 import NewsletterForm from '@/components/NewsletterForm';
 import HomepageRecentlyViewed from '@/components/HomepageRecentlyViewed';
 import { products } from '@/lib/products';
+import { getBundles } from '@/lib/bundles';
 
 const trustItems = [
   { icon: '🚚', title: 'Free Shipping', desc: 'On orders over $50' },
@@ -92,6 +93,80 @@ const stats = [
   { value: '5', label: 'Vet-Approved Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
+
+function BundlesTeaser() {
+  const bundles = getBundles().slice(0, 3);
+  return (
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">Save More</p>
+          <h2 className="text-4xl sm:text-5xl font-black text-navy-900 mb-4">
+            Curated Bundle Deals 🎁
+          </h2>
+          <p className="text-gray-500 text-lg max-w-xl mx-auto">
+            Hand-picked combinations at up to 20% off. Everything your pet needs, in one click.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          {bundles.map((bundle) => (
+            <Link
+              key={bundle.id}
+              href={`/bundles#${bundle.id}`}
+              className="group relative rounded-3xl overflow-hidden border border-gray-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white"
+            >
+              {/* Gradient header */}
+              <div
+                className="px-6 py-8 text-white text-center"
+                style={{ background: bundle.gradient }}
+              >
+                <div className="text-5xl mb-3">{bundle.emoji}</div>
+                <h3 className="font-black text-xl leading-tight mb-1">{bundle.name}</h3>
+                <p className="text-white/80 text-sm">{bundle.tagline}</p>
+              </div>
+
+              {/* Pricing */}
+              <div className="px-6 py-5 flex items-center justify-between">
+                <div>
+                  <div className="text-xs text-gray-400 line-through mb-0.5">
+                    ${bundle.originalTotal.toFixed(2)} separately
+                  </div>
+                  <div className="text-2xl font-black text-navy-900">
+                    ${bundle.bundleTotal.toFixed(2)}
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="inline-block bg-emerald-50 text-emerald-700 text-sm font-bold px-3 py-1.5 rounded-full">
+                    Save ${bundle.savings.toFixed(2)}
+                  </div>
+                  <div className="text-xs text-gray-400 mt-1">{bundle.savingsPct}% off</div>
+                </div>
+              </div>
+
+              {/* Item count */}
+              <div className="px-6 pb-5">
+                <div className="text-xs text-gray-400 mb-3">{bundle.products.length} items included</div>
+                <div className="w-full py-3 bg-navy-900 group-hover:bg-brand-500 text-white text-sm font-bold rounded-2xl text-center transition-colors duration-200">
+                  Shop This Bundle →
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Link
+            href="/bundles"
+            className="inline-flex items-center gap-2 text-brand-500 font-bold hover:underline text-base"
+          >
+            View all {getBundles().length} bundles →
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export default function HomePage() {
   return (
@@ -344,6 +419,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ─── BUNDLE DEALS ─── */}
+      <BundlesTeaser />
 
       {/* ─── RECENTLY VIEWED (returning visitors only) ─── */}
       <HomepageRecentlyViewed />

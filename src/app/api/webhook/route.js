@@ -758,6 +758,19 @@ export async function POST(req) {
     }
   }
 
+  // ── Win-back queue: track last purchase, re-queue 45 days out ────────────────
+  if (customerEmail) {
+    try {
+      const winBackAt = Date.now() + 45 * 24 * 60 * 60 * 1000;
+      // Store customer info (email is the member, score = when to send win-back)
+      await redisZAdd('winback_queue', winBackAt, customerEmail.toLowerCase());
+      // Store customer name for personalization
+      await redisSave(`winback_name:${customerEmail.toLowerCase()}`, customerName, 60 * 24 * 60 * 60);
+    } catch (err) {
+      console.error('[webhook] Win-back queue error:', err.message);
+    }
+  }
+
   // ── Queue review request email for 7 days from now ─────────────────────────
   if (customerEmail) {
     try {
