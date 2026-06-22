@@ -5,6 +5,8 @@ import { getRelatedPosts } from '@/lib/blog';
 import { getFBT } from '@/lib/fbt';
 import FrequentlyBoughtTogether from '@/components/FrequentlyBoughtTogether';
 import SizeGuide from '@/components/SizeGuide';
+import ReviewForm from '@/components/ReviewForm';
+import DynamicReviews from '@/components/DynamicReviews';
 
 // Map product slugs to size guide type
 const SIZE_GUIDE_MAP = {
@@ -266,6 +268,10 @@ export default function ProductPage({ params }) {
             ))}
           </div>
         </div>
+
+        {/* ─── Community Reviews + Submit Form ─── */}
+        <DynamicReviews slug={product.slug} />
+        <ReviewForm slug={product.slug} productName={product.name} />
 
         {/* ─── Frequently Bought Together ─── */}
         {fbtCompanions.length > 0 && (
