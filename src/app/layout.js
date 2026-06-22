@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import EmailPopup from '@/components/EmailPopup';
 import AnnouncementBar from '@/components/AnnouncementBar';
+import SalesPopup from '@/components/SalesPopup';
 import { CartProvider } from '@/context/CartContext';
 
 const GA_ID             = process.env.NEXT_PUBLIC_GA_ID;
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
           <main>{children}</main>
           <Footer />
           <EmailPopup />
+          <SalesPopup />
         </CartProvider>
 
         {/* ── Google Analytics 4 ── */}
