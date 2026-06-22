@@ -240,6 +240,77 @@ async function sendConfirmationEmail({ to, customerName, orderRef, sessionId, li
   }
 }
 
+// ─── Referral reward email ────────────────────────────────────────────────────
+
+async function sendReferralRewardEmail({ to, friendName }) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) return;
+
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f7f8fa;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f7f8fa;padding:40px 0;">
+    <tr><td align="center">
+      <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+        <tr>
+          <td style="background:linear-gradient(135deg,#f97316,#fb923c);padding:32px 40px;text-align:center;">
+            <div style="font-size:36px;margin-bottom:8px;">🎁</div>
+            <div style="color:#ffffff;font-size:22px;font-weight:800;">You earned a reward!</div>
+            <div style="color:rgba(255,255,255,0.85);font-size:14px;margin-top:4px;">Your friend just made their first PawHaven purchase</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:36px 40px;text-align:center;">
+            <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
+              Great news — <strong style="color:#1a2b4a;">${friendName || 'Your friend'}</strong> just completed their first PawHaven order using your referral link. As a thank-you, here's <strong>10% off</strong> your next order!
+            </p>
+            <div style="background:#fff7ed;border:2px dashed #fed7aa;border-radius:14px;padding:20px 30px;margin:0 auto 28px;display:inline-block;">
+              <div style="font-size:11px;font-weight:700;color:#9a3412;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Your Reward Code</div>
+              <div style="font-size:32px;font-weight:900;color:#f97316;font-family:monospace;letter-spacing:4px;">REFER10</div>
+              <div style="font-size:12px;color:#94a3b8;margin-top:6px;">10% off your next order · No minimum</div>
+            </div>
+            <div>
+              <a href="https://pawhavenpets.org/products"
+                 style="display:inline-block;background:#f97316;color:#ffffff;font-weight:800;font-size:16px;padding:16px 36px;border-radius:50px;text-decoration:none;">
+                Shop Now →
+              </a>
+            </div>
+            <p style="margin:24px 0 0;font-size:13px;color:#94a3b8;line-height:1.6;">
+              Keep sharing your link — you earn a reward for every friend who shops. 🐾
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f8fafc;padding:18px 40px;border-top:1px solid #f0f0f0;text-align:center;">
+            <p style="margin:0;font-size:11px;color:#94a3b8;">
+              © ${new Date().getFullYear()} PawHaven ·
+              <a href="https://pawhavenpets.org" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({
+      from: 'PawHaven <orders@pawhavenpets.org>',
+      to: [to],
+      subject: '🎁 Your referral reward is here — 10% off!',
+      html,
+    }),
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    console.error('[webhook] Referral reward email error:', JSON.stringify(err));
+  }
+}
+
 // ─── Abandoned cart email ─────────────────────────────────────────────────────
 
 function buildAbandonedCartEmail({ items, sessionId }) {
@@ -560,6 +631,32 @@ export async function POST(req) {
     }
   } else {
     console.warn(`[webhook] No customer email for session ${session.id} — skipping confirmation`);
+  }
+
+  // ── Referral: store mapping + send reward to referrer ────────────────────────
+  if (customerEmail) {
+    // Derive this customer's own referral code from the session ID
+    const myRefCode = session.id.replace(/^cs_(test|live)_/, '').slice(0, 8).toUpperCase();
+    try {
+      await redisSave(`referral:${myRefCode}`, { email: customerEmail }, 365 * 24 * 60 * 60);
+    } catch (err) {
+      console.error('[webhook] Failed to store referral mapping:', err.message);
+    }
+
+    // If this purchase was referred, look up the referrer and reward them
+    const incomingRef = session.metadata?.referral_code;
+    if (incomingRef) {
+      try {
+        const referrerData = await redisGet(`referral:${incomingRef}`);
+        const referrerEmail = referrerData?.email;
+        if (referrerEmail && referrerEmail !== customerEmail) {
+          await sendReferralRewardEmail({ to: referrerEmail, friendName: customerName });
+          console.log(`[webhook] 🎁 Referral reward sent to ${referrerEmail} (referred by: ${incomingRef})`);
+        }
+      } catch (err) {
+        console.error('[webhook] Referral reward error:', err.message);
+      }
+    }
   }
 
   // ── Queue review request email for 7 days from now ─────────────────────────

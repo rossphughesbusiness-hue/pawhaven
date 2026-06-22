@@ -52,6 +52,7 @@ function pickUpsell(cartItems) {
 export default function UpsellPage() {
   const { items } = useCart();
   const [promoCodeId, setPromoCodeId] = useState(null);
+  const [refCode, setRefCode] = useState(null);
   const router = useRouter();
   const [upsell, setUpsell] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -66,6 +67,8 @@ export default function UpsellPage() {
     try {
       const pid = sessionStorage.getItem('ph_promo_id');
       if (pid) setPromoCodeId(pid);
+      const ref = localStorage.getItem('ph_ref');
+      if (ref) setRefCode(ref);
     } catch {}
   }, [items, router]);
 
@@ -98,7 +101,7 @@ export default function UpsellPage() {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items: checkoutItems, promoCodeId }),
+        body: JSON.stringify({ items: checkoutItems, promoCodeId, refCode }),
       });
       const data = await res.json();
       if (data.url) {

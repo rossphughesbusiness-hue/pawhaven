@@ -1,10 +1,12 @@
 import './globals.css';
+import { Suspense } from 'react';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import EmailPopup from '@/components/EmailPopup';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import SalesPopup from '@/components/SalesPopup';
+import ReferralCapture from '@/components/ReferralCapture';
 import { CartProvider } from '@/context/CartContext';
 import { WishlistProvider } from '@/context/WishlistContext';
 import { CompareProvider } from '@/context/CompareContext';
@@ -69,6 +71,7 @@ export default function RootLayout({ children }) {
               <SalesPopup />
               <CompareBar />
               <CookieBanner />
+              <Suspense fallback={null}><ReferralCapture /></Suspense>
             </CompareProvider>
           </WishlistProvider>
         </CartProvider>

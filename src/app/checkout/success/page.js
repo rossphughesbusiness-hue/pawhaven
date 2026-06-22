@@ -5,6 +5,7 @@ import { products } from '@/lib/products';
 import ClearCart from './ClearCart';
 import PurchaseEvents from './PurchaseEvents';
 import TrackOrderLink from './TrackOrderLink';
+import ReferralWidget from '@/components/ReferralWidget';
 
 export const metadata = {
   title: 'Order Confirmed — PawHaven',
@@ -51,6 +52,13 @@ export default function SuccessPage() {
             </Suspense>
           </div>
         </div>
+      </div>
+
+      {/* Referral widget */}
+      <div className="max-w-xl mx-auto px-4 -mt-6">
+        <Suspense fallback={null}>
+          <ReferralWidget />
+        </Suspense>
       </div>
 
       {/* Post-purchase upsell */}

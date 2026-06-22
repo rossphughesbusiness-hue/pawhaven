@@ -1,5 +1,6 @@
 'use client';
 import { useWishlist } from '@/context/WishlistContext';
+import { trackAddToWishlist } from '@/lib/analytics';
 
 export default function WishlistButton({ product, size = 'md', className = '' }) {
   const { isWishlisted, toggle } = useWishlist();
@@ -20,6 +21,7 @@ export default function WishlistButton({ product, size = 'md', className = '' })
   function handleClick(e) {
     e.preventDefault();
     e.stopPropagation();
+    if (!saved) trackAddToWishlist(product);
     toggle(product.id);
   }
 

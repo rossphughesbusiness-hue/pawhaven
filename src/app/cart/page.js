@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
-import { trackBeginCheckout } from '@/lib/analytics';
+import { trackBeginCheckout, trackRemoveFromCart, trackAddToCart } from '@/lib/analytics';
 import TrustBadges from '@/components/TrustBadges';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import { products } from '@/lib/products';
@@ -36,6 +36,7 @@ function CartUpsell({ cartItems }) {
       supplierProductId: p.supplierProductId || null,
       variants: {},
     });
+    trackAddToCart(p, 1);
     setAdded((prev) => ({ ...prev, [p.id]: true }));
     setTimeout(() => setAdded((prev) => ({ ...prev, [p.id]: false })), 2000);
   }
@@ -144,7 +145,7 @@ function CartItem({ item }) {
             </button>
           </div>
           <button
-            onClick={() => removeItem(item.id)}
+            onClick={() => { trackRemoveFromCart(item, item.quantity); removeItem(item.id); }}
             className="text-gray-400 hover:text-red-500 transition-colors text-sm ml-2"
           >
             Remove

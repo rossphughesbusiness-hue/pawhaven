@@ -16,7 +16,7 @@ async function redisSet(key, value, exSeconds) {
 
 export async function POST(req) {
   try {
-    const { items, promoCodeId } = await req.json();
+    const { items, promoCodeId, refCode } = await req.json();
 
     if (!items || items.length === 0) {
       return NextResponse.json({ error: 'No items in cart' }, { status: 400 });
@@ -68,7 +68,10 @@ export async function POST(req) {
       shipping_address_collection: {
         allowed_countries: ['US', 'CA', 'GB', 'AU'],
       },
-      metadata: fulfillmentMeta,
+      metadata: {
+        ...fulfillmentMeta,
+        ...(refCode ? { referral_code: String(refCode).slice(0, 40) } : {}),
+      },
       shipping_options: [
         {
           shipping_rate_data: {
