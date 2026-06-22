@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useCart } from '@/context/CartContext';
+import { trackAddToCart } from '@/lib/analytics';
 
 export default function AddToCartButton({ product }) {
   const { addItem } = useCart();
@@ -30,6 +31,7 @@ export default function AddToCartButton({ product }) {
         variants: selected,
       });
     }
+    trackAddToCart(product, qty);
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
   }

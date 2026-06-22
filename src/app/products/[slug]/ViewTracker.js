@@ -1,8 +1,9 @@
 'use client';
 import { useEffect } from 'react';
 import { trackView } from './RecentlyViewed';
+import { trackViewItem } from '@/lib/analytics';
 
-export default function ViewTracker({ id, name }) {
+export default function ViewTracker({ id, name, product }) {
   useEffect(() => {
     // Track in Redis for dashboard analytics
     fetch('/api/track', {
@@ -12,7 +13,9 @@ export default function ViewTracker({ id, name }) {
     }).catch(() => {});
     // Track in localStorage for Recently Viewed
     trackView(id);
-  }, [id, name]);
+    // Fire GA4 / Meta / TikTok view_item events
+    if (product) trackViewItem(product);
+  }, [id, name, product]);
 
   return null;
 }

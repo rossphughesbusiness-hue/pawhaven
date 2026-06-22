@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
+import { trackBeginCheckout } from '@/lib/analytics';
 import TrustBadges from '@/components/TrustBadges';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import { products } from '@/lib/products';
@@ -229,6 +230,7 @@ export default function CartPage() {
 
   function handleCheckout() {
     setCheckoutLoading(true);
+    trackBeginCheckout(items, discountedTotal);
     // Save coupon to sessionStorage so the upsell page can access it
     try {
       if (appliedCoupon?.id) {
