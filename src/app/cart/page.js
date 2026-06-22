@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
@@ -162,6 +163,7 @@ function CartItem({ item }) {
 
 export default function CartPage() {
   const { items, itemCount, subtotal, shipping, total, amountToFreeShipping, clearCart } = useCart();
+  const router = useRouter();
   const [checkoutLoading, setCheckoutLoading] = useState(false);
   const [checkoutError, setCheckoutError] = useState(null);
 
@@ -225,26 +227,19 @@ export default function CartPage() {
     finally { setCouponLoading(false); }
   }
 
-  async function handleCheckout() {
+  function handleCheckout() {
     setCheckoutLoading(true);
-    setCheckoutError(null);
+    // Save coupon to sessionStorage so the upsell page can access it
     try {
-      const res = await fetch('/api/checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items, promoCodeId: appliedCoupon?.id }),
-      });
-      const data = await res.json();
-      if (data.url) {
-        window.location.href = data.url;
+      if (appliedCoupon?.id) {
+        sessionStorage.setItem('ph_promo_id', appliedCoupon.id);
+        sessionStorage.setItem('ph_promo_code', appliedCoupon.code || '');
       } else {
-        setCheckoutError('Something went wrong. Please try again.');
-        setCheckoutLoading(false);
+        sessionStorage.removeItem('ph_promo_id');
+        sessionStorage.removeItem('ph_promo_code');
       }
-    } catch {
-      setCheckoutError('Something went wrong. Please try again.');
-      setCheckoutLoading(false);
-    }
+    } catch {}
+    router.push('/checkout/upsell');
   }
 
   if (items.length === 0) {
@@ -418,9 +413,7 @@ export default function CartPage() {
               {checkoutLoading ? 'Redirecting to Checkout…' : 'Proceed to Checkout →'}
             </button>
 
-            {checkoutError && (
-              <p className="text-red-500 text-sm text-center mt-2">{checkoutError}</p>
-            )}
+
 
             <p className="text-center text-xs text-gray-400 mt-4">
               🔒 Secure checkout powered by Stripe
