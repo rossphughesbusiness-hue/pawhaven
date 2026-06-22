@@ -365,6 +365,18 @@ async function redisSave(key, value, exSeconds = 7776000) {
   });
 }
 
+async function redisZAdd(key, score, member) {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return;
+  await fetch(`${url}/zadd/${encodeURIComponent(key)}`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify([score, member]),
+    cache: 'no-store',
+  });
+}
+
 async function redisGet(key) {
   const url = process.env.UPSTASH_REDIS_REST_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;
@@ -548,6 +560,27 @@ export async function POST(req) {
     }
   } else {
     console.warn(`[webhook] No customer email for session ${session.id} — skipping confirmation`);
+  }
+
+  // ── Queue review request email for 7 days from now ─────────────────────────
+  if (customerEmail) {
+    try {
+      const reviewAt = Date.now() + 7 * 24 * 60 * 60 * 1000;
+      const productNames = lineItems
+        .map((li) => li.description || li.price?.product?.name)
+        .filter(Boolean);
+      await redisSave(`review_pending:${session.id}`, {
+        email: customerEmail,
+        customerName,
+        orderRef,
+        productNames,
+        scheduledAt: reviewAt,
+      }, 30 * 24 * 60 * 60); // 30-day TTL
+      await redisZAdd('review_queue', reviewAt, session.id);
+      console.log(`[webhook] 📅 Review request queued for ${customerEmail} at ${new Date(reviewAt).toISOString()}`);
+    } catch (err) {
+      console.error('[webhook] Review queue error:', err.message);
+    }
   }
 
   return NextResponse.json({ received: true });

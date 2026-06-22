@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function StarPicker({ value, onChange }) {
   const [hovered, setHovered] = useState(0);
@@ -32,6 +32,22 @@ export default function ReviewForm({ slug, productName }) {
   const [status, setStatus] = useState('idle'); // idle | loading | done | error
   const [error, setError] = useState(null);
   const [open, setOpen] = useState(false);
+
+  // Auto-open when ?review=1 is in the URL (from review request email)
+  useEffect(() => {
+    try {
+      if (typeof window !== 'undefined') {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('review') === '1') {
+          setOpen(true);
+          // Scroll to form after a brief delay
+          setTimeout(() => {
+            document.getElementById('review-form')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 400);
+        }
+      }
+    } catch {}
+  }, []);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -82,7 +98,7 @@ export default function ReviewForm({ slug, productName }) {
   }
 
   return (
-    <div className="mt-8 bg-gray-50 rounded-3xl border border-gray-100 p-6 sm:p-8">
+    <div id="review-form" className="mt-8 bg-gray-50 rounded-3xl border border-gray-100 p-6 sm:p-8">
       <h3 className="text-xl font-black text-navy-900 mb-6">Write a Review</h3>
       <form onSubmit={handleSubmit} className="space-y-5">
         {/* Star rating */}
