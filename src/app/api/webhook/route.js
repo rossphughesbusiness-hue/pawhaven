@@ -240,6 +240,77 @@ async function sendConfirmationEmail({ to, customerName, orderRef, sessionId, li
   }
 }
 
+// ─── Loyalty reward email ─────────────────────────────────────────────────────
+
+async function sendLoyaltyRewardEmail({ to, customerName, pointsEarned }) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) return;
+  const firstName = customerName.split(' ')[0] || 'there';
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f7f8fa;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f7f8fa;padding:40px 0;">
+    <tr><td align="center">
+      <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+        <tr>
+          <td style="background:linear-gradient(135deg,#f59e0b,#f97316);padding:32px 40px;text-align:center;">
+            <div style="font-size:40px;margin-bottom:8px;">🏆</div>
+            <div style="color:#ffffff;font-size:22px;font-weight:800;">You unlocked a reward!</div>
+            <div style="color:rgba(255,255,255,0.85);font-size:14px;margin-top:4px;">100 PawPoints reached — enjoy your $10 off</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:36px 40px;text-align:center;">
+            <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
+              Amazing, ${firstName}! 🎉 You've reached <strong style="color:#1a2b4a;">100 PawPoints</strong> and unlocked a <strong style="color:#f97316;">$10 discount</strong> on your next order. Use this code at checkout:
+            </p>
+            <div style="background:#fffbeb;border:2px dashed #f59e0b;border-radius:14px;padding:20px 30px;margin:0 auto 28px;display:inline-block;">
+              <div style="font-size:11px;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Your Reward Code</div>
+              <div style="font-size:34px;font-weight:900;color:#f97316;font-family:monospace;letter-spacing:4px;">LOYAL10</div>
+              <div style="font-size:12px;color:#94a3b8;margin-top:6px;">$10 off your next order · No minimum</div>
+            </div>
+            <div>
+              <a href="https://pawhavenpets.org/products"
+                 style="display:inline-block;background:#f97316;color:#ffffff;font-weight:800;font-size:16px;padding:16px 36px;border-radius:50px;text-decoration:none;">
+                Redeem My Reward →
+              </a>
+            </div>
+            <p style="margin:24px 0 0;font-size:13px;color:#94a3b8;line-height:1.6;">
+              Your PawPoints balance has been reset to 0 — keep shopping to earn your next reward! ⭐
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f8fafc;padding:18px 40px;border-top:1px solid #f0f0f0;text-align:center;">
+            <p style="margin:0;font-size:11px;color:#94a3b8;">
+              © ${new Date().getFullYear()} PawHaven ·
+              <a href="https://pawhavenpets.org" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({
+      from: 'PawHaven <orders@pawhavenpets.org>',
+      to: [to],
+      subject: '🏆 You earned a $10 reward — 100 PawPoints reached!',
+      html,
+    }),
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    console.error('[webhook] Loyalty reward email error:', JSON.stringify(err));
+  }
+}
+
 // ─── Referral reward email ────────────────────────────────────────────────────
 
 async function sendReferralRewardEmail({ to, friendName }) {
@@ -656,6 +727,34 @@ export async function POST(req) {
       } catch (err) {
         console.error('[webhook] Referral reward error:', err.message);
       }
+    }
+  }
+
+  // ── Loyalty points ─────────────────────────────────────────────────────────
+  if (customerEmail) {
+    try {
+      const pointsEarned = Math.max(1, Math.floor(session.amount_total / 100));
+      const loyaltyKey = `loyalty:${customerEmail.toLowerCase()}`;
+      const existing = await redisGet(loyaltyKey) || { points: 0, totalEarned: 0 };
+      const newPoints = (existing.points || 0) + pointsEarned;
+      const newTotal = (existing.totalEarned || 0) + pointsEarned;
+
+      let savedPoints = newPoints;
+      if (newPoints >= 100) {
+        savedPoints = newPoints - 100;
+        await sendLoyaltyRewardEmail({ to: customerEmail, customerName, pointsEarned });
+        console.log(`[webhook] 🏆 Loyalty reward sent to ${customerEmail} (${newPoints} pts → reward issued, ${savedPoints} pts remaining)`);
+      }
+
+      await redisSave(loyaltyKey, {
+        points: savedPoints,
+        totalEarned: newTotal,
+        lastPurchase: Date.now(),
+        lastOrderRef: orderRef,
+      }, 730 * 24 * 60 * 60); // 2-year TTL
+      console.log(`[webhook] ⭐ ${customerEmail} earned ${pointsEarned} pts (balance: ${savedPoints}/100)`);
+    } catch (err) {
+      console.error('[webhook] Loyalty points error:', err.message);
     }
   }
 

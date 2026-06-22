@@ -6,6 +6,7 @@ import ClearCart from './ClearCart';
 import PurchaseEvents from './PurchaseEvents';
 import TrackOrderLink from './TrackOrderLink';
 import ReferralWidget from '@/components/ReferralWidget';
+import LoyaltyWidget from '@/components/LoyaltyWidget';
 
 export const metadata = {
   title: 'Order Confirmed — PawHaven',
@@ -54,8 +55,11 @@ export default function SuccessPage() {
         </div>
       </div>
 
-      {/* Referral widget */}
-      <div className="max-w-xl mx-auto px-4 -mt-6">
+      {/* Loyalty + Referral widgets */}
+      <div className="max-w-xl mx-auto px-4 -mt-6 space-y-4">
+        <Suspense fallback={null}>
+          <LoyaltyWidget />
+        </Suspense>
         <Suspense fallback={null}>
           <ReferralWidget />
         </Suspense>

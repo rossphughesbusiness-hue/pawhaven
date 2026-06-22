@@ -27,6 +27,7 @@ export async function GET(req) {
       total: (session.amount_total / 100).toFixed(2),
       currency: session.currency.toUpperCase(),
       itemCount: session.line_items?.data?.reduce((s, i) => s + i.quantity, 0) ?? 1,
+      email: session.customer_details?.email || null,
     });
   } catch {
     return NextResponse.json({ error: 'Not found' }, { status: 404 });
