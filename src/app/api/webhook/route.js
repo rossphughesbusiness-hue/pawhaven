@@ -102,7 +102,7 @@ async function createCJOrder({ orderNumber, shipping, phone, products, token }) 
 
 // ─── Email helpers ────────────────────────────────────────────────────────────
 
-function buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, total, shippingLabel }) {
+function buildConfirmationEmail({ customerName, orderRef, sessionId, lineItems, shipping, total, shippingLabel }) {
   const addr = shipping?.address;
   const addrLine = addr
     ? [addr.line1, addr.line2, addr.city, addr.state, addr.postal_code, addr.country]
@@ -153,10 +153,13 @@ function buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, t
               You'll receive a shipping update once your package is on the move.
             </p>
 
-            <!-- Order ref -->
-            <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 20px;margin-bottom:28px;">
-              <span style="font-size:12px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Order Reference</span><br>
-              <span style="font-size:14px;font-weight:700;color:#1a2b4a;font-family:monospace;">${orderRef}</span>
+            <!-- Order ref + track button -->
+            <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 20px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+              <div>
+                <span style="font-size:12px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Order Reference</span><br>
+                <span style="font-size:14px;font-weight:700;color:#1a2b4a;font-family:monospace;">${orderRef}</span>
+              </div>
+              ${sessionId ? `<a href="https://pawhavenpets.org/order-tracking?session_id=${sessionId}" style="display:inline-block;background:#f97316;color:#ffffff;font-weight:700;font-size:13px;padding:10px 20px;border-radius:50px;text-decoration:none;white-space:nowrap;">📦 Track Order →</a>` : ''}
             </div>
 
             <!-- Items -->
@@ -206,14 +209,14 @@ function buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, t
 </html>`;
 }
 
-async function sendConfirmationEmail({ to, customerName, orderRef, lineItems, shipping, total, shippingLabel }) {
+async function sendConfirmationEmail({ to, customerName, orderRef, sessionId, lineItems, shipping, total, shippingLabel }) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.warn('[webhook] RESEND_API_KEY not set — skipping confirmation email');
     return;
   }
 
-  const html = buildConfirmationEmail({ customerName, orderRef, lineItems, shipping, total, shippingLabel });
+  const html = buildConfirmationEmail({ customerName, orderRef, sessionId, lineItems, shipping, total, shippingLabel });
 
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -377,6 +380,7 @@ export async function POST(req) {
         to: customerEmail,
         customerName,
         orderRef,
+        sessionId: session.id,
         lineItems,
         shipping: session.shipping_details,
         total: session.amount_total,
