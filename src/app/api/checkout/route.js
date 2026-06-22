@@ -5,7 +5,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export async function POST(req) {
   try {
-    const { items } = await req.json();
+    const { items, promoCodeId } = await req.json();
 
     if (!items || items.length === 0) {
       return NextResponse.json({ error: 'No items in cart' }, { status: 400 });
@@ -50,6 +50,7 @@ export async function POST(req) {
       payment_method_types: ['card'],
       line_items,
       mode: 'payment',
+      ...(promoCodeId ? { discounts: [{ promotion_code: promoCodeId }] } : { allow_promotion_codes: true }),
       success_url: `${baseUrl}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/cart`,
       phone_number_collection: { enabled: true },

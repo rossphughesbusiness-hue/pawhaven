@@ -164,6 +164,49 @@ export default function CartPage() {
   const [checkoutLoading, setCheckoutLoading] = useState(false);
   const [checkoutError, setCheckoutError] = useState(null);
 
+  // Coupon state
+  const [couponInput, setCouponInput] = useState('');
+  const [appliedCoupon, setAppliedCoupon] = useState(null); // { id, code, percentOff, amountOff, name }
+  const [couponLoading, setCouponLoading] = useState(false);
+  const [couponError, setCouponError] = useState(null);
+
+  const discount = appliedCoupon
+    ? appliedCoupon.percentOff
+      ? subtotal * (appliedCoupon.percentOff / 100)
+      : Math.min(appliedCoupon.amountOff, subtotal)
+    : 0;
+  const discountedTotal = total - discount;
+
+  async function applyCoupon() {
+    if (!couponInput.trim()) return;
+    setCouponLoading(true);
+    setCouponError(null);
+    try {
+      const res = await fetch('/api/validate-coupon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code: couponInput }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setCouponError(data.error || 'Invalid coupon code');
+      } else {
+        setAppliedCoupon(data);
+        setCouponInput('');
+        setCouponError(null);
+      }
+    } catch {
+      setCouponError('Could not validate coupon. Please try again.');
+    } finally {
+      setCouponLoading(false);
+    }
+  }
+
+  function removeCoupon() {
+    setAppliedCoupon(null);
+    setCouponError(null);
+  }
+
   async function handleCheckout() {
     setCheckoutLoading(true);
     setCheckoutError(null);
@@ -171,7 +214,7 @@ export default function CartPage() {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items }),
+        body: JSON.stringify({ items, promoCodeId: appliedCoupon?.id }),
       });
       const data = await res.json();
       if (data.url) {
@@ -286,10 +329,64 @@ export default function CartPage() {
                   {shipping === 0 ? 'FREE' : `$${shipping.toFixed(2)}`}
                 </span>
               </div>
+              {discount > 0 && (
+                <div className="flex justify-between text-sm text-emerald-600">
+                  <span className="font-semibold">
+                    Coupon ({appliedCoupon.code})
+                    {appliedCoupon.percentOff ? ` −${appliedCoupon.percentOff}%` : ''}
+                  </span>
+                  <span className="font-semibold">−${discount.toFixed(2)}</span>
+                </div>
+              )}
               <div className="border-t border-gray-100 pt-3 flex justify-between">
                 <span className="font-black text-navy-900 text-lg">Total</span>
-                <span className="font-black text-navy-900 text-xl">${total.toFixed(2)}</span>
+                <span className="font-black text-navy-900 text-xl">${discountedTotal.toFixed(2)}</span>
               </div>
+            </div>
+
+            {/* Coupon code */}
+            <div className="mb-5">
+              {appliedCoupon ? (
+                <div className="flex items-center justify-between bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-2.5">
+                  <div className="flex items-center gap-2">
+                    <span className="text-emerald-600 font-bold text-sm">🏷 {appliedCoupon.code}</span>
+                    <span className="text-emerald-600 text-xs">
+                      {appliedCoupon.percentOff
+                        ? `${appliedCoupon.percentOff}% off`
+                        : `$${appliedCoupon.amountOff.toFixed(2)} off`}
+                    </span>
+                  </div>
+                  <button
+                    onClick={removeCoupon}
+                    className="text-emerald-400 hover:text-emerald-700 text-xs font-medium transition-colors"
+                  >
+                    Remove
+                  </button>
+                </div>
+              ) : (
+                <div>
+                  <div className="flex gap-2">
+                    <input
+                      type="text"
+                      value={couponInput}
+                      onChange={(e) => { setCouponInput(e.target.value); setCouponError(null); }}
+                      onKeyDown={(e) => e.key === 'Enter' && applyCoupon()}
+                      placeholder="Coupon code"
+                      className="flex-1 border border-gray-200 rounded-xl px-3 py-2.5 text-sm font-medium text-navy-900 placeholder-gray-400 focus:outline-none focus:border-brand-300 focus:ring-2 focus:ring-brand-100 transition-all"
+                    />
+                    <button
+                      onClick={applyCoupon}
+                      disabled={couponLoading || !couponInput.trim()}
+                      className="px-4 py-2.5 bg-navy-900 hover:bg-brand-500 disabled:opacity-50 disabled:cursor-not-allowed text-white text-sm font-bold rounded-xl transition-colors"
+                    >
+                      {couponLoading ? '…' : 'Apply'}
+                    </button>
+                  </div>
+                  {couponError && (
+                    <p className="text-red-500 text-xs mt-1.5 font-medium">{couponError}</p>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Checkout button */}
