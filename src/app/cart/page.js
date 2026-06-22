@@ -5,6 +5,82 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 import TrustBadges from '@/components/TrustBadges';
+import { products } from '@/lib/products';
+
+function CartUpsell({ cartItems }) {
+  const { addItem } = useCart();
+  const [added, setAdded] = useState({});
+
+  const cartIds = new Set(cartItems.map((i) => i.id));
+  // Pick up to 3 products not in cart, sorted by soldCount desc
+  const suggestions = products
+    .filter((p) => !cartIds.has(p.id))
+    .sort((a, b) => (b.soldCount || 0) - (a.soldCount || 0))
+    .slice(0, 3);
+
+  if (suggestions.length === 0) return null;
+
+  function quickAdd(p) {
+    addItem({
+      id: p.id,
+      slug: p.slug,
+      name: p.name,
+      price: p.price,
+      emoji: p.emoji,
+      image: p.images?.[0] || null,
+      gradientFrom: p.gradientFrom,
+      gradientTo: p.gradientTo,
+      supplierProductId: p.supplierProductId || null,
+      variants: {},
+    });
+    setAdded((prev) => ({ ...prev, [p.id]: true }));
+    setTimeout(() => setAdded((prev) => ({ ...prev, [p.id]: false })), 2000);
+  }
+
+  return (
+    <div className="mt-8">
+      <h2 className="text-lg font-black text-navy-900 mb-4">🐾 Frequently Bought Together</h2>
+      <div className="space-y-3">
+        {suggestions.map((p) => (
+          <div key={p.id} className="flex items-center gap-4 bg-white rounded-2xl border border-gray-100 p-3 shadow-sm">
+            <Link href={`/products/${p.slug}`} className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 block">
+              {p.images?.[0] ? (
+                <Image src={p.images[0]} alt={p.name} fill sizes="64px" className="object-cover" />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-2xl">{p.emoji}</div>
+              )}
+            </Link>
+            <div className="flex-1 min-w-0">
+              <Link href={`/products/${p.slug}`} className="font-bold text-navy-900 text-sm hover:text-brand-500 transition-colors line-clamp-1">
+                {p.name}
+              </Link>
+              <div className="text-brand-500 font-semibold text-sm">${p.price.toFixed(2)}</div>
+              <div className="flex items-center gap-0.5 mt-0.5">
+                {[1,2,3,4,5].map((s) => (
+                  <svg key={s} className={`w-3 h-3 ${s <= Math.round(p.rating) ? 'text-yellow-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+                <span className="text-gray-400 text-xs ml-1">({p.reviewCount})</span>
+              </div>
+            </div>
+            <button
+              onClick={() => quickAdd(p)}
+              disabled={added[p.id]}
+              className={`flex-shrink-0 px-4 py-2 rounded-xl font-bold text-sm transition-all duration-200 ${
+                added[p.id]
+                  ? 'bg-emerald-500 text-white'
+                  : 'bg-brand-500 hover:bg-brand-400 text-white hover:shadow-lg hover:shadow-brand-500/30'
+              }`}
+            >
+              {added[p.id] ? '✓ Added' : '+ Add'}
+            </button>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function CartItem({ item }) {
   const { updateQty, removeItem } = useCart();
@@ -190,6 +266,9 @@ export default function CartPage() {
               </svg>
               Continue Shopping
             </Link>
+
+            {/* Upsell */}
+            <CartUpsell cartItems={items} />
           </div>
 
           {/* Order summary */}
