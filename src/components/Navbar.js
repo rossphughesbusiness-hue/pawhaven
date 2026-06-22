@@ -3,11 +3,13 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
+import SearchModal from './SearchModal';
 
 export default function Navbar() {
   const { itemCount } = useCart();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   useEffect(() => {
     function onScroll() {
@@ -15,6 +17,17 @@ export default function Navbar() {
     }
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    function onKey(e) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen((open) => !open);
+      }
+    }
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
   }, []);
 
   const navLinks = [
@@ -69,6 +82,17 @@ export default function Navbar() {
 
             {/* Right side */}
             <div className="flex items-center gap-4">
+              {/* Search */}
+              <button
+                onClick={() => setSearchOpen(true)}
+                className="p-2 rounded-lg text-navy-700 hover:bg-gray-100 transition-colors"
+                aria-label="Search products"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </button>
+
               {/* Cart */}
               <Link
                 href="/cart"
@@ -115,6 +139,9 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+
+        {/* Search modal */}
+        <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
 
         {/* Mobile menu */}
         {menuOpen && (
