@@ -7,6 +7,7 @@ import ImageGallery from './ImageGallery';
 import ViewTracker from './ViewTracker';
 import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
+import CountdownTimer from './CountdownTimer';
 
 export async function generateMetadata({ params }) {
   const product = getProductBySlug(params.slug);
@@ -169,6 +170,9 @@ export default function ProductPage({ params }) {
                 <span>Free shipping on orders over $50</span>
               </div>
             </div>
+
+            {/* Countdown timer */}
+            <CountdownTimer />
 
             {/* Add to cart */}
             <AddToCartButton product={product} />
