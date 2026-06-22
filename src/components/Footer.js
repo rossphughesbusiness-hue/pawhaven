@@ -46,7 +46,9 @@ export default function Footer() {
               {[
                 { href: '/products', label: 'All Products' },
                 { href: '/bundles', label: 'Bundle Deals' },
+                { href: '/sale', label: '🔥 Flash Sale' },
                 { href: '/quiz', label: 'Find My Match ✨' },
+                { href: '/about', label: 'Our Story' },
                 { href: '/products?category=Dogs', label: 'Dog Accessories' },
                 { href: '/products?category=Cats', label: 'Cat Accessories' },
                 { href: '/blog', label: 'Pet Care Blog' },

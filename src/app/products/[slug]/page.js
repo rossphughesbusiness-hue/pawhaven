@@ -9,6 +9,7 @@ import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
 import WishlistButton from '@/components/WishlistButton';
 import ShareButtons from '@/components/ShareButtons';
+import BackInStockForm from '@/components/BackInStockForm';
 import CountdownTimer from './CountdownTimer';
 import StickyAddToCart from './StickyAddToCart';
 import RecentlyViewed from './RecentlyViewed';
@@ -183,6 +184,9 @@ export default function ProductPage({ params }) {
 
             {/* Countdown timer */}
             <CountdownTimer />
+
+            {/* Back in stock form (low stock) */}
+            {product.stock < 10 && <BackInStockForm product={product} />}
 
             {/* Add to cart */}
             <AddToCartButton product={product} />
