@@ -861,3 +861,38 @@ export function getPostBySlug(slug) {
 export function getAllPosts() {
   return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
+
+// Map each post slug to the product tags/categories it's most relevant for
+const POST_RELEVANCE = {
+  'best-slow-feeder-bowls-for-dogs':       ['Feeding', 'Dogs', 'Enrichment'],
+  'how-to-calm-an-anxious-dog':            ['Anxiety Relief', 'Dogs', 'Enrichment', 'Comfort'],
+  'best-led-dog-collars-night-safety':     ['Safety', 'Dogs', 'Outdoor'],
+  'best-cat-water-fountains-2026':         ['Health', 'Cats'],
+  'best-orthopedic-dog-beds-arthritis':    ['Comfort', 'Dogs', 'Health'],
+  'best-no-pull-harness-for-dogs-2026':    ['Safety', 'Outdoor', 'Dogs'],
+  'how-to-keep-indoor-cat-entertained':    ['Toys', 'Cats', 'Comfort'],
+  'dog-car-safety-guide':                  ['Travel', 'Dogs', 'Safety'],
+  'how-to-groom-dog-at-home':              ['Grooming', 'Dogs'],
+  'cat-shedding-solutions-deshedding-guide': ['Grooming', 'Cats'],
+  'pet-travel-accessories-guide':          ['Travel', 'Dogs', 'Cats'],
+};
+
+/**
+ * Returns up to `limit` blog posts most relevant to the given product.
+ * Scoring: +2 for matching tag, +1 for matching category.
+ */
+export function getRelatedPosts(product, limit = 3) {
+  const keys = [product.tag, product.category].filter(Boolean);
+
+  const scored = posts.map((post) => {
+    const tags = POST_RELEVANCE[post.slug] || [];
+    const score = keys.reduce((acc, k) => acc + (tags.includes(k) ? (k === product.tag ? 2 : 1) : 0), 0);
+    return { post, score };
+  });
+
+  return scored
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ post }) => post);
+}

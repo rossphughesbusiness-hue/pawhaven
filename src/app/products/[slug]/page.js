@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getProductBySlug, getRelatedProducts } from '@/lib/products';
+import { getRelatedPosts } from '@/lib/blog';
 import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
@@ -66,6 +67,7 @@ export default function ProductPage({ params }) {
   if (!product) notFound();
 
   const related = getRelatedProducts(product.slug, 3);
+  const relatedPosts = getRelatedPosts(product, 3);
   const savings = product.comparePrice
     ? (product.comparePrice - product.price).toFixed(2)
     : null;
@@ -250,6 +252,55 @@ export default function ProductPage({ params }) {
             ))}
           </div>
         </div>
+
+        {/* ─── From Our Blog ─── */}
+        {relatedPosts.length > 0 && (
+          <div className="mt-20">
+            <div className="flex items-center justify-between mb-8">
+              <h2 className="text-2xl font-black text-navy-900">From Our Blog</h2>
+              <Link href="/blog" className="text-brand-500 text-sm font-semibold hover:underline">
+                All articles →
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 hover:border-brand-200 hover:shadow-md transition-all duration-200 flex flex-col"
+                >
+                  {post.heroImage && (
+                    <div className="relative h-44 w-full overflow-hidden bg-gray-100">
+                      <img
+                        src={post.heroImage}
+                        alt={post.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  )}
+                  <div className="p-5 flex flex-col flex-1">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-base">{post.emoji}</span>
+                      <span className="text-xs font-bold text-brand-500 uppercase tracking-wide">
+                        {post.category}
+                      </span>
+                    </div>
+                    <h3 className="font-bold text-navy-900 text-sm leading-snug mb-2 group-hover:text-brand-500 transition-colors line-clamp-2">
+                      {post.title}
+                    </h3>
+                    <p className="text-gray-500 text-xs leading-relaxed line-clamp-2 flex-1">
+                      {post.description}
+                    </p>
+                    <div className="flex items-center gap-1 mt-4 text-xs text-gray-400 font-medium">
+                      <span>⏱</span>
+                      <span>{post.readTime}</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* ─── Related Products ─── */}
         {related.length > 0 && (
