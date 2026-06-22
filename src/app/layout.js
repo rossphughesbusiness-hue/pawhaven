@@ -7,6 +7,7 @@ import AnnouncementBar from '@/components/AnnouncementBar';
 import SalesPopup from '@/components/SalesPopup';
 import { CartProvider } from '@/context/CartContext';
 import { WishlistProvider } from '@/context/WishlistContext';
+import CookieBanner from '@/components/CookieBanner';
 
 const GA_ID             = process.env.NEXT_PUBLIC_GA_ID;
 const META_PIXEL_ID     = process.env.NEXT_PUBLIC_META_PIXEL_ID;
@@ -56,12 +57,26 @@ export default function RootLayout({ children }) {
             <Footer />
             <EmailPopup />
             <SalesPopup />
+            <CookieBanner />
           </WishlistProvider>
         </CartProvider>
 
-        {/* ── Google Analytics 4 ── */}
+        {/* ── Google Analytics 4 (Consent Mode v2) ── */}
         {GA_ID && (
           <>
+            <Script id="ga4-consent-default" strategy="beforeInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                var consent = null;
+                try { consent = localStorage.getItem('ph_cookie_consent'); } catch(e){}
+                gtag('consent', 'default', {
+                  analytics_storage: consent === 'all' ? 'granted' : 'denied',
+                  ad_storage: consent === 'all' ? 'granted' : 'denied',
+                  wait_for_update: 500,
+                });
+              `}
+            </Script>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
               strategy="afterInteractive"
