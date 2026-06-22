@@ -43,6 +43,12 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.85,
     },
+    {
+      url: `${BASE}/quiz`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
     ...productUrls,
     ...blogUrls,
     {

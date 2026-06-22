@@ -36,6 +36,7 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/products', label: 'Shop All' },
     { href: '/bundles', label: '🎁 Bundles' },
+    { href: '/quiz', label: '✨ Pet Quiz' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Help' },
   ];

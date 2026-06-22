@@ -138,10 +138,10 @@ export default function HomePage() {
                 </svg>
               </Link>
               <Link
-                href="#best-sellers"
+                href="/quiz"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-full text-lg border border-white/20 transition-all duration-200 hover:-translate-y-0.5"
               >
-                See What's Trending
+                ✨ Find My Pet's Match
               </Link>
             </div>
 
