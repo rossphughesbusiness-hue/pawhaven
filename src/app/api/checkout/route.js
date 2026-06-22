@@ -3,6 +3,17 @@ import { NextResponse } from 'next/server';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
+async function redisSet(key, value, exSeconds) {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return;
+  const encoded = encodeURIComponent(JSON.stringify(value));
+  await fetch(`${url}/set/${encodeURIComponent(key)}/${encoded}/ex/${exSeconds}`, {
+    headers: { Authorization: `Bearer ${token}` },
+    cache: 'no-store',
+  });
+}
+
 export async function POST(req) {
   try {
     const { items, promoCodeId } = await req.json();
@@ -83,6 +94,12 @@ export async function POST(req) {
         },
       ],
     });
+
+    // Store cart for abandoned cart recovery (72 hr TTL)
+    await redisSet(`cart_recovery:${session.id}`, {
+      items,
+      createdAt: Date.now(),
+    }, 259200);
 
     return NextResponse.json({ url: session.url });
   } catch (err) {

@@ -240,6 +240,118 @@ async function sendConfirmationEmail({ to, customerName, orderRef, sessionId, li
   }
 }
 
+// ─── Abandoned cart email ─────────────────────────────────────────────────────
+
+function buildAbandonedCartEmail({ items, sessionId }) {
+  const BASE = 'https://pawhavenpets.org';
+  const restoreUrl = `${BASE}/cart/recover?sid=${sessionId}`;
+
+  const itemRows = items.map((item) => `
+    <tr>
+      <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;">
+        <div style="font-size:14px;font-weight:600;color:#1a2b4a;">${item.name}</div>
+        ${item.quantity > 1 ? `<div style="font-size:12px;color:#94a3b8;">Qty: ${item.quantity}</div>` : ''}
+      </td>
+      <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;text-align:right;font-size:14px;font-weight:700;color:#f97316;white-space:nowrap;">
+        $${(item.price * item.quantity).toFixed(2)}
+      </td>
+    </tr>`).join('');
+
+  const subtotal = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f7f8fa;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f7f8fa;padding:40px 0;">
+    <tr><td align="center">
+      <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+
+        <tr>
+          <td style="background:linear-gradient(135deg,#1a2b4a,#2d3f6b);padding:32px 40px;text-align:center;">
+            <div style="font-size:28px;margin-bottom:4px;">🛒</div>
+            <div style="color:#ffffff;font-size:22px;font-weight:800;">You left something behind</div>
+            <div style="color:rgba(255,255,255,0.7);font-size:14px;margin-top:4px;">Your cart is saved — pick up where you left off</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:36px 40px;">
+            <p style="margin:0 0 24px;font-size:15px;color:#64748b;line-height:1.6;">
+              Hey there — you had some great items in your cart! We saved everything for you.
+              Come back and complete your order before your items sell out.
+            </p>
+
+            <!-- Items -->
+            <p style="margin:0 0 12px;font-size:11px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;">Items in your cart</p>
+            <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;">
+              ${itemRows}
+              <tr>
+                <td style="padding:14px 0 0;font-size:15px;font-weight:700;color:#1a2b4a;">Subtotal</td>
+                <td style="padding:14px 0 0;font-size:15px;font-weight:800;color:#f97316;text-align:right;">$${subtotal.toFixed(2)}</td>
+              </tr>
+            </table>
+
+            <!-- Coupon nudge -->
+            <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:14px 18px;margin-bottom:28px;text-align:center;">
+              <p style="margin:0;font-size:14px;color:#9a3412;">
+                🏷 Use code <strong style="font-family:monospace;font-size:16px;color:#f97316;letter-spacing:2px;">WELCOME10</strong> for 10% off!
+              </p>
+            </div>
+
+            <!-- CTA -->
+            <div style="text-align:center;">
+              <a href="${restoreUrl}"
+                 style="display:inline-block;background:#f97316;color:#ffffff;font-weight:800;font-size:16px;padding:16px 40px;border-radius:50px;text-decoration:none;">
+                Complete My Order →
+              </a>
+            </div>
+
+            <p style="margin:20px 0 0;font-size:13px;color:#94a3b8;text-align:center;line-height:1.6;">
+              Your cart is saved for 24 hours. After that, items may sell out.<br>
+              Questions? <a href="mailto:support@pawhavenpets.org" style="color:#f97316;text-decoration:none;">support@pawhavenpets.org</a>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background:#f8fafc;padding:18px 40px;border-top:1px solid #f0f0f0;text-align:center;">
+            <p style="margin:0;font-size:11px;color:#94a3b8;">
+              © ${new Date().getFullYear()} PawHaven ·
+              <a href="${BASE}" style="color:#94a3b8;text-decoration:none;">pawhavenpets.org</a>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+}
+
+async function sendAbandonedCartEmail({ to, items, sessionId }) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) return;
+  const html = buildAbandonedCartEmail({ items, sessionId });
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({
+      from: 'PawHaven <orders@pawhavenpets.org>',
+      to: [to],
+      subject: "🛒 You left something behind — your cart is saved!",
+      html,
+    }),
+  });
+  if (res.ok) {
+    console.log(`[webhook] 🛒 Abandoned cart email sent to ${to}`);
+  } else {
+    const err = await res.json();
+    console.error('[webhook] Abandoned cart email error:', JSON.stringify(err));
+  }
+}
+
 // ─── Redis helper ────────────────────────────────────────────────────────────
 
 async function redisSave(key, value, exSeconds = 7776000) {
@@ -248,6 +360,30 @@ async function redisSave(key, value, exSeconds = 7776000) {
   if (!url || !token) return;
   const encoded = encodeURIComponent(JSON.stringify(value));
   await fetch(`${url}/set/${encodeURIComponent(key)}/${encoded}/ex/${exSeconds}`, {
+    headers: { Authorization: `Bearer ${token}` },
+    cache: 'no-store',
+  });
+}
+
+async function redisGet(key) {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  const res = await fetch(`${url}/get/${encodeURIComponent(key)}`, {
+    headers: { Authorization: `Bearer ${token}` },
+    cache: 'no-store',
+  });
+  const json = await res.json();
+  if (!json.result) return null;
+  try { return JSON.parse(decodeURIComponent(json.result)); } catch { return null; }
+}
+
+async function redisDel(key) {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return;
+  await fetch(`${url}/del/${encodeURIComponent(key)}`, {
+    method: 'POST',
     headers: { Authorization: `Bearer ${token}` },
     cache: 'no-store',
   });
@@ -271,6 +407,24 @@ export async function POST(req) {
     return NextResponse.json({ error: 'Invalid signature' }, { status: 400 });
   }
 
+  // ── Abandoned cart: session expired without payment ────────────────────────
+  if (event.type === 'checkout.session.expired') {
+    const session = event.data.object;
+    const email = session.customer_details?.email;
+    if (email) {
+      const cartData = await redisGet(`cart_recovery:${session.id}`);
+      if (cartData?.items?.length > 0) {
+        try {
+          await sendAbandonedCartEmail({ to: email, items: cartData.items, sessionId: session.id });
+        } catch (err) {
+          console.error('[webhook] Abandoned cart email error:', err.message);
+        }
+      }
+    }
+    await redisDel(`cart_recovery:${session.id}`);
+    return NextResponse.json({ received: true });
+  }
+
   if (event.type !== 'checkout.session.completed') {
     return NextResponse.json({ received: true });
   }
@@ -281,6 +435,9 @@ export async function POST(req) {
     console.log(`[webhook] Session ${session.id} not paid yet — skipping.`);
     return NextResponse.json({ received: true });
   }
+
+  // Remove the abandoned cart entry now that the order is paid
+  await redisDel(`cart_recovery:${session.id}`);
 
   console.log(`[webhook] Processing fulfilled order for session ${session.id}`);
 
