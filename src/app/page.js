@@ -31,6 +31,7 @@ const features = [
 const testimonials = [
   {
     name: 'Sarah M.',
+    city: 'Austin, TX',
     pet: 'Golden Retriever Mom',
     stars: 5,
     text: "My dog used to inhale his food so fast he'd get sick every week. PawHaven's slow feeder completely fixed it. It's become part of our daily routine — he actually enjoys meals now!",
@@ -39,6 +40,7 @@ const testimonials = [
   },
   {
     name: 'Jessica T.',
+    city: 'Denver, CO',
     pet: 'Anxious Pup Parent',
     stars: 5,
     text: "The lick mat is a MIRACLE. My dog has severe storm anxiety. Now I smear peanut butter on this mat during thunder and she's completely calm. Wish I found it years ago.",
@@ -47,11 +49,39 @@ const testimonials = [
   },
   {
     name: 'Mike R.',
+    city: 'Seattle, WA',
     pet: 'Urban Dog Owner',
     stars: 5,
-    text: 'The LED collar gives me peace of mind on every nighttime walk. Cars actually slow down now. Holds charge for 4 nights. My dog barely notices he\'s wearing it.',
+    text: "The LED collar gives me peace of mind on every nighttime walk. Cars actually slow down now. Holds charge for 4 nights. My dog barely notices he's wearing it.",
     product: 'SafeGlow LED Collar',
     emoji: '✨',
+  },
+  {
+    name: 'Amanda K.',
+    city: 'Nashville, TN',
+    pet: 'Cat Mom of 2',
+    stars: 5,
+    text: "My cats stopped fighting over the water bowl the moment I set up this fountain. They both drink so much more water now. The filter is easy to replace and it runs quietly all night.",
+    product: 'Cat Water Fountain',
+    emoji: '💧',
+  },
+  {
+    name: 'David L.',
+    city: 'Miami, FL',
+    pet: 'Rescue Dog Dad',
+    stars: 5,
+    text: "Our rescue has bad hip dysplasia. The orthopedic bed has genuinely improved his quality of life — he sleeps through the night now and gets up in the morning without limping. Worth every penny.",
+    product: 'Orthopedic Dog Bed',
+    emoji: '🛏️',
+  },
+  {
+    name: 'Rachel B.',
+    city: 'Chicago, IL',
+    pet: 'First-Time Pet Owner',
+    stars: 5,
+    text: "I was nervous ordering online for my pup but PawHaven made it so easy. The no-pull harness arrived fast, fits perfectly, and our walks have completely transformed. Already ordered two more things!",
+    product: 'No-Pull Dog Harness',
+    emoji: '🦮',
   },
 ];
 
@@ -160,11 +190,14 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Product grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
+          {/* Product grid — top 8 by soldCount */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[...products]
+              .sort((a, b) => (b.soldCount || 0) - (a.soldCount || 0))
+              .slice(0, 8)
+              .map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
           </div>
 
           <div className="text-center mt-10">
@@ -239,34 +272,41 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((t) => (
               <div
                 key={t.name}
-                className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
+                className="bg-white rounded-3xl p-7 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1 flex flex-col"
               >
-                {/* Stars */}
-                <div className="flex gap-1 mb-4">
-                  {Array.from({ length: t.stars }).map((_, i) => (
-                    <span key={i} className="text-amber-400 text-lg">★</span>
-                  ))}
+                {/* Stars + verified */}
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex gap-0.5">
+                    {Array.from({ length: t.stars }).map((_, i) => (
+                      <span key={i} className="text-amber-400 text-base">★</span>
+                    ))}
+                  </div>
+                  <span className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded-full border border-emerald-100">
+                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    Verified Purchase
+                  </span>
                 </div>
 
-                <p className="text-gray-700 leading-relaxed mb-6 text-base italic">
+                <p className="text-gray-700 leading-relaxed text-sm flex-1 mb-5">
                   "{t.text}"
                 </p>
 
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-100 to-brand-200 flex items-center justify-center text-lg font-bold text-brand-600">
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-50">
+                  <div className="w-9 h-9 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center text-sm font-black text-white flex-shrink-0">
                     {t.name.charAt(0)}
                   </div>
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <div className="font-bold text-navy-900 text-sm">{t.name}</div>
-                    <div className="text-gray-400 text-xs">{t.pet}</div>
+                    <div className="text-gray-400 text-xs">{t.city} · {t.pet}</div>
                   </div>
-                  <div className="ml-auto flex items-center gap-1 text-xs text-gray-400">
+                  <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0">
                     <span>{t.emoji}</span>
-                    <span>{t.product}</span>
                   </div>
                 </div>
               </div>
