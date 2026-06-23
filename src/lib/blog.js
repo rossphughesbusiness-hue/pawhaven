@@ -1229,15 +1229,6 @@ Popular combinations:
 The dog owners who receive practical, well-made gear tend to talk about it unprompted for months. That's what makes a genuinely good gift.
     `,
   },
-];
-
-export function getPostBySlug(slug) {
-  return posts.find((p) => p.slug === slug) || null;
-}
-
-export function getAllPosts() {
-  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-}
 
   // ─── Post 17 ────────────────────────────────────────────────────────────────
   {
@@ -1676,6 +1667,15 @@ The products help, but the biggest factor in an apartment dog's wellbeing is con
 The apartment dogs I see thriving are almost always owned by people who treat the limitations as reasons to be more intentional, not excuses. They walk more, train more, and engage more than suburban dog owners who rely on a yard to do the work for them.
     `,
   },
+];
+
+export function getPostBySlug(slug) {
+  return posts.find((p) => p.slug === slug) || null;
+}
+
+export function getAllPosts() {
+  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+}
 
 // Map each post slug to the product tags/categories it's most relevant for
 const POST_RELEVANCE = {
