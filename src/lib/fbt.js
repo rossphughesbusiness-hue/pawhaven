@@ -35,6 +35,14 @@ export const FBT_MAP = {
   'premium-cat-carrier-backpack':  ['collapsible-travel-bowl-set', 'feather-wand-cat-teaser'],
   'cat-deshedding-grooming-glove': ['cat-window-perch-hammock', 'cozy-cat-cave-hideaway'],
   'cozy-cat-cave-hideaway':        ['cat-window-perch-hammock', 'silent-cat-water-fountain'],
+
+  // New products (IDs 25-30)
+  'cat-interactive-feeder-bowl':   ['silent-cat-water-fountain', 'cat-deshedding-grooming-glove'],
+  'cat-tunnel-crinkle-play-tube':  ['feather-wand-cat-teaser', 'interactive-automatic-laser-toy'],
+  'dog-cooling-gel-mat':           ['orthopedic-memory-foam-dog-bed', 'portable-paw-cleaner'],
+  'sisal-cat-scratching-post':     ['cozy-cat-cave-hideaway', 'cat-window-perch-hammock'],
+  'dog-treat-training-pouch':      ['reflective-step-in-harness', 'retractable-pro-dog-leash'],
+  'heavy-duty-rope-tug-toy':       ['crinkle-squeaky-toy-bundle', 'iq-puzzle-feeder-toy'],
 };
 
 /**

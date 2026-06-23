@@ -104,6 +104,12 @@ export default function sitemap() {
       priority: 0.80,
     },
     {
+      url: `${BASE}/dog-training`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
