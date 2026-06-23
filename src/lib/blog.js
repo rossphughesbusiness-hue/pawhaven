@@ -4169,71 +4169,7 @@ A bored cat is an active cat in the wrong way. If a cat's hunting and exploratio
 The behavior doesn't mean your cat is bad or dominant or trying to spite you. It means your cat is a cat — with hunting instincts, curiosity, and a very effective method of getting what they want. Meet those needs more directly, and the method becomes unnecessary.
     `,
   },
-  {
-    slug: 'best-cat-water-fountains-2026-reviewed',
-    title: 'Best Cat Water Fountains 2026 — Reviewed & Ranked',
-    excerpt: 'A deep dive into the best cat water fountains of 2026 — tested for noise, durability, filtration, and whether cats actually use them.',
-    category: 'Cats',
-    tag: 'Cat Feeding',
-    date: '2026-06-30',
-    readTime: '8 min read',
-    img: 'https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?w=800&q=85&auto=format&fit=crop',
-    content: `
-Cat water fountains have gone mainstream — there are now hundreds of options across a huge price range. Most of them look identical in product photos. But in practice, the differences between a good fountain and a mediocre one matter enormously: noise level, filter quality, material, ease of cleaning, and critically, whether your specific cat will actually use it.
 
-We've tested more than a dozen models across different cats, household sizes, and price points. Here's what we found.
-
-## Why Fountains Beat Bowls for Cat Hydration
-
-Cats are descended from desert-dwelling ancestors who got most of their moisture from prey rather than standing water. Their thirst drive is weak, and still water in a bowl often doesn't trigger the drinking response effectively — especially in cats used to dry food.
-
-Moving water is instinctively appealing to cats. It signals freshness. In multiple studies comparing fountain access to still bowl access, cats consistently drank 50-100% more water with a fountain available. Over years, this difference is meaningful: the two leading causes of illness and death in cats over 10 are kidney disease and urinary tract disease, both directly linked to chronic mild dehydration.
-
-## What We Tested For
-
-**Noise:** Fountains near a sleeping area or in an open-plan home can become genuinely annoying. We measured noise levels and noted which ones were audible from across a room versus functionally silent.
-
-**Filtration:** We examined the filter design — whether it used activated charcoal, foam pre-filter, or both — and how easy filter replacement was. Some cheap fountains use filters that are difficult to source.
-
-**Material:** Ceramic and stainless steel resist bacterial biofilm better than plastic. Scratched plastic surfaces harbor bacteria; ceramic and stainless don't scratch in normal use.
-
-**Cleaning ease:** We disassembled and cleaned every fountain at least three times. This is the most commonly underweighted factor in reviews — if cleaning is difficult, owners do it less often, leading to the bacterial buildup the fountain was supposed to prevent.
-
-**Cat acceptance:** We tracked which fountains cats approached immediately, which needed a slow introduction period, and which were avoided entirely.
-
-## Top Picks by Category
-
-**Best overall: Ceramic gravity fountain (1.5-2L)** — Quiet pump, genuine ceramic construction, easy full disassembly, dual filter system. Most cats accepted within 24 hours. Cleans fully in the dishwasher. No filter subscription required. The gold standard for 1-2 cat households.
-
-**Best for multi-cat households: Stainless steel fountain (3L+)** — Larger capacity means less frequent refilling. Stainless surface is completely non-porous. Heavier and takes more counter space, but the durability advantage is significant. Our pick for homes with 3+ cats.
-
-**Best budget: Quality plastic fountain with replaceable filter** — Not all plastic is equal. Look for BPA-free, food-grade plastic with a foam pre-filter and charcoal layer. Replace filters every 2-3 weeks (not monthly as most packages claim). Acceptable for cost-conscious owners who are diligent about cleaning.
-
-**Best for reluctant drinkers: Waterfall-style fountain** — Cats who won't drink from a traditional fountain often respond to a full waterfall flow style, where water runs continuously over a wide surface. Louder than most options, but the high water exposure surface seems to engage cats who ignore other fountain types.
-
-## What to Avoid
-
-Avoid fountains without replaceable filters (or with proprietary filters that cost more than the fountain). Avoid very cheap plastic fountains with no BPA-free labeling — they're not worth the health risk. Avoid fountains where the pump is integrated into the body in a way that prevents full disassembly — you can't clean what you can't reach.
-
-## Getting Your Cat to Use It
-
-**Location matters more than most owners expect.** Place the fountain away from the food bowl — cats instinctively avoid drinking where they eat (prey could contaminate the water). A corner of the living room or hallway works better than next to the food station.
-
-**Don't remove the old bowl immediately.** Let your cat see, sniff, and interact with the fountain for several days before it becomes the only option. Forced transition often results in rejection.
-
-**Try scent introduction.** Rub a cloth on your cat's cheeks (where scent glands are concentrated) and place it near the fountain. This can speed up acceptance.
-
-Most cats convert within 3-7 days. The ones who take longest are usually older cats or cats who've been on exclusively dry food for years — their water-seeking behavior is suppressed, and it takes time for the movement cue to register.
-
-## Maintenance Schedule
-
-Weekly: Empty, rinse, refill. Wipe down all surfaces.
-Every 2-3 weeks: Full disassembly, deep clean with a bottle brush, filter replacement.
-Monthly: Inspect the pump for debris buildup; clean with a small brush.
-
-A fountain that isn't cleaned regularly becomes a bacteria farm. The maintenance is what makes the investment worth it.
-    `,
-  },
 ];
 
 export function getPostBySlug(slug) {
@@ -4311,6 +4247,5 @@ const POST_RELEVANCE = {
   'how-to-introduce-two-cats':             ['Anxiety Relief', 'Cats', 'Health', 'Comfort'],
   'indoor-cat-enrichment-ideas-2026':      ['Enrichment', 'Play', 'Cats', 'Toys', 'Anxiety Relief'],
   'why-cats-knock-things-over':            ['Play', 'Enrichment', 'Cats', 'Toys'],
-  'best-cat-water-fountains-2026-reviewed': ['Health', 'Cats', 'Cat Feeding'],
 
 };

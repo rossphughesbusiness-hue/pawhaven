@@ -117,7 +117,7 @@ const testimonials = [
 const stats = [
   { value: '10,000+', label: 'Happy Pet Owners' },
   { value: '4.8★', label: 'Average Rating' },
-  { value: '35+', label: 'Vet-Approved Products' },
+  { value: '40+', label: 'Vet-Approved Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
 

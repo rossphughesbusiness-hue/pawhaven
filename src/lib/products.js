@@ -1237,21 +1237,7 @@ export const products = [
       { name: 'Chloe W.', rating: 4, date: 'May 2026', text: 'Great quality track toy. Sturdy base doesn't slide on hardwood. My cats figured it out immediately and it's kept them busy while I work from home.' },
     ],
   },
-];
-
-export function getProductBySlug(slug) {
-  return products.find((p) => p.slug === slug) || null;
-}
-
-export function getFeaturedProducts() {
-  return products.filter((p) =>
-    ['Best Seller', 'Fan Favorite', 'Top Rated'].includes(p.badge)
-  );
-}
-
-export function getRelatedProducts(currentSlug, limit = 4) {
-  const current = products.find((p) => p.slug === currentSlug);
-  if (!current) return [  {
+  {
     id: 36,
     slug: 'dog-snuffle-mat',
     name: 'Dog Snuffle Mat',
@@ -1457,6 +1443,20 @@ export function getRelatedProducts(currentSlug, limit = 4) {
     ],
   },
 ];
+
+export function getProductBySlug(slug) {
+  return products.find((p) => p.slug === slug) || null;
+}
+
+export function getFeaturedProducts() {
+  return products.filter((p) =>
+    ['Best Seller', 'Fan Favorite', 'Top Rated'].includes(p.badge)
+  );
+}
+
+export function getRelatedProducts(currentSlug, limit = 4) {
+  const current = products.find((p) => p.slug === currentSlug);
+  if (!current) return [];
   const sameCategory = products.filter(
     (p) => p.slug !== currentSlug && p.category === current.category
   );
