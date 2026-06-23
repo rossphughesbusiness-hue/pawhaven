@@ -39,6 +39,9 @@ export const metadata = {
     'slow feeder bowl', 'lick mat', 'LED dog collar', 'cat water fountain',
     'orthopedic dog bed', 'pet store', 'dropshipping pets',
   ],
+  verification: {
+    google: 'ey1uN2nerFau2k3XHR8AHIyw-3BxoYf0nk2pF1mSctA',
+  },
   openGraph: {
     title: 'PawHaven — Your Pet Deserves the Best',
     description: 'Premium accessories for dogs and cats who deserve the best. Free shipping over $50.',

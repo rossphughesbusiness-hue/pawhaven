@@ -12,8 +12,7 @@ async function getCJToken() {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      email: process.env.CJ_EMAIL,
-      password: process.env.CJ_PASSWORD,
+      apiKey: process.env.CJ_API_KEY,
     }),
   });
   const data = await res.json();

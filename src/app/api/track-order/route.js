@@ -20,8 +20,7 @@ async function getCJToken() {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      email: process.env.CJ_EMAIL,
-      password: process.env.CJ_PASSWORD,
+      apiKey: process.env.CJ_API_KEY,
     }),
   });
   const data = await res.json();
@@ -84,7 +83,7 @@ export async function GET(req) {
 
   // Try to get live CJ status
   let cjStatus = null;
-  if (process.env.CJ_EMAIL && process.env.CJ_PASSWORD) {
+  if (process.env.CJ_API_KEY) {
     try {
       const token = await getCJToken();
       if (token && orderData.cjOrderId) {
