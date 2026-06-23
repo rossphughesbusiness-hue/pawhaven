@@ -17,6 +17,7 @@ const DOG_LINKS = [
   { href: '/dog-enrichment', label: '🧠 Enrichment', desc: 'Puzzles & mental stim' },
   { href: '/dog-beds', label: '🛏️ Beds', desc: 'Orthopedic & cooling' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & paw cleaners' },
+  { href: '/dog-grooming', label: '🐕 Dog Grooming', desc: 'Brushes, paw care & deshedding' },
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
   { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Separation & noise anxiety' },

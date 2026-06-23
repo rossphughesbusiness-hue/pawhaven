@@ -76,6 +76,7 @@ export default function Footer() {
                 { href: '/dog-toys', label: 'Dog Toys' },
                 { href: '/dog-enrichment', label: 'Dog Enrichment' },
                 { href: '/dog-beds', label: 'Dog Beds' },
+                { href: '/dog-grooming', label: 'Dog Grooming' },
                 { href: '/cats', label: '🐱 All Cats' },
                 { href: '/kittens', label: 'Kittens' },
                 { href: '/indoor-cats', label: 'Indoor Cats' },

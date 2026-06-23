@@ -206,6 +206,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/dog-grooming`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/puppy-training`,
       lastModified: new Date(),
       changeFrequency: 'weekly',

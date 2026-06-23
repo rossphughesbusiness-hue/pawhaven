@@ -4169,83 +4169,93 @@ A bored cat is an active cat in the wrong way. If a cat's hunting and exploratio
 The behavior doesn't mean your cat is bad or dominant or trying to spite you. It means your cat is a cat — with hunting instincts, curiosity, and a very effective method of getting what they want. Meet those needs more directly, and the method becomes unnecessary.
     `,
   },
+,
+  {
+    slug: 'how-to-groom-a-dog-at-home-complete-guide',
+    title: 'How to Groom a Dog at Home: The Complete 2026 Guide',
+    excerpt: 'Everything you need to groom your dog at home — brushing, nail care, paw cleaning, and bathing — with the right tools for every coat type.',
+    category: 'Dogs',
+    tag: 'Grooming',
+    date: '2026-06-24',
+    readTime: '10 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+Regular at-home grooming is one of the highest-value habits you can build with your dog. It saves money on groomer visits, strengthens your bond, and gives you weekly contact with your dog's skin and coat — making you far more likely to catch health issues early.
 
+This guide covers every major grooming area, what tools to use, and how to introduce grooming to a resistant dog.
+
+## The Four Areas of Dog Grooming
+
+**Coat and brushing** is the foundation. How often you brush depends entirely on coat type: short-coated dogs (Beagles, Boxers) need once weekly; double-coated dogs (Golden Retrievers, Huskies) need 3–4 times per week; long-coated and curly dogs (Poodles, Shih Tzus) need daily brushing to prevent matting. A self-cleaning slicker brush handles most coat types and is the most versatile single tool you can own.
+
+**Nail trimming** needs to happen every 3–4 weeks. The indicator: clicking on hard floors means they're too long. Long nails alter gait, cause joint strain, and can curl back into the paw pad. If your dog is nervous about clippers, a rechargeable nail grinder with a quiet motor is significantly easier to introduce — the gradual filing is less jarring than the snap of clippers, and you have more control over how much you remove.
+
+**Paw cleaning** is underappreciated as a daily habit. Every walk brings in road salt, fertilizer, pesticides, and allergens that collect between the toes and get ingested during licking. A paw cleaner cup with silicone bristles takes 30 seconds per dog and prevents seasonal allergies, paw irritation, and ingestion of outdoor toxins. In winter, always clean paws after walks on salted roads — ice melt is toxic to dogs.
+
+**Ear and dental care** complete the routine. Check ears weekly for odor or dark discharge. Brush teeth 2–3 times per week — dental disease affects 80% of dogs by age 3 and is the most preventable chronic condition in dogs. Start with a finger brush and dog-safe toothpaste; most dogs tolerate it within a week of consistent, positive introduction.
+
+## Brush Before You Bathe
+
+One of the most common grooming mistakes: bathing before brushing. Water sets tangles and can mat fur permanently, especially in double-coated and long-coated breeds. Always brush thoroughly while the coat is dry, then bathe, and wait for the coat to fully dry before brushing again.
+
+## Introducing Grooming to a Resistant Dog
+
+The most effective tool for difficult grooming sessions is a frozen lick mat. A lick mat smeared with peanut butter or wet food occupies most dogs for 10–15 minutes and transforms a stressful experience into a positive one. After three or four sessions pairing the lick mat with grooming, most dogs begin anticipating — and sometimes initiating — the routine.
+
+For nail resistance specifically: start by touching the paws daily without any grooming tools, pairing with treats. Introduce the grinder while it's off, then on but not near the paw, then on and near the paw. Only graduate to actual grinding after the dog is fully comfortable with each prior step. This protocol takes a week or two but creates a dog that cooperates for life.
+
+## How to Read Your Dog's Coat for Health
+
+Grooming sessions are diagnostic. Brush against the coat direction occasionally to look at the skin: flakiness or redness indicates a skin issue; black specks could be flea dirt; thinning patches suggest possible hormonal or nutritional problems. Any area where your dog flinches or pulls away during brushing should be examined by your vet — pain sensitivity in the coat often signals an underlying issue that's not yet externally visible.
+
+Consistent at-home grooming, done correctly, dramatically reduces both professional grooming costs and veterinary care costs over a dog's lifetime. The investment in good tools pays for itself many times over.
+    `,
+  },
+  {
+    slug: 'best-dog-grooming-tools-2026',
+    title: 'Best Dog Grooming Tools 2026 — What Vets and Groomers Actually Use',
+    excerpt: 'A no-fluff guide to the dog grooming tools worth buying in 2026 — slicker brushes, paw cleaners, nail grinders, and what to skip.',
+    category: 'Dogs',
+    tag: 'Grooming',
+    date: '2026-06-25',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=85&auto=format&fit=crop',
+    content: `
+The dog grooming tool market is cluttered with products that look impressive but don't actually work. This guide focuses on what professional groomers and veterinary dermatologists recommend — and what's worth skipping.
+
+## The Slicker Brush: Your Most Important Tool
+
+A slicker brush is the one tool every dog owner should have regardless of coat type. Fine wire pins penetrate the coat to remove loose fur, break up small tangles, and distribute natural oils. For most dogs, it's the only brush they need for regular maintenance.
+
+What separates a good slicker brush from a cheap one: pin flexibility (too stiff damages skin; too flexible doesn't penetrate the coat), a comfortable handle for extended sessions, and a self-cleaning mechanism. The self-cleaning feature isn't a gimmick — it makes the tool usable across a full grooming session rather than requiring you to stop every 30 seconds to clear the brush by hand.
+
+For heavy shedders — Goldens, Huskies, German Shepherds — add an undercoat deshedding tool for weekly deep sessions. This reaches the dense inner coat layer where the bulk of shedding originates. One thorough deshedding session can reduce visible fur in your home by up to 90% for a week.
+
+## Nail Grinders vs. Clippers
+
+Veterinary behaviorists increasingly recommend grinders over clippers for anxious dogs. The reasons: clippers create a sudden, high-pressure snap that many dogs find startling, and a single nick of the quick (the blood vessel inside the nail) can create a lasting aversion to all nail handling. A grinder with a quiet motor allows gradual, controlled filing — less jarring, and a nick is almost impossible when working gradually.
+
+Look for: rechargeable (not battery-operated, which loses power mid-session), at least 2 speed settings, and a quiet motor under 50 decibels. The motor volume matters enormously for noise-sensitive dogs.
+
+## Paw Care: Cleaner and Balm
+
+The paw cleaner cup is underused by most owners. Post-walk, insert each paw, add a small amount of water, and twist — the silicone bristles remove mud, salt, and allergens in about 5 seconds per paw. This replaces the towel-wipe that most people use, which only cleans the surface and misses the debris packed between toes.
+
+Paw balm (the twist-up stick format) addresses the other half of paw health: protecting and healing the pad surface itself. Cracked pads are painful and create entry points for bacteria and allergens. Apply before walks in extreme weather and nightly to cracked pads until healed. The beeswax-based formulas absorb without leaving a greasy residue — important because greasy paws transfer to floors and furniture.
+
+## What to Skip
+
+**Grooming gloves** work for massage but poorly for actual deshedding — the rubber nubs collect surface fur but don't penetrate the coat effectively. They're a supplement, not a brush replacement.
+
+**Detangling sprays** marketed for at-home use are mostly unnecessary if you're brushing consistently. If you're reaching for a detangling spray, the real problem is infrequent brushing.
+
+**Electric bathing brushes** are useful for wash days in specific coat types (thick double coats benefit) but not worth the cost for most owners.
+
+## Building the Starter Kit
+
+For most dogs, a three-tool kit covers the full routine: slicker brush for weekly coat care, nail grinder for monthly nail maintenance, and paw cleaner for daily post-walk cleaning. Add a paw balm for dogs that walk on harsh surfaces. Everything else is optional depending on your dog's specific coat type and needs.
+
+The best grooming investment you can make isn't a specific tool — it's consistency. A cheap slicker brush used weekly outperforms an expensive set used sporadically.
+    `,
+  },
 ];
-
-export function getPostBySlug(slug) {
-  return posts.find((p) => p.slug === slug) || null;
-}
-
-export function getAllPosts() {
-  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-}
-
-// Map each post slug to the product tags/categories it's most relevant for
-const POST_RELEVANCE = {
-  'best-slow-feeder-bowls-for-dogs':       ['Feeding', 'Dogs', 'Enrichment'],
-  'how-to-calm-an-anxious-dog':            ['Anxiety Relief', 'Dogs', 'Enrichment', 'Comfort'],
-  'best-led-dog-collars-night-safety':     ['Safety', 'Dogs', 'Outdoor'],
-  'best-cat-water-fountains-2026':         ['Health', 'Cats', 'Cat Feeding'],
-  'best-orthopedic-dog-beds-arthritis':    ['Comfort', 'Dogs', 'Health'],
-  'best-no-pull-harness-for-dogs-2026':    ['Safety', 'Outdoor', 'Dogs'],
-  'how-to-keep-indoor-cat-entertained':    ['Toys', 'Cats', 'Comfort'],
-  'dog-car-safety-guide':                  ['Travel', 'Dogs', 'Safety'],
-  'how-to-groom-dog-at-home':              ['Grooming', 'Dogs'],
-  'cat-shedding-solutions-deshedding-guide': ['Grooming', 'Cats'],
-  'pet-travel-accessories-guide':          ['Travel', 'Dogs', 'Cats'],
-  'new-puppy-first-week-checklist':        ['Feeding', 'Walking', 'Anxiety Relief', 'Safety', 'Dogs'],
-  'signs-of-anxiety-in-dogs':             ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
-  'senior-dog-care-guide-2026':           ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
-  'how-to-stop-dog-pulling-on-leash':     ['Walking', 'Safety', 'Training', 'Dogs'],
-  'best-gifts-for-dog-owners-2026':       ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
-  'best-interactive-dog-toys-2026':       ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
-  'how-to-choose-dog-harness-vs-collar':  ['Walking', 'Safety', 'Dogs'],
-  'best-cat-toys-for-indoor-cats-2026':   ['Toys', 'Play', 'Enrichment', 'Cats'],
-  'dog-food-toppers-complete-guide':      ['Feeding', 'Health', 'Dogs', 'Enrichment'],
-  'how-to-crate-train-a-puppy':          ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
-  'best-pet-products-apartment-dogs':     ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
-  'best-harness-for-small-dogs-2026':    ['Walking', 'Safety', 'Dogs'],
-  'how-to-stop-cat-from-scratching-furniture': ['Play', 'Enrichment', 'Cats', 'Comfort'],
-  'best-puzzle-toys-for-dogs-reviewed':  ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
-  'best-gifts-for-cat-lovers-2026':      ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
-  'cat-water-fountain-vs-bowl-which-is-better': ['Health', 'Cats'],
-  'retractable-dog-leash-pros-cons-safety': ['Walking', 'Safety', 'Dogs'],
-  'best-slow-feeder-for-cats-2026':        ['Cat Feeding', 'Health', 'Cats', 'Enrichment'],
-  'best-cat-tunnels-for-indoor-cats':      ['Play', 'Enrichment', 'Cats'],
-  'how-to-keep-dogs-cool-in-summer':       ['Comfort', 'Health', 'Dogs'],
-  'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
-  'tug-toys-for-dogs-benefits-how-to-play': ['Toys', 'Play', 'Enrichment', 'Training', 'Dogs'],
-  'sisal-vs-carpet-scratching-posts-which-cats-prefer':  ['Comfort', 'Play', 'Cats'],
-  'best-dog-walking-accessories-2026':                   ['Walking', 'Outdoor', 'Safety', 'Training', 'Dogs'],
-  'cat-grooming-guide-tools-and-tips':                   ['Grooming', 'Health', 'Cats'],
-  'pet-road-trip-guide-2026':                            ['Travel', 'Dogs', 'Cats', 'Safety'],
-  'best-dog-grooming-tools-2026':                        ['Grooming', 'Dogs', 'Health'],
-  'dog-bed-buying-guide-2026':                           ['Comfort', 'Dogs', 'Health'],
-  'enrichment-for-bored-dogs-at-home':                   ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
-  'first-time-cat-owner-complete-guide':                 ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
-  'best-cat-beds-for-every-sleep-style':                 ['Comfort', 'Cats'],
-  'dog-enrichment-complete-guide-2026':         ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
-  'senior-cat-care-guide-2026':                  ['Health', 'Cats', 'Comfort', 'Enrichment'],
-  'signs-your-cat-is-aging-what-to-do':          ['Health', 'Cats', 'Comfort', 'Anxiety Relief'],
-  'new-kitten-checklist-first-month':            ['Toys', 'Health', 'Enrichment', 'Cats', 'Comfort'],
-  'how-to-litter-train-a-kitten':                ['Health', 'Cats', 'Anxiety Relief'],
-  'separation-anxiety-in-dogs-complete-guide':   ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
-  'calming-products-for-dogs-what-works':        ['Anxiety Relief', 'Enrichment', 'Dogs'],
-  'signs-of-stress-in-cats-what-owners-miss':    ['Anxiety Relief', 'Health', 'Cats', 'Comfort'],
-  'outdoor-vs-indoor-cats-complete-guide':        ['Cats', 'Health', 'Enrichment', 'Comfort'],
-  'best-dog-collars-2026':                ['Walking', 'Safety', 'Dogs'],
-  'how-to-introduce-a-new-dog-to-your-home': ['Anxiety Relief', 'Training', 'Dogs', 'Comfort'],
-  'dog-dental-health-guide-2026':          ['Health', 'Dogs', 'Grooming'],
-  'best-dog-gear-for-hiking-2026':         ['Outdoor', 'Travel', 'Safety', 'Dogs'],
-  'how-to-read-dog-body-language':         ['Training', 'Safety', 'Dogs', 'Anxiety Relief'],
-  'best-accessories-for-large-dogs-2026':  ['Comfort', 'Walking', 'Toys', 'Dogs'],
-
-  'how-to-train-a-puppy-first-8-weeks':    ['Training', 'Walking', 'Dogs', 'Anxiety Relief'],
-  'how-to-groom-a-cat-at-home':                  ['Grooming', 'Health', 'Cats'],
-
-  'best-cat-food-toppers-2026':            ['Health', 'Cats', 'Cat Feeding'],
-  'how-to-introduce-two-cats':             ['Anxiety Relief', 'Cats', 'Health', 'Comfort'],
-  'indoor-cat-enrichment-ideas-2026':      ['Enrichment', 'Play', 'Cats', 'Toys', 'Anxiety Relief'],
-  'why-cats-knock-things-over':            ['Play', 'Enrichment', 'Cats', 'Toys'],
-
-};
