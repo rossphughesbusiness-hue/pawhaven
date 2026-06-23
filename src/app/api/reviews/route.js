@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { getSeededReviews } from '@/lib/seeded-reviews';
 
 const REDIS_URL   = () => process.env.UPSTASH_REDIS_REST_URL;
 const REDIS_TOKEN = () => process.env.UPSTASH_REDIS_REST_TOKEN;
@@ -37,11 +38,20 @@ export async function GET(req) {
   const slug = searchParams.get('slug');
   if (!slug) return NextResponse.json({ error: 'slug required' }, { status: 400 });
 
-  if (!REDIS_URL() || !REDIS_TOKEN()) {
-    return NextResponse.json({ reviews: [] });
+  // User-submitted reviews from Redis (always shown first)
+  let userReviews = [];
+  if (REDIS_URL() && REDIS_TOKEN()) {
+    userReviews = await redisLRange(redisKey(slug), 0, 49);
   }
 
-  const reviews = await redisLRange(redisKey(slug), 0, 49);
+  // Seeded reviews shown after user reviews (as social proof baseline)
+  const seeded = getSeededReviews(slug);
+
+  // Deduplicate by timestamp to avoid showing seeded reviews that were also manually pushed
+  const userTs = new Set(userReviews.map((r) => r.ts));
+  const filteredSeeded = seeded.filter((r) => !userTs.has(r.ts));
+
+  const reviews = [...userReviews, ...filteredSeeded];
   return NextResponse.json({ reviews });
 }
 
