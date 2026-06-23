@@ -829,5 +829,24 @@ export async function POST(req) {
     }
   }
 
+  // ── Queue day-3 transit upsell email ──────────────────────────────────────
+  if (customerEmail) {
+    try {
+      const transitAt = Date.now() + 3 * 24 * 60 * 60 * 1000;
+      const purchasedSlugs = cartItems.map((it) => it.slug).filter(Boolean);
+      await redisSave(`transit_pending:${customerEmail.toLowerCase()}`, {
+        email: customerEmail,
+        customerName,
+        orderRef,
+        purchasedSlugs,
+        scheduledAt: transitAt,
+      }, 7 * 24 * 60 * 60); // 7-day TTL
+      await redisZAdd('transit_queue', transitAt, customerEmail.toLowerCase());
+      console.log(`[webhook] 🚚 Transit upsell queued for ${customerEmail}`);
+    } catch (err) {
+      console.error('[webhook] Transit upsell queue error:', err.message);
+    }
+  }
+
   return NextResponse.json({ received: true });
 }

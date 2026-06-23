@@ -48,16 +48,36 @@ export default function Footer() {
                 { href: '/bundles', label: 'Bundle Deals' },
                 { href: '/sale', label: '🔥 Flash Sale' },
                 { href: '/quiz', label: 'Find My Match ✨' },
-                { href: '/about', label: 'Our Story' },
-                { href: '/products?category=Dogs', label: 'Dog Accessories' },
-                { href: '/products?category=Cats', label: 'Cat Accessories' },
                 { href: '/blog', label: 'Pet Care Blog' },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-400 hover:text-brand-400 transition-colors duration-200"
-                  >
+                  <Link href={link.href} className="text-gray-400 hover:text-brand-400 transition-colors duration-200">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* By Pet */}
+          <div>
+            <h3 className="font-bold text-white mb-4 uppercase tracking-wider text-sm">
+              By Pet
+            </h3>
+            <ul className="space-y-3">
+              {[
+                { href: '/dogs', label: '🐶 All Dogs' },
+                { href: '/puppies', label: 'Puppies' },
+                { href: '/small-dogs', label: 'Small Dogs' },
+                { href: '/senior-dogs', label: 'Senior Dogs' },
+                { href: '/dog-training', label: 'Dog Training' },
+                { href: '/cats', label: '🐱 All Cats' },
+                { href: '/indoor-cats', label: 'Indoor Cats' },
+                { href: '/cat-enrichment', label: 'Cat Enrichment' },
+                { href: '/anxiety', label: 'Anxiety & Calm' },
+              ].map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-gray-400 hover:text-brand-400 transition-colors duration-200">
                     {link.label}
                   </Link>
                 </li>
