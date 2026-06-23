@@ -19,6 +19,7 @@ const DOG_LINKS = [
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & paw cleaners' },
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
+  { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Separation & noise anxiety' },
 ];
 
 const CAT_LINKS = [

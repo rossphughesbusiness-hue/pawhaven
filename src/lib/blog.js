@@ -3373,6 +3373,32 @@ Most kittens need less than you think in week one. Give them one enclosed bed in
 The instinct to bury waste is innate in cats. Litter training is almost entirely about correct setup, not teaching. Use an uncovered box with low sides, unscented clumping litter at 2-3 inches depth, placed in a quiet spot away from food. On arrival, carry your kitten to the box and let them sniff it. After each meal and nap for the first 3-5 days, place them in the box. Scoop daily — cats avoid dirty boxes. When accidents happen near the box, the box setup is wrong. When accidents happen in a consistent alternate spot, place a second box there and move it gradually. When accidents are random, see a vet — UTI and parasites present this way. Never punish; redirect to the box calmly. Litter training failures are almost always environment or health issues, not stubbornness.
     `,
   },
+  {
+    slug: 'separation-anxiety-in-dogs-complete-guide',
+    title: 'Separation Anxiety in Dogs: The Complete Guide (2026)',
+    excerpt: "How to tell if your dog has true separation anxiety vs. boredom, and the step-by-step behavioral protocol vets actually recommend.",
+    category: 'Dogs',
+    tag: 'Anxiety Relief',
+    date: '2026-06-23',
+    readTime: '12 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+Separation anxiety is a panic response to the absence of an attachment figure. The behavior starts within minutes of departure, escalates while the owner is gone, and involves genuine distress: panting, salivation, destruction focused on exit points (doors, windows), and house soiling that does not occur when the owner is present. Boredom-driven behavior is different -- it occurs at predictable high-energy times regardless of owner presence and responds well to enrichment alone. Diagnose by camera: leave for 30 minutes and watch the recording. True separation anxiety means the dog panics within 15-30 minutes and does not settle. The most effective treatment is systematic desensitization combined with counterconditioning. Start with 5-10 second absences. Increase gradually, always staying below the anxiety threshold. Pair departures with a frozen lick mat given only when you leave. Medication (fluoxetine) significantly accelerates this protocol for moderate to severe cases. Enrichment -- slow feeders, puzzle feeders, sniff walks -- reduces baseline arousal and makes behavioral work more effective.
+    \`,
+  },
+  {
+    slug: 'calming-products-for-dogs-what-works',
+    title: 'Calming Products for Dogs: What the Evidence Actually Says',
+    excerpt: "A breakdown of every popular calming product category — lick mats, supplements, pressure wraps, pheromones — and what the research shows about each.",
+    category: 'Dogs',
+    tag: 'Anxiety Relief',
+    date: '2026-06-24',
+    readTime: '10 min read',
+    img: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=800&q=85&auto=format&fit=crop',
+    content: `
+Strong evidence: Lick mats and food-dispensing toys reduce cortisol measurably -- repetitive licking stimulates the parasympathetic nervous system and triggers serotonin release. Puzzle feeders and enrichment lower baseline arousal and reduce stereotypic behavior. Behavioral modification protocols (systematic desensitization, counterconditioning) produce lasting change by altering the emotional response to triggers. Pharmaceutical interventions (fluoxetine, trazodone, gabapentin) have clinical trial data and FDA approval -- significantly more effective than OTC products for moderate to severe anxiety. Moderate evidence: Pressure wraps (Thundershirt) have consistent anecdotal support and small studies showing positive effects, particularly for noise phobia. DAP/Adaptil pheromone diffusers have a mixed but generally positive body of research for situational anxiety. Limited evidence: Calming supplements (L-theanine, melatonin, CBD) have inconsistent, methodologically weak evidence. Not harmful, may work for some dogs, should not replace evidence-based interventions. The most effective approach: mild anxiety -- lick mat at the stressor, enrichment as daily management. Moderate anxiety -- behavioral modification plus enrichment plus adjuncts. Severe anxiety -- behavioral modification plus pharmaceutical support from your vet.
+    \`,
+  },
 
 ];
 
@@ -3433,4 +3459,6 @@ const POST_RELEVANCE = {
   'signs-your-cat-is-aging-what-to-do':          ['Health', 'Cats', 'Comfort', 'Anxiety Relief'],
   'new-kitten-checklist-first-month':            ['Toys', 'Health', 'Enrichment', 'Cats', 'Comfort'],
   'how-to-litter-train-a-kitten':                ['Health', 'Cats', 'Anxiety Relief'],
+  'separation-anxiety-in-dogs-complete-guide':   ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'calming-products-for-dogs-what-works':        ['Anxiety Relief', 'Enrichment', 'Dogs'],
 };

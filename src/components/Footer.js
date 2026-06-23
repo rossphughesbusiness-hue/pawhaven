@@ -85,6 +85,7 @@ export default function Footer() {
                 { href: '/grooming', label: 'Grooming Tools' },
                 { href: '/travel', label: '✈️ Travel Gear' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },
+                { href: '/dog-anxiety', label: 'Dog Anxiety' },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-gray-400 hover:text-brand-400 transition-colors duration-200">

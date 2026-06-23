@@ -176,6 +176,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/dog-anxiety`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
