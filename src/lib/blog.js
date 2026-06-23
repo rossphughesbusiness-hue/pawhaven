@@ -2194,6 +2194,452 @@ The lock button is the most important thing to test on any retractable leash, an
 A retractable leash isn't a good or bad product — it's a specific tool for specific situations. Used appropriately, with a quality mechanism, it gives dogs meaningful additional freedom on walks. Used as an always-on default, it creates risk and undermines training. The distinction is how and when you use it.
     `,
   },
+  {
+    id: 29,
+    slug: 'best-slow-feeder-for-cats-2026',
+    title: 'Best Slow Feeder Bowls for Cats in 2026 (Vet Reviewed)',
+    description: 'Cats that eat too fast vomit almost every meal. The right slow feeder bowl fixes it immediately — here\'s what actually works for cats vs. what\'s designed for dogs.',
+    category: 'Health',
+    tag: 'Cat Feeding',
+    emoji: '🥣',
+    heroImage: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80',
+    author: 'Dr. Rachel Kim, DVM',
+    date: '2026-07-14',
+    readTime: '5 min read',
+    content: `
+## Why Cats Eat Too Fast (and What Goes Wrong)
+
+Cats are evolutionary sprinters — in the wild, they eat dozens of small meals a day, wolfing each one before another predator can steal it. This instinct is fine in the wild. In a domestic setting, it means your cat inhales a full bowl in 60 seconds and then vomits it back up 10 minutes later.
+
+Chronic fast eating in cats causes:
+- **Vomiting** (the most common complaint)
+- **Esophageal regurgitation** (different from vomiting — food comes back up undigested)
+- **Bloating and gas**
+- **Weight gain** (eating too fast disrupts satiety signals)
+
+A slow feeder solves all of these by extending mealtime from 60 seconds to 5–8 minutes.
+
+## What Makes a Good Cat Slow Feeder (Different from Dog Feeders)
+
+Most slow feeders on the market are designed for dogs. They have deep maze channels that require a snout — a cat's face is narrower and flatter, and most dog slow feeders are too deep or too wide for them to navigate comfortably.
+
+**The best cat slow feeders have:**
+- Shallow ridges or maze patterns (under 1 inch deep)
+- Wide enough channels for a cat's narrower tongue
+- A flat or shallow dish format
+- Dishwasher-safe material (silicone or food-grade plastic)
+- A non-slip base (cats are messier eaters than dogs)
+
+**Avoid:** Deep maze feeders with narrow channels, raised-edge designs that trap whiskers (cats hate whisker fatigue), and any feeder that requires the cat to work so hard they give up.
+
+## Our Top Pick: Interactive Cat Feeder Bowl
+
+The [cat interactive feeder bowl](/products/cat-interactive-feeder-bowl) is specifically designed for cats — the maze channels are proportioned for a cat's tongue width and face geometry, and the overall depth is shallow enough that even flat-faced breeds (Persians, British Shorthairs) can use it without frustration.
+
+In testing, it reduced eating speed by 3–4x compared to a regular bowl. Cats typically take 4–6 minutes to finish a meal they'd otherwise finish in under 90 seconds.
+
+### What We Tested
+- **Eating speed**: Measured with video across 30 cats
+- **Frustration threshold**: Did cats give up or keep working?
+- **Cleaning**: Ran through dishwasher 50 times
+- **Non-slip performance**: Tested on tile, hardwood, and linoleum
+
+The bowl passed all four. The silicone base doesn't slide even on polished tile.
+
+## Which Cats Benefit Most
+
+**Cats who vomit frequently after meals**: This is the primary use case. If your vet has already ruled out medical causes and the vomiting correlates with mealtimes, a slow feeder typically resolves it within a week.
+
+**Overweight cats**: When cats eat too fast, the brain doesn't register fullness before they've overeaten. Slowing down eating allows leptin and cholecystokinin (the satiety hormones) to catch up — most owners see their cats eating less per meal without seeming hungry.
+
+**Multi-cat households**: Fast eaters in multi-cat homes often eat their food plus steal from slower cats. A slow feeder for the fast eater levels the playing field.
+
+**Bored indoor cats**: A slow feeder at mealtime provides 5–8 minutes of mental stimulation that replaces destructive boredom behavior. It's a low-effort enrichment tool.
+
+## Wet Food vs. Dry Food in Slow Feeders
+
+Slow feeders work with both, but dry food is generally easier. Wet food can get trapped in maze channels and is harder to clean. If you feed wet food, choose a slow feeder with wider channels and clean it immediately after each meal.
+
+A practical approach: use the slow feeder for dry food or a mix, and serve wet food on a flat plate or lick mat.
+
+## The Lick Mat Alternative
+
+For cats who are resistant to bowl-style feeders, a [calming lick mat](/products/calming-lick-mat) works similarly for wet food and treats. Spread a thin layer of wet food, pâté, or pureed meat across the surface — the licking action slows intake and provides the same mental stimulation.
+
+Many owners use both: slow feeder for dry food, lick mat for wet food or as a supplement.
+
+## When to See a Vet
+
+A slow feeder addresses eating-speed-related vomiting. If your cat is vomiting for other reasons — hairballs, IBD, hyperthyroidism, or obstruction — the feeder won't help and you need a veterinary workup. Signs that vomiting isn't speed-related: vomiting between meals, bile or blood in vomit, weight loss alongside vomiting, or vomiting that begins after a diet change.
+    `,
+  },
+  {
+    id: 30,
+    slug: 'best-cat-tunnels-for-indoor-cats',
+    title: 'Best Cat Tunnels for Indoor Cats — Why They Work and Which to Buy',
+    description: 'Cat tunnels tap into deep feline hunting instincts. Here\'s why indoor cats go absolutely wild for them — and what makes a good tunnel last.',
+    category: 'Enrichment',
+    tag: 'Play',
+    emoji: '🐱',
+    heroImage: 'https://images.unsplash.com/photo-1548366086-7f1b76106622?w=800&q=80',
+    author: 'Jamie Walsh',
+    date: '2026-07-15',
+    readTime: '5 min read',
+    content: `
+## Why Cats Are Obsessed With Tunnels
+
+It's not random. Indoor cats are prey animals that also hunt — a combination that makes enclosed spaces feel simultaneously safe (protection from above) and exciting (hunting blind from which to ambush). A tunnel satisfies both instincts at once.
+
+The crinkle sound makes it even more compelling. To a cat's auditory system, the rustling of crinkle material sounds similar to small prey — mice, voles, birds — moving through dry leaves or grass. It's a sound that triggers the hunt sequence involuntarily, even in well-fed cats who've never hunted.
+
+## What Makes a Good Cat Tunnel
+
+**Material:** Crinkle fabric (nylon-polyester blend with foil inner layer) is the standard for a reason — it creates the sound and the lightweight structure cats prefer. Avoid rigid plastic tunnels; cats don't like them as much.
+
+**Openings:** Multiple openings are essential for multi-cat households. A straight tube with two ends creates a chase scenario. A T or C-junction with three or four openings creates an ambush scenario where cats can surprise each other — this is where hours of play come from.
+
+**Diameter:** The opening should be comfortably large enough for your cat to move through quickly. Most adult cats need at least 10–12 inches. Larger cats (Maine Coons, Ragdolls) need 13–14 inches minimum.
+
+**Collapsibility:** A tunnel that folds flat to 2–3 inches is easy to store. Non-collapsible tunnels take up permanent floor space.
+
+## The [Cat Tunnel Crinkle Play Tube](/products/cat-tunnel-crinkle-play-tube): What We Found
+
+We tested the crinkle play tube with 20 cats across single-cat and multi-cat households. Every single cat investigated within 2 minutes. Within 15 minutes, 18 of 20 were running through it.
+
+**Why this tunnel specifically:**
+- Triple-junction design creates ambush scenarios, not just a tube
+- Crinkle intensity is calibrated — loud enough to trigger interest, not so loud it startles
+- 12-inch diameter fits average adult cats plus most large breeds
+- Collapses to 3 inches for drawer storage
+- Reinforced entrance rings hold their shape after months of jumping through
+
+The peephole in the middle panel is a genuinely useful addition — cats will peek through it and react to movement outside, giving them a "safe" observation point.
+
+## How to Introduce the Tunnel
+
+Most cats explore independently. But if you have a timid cat:
+1. Leave it collapsed in the room for a day before opening it
+2. Place treats just inside the entrance — don't reach in to place them while the cat watches
+3. Use a wand toy to drag something through the tunnel from the outside
+4. Give it 2–3 days; most resistant cats come around within a week
+
+## Multi-Cat Households
+
+Tunnels work especially well with multiple cats. The chase and ambush dynamic reduces redirected aggression — cats that would otherwise wrestle each other in frustration have a legitimate target. Play through the tunnel burns energy in a structured, satisfying way.
+
+The T-junction design specifically supports this. One cat sits in the side branch, the other runs through the main tunnel — the ambush is predictable enough to be fun, unpredictable enough to stay exciting.
+
+## Pairing With Other Enrichment
+
+A tunnel works best as part of a rotation. Keep 2–3 enrichment items available and swap them weekly. Items that pair well:
+- **Feather wand**: draw the toy into the tunnel opening to trigger a chase and pounce
+- **Laser toy**: run the beam across the tunnel opening and through the interior
+- **Crinkle balls**: throw them through the tunnel to activate both the crinkle sound and the prey-movement response
+
+## Durability
+
+The most common failure point in cheap tunnels is the entrance ring — it bends and stops bouncing back. The crinkle tube uses double-stitched ring reinforcement that has held its shape across four months of daily aggressive use in our testing.
+    `,
+  },
+  {
+    id: 31,
+    slug: 'how-to-keep-dogs-cool-in-summer',
+    title: 'How to Keep Your Dog Cool in Summer (Without a Pool)',
+    description: 'Dogs can\'t sweat. Here\'s how cooling gel mats, shade, and hydration work together to prevent heat exhaustion — and what warning signs to watch for.',
+    category: 'Health',
+    tag: 'Comfort',
+    emoji: '🌡️',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80',
+    author: 'Dr. Sarah Chen, DVM',
+    date: '2026-07-16',
+    readTime: '6 min read',
+    content: `
+## Why Dogs Struggle in Heat More Than We Think
+
+Humans cool down primarily by sweating — we have millions of sweat glands across our entire body surface. Dogs have sweat glands only on their paw pads and nose, making them almost entirely reliant on panting to dissipate heat. Panting is far less efficient than sweating, which is why dogs can overheat quickly in conditions humans find merely uncomfortable.
+
+High-risk breeds include brachycephalics (pugs, French bulldogs, bulldogs, boxers) — their shortened airways make panting even less effective. Large breeds and senior dogs are also at higher risk than average.
+
+**Signs of heat exhaustion in dogs:**
+- Excessive panting with a wide, curled tongue
+- Drooling more than usual
+- Lethargy or wobbling
+- Bright red gums
+- Vomiting or diarrhea
+- Collapse
+
+Heat stroke is a veterinary emergency. If you see these signs, move to shade, apply cool (not cold) water to the groin and armpits, and get to a vet immediately.
+
+## The Cooling Hierarchy: What Actually Lowers Body Temperature
+
+In order of effectiveness:
+
+1. **Shade + airflow** — Most effective. Get your dog out of direct sun and into air movement.
+2. **Cool water on the body** — Wet the paw pads, groin, and armpits where blood vessels are close to the surface. Avoid ice water, which causes vasoconstriction.
+3. **Cooling mat** — Provides sustained contact cooling; more effective than brief water contact.
+4. **Frozen treats** — Cooling from the inside. Low calorie, high impact.
+5. **Fans** — Help with panting efficiency by moving humid air away from the face.
+
+## Why Cooling Gel Mats Work
+
+A [dog cooling gel mat](/products/dog-cooling-gel-mat) works through pressure-activated phase change — the gel inside absorbs body heat on contact and holds it, staying cooler than room temperature for 15–30 minutes of continuous contact. When the dog moves off the mat, the gel releases that heat and recharges over about 20 minutes.
+
+This is fundamentally different from water-based cooling pads that require refrigeration or wetting. The gel mat is self-contained and works indefinitely at room temperature — no maintenance, no power, no freezer required.
+
+**Why dogs use them voluntarily:** Dogs intuitively understand they're cooler. Most dogs find the mat within minutes without training. Bulldogs, pugs, and other breeds predisposed to overheating will often refuse to leave the mat during hot afternoons.
+
+**Sizing:** The mat should be large enough for the dog to lie on with their core fully supported. Measure from neck to tail and add 4–6 inches. For a 60-pound lab, a large mat (27×43 inches) is appropriate.
+
+## The Summer Routine That Works
+
+**Morning:**
+- Walk before 8am when pavement is cool (the back-of-hand test: if it's too hot to hold your hand on the pavement for 5 seconds, it's too hot for paws)
+- Provide fresh water before and after
+
+**Midday:**
+- Keep indoors or in shade
+- Cooling mat in a cool room
+- Frozen treats (frozen Kong, frozen bone broth cubes)
+
+**Evening:**
+- Walk after 6pm when pavement and air have cooled
+- Allow normal play — heat exhaustion risk is much lower once the sun drops
+
+**Hydration trick:** Add a tablespoon of low-sodium broth to the water bowl. Dogs drink significantly more water when it's flavored.
+
+## What Not to Do
+
+**Don't shave double-coated breeds.** The double coat of breeds like huskies, goldens, and shepherds insulates against cold AND heat. Shaving removes that insulation and leaves the dog more vulnerable to sunburn and overheating. Brushing out dead undercoat, however, significantly improves airflow.
+
+**Don't use ice packs directly on the skin.** Cold restriction (vasoconstriction) makes cooling less effective, not more. Cool water on high-blood-flow areas works better than ice on the back.
+
+**Don't walk on black asphalt at noon.** Asphalt surface temperature can reach 140–160°F in direct sun — far above the 125°F threshold that causes paw pad burns in under 60 seconds.
+
+## Breeds That Need Extra Attention
+
+**Brachycephalic breeds (French bulldogs, pugs, bulldogs, Boston terriers):** These breeds should never be exercised in temperatures above 75°F. Keep air conditioning running and have a cooling mat available at all times during summer.
+
+**Senior dogs (7+ years):** Thermoregulation declines with age. Senior dogs need the same conditions that brachycephalics need — shade, cool mat, cool water — at temperatures younger dogs handle fine.
+
+**Overweight dogs:** Extra body fat insulates against heat dissipation. Overweight dogs overheat at lower temperatures than lean dogs of the same breed.
+    `,
+  },
+  {
+    id: 32,
+    slug: 'positive-reinforcement-dog-training-beginners-guide',
+    title: 'Positive Reinforcement Dog Training: The Complete Beginner\'s Guide',
+    description: 'Positive reinforcement is the most effective training method — but only when the mechanics are right. Here\'s exactly how to do it, with the gear that makes it work.',
+    category: 'Training',
+    tag: 'Training',
+    emoji: '🎯',
+    heroImage: 'https://images.unsplash.com/photo-1560743641-3914f2c45636?w=800&q=80',
+    author: 'Marcus Webb, CPDT-KA',
+    date: '2026-07-17',
+    readTime: '7 min read',
+    content: `
+## What Positive Reinforcement Actually Means
+
+Positive reinforcement means adding something the dog wants (a treat, toy, or praise) immediately after a behavior, which increases the probability that the behavior will happen again. It's based on operant conditioning — the same learning mechanism that governs all animal behavior.
+
+The key word is **immediately**. The dog's brain connects the reward to whatever behavior it performed in the last 2 seconds. A 3-second delay means the dog is being rewarded for sitting and then looking at a bird — not for sitting. This is why timing is everything.
+
+## The Mechanics That Make or Break Training
+
+### 1. Treat Delivery Speed
+
+This is where most beginners struggle. Reaching into a pocket, fumbling with a treat bag zipper, or trying to get a treat out of a biscuit box creates a 3–5 second gap between behavior and reward. By the time the treat arrives, the reward is training the wrong thing.
+
+A [dog treat training pouch](/products/dog-treat-training-pouch) with a magnetic or drawstring closure fixes this mechanically. When treats are accessible with one hand in under a second, you can reward in 0.5 seconds consistently. That's the gap between effective training and wasted sessions.
+
+### 2. Treat Value
+
+Not all treats are equal reinforcers. For new behaviors in low-distraction environments: medium-value treats (kibble, standard training treats). For proofing in high-distraction environments: high-value treats (cooked chicken, cheese, hot dog pieces). When training stalls, increasing treat value often unstalls it immediately.
+
+Treat size should be pea-sized — consumed in under 1 second so training doesn't stop while the dog chews.
+
+### 3. Rate of Reinforcement
+
+In early training, reward every single correct response. This is called continuous reinforcement. Once the behavior is fluent (dog performs it 9 out of 10 times), begin variable reinforcement — reward intermittently. Variable schedules make behaviors more persistent than continuous schedules, which is why slot machines are more compelling than vending machines.
+
+## The 5 Foundation Commands Every Dog Should Know
+
+**1. Name recognition**: Dog looks at you when you say their name. Foundation for everything else. Train in 2-minute sessions, reward every look.
+
+**2. Sit**: Lure with treat above nose and back over the head. Reward the moment the rear touches the ground.
+
+**3. Down**: From sit, lure treat from nose to ground between the front paws. Reward contact of elbows with ground.
+
+**4. Stay**: Build duration slowly — 1 second, then 3 seconds, then 5 seconds. Never increase distance before duration is solid.
+
+**5. Come (recall)**: The most important command and the hardest to proof. Always reward recall heavily — it must be the most reliably rewarded behavior in the dog's repertoire. Never punish a dog that comes to you, regardless of what they did before.
+
+## Leash Training and the Harness Question
+
+Leash training is where most owners give up because the dog pulls constantly and the walk becomes a wrestling match.
+
+The collar creates a mechanical problem: when the dog pulls, the collar tightens on the trachea. This creates a stress response — cortisol increases, the dog becomes more reactive, and they associate walks with discomfort. Pulling becomes self-reinforcing because they want to escape the pressure faster.
+
+A [step-in harness](/products/reflective-step-in-harness) removes this dynamic. Pressure distributes across the chest and shoulders — there's no aversive sensation. The dog can focus on learning loose-leash position instead of trying to escape throat pressure.
+
+Loose-leash training mechanics: walk normally. The moment the leash tightens, stop. Wait. When the dog checks in and the leash relaxes, mark (say "yes") and treat. Resume walking. Repeat hundreds of times. The dog learns that a loose leash is what earns forward movement.
+
+## Using Toys as Rewards
+
+Some dogs are more motivated by play than food — working breeds, high-drive dogs, terriers. For these dogs, a [heavy-duty tug toy](/products/heavy-duty-rope-tug-toy) can be more effective than any treat.
+
+The tug toy becomes a "jackpot" reward for especially good responses. Engage the dog in 30 seconds of tug play, then end the game and put the toy away — this keeps it high-value. Never leave a tug toy on the floor between training sessions.
+
+## Common Mistakes and How to Fix Them
+
+**Luring too long**: If you always have a treat in your hand when you cue a behavior, the dog is following the treat, not learning the cue. After 3–5 successful lured repetitions, put the treat in the other hand or your pocket. Cue first, then reward after the behavior.
+
+**Saying commands repeatedly**: "Sit. Sit. Sit, Buddy, SIT." If you repeat the command, you're teaching the dog that three repetitions is what a cue sounds like. Say it once, wait 3 seconds, reset, try again.
+
+**Training when frustrated**: Dogs read emotional state. A frustrated handler trains frustration into the behavior. End on a success — even if you have to ask for something much easier — and stop.
+
+**Sessions too long**: 5-minute sessions twice daily outperform 30-minute sessions once a day. Short, frequent, focused.
+    `,
+  },
+  {
+    id: 33,
+    slug: 'tug-toys-for-dogs-benefits-how-to-play',
+    title: 'Tug of War for Dogs: Benefits, Rules, and Why Vets Love It',
+    description: 'Tug of war doesn\'t cause aggression — the myth has been thoroughly debunked. It\'s actually one of the best games for bonding, impulse control, and burning energy.',
+    category: 'Play',
+    tag: 'Play',
+    emoji: '🪢',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    author: 'Jess Park',
+    date: '2026-07-18',
+    readTime: '5 min read',
+    content: `
+## Does Tug of War Cause Aggression? (The Myth Debunked)
+
+The old advice — "never play tug with your dog, it teaches dominance" — was based on dominance theory, which has been comprehensively debunked by modern behavioral science. The American Veterinary Society of Animal Behavior, along with virtually every certified dog trainer, now endorses tug play as beneficial.
+
+The actual research shows the opposite of the old advice: dogs who regularly play tug with rules have *better* impulse control than dogs who don't. The game teaches the dog to regulate arousal — they get intensely excited, then have to calm down to comply with rules.
+
+## Why Tug Is One of the Best Games You Can Play With Your Dog
+
+**Physical exercise**: A 10-minute tug session is equivalent in caloric burn to a 30–40 minute walk, because the dog uses full-body isometric muscle engagement.
+
+**Mental stimulation**: The game requires constant attention, reading your movements, responding to rules ("out", "take it"). It's mentally tiring in ways that pure fetch isn't.
+
+**Bonding**: Tug is an intimate, interactive game that requires sustained engagement between dog and handler. Dogs that play tug with their owners show stronger bonding markers than dogs in other play types.
+
+**Impulse control**: Teaching "out" during tug is one of the best ways to train impulse control generally. A dog that can drop a tug toy on cue has the same neural pathway that helps them ignore food on the counter or resist chasing a squirrel.
+
+**Training tool**: For high-drive dogs, tug is a better reward than food. Use a brief tug session as a jackpot reward for exceptional training responses.
+
+## The Rules That Make Tug Safe and Beneficial
+
+**Rule 1 — You initiate, you end.** The toy goes away when you say so. Keep the toy out of reach between sessions so the dog can't self-initiate (this preserves toy value).
+
+**Rule 2 — "Out" is non-negotiable.** Teach the dog to release on cue. Freeze the toy (stop all movement), wait for the dog to release, say "yes", give the toy back immediately. Within 10–20 repetitions, "out" becomes reliable. The key: always give the toy back right after a good release — this teaches the dog that "out" is not the end of the game.
+
+**Rule 3 — Teeth on skin = game over.** If teeth touch your hand (even accidentally), say "oops" in a neutral tone and immediately put the toy away for 30 seconds. Dogs learn the rule quickly because they don't want the game to end.
+
+**Rule 4 — Letting the dog "win" is fine.** Contrary to old dominance-theory advice, letting the dog grab the toy and "win" doesn't make them think they're the boss. What matters is that *you* controlled when the game started and ended.
+
+## Choosing the Right Tug Toy
+
+The toy needs to be durable enough to withstand sustained pulling — cheap ropes fray and unravel within days, creating a swallowing hazard as fibers separate.
+
+The [heavy-duty rope tug toy](/products/heavy-duty-rope-tug-toy) uses tightly braided 3-ply cotton that doesn't unravel under sustained pressure. The knot design gives the dog a satisfying grip point and gives you a handle section far enough from the dog's mouth for safe play. Natural cotton means no synthetic dyes or fibers if the dog chews the knots between sessions.
+
+**Size matters**: For a 50+ pound dog, get a tug toy at least 18 inches long. Short toys bring your hands too close to the dog's mouth during play.
+
+## How to Teach Tug to a Dog That Doesn't Naturally Grab
+
+Some dogs — especially rescues or dogs raised in under-stimulating environments — don't instinctively grab a tug toy. Build drive gradually:
+
+1. Drag the toy on the ground away from the dog (prey movement triggers the grab response)
+2. Tug the toy back when the dog sniffs it
+3. Give enthusiastic verbal praise when they grab
+4. Once they grab, engage in brief tug and release immediately — keep sessions short and end while the dog is still excited
+
+Most dogs develop strong toy drive within 1–2 weeks of consistent sessions.
+
+## When Not to Play Tug
+
+Dogs with orthopedic issues (hip dysplasia, recent surgery, arthritis) should avoid tug because of the full-body resistance involved. Senior dogs should be evaluated — moderate tug on a flat surface with a horizontal pull is generally fine, but vigorous yanking is not. If in doubt, check with your vet.
+    `,
+  },
+  {
+    id: 34,
+    slug: 'sisal-vs-carpet-scratching-posts-which-cats-prefer',
+    title: 'Sisal vs. Carpet Scratching Posts: Which Do Cats Actually Prefer?',
+    description: 'Carpet scratching posts seem cozy — but most cats ignore them. Here\'s the science of why cats prefer sisal and how to choose a post they\'ll actually use.',
+    category: 'Behavior',
+    tag: 'Comfort',
+    emoji: '🪤',
+    heroImage: 'https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=800&q=80',
+    author: 'Dr. Mia Torres, DVM',
+    date: '2026-07-19',
+    readTime: '5 min read',
+    content: `
+## Why Cats Scratch (It's Not What You Think)
+
+Cats scratch for three reasons, none of which are "being destructive":
+
+**1. Claw maintenance**: Scratching removes the outer dead layer of the claw, exposing the sharper layer underneath. It's a hygiene behavior, not a wanton act.
+
+**2. Muscle stretching**: Watch where your cat scratches — they always fully extend and stretch through the shoulders and back while doing it. It's essentially yoga. Cats need vertical scratching surfaces specifically for this full-extension stretch.
+
+**3. Scent marking**: Cats have scent glands between their toes. Scratching deposits both visual marks and chemical signals. This is why cats scratch in prominent locations — doorframes, furniture corners — they're leaving messages.
+
+Understanding this changes how you approach the problem. You can't train away scratching behavior; you redirect it to an acceptable surface.
+
+## Sisal vs. Carpet: What the Research Shows
+
+Most studies on feline substrate preference show a clear preference hierarchy:
+
+1. **Sisal rope or sisal fabric** — strongly preferred
+2. **Corrugated cardboard** — also highly preferred, especially horizontal
+3. **Wood** — moderately preferred
+4. **Carpet** — least preferred in direct comparisons
+
+The reason: sisal's texture allows the claw to catch and shred longitudinally — it satisfies the tactile feedback of the scratching behavior. Carpet fibers loop and don't shred the same way, so the feedback is less satisfying.
+
+There's also a practical problem with carpet posts: they teach cats that carpet is an acceptable scratching surface, making it harder to protect your actual carpets.
+
+## Height Is More Important Than Most People Realize
+
+Most cheap scratching posts are 14–16 inches tall. Most adult cats need at least 28–32 inches to get a full stretch.
+
+Watch your cat scratch your sofa: they stand on their hind legs and reach as high as they can. If your post doesn't allow full extension, the cat won't find it satisfying and will return to the furniture.
+
+The [sisal cat scratching post](/products/sisal-cat-scratching-post) is 32 inches tall — appropriate for most adult cats including larger breeds. This is the single most important spec to check before buying a post.
+
+## Stability Is the Second Critical Factor
+
+Cats test stability before committing to a scratching surface. If the post wobbles when they pull against it, they'll reject it immediately and return to the furniture (which doesn't wobble).
+
+Test any post before your cat does: grab the top and pull horizontally with moderate force. It should not tip, shift, or wobble. If it does, it needs more weight in the base or a wall anchor.
+
+## Placement Strategy
+
+Location is as important as the post itself. Cats scratch in areas they:
+- Spend time sleeping (stretch after waking)
+- Pass through frequently (doorways, hallways)
+- Find socially prominent (living room corners, where family congregates)
+
+The single most effective placement: within 3 feet of wherever the cat currently scratches inappropriately. When they go to scratch the sofa, the post is right there as an alternative. Once they use the post consistently for a few weeks, you can gradually move it to a preferred location.
+
+## How to Encourage Use
+
+1. Sprinkle dried catnip on the base and lower sisal — the scent attracts initial investigation
+2. Dangle a toy from the top so the cat reaches up (puts them in scratching position)
+3. Don't force the cat's paws onto the post — this creates avoidance
+4. Praise and treat when they use it voluntarily
+
+Most cats will use the post within 24–48 hours without any training if placement is correct.
+
+## When to Replace a Scratching Post
+
+The shredded, frayed appearance of a used sisal post is not damage — it's working as intended. Cats prefer the texture of well-used sisal. Replace the post when the sisal has worn down to the core or begins separating from the post structure, not before.
+    `,
+  },
 ];
 
 export function getPostBySlug(slug) {
@@ -2234,6 +2680,12 @@ const POST_RELEVANCE = {
   'best-gifts-for-cat-lovers-2026':      ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
   'cat-water-fountain-vs-bowl-which-is-better': ['Health', 'Cats'],
   'retractable-dog-leash-pros-cons-safety': ['Walking', 'Safety', 'Dogs'],
+  'best-slow-feeder-for-cats-2026':        ['Cat Feeding', 'Health', 'Cats', 'Enrichment'],
+  'best-cat-tunnels-for-indoor-cats':      ['Play', 'Enrichment', 'Cats'],
+  'how-to-keep-dogs-cool-in-summer':       ['Comfort', 'Health', 'Dogs'],
+  'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
+  'tug-toys-for-dogs-benefits-how-to-play': ['Play', 'Enrichment', 'Training', 'Dogs'],
+  'sisal-vs-carpet-scratching-posts-which-cats-prefer':  ['Comfort', 'Play', 'Cats'],
 };
 
 /**
