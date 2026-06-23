@@ -25,6 +25,7 @@ const CAT_LINKS = [
   { href: '/indoor-cats', label: '🏠 Indoor Cats', desc: 'Essential indoor kit' },
   { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Toys & mental stimulation' },
   { href: '/cat-toys', label: '🧶 Cat Toys', desc: 'Wands, lasers & tunnels' },
+  { href: '/cat-beds', label: '😴 Cat Beds', desc: 'Caves, perches & hideaways' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
 ];

@@ -152,6 +152,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/cat-beds`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
