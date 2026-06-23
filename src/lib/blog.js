@@ -2829,6 +2829,237 @@ You shouldn't need professional grooming for coat maintenance if you brush regul
 The three tools above cover 90% of what most dog owners need between visits.
     \`,
   },
+  {
+    slug: 'dog-bed-buying-guide-2026',
+    title: 'Dog Bed Buying Guide 2026: How to Choose the Right Bed for Your Dog',
+    excerpt: 'Memory foam, cooling gel, bolster, or elevated — here\'s exactly which dog bed type suits your dog\'s age, size, and sleep style.',
+    category: 'Dogs',
+    tag: 'Comfort',
+    date: '2026-06-10',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=800&q=85&auto=format&fit=crop',
+    content: `
+# Dog Bed Buying Guide 2026: How to Choose the Right Bed for Your Dog
+
+The average dog sleeps 12–14 hours a day. That means the bed you choose matters more than almost anything else in your dog's environment. Yet most dog owners pick a bed based on looks or price — and end up replacing it within months.
+
+This guide covers every bed type, how to size correctly, and what to prioritize at each life stage.
+
+## The 4 Main Dog Bed Types
+
+### 1. Orthopedic Memory Foam
+**Best for:** Senior dogs, large breeds, dogs recovering from surgery, dogs with arthritis or hip dysplasia.
+
+Memory foam distributes body weight evenly, eliminating pressure points on hips, elbows, and knees. Look for beds with at least 3–4 inches of foam — anything thinner compresses under a large dog's weight and loses its therapeutic benefit.
+
+The Orthopedic Memory Foam Dog Bed uses 4" high-density foam with a waterproof liner. The low-profile design (6" tall) makes it easy for senior dogs with mobility issues to get on and off.
+
+### 2. Cooling Gel Mat
+**Best for:** Hot climates, summer months, flat-faced breeds (bulldogs, pugs, French bulldogs), dogs that run warm.
+
+Cooling mats use pressure-activated gel that absorbs body heat on contact — no electricity or water required. They recharge automatically when not in use (usually 15–30 minutes between sessions).
+
+The Dog Cooling Gel Mat works immediately on contact and covers enough surface area for dogs up to 90 lbs. Bulldogs and other brachycephalic breeds that struggle to self-regulate temperature benefit most.
+
+### 3. Bolster / Donut Bed
+**Best for:** Puppies, anxious dogs, dogs that like to curl up or press against something.
+
+Raised sides give dogs a sense of security — particularly helpful for dogs with separation anxiety. The enclosed shape also holds warmth well, making these beds ideal in cool environments.
+
+### 4. Elevated / Cot Bed
+**Best for:** Outdoor use, hot climates, dogs that overheat, dogs prone to joint issues who need airflow.
+
+Raised off the ground with a mesh or fabric surface, elevated beds allow air to circulate underneath — keeping dogs significantly cooler than floor-level beds. They're also easy to clean and more resistant to dirt and odors.
+
+## Dog Bed Size Guide
+
+Match bed size to your dog's stretched-out length (nose to base of tail), plus 8–12 inches.
+
+| Size | Weight | Typical Breeds | Recommended Dimensions |
+|------|--------|----------------|----------------------|
+| Small | Up to 25 lbs | Chihuahua, Poodle, Shih Tzu | 24" × 18" |
+| Medium | 25–50 lbs | Beagle, Cocker Spaniel, Border Collie | 36" × 24" |
+| Large | 50–90 lbs | Lab, Husky, Golden Retriever | 42" × 28" |
+| XL | 90+ lbs | Great Dane, Mastiff, Saint Bernard | 54" × 36" |
+
+When in doubt, size up. Dogs are never unhappy with more space.
+
+## Choosing by Life Stage
+
+**Puppies (0–1 year):** Bolster or donut beds work best — they satisfy the burrowing instinct and provide warmth. Avoid expensive orthopedic beds at this stage; puppies chew, have accidents, and grow quickly. Wait until growth is complete.
+
+**Adult dogs (1–7 years):** Most adult dogs are happy with a quality bolster or flat cushion bed. If your dog is a large breed or shows any signs of joint discomfort during movement, move to orthopedic foam early.
+
+**Senior dogs (7+ years):** Orthopedic memory foam is non-negotiable. Joint wear is cumulative — dogs that sleep on poor support show faster deterioration. Look for low entry height, waterproof liner (accidents become more common with age), and washable covers.
+
+## What to Look for on the Label
+
+- **Foam density:** At least 2–3 lb/ft³ for meaningful support. Lower density foam compresses quickly.
+- **Waterproof liner:** Protects foam from accidents and moisture. Machine-washable cover is a must.
+- **Non-slip bottom:** Prevents the bed from sliding on hard floors — important for senior dogs who may stumble on loose surfaces.
+- **CertiPUR-US certified foam:** Verified free from harmful chemicals including formaldehyde and heavy metals.
+
+## How to Get Your Dog to Use Their New Bed
+
+1. Place the bed where your dog already sleeps or rests
+2. Add a worn item of your clothing to make it smell familiar
+3. Reward your dog with treats for approaching, sniffing, and eventually lying on the bed
+4. Don't force it — let curiosity do the work
+
+Most dogs accept a new bed within 3–7 days. Dogs that have slept on the floor their whole lives may take 2–3 weeks.
+    \`,
+  },
+  {
+    slug: 'enrichment-for-bored-dogs-at-home',
+    title: 'Dog Enrichment at Home: 8 Ways to Tire Out a Bored Dog Without Leaving the House',
+    excerpt: 'Mental stimulation can tire a dog as much as physical exercise. Here are 8 enrichment activities — most using toys you already have or can get today.',
+    category: 'Dogs',
+    tag: 'Enrichment',
+    date: '2026-06-12',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+# Dog Enrichment at Home: 8 Ways to Tire Out a Bored Dog Without Leaving the House
+
+A dog that chews furniture, barks excessively, or paces restlessly isn\'t necessarily under-exercised — it may be under-stimulated. Mental enrichment activates problem-solving and sensory processing in ways that physical exercise alone can\'t match.
+
+Research suggests that 15 minutes of mental enrichment (like a puzzle feeder) produces the same tiredness as a 30-minute walk. For rainy days, recovery periods, or high-energy breeds, enrichment is essential — not optional.
+
+## 1. Puzzle Feeders
+
+Replace your dog\'s regular bowl with a puzzle feeder for every meal. The IQ Puzzle Feeder Toy has two difficulty settings — Level 1 for beginners, Level 2 for dogs that have mastered it. Dogs that wolf down their food in under 30 seconds will spend 10–15 minutes on a good puzzle.
+
+The benefits are twofold: it slows eating (reducing bloat risk) and engages problem-solving circuits that leave dogs calmer and more satisfied afterward.
+
+## 2. Lick Mats
+
+Lick mats are deceptively simple but neurologically powerful. Repetitive licking activates the parasympathetic nervous system — the same mechanism that makes stroking calming. Spread peanut butter, plain yogurt, or wet food and freeze overnight for a 20–30 minute activity.
+
+The Calming Lick Mat works particularly well for dogs with separation anxiety or noise sensitivity (thunderstorms, fireworks). Give it to your dog before leaving the house or before a stressful event.
+
+## 3. Tug-of-War Sessions
+
+Tug is one of the most effective ways to tire out a high-energy dog in a small space. Contrary to old advice, tug doesn\'t create dominance or aggression — it builds trust and satisfaction when played with rules (you control start and stop).
+
+Use a rope toy with enough length to keep hands away from teeth. The Heavy-Duty Rope Tug Toy has tight-woven cotton that survives power chewers. 5–10 minutes of tug burns more energy than you\'d expect.
+
+## 4. Scatter Feeding
+
+Instead of a bowl, scatter your dog\'s dry kibble across the lawn or a textured mat and let them forage. Sniffing activates the olfactory system so intensely that dogs are often ready for a nap after 10 minutes of scatter feeding. Use 10–20% of a meal at a time.
+
+## 5. Teach a New Trick
+
+Learning new commands engages working memory and creates a focus point for restless energy. Break each skill into micro-steps — "shake" becomes: (1) offer treat in closed fist, (2) reward any paw movement, (3) lure paw onto hand, (4) add verbal cue. 5–10 minutes of training per session is plenty.
+
+## 6. Indoor Obstacle Course
+
+Arrange furniture, pillows, and boxes into a simple course: under the table, around the chair, over the cushion. Guide your dog through with a treat lure, then gradually fade the lure. Dogs enjoy the novelty and problem-solving of novel navigation.
+
+## 7. The Muffin Tin Game
+
+Put treats in some cups of a muffin tin and cover all cups with tennis balls. Your dog has to figure out which balls to remove to find the treats. You can increase difficulty by using more balls or smaller treats. Free and effective.
+
+## 8. Chew Sessions
+
+Chewing is inherently calming — it releases endorphins. A 20-minute supervised chew session on an appropriate item (bully stick, raw bone, or tough rope toy) satisfies gnawing instinct and produces a measurably calmer dog afterward.
+
+## Building an Enrichment Routine
+
+The most effective enrichment is predictable. Dogs benefit from knowing what\'s coming:
+
+- **Morning:** Scatter feed breakfast instead of bowl feeding
+- **Midday:** 10-minute puzzle session or lick mat
+- **Evening:** Tug session followed by a chew
+
+This 3-session rhythm satisfies most dogs without adding significant time to your day.
+    \`,
+  },
+  {
+    slug: 'first-time-cat-owner-complete-guide',
+    title: 'First-Time Cat Owner Guide: Everything You Need in the First 30 Days',
+    excerpt: 'Bringing home your first cat? Here\'s exactly what to buy, what to expect, and how to set your cat up for a happy, healthy life from day one.',
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-14',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+# First-Time Cat Owner Guide: Everything You Need in the First 30 Days
+
+Cats are often described as low-maintenance pets, but that framing undersells what they actually need — and sets new owners up for confusion when problems emerge. Cats are independent, not effortless.
+
+This guide covers what to buy before your cat arrives, what the first week looks like, and how to build routines that prevent the most common behavior problems.
+
+## Before Your Cat Arrives: The Essential Setup
+
+### Water Source
+Cats are descended from desert animals with a naturally low thirst drive — which means they chronically under-drink from still water bowls. Over a lifetime, this contributes to urinary tract issues and kidney disease, the leading cause of death in domestic cats.
+
+A cat water fountain solves this by mimicking running water, which cats are instinctively attracted to. The Silent Cat Water Fountain filters water continuously and holds enough for multiple cats. Cats that ignored their bowl for years often drink eagerly from a fountain within hours of introduction.
+
+### Feeding Setup
+Cats in the wild eat 10–15 small meals per day. Free-feeding dry food mimics this but causes obesity in many cats. Measured portions 2–3 times daily is the standard vet recommendation. For fast eaters prone to vomiting, a cat interactive feeder bowl slows eating to a healthy pace.
+
+### Litter Box
+Rule of thumb: one box per cat, plus one extra. Place in quiet, accessible locations — not next to the food or in high-traffic areas. Unscented, clumping litter is preferred by most cats. Scoop daily; completely change litter every 1–2 weeks.
+
+### Scratching Post
+Cats scratch to maintain their claws, mark territory, and stretch. Without an appropriate outlet, your furniture becomes the target. A sisal scratching post placed near where your cat already spends time is the most effective solution. The Sisal Cat Scratching Post is tall enough for a full body stretch, which is the key feature most cheap posts lack.
+
+### Toys and Enrichment
+Indoor cats need daily stimulation to stay physically and mentally healthy. At minimum:
+- **One wand toy** for interactive play sessions (Feather Wand Cat Teaser)
+- **One independent toy** they can use when you\'re not available (Automatic Laser Toy)
+- **A tunnel or hideaway** for ambush play and security (Cat Tunnel Crinkle Play Tube)
+
+Rotate toys weekly to maintain novelty.
+
+## The First Week: What to Expect
+
+**Days 1–3:** Your cat will likely hide. This is normal — cats are prey animals in unfamiliar territory and need time to map the space before feeling safe. Don\'t force interaction. Sit nearby and let them approach.
+
+**Days 4–7:** Exploration increases. You\'ll start seeing your cat emerge more frequently, eat with less anxiety, and show the first signs of personality.
+
+**Week 2 onward:** Your cat establishes patterns — favorite spots, activity windows (typically dusk and dawn), and comfort with routines. This is the window to introduce interactive play.
+
+## Building a Daily Routine
+
+Cats thrive on predictability. A simple daily structure prevents most behavior problems:
+
+| Time | Activity |
+|------|----------|
+| Morning | Measured meal |
+| Midday | Fresh water check; solo toy available |
+| Evening | 10–15 min interactive play session |
+| Before bed | Meal (satisfies hunt-eat-sleep cycle) |
+
+The play-before-bed routine is particularly important — cats that play vigorously before sleep are less likely to wake you up at 3am demanding attention.
+
+## Common First-Year Mistakes
+
+**Skipping the vet in the first week.** Your first vet visit establishes a baseline and catches issues early. Cats are notoriously good at hiding illness — by the time symptoms are obvious, problems are often advanced.
+
+**Free-feeding dry food.** Convenient but often leads to obesity by age 5. Measure portions.
+
+**No scratching post.** You will regret this. Get one before the cat arrives, not after the couch is damaged.
+
+**Assuming the cat is "fine" if quiet.** Quiet cats aren\'t always content — hiding, decreased eating, or reduced grooming are signs of stress or illness. Know your cat\'s baseline.
+
+**One litter box for multiple cats.** Litter box competition is the #1 cause of inappropriate elimination. Never skip the one-per-cat-plus-one rule.
+
+## When to Call the Vet
+
+Contact your vet if you notice:
+- Not eating for more than 24 hours
+- Not using the litter box, or straining in the box
+- Vomiting more than once per day
+- Hiding for more than 48 hours without emerging to eat
+- Discharge from eyes or nose
+- Rapid breathing or open-mouth breathing
+
+Cats mask illness instinctively. When something seems off, it usually is.
+    \`,
+  },
 ];
 
 export function getPostBySlug(slug) {
@@ -2857,15 +3088,15 @@ const POST_RELEVANCE = {
   'senior-dog-care-guide-2026':           ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
   'how-to-stop-dog-pulling-on-leash':     ['Walking', 'Safety', 'Training', 'Dogs'],
   'best-gifts-for-dog-owners-2026':       ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
-  'best-interactive-dog-toys-2026':       ['Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'best-interactive-dog-toys-2026':       ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
   'how-to-choose-dog-harness-vs-collar':  ['Walking', 'Safety', 'Dogs'],
-  'best-cat-toys-for-indoor-cats-2026':   ['Play', 'Enrichment', 'Cats'],
+  'best-cat-toys-for-indoor-cats-2026':   ['Toys', 'Play', 'Enrichment', 'Cats'],
   'dog-food-toppers-complete-guide':      ['Feeding', 'Health', 'Dogs', 'Enrichment'],
   'how-to-crate-train-a-puppy':          ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
   'best-pet-products-apartment-dogs':     ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
   'best-harness-for-small-dogs-2026':    ['Walking', 'Safety', 'Dogs'],
   'how-to-stop-cat-from-scratching-furniture': ['Play', 'Enrichment', 'Cats', 'Comfort'],
-  'best-puzzle-toys-for-dogs-reviewed':  ['Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'best-puzzle-toys-for-dogs-reviewed':  ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
   'best-gifts-for-cat-lovers-2026':      ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
   'cat-water-fountain-vs-bowl-which-is-better': ['Health', 'Cats'],
   'retractable-dog-leash-pros-cons-safety': ['Walking', 'Safety', 'Dogs'],
@@ -2873,12 +3104,15 @@ const POST_RELEVANCE = {
   'best-cat-tunnels-for-indoor-cats':      ['Play', 'Enrichment', 'Cats'],
   'how-to-keep-dogs-cool-in-summer':       ['Comfort', 'Health', 'Dogs'],
   'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
-  'tug-toys-for-dogs-benefits-how-to-play': ['Play', 'Enrichment', 'Training', 'Dogs'],
+  'tug-toys-for-dogs-benefits-how-to-play': ['Toys', 'Play', 'Enrichment', 'Training', 'Dogs'],
   'sisal-vs-carpet-scratching-posts-which-cats-prefer':  ['Comfort', 'Play', 'Cats'],
   'best-dog-walking-accessories-2026':                   ['Walking', 'Safety', 'Training', 'Dogs'],
   'cat-grooming-guide-tools-and-tips':                   ['Grooming', 'Health', 'Cats'],
   'pet-road-trip-guide-2026':                            ['Travel', 'Dogs', 'Cats', 'Safety'],
   'best-dog-grooming-tools-2026':                        ['Grooming', 'Dogs', 'Health'],
+  'dog-bed-buying-guide-2026':                           ['Comfort', 'Dogs', 'Health'],
+  'enrichment-for-bored-dogs-at-home':                   ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'first-time-cat-owner-complete-guide':                 ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
 };
 
 /**
