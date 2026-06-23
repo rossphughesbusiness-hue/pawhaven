@@ -2638,7 +2638,196 @@ Most cats will use the post within 24–48 hours without any training if placeme
 ## When to Replace a Scratching Post
 
 The shredded, frayed appearance of a used sisal post is not damage — it's working as intended. Cats prefer the texture of well-used sisal. Replace the post when the sisal has worn down to the core or begins separating from the post structure, not before.
-    `,
+    \`,
+  },
+  {
+    slug: 'best-dog-walking-accessories-2026',
+    title: 'Best Dog Walking Accessories in 2026 (Tested by Dog Owners)',
+    description: "The right walking gear makes every walk safer, more controlled, and more enjoyable. Here are the 5 accessories professional dog trainers actually recommend.",
+    date: '2026-06-20',
+    readTime: '6 min read',
+    category: 'Walking & Outdoor',
+    emoji: '🦮',
+    heroImage: 'https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=1200&q=85&auto=format&fit=crop',
+    content: \`
+Most dog owners underestimate how much their gear affects the walk. A poorly fitted harness creates friction and irritation. A cheap leash gives you no control when a squirrel runs by. A dark collar makes your dog invisible at 6am. The right accessories solve all of this.
+
+Here are the five walking accessories that professional dog trainers recommend — and why each one matters.
+
+## 1. A No-Pull Step-In Harness (Not a Collar)
+
+If your dog pulls on walks, a collar is actively working against you. When dogs pull forward against a collar, the pressure goes directly to the trachea. This can cause coughing, chronic tracheal damage, and — in small breeds — permanent injury.
+
+A no-pull step-in harness distributes pressure across the chest and shoulders instead. The step-in design means no awkward buckle fiddling over the dog's head — they step in, you clip two buckles, and you're out the door.
+
+**Look for**: reflective stitching for safety at dawn and dusk, adjustable chest and belly straps for a precise fit, and a front D-ring for no-pull training.
+
+## 2. A Retractable Leash (Used Correctly)
+
+Retractable leashes get a bad reputation because people use them wrong. On a crowded sidewalk near traffic? Lock it at 6 feet. In an open park or on a trail? Let it extend.
+
+The key feature is a reliable lock button you can engage instantly. Good retractable leashes have a large button you can thumb-lock without looking down. Keep your thumb on it — that way you can stop your dog in under a second.
+
+## 3. An LED Collar for Low-Light Walks
+
+Most dog-related traffic incidents happen at dawn and dusk — exactly when most owners walk their dogs. A dark collar makes your dog invisible to drivers until it's too late.
+
+A rechargeable LED collar makes your dog visible from 500+ feet. That gives drivers 3–4 seconds to react at normal city speeds. It's one of the cheapest, most effective safety upgrades you can make.
+
+## 4. A Treat Training Pouch
+
+Timing is everything in dog training. A reward delivered within 2 seconds of a good behavior is 4x more effective than one delivered 10 seconds later. If you're digging through your pockets, the moment has passed.
+
+A clip-on treat pouch keeps rewards instantly accessible. Both hands stay on the leash, and you can mark and reward in under a second. Most pouches also hold waste bags and your phone.
+
+## 5. A Portable Paw Cleaner
+
+After the walk matters too. Muddy paws track bacteria, allergens, and chemicals onto floors, furniture, and beds. A portable paw cleaner solves this in 5 seconds per paw — soft silicone bristles, fill with water, twist. Gentle enough for daily use.
+
+## Building a Better Walking Routine
+
+Gear won't replace consistency, but it removes friction. Start with the harness and treat pouch. Once your dog walks calmly, the rest upgrades the experience.
+    \`,
+  },
+  {
+    slug: 'cat-grooming-guide-tools-and-tips',
+    title: 'Cat Grooming Guide: Tools, Tips & How Often to Brush Your Cat',
+    description: "Most cats groom themselves — but they still benefit from your help. Here's how to groom your cat at home, which tools work best, and how to make it stress-free.",
+    date: '2026-06-19',
+    readTime: '5 min read',
+    category: 'Grooming',
+    emoji: '✂️',
+    heroImage: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1200&q=85&auto=format&fit=crop',
+    content: \`
+Cats are famously self-sufficient groomers — but there are limits to what they can do alone. Long-haired breeds, senior cats, and heavy shedders all benefit significantly from human help. And even short-haired cats who receive regular grooming have fewer hairballs, less shedding on furniture, and tend to enjoy the bonding time.
+
+## How Often Should You Brush Your Cat?
+
+- **Short-haired cats**: Once or twice a week. Their coats are low-maintenance, but brushing removes loose fur before it ends up on your sofa.
+- **Long-haired cats** (Maine Coons, Persians, Ragdolls): Daily brushing is ideal. Long coats mat quickly, especially around the neck, armpits, and belly.
+- **Heavy shedders**: During spring and autumn shedding seasons, increase frequency for any cat.
+
+## The Best Grooming Tools for Cats
+
+**Grooming gloves** are the gold standard for cats who resist traditional brushes. The silicone tips feel like being petted — most cats don't realize they're being groomed. The glove collects loose fur across the entire coat in one pass.
+
+**Slicker brushes** work well for cats who have accepted brushing. Steel pin brushes detangle, remove undercoat, and leave coats glossy.
+
+**Deshedding tools** with a fine-toothed edge remove loose undercoat before it sheds naturally. One session can reduce shedding by 90% for several weeks.
+
+## How to Introduce Grooming to a Reluctant Cat
+
+- **Start with your hand**: Pet normally, then introduce the glove so it feels like continued petting
+- **Keep sessions short**: 2–3 minutes initially. End before the cat becomes impatient
+- **Use high-value treats**: Before, during, and after every session
+- **Work head-to-tail**: Most cats tolerate head and neck grooming first
+
+## The Grooming Glove: Why It Works So Well for Cats
+
+Of all the tools available, the grooming glove consistently gets the highest adoption rate among cat owners — especially for cats who have previously rejected brushing. Cats who would flee from a brush will stay still for 10+ minutes of glove grooming. The silicone tips feel like petting, and cats often actively press into the glove.
+    \`,
+  },
+  {
+    slug: 'pet-road-trip-guide-2026',
+    title: 'Pet Road Trip Guide 2026: Everything You Need for Stress-Free Travel',
+    description: 'Planning a road trip with your dog or cat? This complete guide covers car safety, packing lists, rest stop tips, and the gear that makes travel stress-free.',
+    date: '2026-06-18',
+    readTime: '7 min read',
+    category: 'Travel',
+    emoji: '✈️',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop',
+    content: \`
+Road trips with pets are one of the most rewarding ways to travel — and one of the most chaotic if you're not prepared. Most of what makes pet travel stressful is completely avoidable with the right preparation and gear.
+
+## Before You Leave: The Prep Checklist
+
+**Vet visit**: Get up-to-date vaccinations and ask about motion sickness medication if your pet has had trouble in cars. Bring health records on the trip.
+
+**ID and microchip**: Make sure ID tags have your current cell phone number. Verify the microchip registry has current contact info. Keep a recent photo on your phone.
+
+**Practice runs**: Build up over 1–2 weeks — 10 minutes, then 30 minutes, then 1 hour. This dramatically reduces anxiety on the actual trip.
+
+## Car Safety
+
+An unrestrained 60-lb dog becomes a 2,700-lb projectile in a 30-mph collision. Car safety for pets matters.
+
+**For dogs**: A car seat hammock protects your back seat and creates a contained, comfortable area. For extra safety, clip a crash-tested dog harness to the seatbelt.
+
+**For cats**: A well-ventilated carrier is the only safe option. A cat loose in a car is a distraction hazard and a flight risk every time a door opens.
+
+**The golden rule**: Never let dogs ride with their head out the window at highway speeds. Road debris at 65 mph can cause serious eye or facial injury.
+
+## What to Pack
+
+- Enough food for the trip plus 2 extra days
+- Water from home (new water sources can upset digestion)
+- **Collapsible travel bowls** — clip to any bag, hold a full meal or water serving
+- Waste bags and travel litter box for cats
+- Familiar toy or blanket for comfort
+- Medications and first-aid kit
+
+## Rest Stops: The 2-Hour Rule
+
+Stop every 2 hours. Dogs need to stretch, hydrate, and relieve themselves. Always leash your dog before opening any door at a rest stop — a significant number of pet escapes happen at highway rest areas.
+
+## Managing Car Anxiety
+
+Signs of car anxiety: excessive panting, drooling, whining, vomiting, or refusal to settle. Solutions:
+
+- **Desensitization**: Practice sessions before the trip help most dogs significantly
+- **Calming lick mats**: Smear peanut butter or wet food and give at the start of the drive
+- **Covered carriers**: Cats often calm when the carrier is partially covered with a blanket
+- **Medication**: For severe cases, ask your vet about short-term travel medication
+    \`,
+  },
+  {
+    slug: 'best-dog-grooming-tools-2026',
+    title: 'Best Dog Grooming Tools in 2026 — Tested on Real Dogs',
+    description: "The right grooming tools save time, reduce shedding, and keep your dog comfortable between professional appointments. Here are the three essentials every dog owner needs.",
+    date: '2026-06-17',
+    readTime: '5 min read',
+    category: 'Grooming',
+    emoji: '✂️',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85&auto=format&fit=crop',
+    content: \`
+Professional grooming is expensive — and most dogs need coat maintenance between appointments anyway. The right at-home tools keep your dog's coat healthy, clean paws after every walk, and dramatically reduce shedding in your home.
+
+## 1. A Self-Cleaning Slicker Brush
+
+For most dog coats, a slicker brush is the single most useful grooming tool you can own. The fine steel pins penetrate the outer coat to detangle and remove loose undercoat — the fur that otherwise ends up on your floors, furniture, and clothing.
+
+The key feature is **self-cleaning**: a button that retracts the pins and ejects collected fur into the trash. Without this, you spend as much time pulling fur off the brush as you do brushing your dog.
+
+**Best for**: Double-coated breeds (Huskies, Goldens, Collies, Labs), long-haired dogs, and heavy shedders.
+
+**Technique**: Work in sections, brushing in the direction of hair growth. Pay extra attention to areas prone to matting: behind the ears, under the armpits, around the collar, and the base of the tail.
+
+## 2. A Portable Paw Cleaner
+
+This is the most underused grooming tool in most households. After every walk, your dog's paws carry bacteria, allergens, road salt, pesticides, and mud into your home.
+
+A portable paw cleaner solves this in under a minute. Fill with water, insert each paw, twist gently. Soft silicone bristles loosen debris without irritating paw pads. Gentle enough for daily use.
+
+**Pro tip**: Keep it by the front door so it becomes part of the coming-home routine. Dogs learn the habit quickly.
+
+## 3. A Rubber Grooming Glove (for Sensitive Dogs)
+
+Some dogs tolerate slicker brushes well. Others act like you're torturing them. For brush-resistant dogs, a rubber grooming glove often works — it feels like petting, so dogs don't object.
+
+Rubber gloves also excel on short-coated breeds where slicker brushes have less to grab. The rubber nubs lift dead hair off the coat effectively.
+
+## How Often to Groom
+
+- **Short-haired dogs**: Weekly brushing, daily paw cleaning after walks
+- **Medium to long-haired dogs**: 3–4 times per week; daily during shedding season
+- **Double-coated breeds**: Daily brushing in spring and autumn during coat "blowing"
+
+## The At-Home vs. Professional Balance
+
+You shouldn't need professional grooming for coat maintenance if you brush regularly. Consistent at-home brushing between appointments makes professional sessions faster and cheaper — a mat-free coat takes half the grooming time.
+
+The three tools above cover 90% of what most dog owners need between visits.
+    \`,
   },
 ];
 
@@ -2686,6 +2875,10 @@ const POST_RELEVANCE = {
   'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
   'tug-toys-for-dogs-benefits-how-to-play': ['Play', 'Enrichment', 'Training', 'Dogs'],
   'sisal-vs-carpet-scratching-posts-which-cats-prefer':  ['Comfort', 'Play', 'Cats'],
+  'best-dog-walking-accessories-2026':                   ['Walking', 'Safety', 'Training', 'Dogs'],
+  'cat-grooming-guide-tools-and-tips':                   ['Grooming', 'Health', 'Cats'],
+  'pet-road-trip-guide-2026':                            ['Travel', 'Dogs', 'Cats', 'Safety'],
+  'best-dog-grooming-tools-2026':                        ['Grooming', 'Dogs', 'Health'],
 };
 
 /**
