@@ -730,4 +730,124 @@ export const SEEDED_REVIEWS = {
       ts: 1748736000000,
     },
   ],
+
+  'dog-snuffle-mat': [
+    {
+      name: 'Amber K.',
+      rating: 5,
+      text: "My hyperactive border collie is completely wiped out after 20 minutes on this mat. She sniffs every strip twice before giving up — by the time she's done she's ready for a nap. Best enrichment buy I've made.",
+      date: 'June 19, 2026',
+      ts: 1750291200000,
+    },
+    {
+      name: 'Derek S.',
+      rating: 5,
+      text: "Used this during thunderstorm season and it keeps my anxious dog calm the entire time. Way more effective than just a Kong, and the machine-washable feature means I don't dread cleanup.",
+      date: 'June 7, 2026',
+      ts: 1749254400000,
+    },
+    {
+      name: 'Priya L.',
+      rating: 4,
+      text: "Great quality and really easy to wash. My golden sniffs it clean in about 15 minutes then settles right down. Exactly the kind of calm enrichment I was looking for on rainy days.",
+      date: 'May 28, 2026',
+      ts: 1748390400000,
+    },
+  ],
+
+  'cat-self-groomer-wall-corner': [
+    {
+      name: 'Megan R.',
+      rating: 5,
+      text: "My cats were using this within an hour of mounting it — the catnip slot was the trick. Now they go for it every morning and my couch has noticeably less fur. Super easy to install and the adhesive has held for months.",
+      date: 'June 17, 2026',
+      ts: 1750118400000,
+    },
+    {
+      name: 'Ben T.',
+      rating: 4,
+      text: "Simple concept, works really well. Adhesive has held firm for two months with zero issues. Worth the price just for the hairball reduction alone — I can already see a difference.",
+      date: 'June 5, 2026',
+      ts: 1749081600000,
+    },
+    {
+      name: 'Yuki N.',
+      rating: 5,
+      text: "Three cats, all completely obsessed. I put one in the hallway and one in the bedroom and they rotate between them. Shedding season has been so much more manageable this year. Highly recommend.",
+      date: 'May 26, 2026',
+      ts: 1748217600000,
+    },
+  ],
+
+  'dog-paw-balm-stick': [
+    {
+      name: 'Claire B.',
+      rating: 5,
+      text: "My lab's paws were a cracked mess after winter. Two weeks of this balm and they look completely healed. The stick format is so convenient — done in 30 seconds before every walk, no mess on my hands.",
+      date: 'June 20, 2026',
+      ts: 1750377600000,
+    },
+    {
+      name: 'James H.',
+      rating: 5,
+      text: "I was skeptical at first but the results are undeniable. My dog's paws are visibly softer and he doesn't lick them obsessively anymore. The all-natural formula is a huge plus — no worrying if he licks it.",
+      date: 'June 8, 2026',
+      ts: 1749340800000,
+    },
+    {
+      name: 'Sandra P.',
+      rating: 5,
+      text: "Perfect size to toss in your bag for walks. The twist-up stick means you don't have to touch the product at all — just apply directly to each pad. So practical and the balm absorbs fast with no greasiness.",
+      date: 'May 30, 2026',
+      ts: 1748563200000,
+    },
+  ],
+
+  'cat-puzzle-slow-feeder': [
+    {
+      name: 'Hannah L.',
+      rating: 5,
+      text: "My cat went from inhaling her food in 30 seconds to spending 10 minutes on each meal. No more post-meal vomiting! She looks genuinely satisfied after each feeding — the puzzle clearly engages her brain.",
+      date: 'June 16, 2026',
+      ts: 1750032000000,
+    },
+    {
+      name: 'Oliver C.',
+      rating: 5,
+      text: "My vet recommended a puzzle feeder and this is the first one that actually worked. It's durable, goes in the dishwasher, and my cat has been using it twice daily for two months without losing interest.",
+      date: 'June 4, 2026',
+      ts: 1748995200000,
+    },
+    {
+      name: 'Natasha F.',
+      rating: 4,
+      text: "Great enrichment feeder. The three difficulty levels mean she doesn't get bored and the non-slip base keeps it from sliding across the floor. I refill the wells twice a day and she stays engaged every time.",
+      date: 'May 24, 2026',
+      ts: 1748044800000,
+    },
+  ],
+
+  'dog-reflective-safety-vest': [
+    {
+      name: 'Kevin M.',
+      rating: 5,
+      text: "I walk my dog at 5am every day and this vest makes me feel so much better about traffic. You can see it reflecting from a full block away. Fits my beagle snugly and he doesn't mind wearing it at all.",
+      date: 'June 22, 2026',
+      ts: 1750550400000,
+    },
+    {
+      name: 'Rachel S.',
+      rating: 5,
+      text: "Bought this for hiking at dawn and dusk. The reflective strips are genuinely impressive — my hiking partner spotted our dog from 400 feet up the trail. Worth every cent for the peace of mind on early morning adventures.",
+      date: 'June 10, 2026',
+      ts: 1749513600000,
+    },
+    {
+      name: 'Carlos D.',
+      rating: 4,
+      text: "Good quality and the adjustability is excellent. I have two dogs of different sizes and both got a comfortable fit following the size guide. The D-ring for the leash attachment is a smart design touch.",
+      date: 'June 2, 2026',
+      ts: 1748822400000,
+    },
+  ],
 };

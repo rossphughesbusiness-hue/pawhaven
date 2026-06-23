@@ -50,6 +50,13 @@ export const FBT_MAP = {
   'pet-nail-grinder-rechargeable': ['self-cleaning-slicker-brush', 'portable-paw-cleaner'],
   'dog-reflective-raincoat':       ['safeglow-led-collar', 'reflective-step-in-harness'],
   'cat-circuit-ball-track':        ['feather-wand-cat-teaser', 'cat-tunnel-crinkle-play-tube'],
+
+  // New products (IDs 36-40)
+  'dog-snuffle-mat':               ['iq-puzzle-feeder-toy', 'calming-lick-mat'],
+  'cat-self-groomer-wall-corner':  ['cat-deshedding-grooming-glove', 'cozy-cat-cave-hideaway'],
+  'dog-paw-balm-stick':            ['portable-paw-cleaner', 'self-cleaning-slicker-brush'],
+  'cat-puzzle-slow-feeder':        ['silent-cat-water-fountain', 'cat-interactive-feeder-bowl'],
+  'dog-reflective-safety-vest':    ['safeglow-led-collar', 'reflective-step-in-harness'],
 };
 
 /**
