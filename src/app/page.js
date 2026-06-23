@@ -117,7 +117,7 @@ const testimonials = [
 const stats = [
   { value: '10,000+', label: 'Happy Pet Owners' },
   { value: '4.8★', label: 'Average Rating' },
-  { value: '5', label: 'Vet-Approved Products' },
+  { value: '30+', label: 'Vet-Approved Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
 
@@ -289,30 +289,73 @@ export default function HomePage() {
       </section>
 
       {/* ─── SHOP BY CATEGORY ─── */}
-      <section className="bg-white py-14">
+      <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-black text-navy-900">Shop by Need</h2>
-            <p className="text-gray-500 mt-2">Find exactly what your pet needs.</p>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-black text-navy-900">Shop by Category</h2>
+            <p className="text-gray-500 mt-2">Curated collections for every pet and every need.</p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {[
-              { emoji: '🥣', label: 'Feeding', tag: 'Feeding', bg: 'from-orange-50 to-amber-50', border: 'border-orange-100', hover: 'hover:border-orange-300' },
-              { emoji: '😴', label: 'Comfort', tag: 'Comfort', bg: 'from-blue-50 to-indigo-50', border: 'border-blue-100', hover: 'hover:border-blue-300' },
-              { emoji: '🎾', label: 'Play', tag: 'Play', bg: 'from-green-50 to-emerald-50', border: 'border-green-100', hover: 'hover:border-green-300' },
-              { emoji: '🦮', label: 'Walking', tag: 'Walking', bg: 'from-purple-50 to-violet-50', border: 'border-purple-100', hover: 'hover:border-purple-300' },
-              { emoji: '💡', label: 'Safety', tag: 'Safety', bg: 'from-yellow-50 to-orange-50', border: 'border-yellow-100', hover: 'hover:border-yellow-300' },
-              { emoji: '✈️', label: 'Travel', tag: 'Travel', bg: 'from-pink-50 to-rose-50', border: 'border-pink-100', hover: 'hover:border-pink-300' },
-            ].map((cat) => (
-              <Link
-                key={cat.label}
-                href={`/products?tag=${encodeURIComponent(cat.tag)}`}
-                className={`flex flex-col items-center gap-3 p-6 rounded-2xl bg-gradient-to-br ${cat.bg} border ${cat.border} ${cat.hover} transition-all duration-200 hover:-translate-y-1 hover:shadow-md group`}
-              >
-                <span className="text-4xl group-hover:scale-110 transition-transform duration-200">{cat.emoji}</span>
-                <span className="text-sm font-bold text-navy-900">{cat.label}</span>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Dogs */}
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-2xl">🐶</span>
+                <h3 className="text-lg font-black text-navy-900">Dogs</h3>
+                <Link href="/dogs" className="ml-auto text-xs text-brand-500 font-semibold hover:underline">See all →</Link>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {[
+                  { href: '/dog-toys', emoji: '🧸', label: 'Dog Toys', desc: 'Tug, puzzle & squeaky' },
+                  { href: '/dog-beds', emoji: '🛏️', label: 'Dog Beds', desc: 'Orthopedic & cooling' },
+                  { href: '/dog-walking', emoji: '🐾', label: 'Walking Gear', desc: 'Harness, leash & more' },
+                  { href: '/dog-training', emoji: '🎯', label: 'Training', desc: 'Treat pouches & gear' },
+                  { href: '/grooming', emoji: '✂️', label: 'Grooming', desc: 'Brushes & grinders' },
+                  { href: '/senior-dogs', emoji: '🦮', label: 'Senior Dogs', desc: 'Joint & mobility care' },
+                  { href: '/puppies', emoji: '🐕', label: 'Puppies', desc: 'New puppy essentials' },
+                  { href: '/travel', emoji: '✈️', label: 'Travel', desc: 'Car & on-the-go gear' },
+                ].map(({ href, emoji, label, desc }) => (
+                  <Link key={href} href={href}
+                    className="flex items-center gap-3 p-3.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-100 hover:border-amber-200 transition-all duration-200 group"
+                  >
+                    <span className="text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">{emoji}</span>
+                    <div>
+                      <div className="text-sm font-bold text-navy-900">{label}</div>
+                      <div className="text-xs text-gray-500">{desc}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            {/* Cats */}
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-2xl">🐱</span>
+                <h3 className="text-lg font-black text-navy-900">Cats</h3>
+                <Link href="/cats" className="ml-auto text-xs text-brand-500 font-semibold hover:underline">See all →</Link>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {[
+                  { href: '/cat-toys', emoji: '🧶', label: 'Cat Toys', desc: 'Wands, lasers & tunnels' },
+                  { href: '/cat-beds', emoji: '😴', label: 'Cat Beds', desc: 'Caves, perches & more' },
+                  { href: '/cat-enrichment', emoji: '🎾', label: 'Enrichment', desc: 'Puzzles & mental stim' },
+                  { href: '/grooming', emoji: '✂️', label: 'Grooming', desc: 'Deshedding & more' },
+                  { href: '/indoor-cats', emoji: '🏠', label: 'Indoor Cats', desc: 'Essential indoor kit' },
+                  { href: '/travel', emoji: '✈️', label: 'Travel', desc: 'Carriers & on-the-go' },
+                  { href: '/anxiety', emoji: '😌', label: 'Anxiety & Calm', desc: 'Calming products' },
+                  { href: '/cats', emoji: '🐱', label: 'All Cat Products', desc: 'Browse everything' },
+                ].map(({ href, emoji, label, desc }) => (
+                  <Link key={href} href={href}
+                    className="flex items-center gap-3 p-3.5 rounded-xl bg-purple-50 hover:bg-purple-100 border border-purple-100 hover:border-purple-200 transition-all duration-200 group"
+                  >
+                    <span className="text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">{emoji}</span>
+                    <div>
+                      <div className="text-sm font-bold text-navy-900">{label}</div>
+                      <div className="text-xs text-gray-500">{desc}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -370,6 +413,40 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── NEW ARRIVALS ─── */}
+      <section className="py-14 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-1">Just Landed</p>
+              <h2 className="text-3xl font-black text-navy-900">New Arrivals</h2>
+            </div>
+            <Link href="/products" className="text-brand-500 font-semibold hover:underline text-sm">View all →</Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[...products]
+              .filter(p => [31, 32, 33, 34, 35].includes(p.id))
+              .map((product) => (
+                <Link key={product.id} href={`/products/${product.slug}`}
+                  className="group bg-gray-50 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 border border-gray-100"
+                >
+                  <div className="relative aspect-square overflow-hidden bg-white">
+                    <img src={product.image} alt={product.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <span className="absolute top-2 left-2 bg-brand-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">New</span>
+                  </div>
+                  <div className="p-3">
+                    <p className="text-xs text-gray-500 mb-0.5">{product.tag}</p>
+                    <p className="font-bold text-navy-900 text-sm leading-tight mb-1 group-hover:text-brand-500 transition-colors">{product.shortName || product.name}</p>
+                    <p className="font-black text-navy-900 text-sm">${product.price}</p>
+                  </div>
+                </Link>
+              ))}
           </div>
         </div>
       </section>
