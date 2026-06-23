@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getPostBySlug, getAllPosts } from '@/lib/blog';
+import { getPostBySlug, getAllPosts, getProductsForPost } from '@/lib/blog';
+import { products } from '@/lib/products';
 
 export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -86,6 +87,7 @@ export default function BlogPostPage({ params }) {
   if (!post) notFound();
 
   const allPosts = getAllPosts().filter((p) => p.slug !== post.slug).slice(0, 2);
+  const featuredProducts = getProductsForPost(post.slug, products, 3);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -145,6 +147,60 @@ export default function BlogPostPage({ params }) {
           <div className="prose-content">
             {renderContent(post.content)}
           </div>
+
+          {/* Featured products from this article */}
+          {featuredProducts.length > 0 && (
+            <div className="mt-14">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="h-px flex-1 bg-gray-100" />
+                <span className="text-xs font-bold text-brand-500 uppercase tracking-widest px-3">
+                  🛍 Products in This Article
+                </span>
+                <div className="h-px flex-1 bg-gray-100" />
+              </div>
+              <div className={`grid gap-4 ${featuredProducts.length === 1 ? 'grid-cols-1' : featuredProducts.length === 2 ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1 sm:grid-cols-3'}`}>
+                {featuredProducts.map((p) => (
+                  <Link key={p.slug} href={`/products/${p.slug}`} className="group block">
+                    <div className="bg-white border border-gray-100 hover:border-brand-200 rounded-2xl overflow-hidden transition-all duration-200 hover:shadow-md hover:shadow-brand-500/10 flex sm:flex-col">
+                      <div className="relative w-24 sm:w-full h-24 sm:h-44 flex-shrink-0 overflow-hidden bg-gray-50">
+                        <Image
+                          src={p.images?.[0] || p.image}
+                          alt={p.name}
+                          fill
+                          sizes="(max-width: 640px) 96px, 33vw"
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                        {p.comparePrice && (
+                          <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-black px-2 py-0.5 rounded-full">
+                            {Math.round((1 - p.price / p.comparePrice) * 100)}% OFF
+                          </span>
+                        )}
+                      </div>
+                      <div className="p-3 sm:p-4 flex flex-col justify-between flex-1">
+                        <div>
+                          <p className="text-xs font-bold text-brand-500 mb-0.5">{p.tag}</p>
+                          <h3 className="font-bold text-navy-900 text-sm leading-snug group-hover:text-brand-500 transition-colors line-clamp-2">
+                            {p.name}
+                          </h3>
+                        </div>
+                        <div className="flex items-center justify-between mt-3">
+                          <div className="flex items-baseline gap-1.5">
+                            <span className="font-black text-navy-900 text-base">${p.price.toFixed(2)}</span>
+                            {p.comparePrice && (
+                              <span className="text-xs text-gray-400 line-through">${p.comparePrice.toFixed(2)}</span>
+                            )}
+                          </div>
+                          <span className="text-xs font-bold text-brand-500 group-hover:text-brand-600 transition-colors">
+                            Shop →
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* CTA */}
           <div className="mt-14 bg-gradient-to-br from-brand-50 to-orange-50 border border-brand-100 rounded-3xl p-8 text-center">

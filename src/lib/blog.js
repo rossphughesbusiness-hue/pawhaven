@@ -2689,6 +2689,29 @@ const POST_RELEVANCE = {
 };
 
 /**
+ * Returns up to `limit` products most relevant to the given blog post.
+ * Scoring: +2 if product.tag matches a relevance tag, +1 if product.category matches.
+ */
+export function getProductsForPost(postSlug, allProducts, limit = 3) {
+  const tags = POST_RELEVANCE[postSlug] || [];
+  if (tags.length === 0) return [];
+
+  const scored = allProducts.map((p) => {
+    let score = 0;
+    if (p.tag && tags.includes(p.tag)) score += 2;
+    if (p.category && tags.includes(p.category)) score += 1;
+    score += Math.min((p.soldCount || 0) / 1000, 0.5); // tie-break by popularity
+    return { product: p, score };
+  });
+
+  return scored
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ product }) => product);
+}
+
+/**
  * Returns up to `limit` blog posts most relevant to the given product.
  * Scoring: +2 for matching tag, +1 for matching category.
  */
