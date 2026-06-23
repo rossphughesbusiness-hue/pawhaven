@@ -112,12 +112,20 @@ export default function ProductPage({ params }) {
     },
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://pawhavenpets.org/products' },
+      { '@type': 'ListItem', position: 3, name: product.name, item: `https://pawhavenpets.org/products/${product.slug}` },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <ViewTracker id={product.id} name={product.name} product={product} />
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-100">

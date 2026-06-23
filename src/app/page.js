@@ -168,9 +168,37 @@ function BundlesTeaser() {
   );
 }
 
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://pawhavenpets.org/#website',
+      url: 'https://pawhavenpets.org',
+      name: 'PawHaven',
+      description: 'Premium vet-recommended pet accessories for dogs and cats.',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: 'https://pawhavenpets.org/products?q={search_term_string}' },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://pawhavenpets.org/#organization',
+      name: 'PawHaven',
+      url: 'https://pawhavenpets.org',
+      logo: { '@type': 'ImageObject', url: 'https://pawhavenpets.org/logo.png' },
+      contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: 'support@pawhavenpets.org' },
+      sameAs: ['https://www.instagram.com/pawhavenpets', 'https://www.tiktok.com/@pawhavenpets'],
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       {/* ─── HERO ─── */}
       <section className="relative text-white overflow-hidden min-h-[85vh] flex items-center">
         {/* Hero background image */}
