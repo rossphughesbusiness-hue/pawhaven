@@ -47,6 +47,16 @@ const FAQ = [
   },
 ];
 
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: FAQ.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+};
+
 export default function SeniorDogsPage() {
   const featured = FEATURED_SLUGS.map((slug) => products.find((p) => p.slug === slug)).filter(Boolean);
   const relatedDogProducts = products
@@ -56,6 +66,7 @@ export default function SeniorDogsPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* ─── Hero ─── */}
       <section className="relative bg-gradient-to-br from-slate-800 via-slate-700 to-slate-600 overflow-hidden">

@@ -50,6 +50,23 @@ const TIPS = [
   },
 ];
 
+const FAQ_PUPPIES = [
+  { q: 'What accessories does a new puppy need?', a: 'The essentials for a new puppy are a slow feeder bowl (to prevent bloat and build healthy eating habits), a step-in harness (safer than a collar for puppies still learning leash manners), an LED collar for visibility, and an enrichment toy to prevent boredom and destructive behavior.' },
+  { q: 'Why do puppies need slow feeder bowls?', a: 'Puppies naturally eat too fast, which causes bloating, vomiting, and discomfort. A slow feeder extends mealtime by 3–5x, which prevents bloat and also provides mental stimulation as they work to get the food. Most puppies adapt happily within 2–3 meals.' },
+  { q: 'Is a harness or collar better for puppies?', a: 'Harnesses are strongly preferred for puppies. Collars put all leash pressure on the trachea, which is especially risky for puppies still learning not to pull. A step-in chest harness distributes pressure across the shoulders and back, preventing tracheal damage and giving you better directional control.' },
+  { q: 'What is the best toy for a puppy?', a: 'Interactive puzzle feeders and crinkle squeaky toys are best for puppies. Puzzle feeders provide mental stimulation that tires them out faster than physical play alone — a mentally tired puppy is a well-behaved puppy. Squeaky toys satisfy hunting instincts safely.' },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: FAQ_PUPPIES.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+};
+
 export default function PuppiesPage() {
   const featured = PUPPY_SLUGS.map((slug) => products.find((p) => p.slug === slug)).filter(Boolean);
   const morePuppyProducts = products
@@ -59,6 +76,7 @@ export default function PuppiesPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* ─── Hero ─── */}
       <section className="relative bg-gradient-to-br from-yellow-500 via-orange-500 to-brand-500 overflow-hidden">

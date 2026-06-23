@@ -53,6 +53,23 @@ const APPROACHES = [
   },
 ];
 
+const FAQ_ANXIETY = [
+  { q: 'What are the best calming products for anxious dogs?', a: 'Lick mats and puzzle feeders are the most effective non-medication options for anxious dogs. Repetitive licking triggers the release of endorphins and serotonin. Orthopedic beds with raised edges also provide a sense of security. For severe anxiety, always consult your vet.' },
+  { q: 'Do lick mats actually reduce anxiety in pets?', a: 'Yes — studies show repetitive licking activates the parasympathetic nervous system, lowering heart rate and cortisol levels in dogs. Most owners see results within the first session, particularly for situational anxiety (thunderstorms, grooming, vet visits).' },
+  { q: 'What causes anxiety in cats?', a: 'Indoor cats most commonly experience anxiety from environmental changes (new people, furniture, other pets), boredom from insufficient stimulation, or lack of safe hiding spots. Enrichment toys, perches, and enclosed beds address most of these causes directly.' },
+  { q: 'Should I use calming products or medication for my pet\'s anxiety?', a: 'Most vets recommend trying behavioral and environmental interventions before medication. Calming products like lick mats, puzzle feeders, and orthopedic beds address the root causes of anxiety. Medication is typically reserved for severe cases where quality of life is significantly affected.' },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: FAQ_ANXIETY.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+};
+
 export default function AnxietyPage() {
   const featured = ANXIETY_SLUGS.map((slug) => products.find((p) => p.slug === slug)).filter(Boolean);
   const moreAnxiety = products
@@ -62,6 +79,7 @@ export default function AnxietyPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* ─── Hero ─── */}
       <section className="relative bg-gradient-to-br from-violet-900 via-purple-800 to-purple-700 overflow-hidden">
