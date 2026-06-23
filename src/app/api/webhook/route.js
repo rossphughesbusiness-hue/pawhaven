@@ -727,6 +727,24 @@ export async function POST(req) {
       } catch (err) {
         console.error('[webhook] Referral reward error:', err.message);
       }
+
+      // ── Affiliate conversion tracking ─────────────────────────────────────
+      try {
+        const affiliateData = await redisGet(`affiliate:${incomingRef.toUpperCase()}`);
+        if (affiliateData) {
+          const orderAmount = (session.amount_total || 0) / 100;
+          const commission = parseFloat((orderAmount * (affiliateData.commissionPct / 100)).toFixed(2));
+          const updated = {
+            ...affiliateData,
+            conversions: (affiliateData.conversions || 0) + 1,
+            earned: parseFloat(((affiliateData.earned || 0) + commission).toFixed(2)),
+          };
+          await redisSave(`affiliate:${incomingRef.toUpperCase()}`, updated, 3 * 365 * 24 * 60 * 60);
+          console.log(`[webhook] 🤝 Affiliate conversion: code=${incomingRef}, commission=$${commission}`);
+        }
+      } catch (err) {
+        console.error('[webhook] Affiliate conversion tracking error:', err.message);
+      }
     }
   }
 

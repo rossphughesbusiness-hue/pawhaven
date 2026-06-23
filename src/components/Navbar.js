@@ -41,6 +41,7 @@ export default function Navbar() {
     { href: '/build-a-bundle', label: '🧩 Build a Bundle' },
     { href: '/quiz', label: '✨ Quiz' },
     { href: '/blog', label: 'Blog' },
+    { href: '/affiliates', label: '🤝 Affiliates' },
     { href: '/contact', label: 'Help' },
   ];
 
