@@ -9,17 +9,37 @@ import { trackBeginCheckout, trackRemoveFromCart, trackAddToCart } from '@/lib/a
 import TrustBadges from '@/components/TrustBadges';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import { products } from '@/lib/products';
+import { getFBT } from '@/lib/fbt';
 
 function CartUpsell({ cartItems }) {
   const { addItem } = useCart();
   const [added, setAdded] = useState({});
 
   const cartIds = new Set(cartItems.map((i) => i.id));
-  // Pick up to 3 products not in cart, sorted by soldCount desc
-  const suggestions = products
-    .filter((p) => !cartIds.has(p.id))
-    .sort((a, b) => (b.soldCount || 0) - (a.soldCount || 0))
-    .slice(0, 3);
+  const cartSlugs = cartItems.map((i) => i.slug).filter(Boolean);
+
+  // Build personalized suggestions from FBT data for each cart item
+  const fbtSlugs = new Set();
+  for (const slug of cartSlugs) {
+    const fbtProducts = getFBT(slug, products);
+    fbtProducts.forEach((p) => {
+      if (!cartIds.has(p.id)) fbtSlugs.add(p.slug);
+    });
+  }
+
+  // Fall back to best-sellers if no FBT matches
+  let suggestions;
+  if (fbtSlugs.size > 0) {
+    suggestions = products
+      .filter((p) => fbtSlugs.has(p.slug) && !cartIds.has(p.id))
+      .sort((a, b) => (b.soldCount || 0) - (a.soldCount || 0))
+      .slice(0, 3);
+  } else {
+    suggestions = products
+      .filter((p) => !cartIds.has(p.id))
+      .sort((a, b) => (b.soldCount || 0) - (a.soldCount || 0))
+      .slice(0, 3);
+  }
 
   if (suggestions.length === 0) return null;
 
@@ -43,7 +63,7 @@ function CartUpsell({ cartItems }) {
 
   return (
     <div className="mt-8">
-      <h2 className="text-lg font-black text-navy-900 mb-4">🐾 Frequently Bought Together</h2>
+      <h2 className="text-lg font-black text-navy-900 mb-4">🐾 {cartSlugs.length > 0 ? 'Pairs Well With Your Cart' : 'Frequently Bought Together'}</h2>
       <div className="space-y-3">
         {suggestions.map((p) => (
           <div key={p.id} className="flex items-center gap-4 bg-white rounded-2xl border border-gray-100 p-3 shadow-sm">
