@@ -56,6 +56,12 @@ export default function sitemap() {
       priority: 0.78,
     },
     {
+      url: `${BASE}/loyalty`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
       url: `${BASE}/dogs`,
       lastModified: new Date(),
       changeFrequency: 'weekly',

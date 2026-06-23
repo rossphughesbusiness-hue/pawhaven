@@ -75,6 +75,8 @@ export default function Footer() {
                 { href: '/faq', label: 'FAQ' },
                 { href: '/contact', label: 'Contact Us' },
                 { href: '/order-tracking', label: 'Track Your Order' },
+                { href: '/loyalty', label: '🏆 PawPoints Rewards' },
+                { href: '/affiliates', label: '🤝 Affiliate Program' },
                 { href: '/legal/refund', label: 'Shipping & Returns' },
                 { href: 'mailto:support@pawhavenpets.org', label: 'support@pawhavenpets.org' },
               ].map((link) => (
