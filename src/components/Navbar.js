@@ -13,6 +13,8 @@ const DOG_LINKS = [
   { href: '/senior-dogs', label: '🐾 Senior Dogs', desc: 'Joint, mobility & comfort' },
   { href: '/dog-training', label: '🎯 Training', desc: 'Treat pouches & gear' },
   { href: '/dog-walking', label: '🐾 Walking Gear', desc: 'Harness, leash & more' },
+  { href: '/dog-toys', label: '🧸 Toys', desc: 'Tug, puzzle & squeaky' },
+  { href: '/dog-beds', label: '🛏️ Beds', desc: 'Orthopedic & cooling' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & paw cleaners' },
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
@@ -22,6 +24,7 @@ const CAT_LINKS = [
   { href: '/cats', label: '🐱 All Cats', desc: 'Browse every cat product' },
   { href: '/indoor-cats', label: '🏠 Indoor Cats', desc: 'Essential indoor kit' },
   { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Toys & mental stimulation' },
+  { href: '/cat-toys', label: '🧶 Cat Toys', desc: 'Wands, lasers & tunnels' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
 ];

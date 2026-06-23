@@ -31,7 +31,7 @@ const values = [
 
 const stats = [
   { value: '10,000+', label: 'Happy Pet Owners' },
-  { value: '25+', label: 'Curated Products' },
+  { value: '30+', label: 'Curated Products' },
   { value: '4.8★', label: 'Average Rating' },
   { value: '30 Days', label: 'Free Returns' },
 ];

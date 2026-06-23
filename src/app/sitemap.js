@@ -134,6 +134,24 @@ export default function sitemap() {
       priority: 0.80,
     },
     {
+      url: `${BASE}/dog-toys`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/dog-beds`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/cat-toys`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
