@@ -5,6 +5,33 @@ import HomepageRecentlyViewed from '@/components/HomepageRecentlyViewed';
 import { products } from '@/lib/products';
 import { getBundles } from '@/lib/bundles';
 
+export const metadata = {
+  title: 'PawHaven — Premium Pet Accessories for Dogs & Cats',
+  description:
+    'Shop vet-approved accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys and more. Free shipping on orders over $50. 30-day returns.',
+  alternates: { canonical: 'https://pawhavenpets.org' },
+  openGraph: {
+    title: 'PawHaven — Premium Pet Accessories',
+    description: 'Vet-approved accessories for dogs and cats. Free shipping on $50+.',
+    url: 'https://pawhavenpets.org',
+    siteName: 'PawHaven',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=85&auto=format&fit=crop',
+        width: 1200,
+        height: 630,
+        alt: 'PawHaven pet accessories',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'PawHaven — Premium Pet Accessories',
+    description: 'Vet-approved accessories for dogs and cats. Free shipping on $50+.',
+  },
+};
+
 const trustItems = [
   { icon: '🚚', title: 'Free Shipping', desc: 'On orders over $50' },
   { icon: '↩️', title: '30-Day Returns', desc: 'Hassle-free, no questions asked' },

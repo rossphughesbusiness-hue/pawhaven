@@ -3,8 +3,14 @@ import Image from 'next/image';
 import { getAllPosts } from '@/lib/blog';
 
 export const metadata = {
-  title: 'Blog — Pet Care Tips & Product Guides',
-  description: 'Vet-approved advice on dog nutrition, anxiety, safety, and more. Plus honest product reviews from real pet owners.',
+  title: 'Pet Care Blog — Tips, Guides & Product Reviews | PawHaven',
+  description: 'Vet-approved advice on dog nutrition, anxiety, grooming, training, and cat enrichment. Plus honest product reviews from real pet owners.',
+  alternates: { canonical: 'https://pawhavenpets.org/blog' },
+  openGraph: {
+    title: 'Pet Care Blog | PawHaven',
+    description: 'Expert pet care tips, product reviews, and guides for dog and cat owners.',
+    url: 'https://pawhavenpets.org/blog',
+  },
 };
 
 function formatDate(str) {
