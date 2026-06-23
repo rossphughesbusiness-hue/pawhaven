@@ -466,7 +466,6 @@ export const SEEDED_REVIEWS = {
       ts: 1744934400000,
     },
   ],
-};
 
   'cat-interactive-feeder-bowl': [
     {
