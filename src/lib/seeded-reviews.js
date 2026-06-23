@@ -610,12 +610,124 @@ export const SEEDED_REVIEWS = {
       ts: 1748563200000,
     },
   ],
-};
 
-/**
- * Get seeded reviews for a product slug.
- * Returns empty array if no seeded reviews exist for that slug.
- */
-export function getSeededReviews(slug) {
-  return SEEDED_REVIEWS[slug] || [];
-}
+  'dog-water-bottle-leakproof': [
+    {
+      name: 'Jamie L.',
+      rating: 5,
+      text: 'Absolute must-have for walks. My golden drinks from it perfectly, nothing leaks in my bag, and the squeeze mechanism is intuitive from day one. Bought extras for my hiking friends.',
+      date: 'June 19, 2026',
+      ts: 1750291200000,
+    },
+    {
+      name: 'Sandra K.',
+      rating: 5,
+      text: 'The retract mechanism is genius — no dripping, no waste. My picky lab actually drinks from it on the go now, which has never happened with other bottles. Light enough to barely notice.',
+      date: 'June 10, 2026',
+      ts: 1749513600000,
+    },
+    {
+      name: 'Derek M.',
+      rating: 4,
+      text: 'Works exactly as advertised and the carabiner clip is sturdy. Fill slightly below max in hot weather since pressure builds up — but it functions perfectly in normal conditions.',
+      date: 'June 2, 2026',
+      ts: 1748822400000,
+    },
+  ],
+
+  'cat-scratcher-curved-board': [
+    {
+      name: 'Priya S.',
+      rating: 5,
+      text: 'My cats completely stopped scratching the sofa the day this arrived. The catnip made them find it immediately — now they fight over who gets to use it. My furniture is finally safe.',
+      date: 'June 20, 2026',
+      ts: 1750377600000,
+    },
+    {
+      name: 'Andrew T.',
+      rating: 5,
+      text: 'Best cheap cat product I\'ve ever bought. All three of my cats use it daily and the double-sided design means I\'m not replacing it constantly. Ordered a second for the bedroom.',
+      date: 'June 8, 2026',
+      ts: 1749340800000,
+    },
+    {
+      name: 'Fiona L.',
+      rating: 4,
+      text: 'The curve really does make a difference — my cats go at it with way more enthusiasm than the flat boards I\'ve tried. Really effective at redirecting scratching behavior.',
+      date: 'May 29, 2026',
+      ts: 1748476800000,
+    },
+  ],
+
+  'pet-nail-grinder-rechargeable': [
+    {
+      name: 'Theresa B.',
+      rating: 5,
+      text: 'My dog bit me every time I tried clippers. First session with the grinder he fell asleep. The quiet motor is genuinely game-changing for anxious dogs — I can\'t believe I waited so long to switch.',
+      date: 'June 18, 2026',
+      ts: 1750204800000,
+    },
+    {
+      name: 'Carlos R.',
+      rating: 5,
+      text: 'Use it for both my dogs and cats. Takes slightly longer than clippers but the results are smoother and no one panics anymore. By the third session my cat barely flinched. Worth every penny.',
+      date: 'June 5, 2026',
+      ts: 1749081600000,
+    },
+    {
+      name: 'Linda W.',
+      rating: 4,
+      text: 'Really good product. Takes a session or two for nervous pets to fully relax with it, but the USB charging is convenient and the 3 grinding ports handle my large shepherd perfectly.',
+      date: 'May 27, 2026',
+      ts: 1748304000000,
+    },
+  ],
+
+  'dog-reflective-raincoat': [
+    {
+      name: 'Natalie P.',
+      rating: 5,
+      text: 'My beagle comes home completely dry now even in heavy rain. The reflective strips are genuinely bright and the leash hole works perfectly over her harness. Exactly what I needed.',
+      date: 'June 15, 2026',
+      ts: 1749945600000,
+    },
+    {
+      name: 'Tom J.',
+      rating: 4,
+      text: 'Really good quality for the price. I sized up one from the chart and it fits my corgi perfectly. Easy to get on and off even when he\'s being wiggly about it.',
+      date: 'June 3, 2026',
+      ts: 1748995200000,
+    },
+    {
+      name: 'Lisa M.',
+      rating: 5,
+      text: 'Waterproof and then some — walked through a genuine downpour and my lab was bone dry underneath. The velcro stays secure even with a pulling dog. Exactly what the product promises.',
+      date: 'May 25, 2026',
+      ts: 1748131200000,
+    },
+  ],
+
+  'cat-circuit-ball-track': [
+    {
+      name: 'Sophie T.',
+      rating: 5,
+      text: 'My cat who never plays is absolutely obsessed with this. She bats at it for 20 minutes straight then naps, which is exactly the routine my vet recommended. Best cat toy I\'ve ever bought.',
+      date: 'June 21, 2026',
+      ts: 1750464000000,
+    },
+    {
+      name: 'Richard B.',
+      rating: 5,
+      text: 'All three of my cats use this simultaneously and haven\'t had a single fight over it in two weeks. The three tiers give everyone their own ball — absolute chaos in the best way.',
+      date: 'June 11, 2026',
+      ts: 1749600000000,
+    },
+    {
+      name: 'Chloe W.',
+      rating: 4,
+      text: 'Great quality track with a sturdy non-slip base on hardwood. My cats figured it out immediately and it keeps them busy while I work from home. Assembly took under 2 minutes.',
+      date: 'June 1, 2026',
+      ts: 1748736000000,
+    },
+  ],
+};

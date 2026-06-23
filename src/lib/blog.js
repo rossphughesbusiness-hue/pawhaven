@@ -3166,7 +3166,7 @@ const POST_RELEVANCE = {
   'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
   'tug-toys-for-dogs-benefits-how-to-play': ['Toys', 'Play', 'Enrichment', 'Training', 'Dogs'],
   'sisal-vs-carpet-scratching-posts-which-cats-prefer':  ['Comfort', 'Play', 'Cats'],
-  'best-dog-walking-accessories-2026':                   ['Walking', 'Safety', 'Training', 'Dogs'],
+  'best-dog-walking-accessories-2026':                   ['Walking', 'Outdoor', 'Safety', 'Training', 'Dogs'],
   'cat-grooming-guide-tools-and-tips':                   ['Grooming', 'Health', 'Cats'],
   'pet-road-trip-guide-2026':                            ['Travel', 'Dogs', 'Cats', 'Safety'],
   'best-dog-grooming-tools-2026':                        ['Grooming', 'Dogs', 'Health'],

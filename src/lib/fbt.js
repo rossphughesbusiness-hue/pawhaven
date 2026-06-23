@@ -43,6 +43,13 @@ export const FBT_MAP = {
   'sisal-cat-scratching-post':     ['cozy-cat-cave-hideaway', 'cat-window-perch-hammock'],
   'dog-treat-training-pouch':      ['reflective-step-in-harness', 'retractable-pro-dog-leash'],
   'heavy-duty-rope-tug-toy':       ['crinkle-squeaky-toy-bundle', 'iq-puzzle-feeder-toy'],
+
+  // New products (IDs 31-35)
+  'dog-water-bottle-leakproof':    ['reflective-step-in-harness', 'retractable-pro-dog-leash'],
+  'cat-scratcher-curved-board':    ['cozy-cat-cave-hideaway', 'cat-tunnel-crinkle-play-tube'],
+  'pet-nail-grinder-rechargeable': ['self-cleaning-slicker-brush', 'portable-paw-cleaner'],
+  'dog-reflective-raincoat':       ['safeglow-led-collar', 'reflective-step-in-harness'],
+  'cat-circuit-ball-track':        ['feather-wand-cat-teaser', 'cat-tunnel-crinkle-play-tube'],
 };
 
 /**
