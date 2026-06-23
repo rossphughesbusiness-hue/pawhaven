@@ -217,6 +217,28 @@ export default function DogsPage({ searchParams }) {
         </div>
       </section>
 
+      {/* ─── Related links ─── */}
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-lg font-bold text-navy-900 mb-5 text-center">Explore Dog Care</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {[
+              { href: '/dog-health', label: '🏥 Dog Health', desc: 'Prevention & wellness tips' },
+              { href: '/dog-grooming', label: '🐕 Dog Grooming', desc: 'Brushes, paw care & deshedding' },
+              { href: '/pet-first-aid', label: '🩹 Pet First Aid', desc: 'Emergency preparedness' },
+              { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Calming & stress relief' },
+              { href: '/senior-dogs', label: '🐾 Senior Dogs', desc: 'Joint & mobility care' },
+              { href: '/dog-enrichment', label: '🧠 Enrichment', desc: 'Puzzles & mental stim' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-white hover:bg-amber-50 rounded-xl p-4 text-center transition-colors border border-gray-100">
+                <div className="font-bold text-navy-900 text-sm">{label}</div>
+                <div className="text-xs text-gray-500 mt-1">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── CTA ─── */}
       <section className="py-16 bg-navy-900">
         <div className="max-w-2xl mx-auto px-4 text-center">

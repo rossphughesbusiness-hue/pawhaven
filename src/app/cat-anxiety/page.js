@@ -324,6 +324,7 @@ export default function CatAnxietyPage() {
                 { href: '/cat-beds', label: '😴 Cat Beds', desc: 'Caves, perches & hideaways' },
                 { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Puzzles & mental stim' },
                 { href: '/senior-cats', label: '🌸 Senior Cats', desc: 'Comfort & care for 7+' },
+                { href: '/cat-feeding', label: '🍽️ Cat Feeding', desc: 'Bowls & feeders' },
                 { href: '/cats', label: '🐱 All Cats', desc: 'Browse everything' },
               ].map(({ href, label, desc }) => (
                 <Link key={href} href={href} className="bg-purple-50 hover:bg-purple-100 rounded-2xl p-4 text-center transition-colors">

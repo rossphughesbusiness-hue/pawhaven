@@ -318,6 +318,8 @@ export default function DogAnxietyPage() {
                 { href: '/dog-enrichment', label: '🧠 Enrichment', desc: 'Puzzles & mental stim' },
                 { href: '/senior-dogs', label: '🐾 Senior Dogs', desc: 'Joint & mobility care' },
                 { href: '/dog-beds', label: '🛏️ Dog Beds', desc: 'Orthopedic & cozy' },
+                { href: '/dog-health', label: '🏥 Dog Health', desc: 'Prevention & wellness' },
+                { href: '/pet-first-aid', label: '🩹 Pet First Aid', desc: 'Emergency preparedness' },
                 { href: '/dogs', label: '🐶 All Dogs', desc: 'Browse everything' },
               ].map(({ href, label, desc }) => (
                 <Link key={href} href={href} className="bg-blue-50 hover:bg-blue-100 rounded-2xl p-4 text-center transition-colors">

@@ -170,6 +170,26 @@ export default function SeniorDogsPage() {
         </div>
       </section>
 
+      {/* ─── Related links ─── */}
+      <section className="py-10 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-lg font-bold text-navy-900 mb-5 text-center">More Dog Health & Care</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/dog-health', label: '🏥 Dog Health', desc: 'Prevention & wellness tips' },
+              { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Calming & stress relief' },
+              { href: '/dog-grooming', label: '🐕 Dog Grooming', desc: 'At-home care tools' },
+              { href: '/dogs', label: '🐶 All Dogs', desc: 'Browse everything' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-gray-50 hover:bg-amber-50 rounded-xl p-4 text-center transition-colors border border-gray-100">
+                <div className="font-bold text-navy-900 text-sm">{label}</div>
+                <div className="text-xs text-gray-500 mt-1">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── CTA ─── */}
       <section className="py-16 bg-brand-500 text-white text-center">
         <div className="max-w-xl mx-auto px-4">

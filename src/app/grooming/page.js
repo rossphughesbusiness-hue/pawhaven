@@ -216,6 +216,24 @@ export default function GroomingPage() {
           </div>
         </div>
 
+        {/* Related pages */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <h2 className="text-lg font-bold text-navy-900 mb-5 text-center">Specific Grooming Guides</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { href: '/dog-grooming', label: '🐕 Dog Grooming', desc: 'Brushes, paw care & deshedding' },
+              { href: '/cat-grooming', label: '✂️ Cat Grooming', desc: 'Brushes, nail tools & more' },
+              { href: '/dogs', label: '🐶 All Dogs', desc: 'Browse everything' },
+              { href: '/cats', label: '🐱 All Cats', desc: 'Browse everything' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-gray-50 hover:bg-emerald-50 rounded-xl p-4 text-center transition-colors border border-gray-100">
+                <div className="font-bold text-navy-900 text-sm">{label}</div>
+                <div className="text-xs text-gray-500 mt-1">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* CTA */}
         <div className="bg-emerald-600">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center text-white">

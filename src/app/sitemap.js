@@ -224,6 +224,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/dog-health`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/pet-first-aid`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

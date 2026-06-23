@@ -316,6 +316,7 @@ export default function CatGroomingPage() {
                 { href: '/grooming', label: '✂️ All Grooming', desc: 'Dogs & cats tools' },
                 { href: '/senior-cats', label: '🌸 Senior Cats', desc: 'Care for cats 7+' },
                 { href: '/indoor-cats', label: '🏠 Indoor Cats', desc: 'Essential indoor kit' },
+                { href: '/cat-feeding', label: '🍽️ Cat Feeding', desc: 'Bowls & feeders' },
                 { href: '/cats', label: '🐱 All Cats', desc: 'Browse everything' },
               ].map(({ href, label, desc }) => (
                 <Link key={href} href={href} className="bg-teal-50 hover:bg-teal-100 rounded-2xl p-4 text-center transition-colors">
