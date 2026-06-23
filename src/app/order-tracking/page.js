@@ -5,9 +5,34 @@ import Link from 'next/link';
 
 const STATUS_STEPS = ['Order Placed', 'Being Prepared', 'Shipped', 'Delivered'];
 
+// Map our internal Redis status strings to the display step
 function stepIndex(status) {
-  const i = STATUS_STEPS.indexOf(status);
-  return i === -1 ? 0 : i;
+  const map = {
+    'Order Placed': 0,
+    'Being Prepared': 1,
+    'Shipped': 2,
+    'Delivered': 3,
+    'processing': 0,
+    'preparing': 1,
+    'shipped': 2,
+    'in_transit': 2,
+    'out_for_delivery': 2,
+    'delivered': 3,
+  };
+  return map[status] ?? 0;
+}
+
+// Map internal status to friendly display label
+function friendlyStatus(status) {
+  const map = {
+    processing: 'Order Placed',
+    preparing: 'Being Prepared',
+    shipped: 'Shipped',
+    in_transit: 'Shipped',
+    out_for_delivery: 'Shipped',
+    delivered: 'Delivered',
+  };
+  return map[status] || 'Order Placed';
 }
 
 function ProgressBar({ status }) {
@@ -59,9 +84,11 @@ function ProgressBar({ status }) {
 }
 
 function TrackingResult({ result }) {
+  // Normalise: API may return internal status strings like 'processing'
+  const displayStatus = friendlyStatus(result.status);
   const hasTracking = result.trackingNumber && result.trackingUrl;
-  const isDelivered = result.rawStatus === 'DELIVERED';
-  const isCancelled = result.rawStatus === 'CANCELLED';
+  const isDelivered = result.status === 'delivered' || result.status === 'Delivered';
+  const isCancelled = result.status === 'cancelled' || result.rawStatus === 'CANCELLED';
 
   return (
     <div style={{ animation: 'fadeIn 0.3s ease' }}>
@@ -72,14 +99,19 @@ function TrackingResult({ result }) {
       }}>
         <span style={{ fontSize: 28 }}>{isDelivered ? '🎉' : isCancelled ? '❌' : '📦'}</span>
         <div>
-          <div style={{ fontSize: 16, fontWeight: 700, color: '#1a2b4a' }}>{result.status}</div>
+          <div style={{ fontSize: 16, fontWeight: 700, color: '#1a2b4a' }}>{displayStatus}</div>
           {result.customerName && (
             <div style={{ fontSize: 13, color: '#64748b', marginTop: 2 }}>For {result.customerName}</div>
+          )}
+          {result.estimatedDelivery && !isDelivered && (
+            <div style={{ fontSize: 13, color: '#f97316', marginTop: 2, fontWeight: 600 }}>
+              Est. delivery: {result.estimatedDelivery}
+            </div>
           )}
         </div>
       </div>
 
-      {!isCancelled && <ProgressBar status={result.status} />}
+      {!isCancelled && <ProgressBar status={displayStatus} />}
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 24 }}>
         <div style={{ background: '#f8fafc', borderRadius: 10, padding: '16px 18px' }}>
@@ -166,7 +198,7 @@ function OrderTrackingInner() {
       const param = id.startsWith('cs_')
         ? `session_id=${encodeURIComponent(id)}`
         : `ref=${encodeURIComponent(id)}`;
-      const res = await fetch(`/api/track-order?${param}`);
+      const res = await fetch(`/api/order-status?${param}`);
       const data = await res.json();
       if (!res.ok) {
         setError(data.error || 'Unable to find order. Please check your order number and try again.');

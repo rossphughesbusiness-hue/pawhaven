@@ -20,7 +20,8 @@ async function redisGet(key) {
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
   const ref = (searchParams.get('ref') || '').trim().toUpperCase();
-  const sessionId = (searchParams.get('session') || '').trim();
+  // Accept both ?session= and ?session_id= (confirmation email uses session_id)
+  const sessionId = (searchParams.get('session_id') || searchParams.get('session') || '').trim();
 
   if (!ref && !sessionId) {
     return NextResponse.json({ error: 'Provide an order reference or session ID' }, { status: 400 });
@@ -47,12 +48,19 @@ export async function GET(req) {
       );
     }
 
+    // Estimate delivery window (~10–17 days from order creation)
+    const created = order.createdAt || Date.now();
+    const minDelivery = new Date(created + 10 * 24 * 60 * 60 * 1000);
+    const maxDelivery = new Date(created + 17 * 24 * 60 * 60 * 1000);
+    const fmt = (d) => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
     // Return safe subset (no internal CJ IDs)
     return NextResponse.json({
       orderRef: order.orderRef,
       status: order.status || 'processing',
       customerName: order.customerName,
-      createdAt: order.createdAt,
+      createdAt: created,
+      estimatedDelivery: `${fmt(minDelivery)} – ${fmt(maxDelivery)}`,
     });
   } catch (err) {
     console.error('[order-status] Error:', err.message);
