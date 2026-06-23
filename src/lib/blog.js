@@ -1239,6 +1239,444 @@ export function getAllPosts() {
   return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
+  // ─── Post 17 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-interactive-dog-toys-2026',
+    title: 'Best Interactive Dog Toys in 2026 (Beat Boredom & Bad Behavior)',
+    description: 'Bored dogs chew everything. Interactive toys solve it. We review the top puzzle toys, treat dispensers, and enrichment games vets recommend.',
+    date: '2026-06-30',
+    readTime: '7 min read',
+    category: 'Enrichment',
+    emoji: '🧸',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85&auto=format&fit=crop',
+    content: `
+A bored dog is a destructive dog. If your furniture has bite marks, your shoes are missing, or your dog barks the moment you leave — the problem is almost certainly under-stimulation. Interactive toys are the single most effective fix that doesn't require a trainer.
+
+Here's what actually works in 2026.
+
+## Why Dogs Need Mental Stimulation
+
+Dogs were bred to work — herding, hunting, tracking, guarding. A modern pet dog sleeps, eats, and has nothing to do for 8–10 hours a day. That pent-up energy has to go somewhere. Interactive toys redirect it.
+
+Research from veterinary behaviorists shows that 15–20 minutes of mental exercise is equivalent to 1 hour of physical exercise in terms of fatigue and behavioral calm. A tired brain means a relaxed, well-behaved dog.
+
+## Types of Interactive Toys
+
+**Puzzle feeders and lick mats** slow down eating and make meals an enrichment activity. Spreading peanut butter, yogurt, or wet food on a textured lick mat creates 10–20 minutes of focused licking — which releases calming endorphins and reduces anxiety. Our [Lick Mat with Suction Cups](/products/lick-mat-suction-cups) is consistently one of our top-sellers for exactly this reason.
+
+**Treat dispensers and Kongs** make dogs work for food by rolling, nudging, and problem-solving. Stuff one with kibble soaked in broth and freeze it — you've got a 45-minute project for a determined dog.
+
+**Snuffle mats** satisfy natural foraging instincts. Dogs use their nose to find hidden treats through fabric loops — the same nose work that search-and-rescue dogs train on all day.
+
+**Tug toys** provide physical and mental engagement simultaneously. A quality rope or rubber tug toy lets dogs satisfy their prey drive in a controlled way.
+
+## Our Top Pick for 2026
+
+The snuffle mat remains the best all-around interactive toy for most dogs. Here's why:
+
+- **Works for all breeds and ages** — from puppies to seniors
+- **No batteries or setup** — hide treats and hand it over
+- **Keeps dogs occupied 15–30 minutes** — far longer than a standard chew
+- **Safe and washable** — most can go in the machine on gentle cycle
+- **Reduces anxiety** — nose work naturally calms the nervous system
+
+For dogs that need more challenge, combine a snuffle mat with a frozen lick mat for a 45-minute enrichment session that'll leave any dog happily exhausted.
+
+## Setting Up an Enrichment Rotation
+
+Don't give your dog the same toy every day — novelty is part of what makes toys engaging. Rotate through 4–6 different toys, each appearing about once a week. When a toy comes back out, it's exciting again.
+
+A good weekly rotation might look like:
+- Monday: snuffle mat with kibble
+- Tuesday: frozen lick mat
+- Wednesday: rope tug + training session
+- Thursday: chew toy with peanut butter
+- Friday: treat dispenser
+- Weekend: longer walk or play session
+
+## Signs Your Dog Needs More Enrichment
+
+- Chewing furniture, shoes, or household objects
+- Excessive barking, especially when alone
+- Digging in the yard or at carpet edges
+- Pacing, restlessness, or inability to settle
+- Attention-seeking behavior (jumping, nudging, pawing)
+
+If you see 2+ of these, start with a daily 20-minute enrichment session using a puzzle feeder or lick mat. Most owners see improvement within a week.
+
+The good news: interactive enrichment is one of the cheapest, easiest behavioral interventions available. You don't need a trainer. You need a good toy and five minutes of setup.
+    `,
+  },
+
+  // ─── Post 18 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-choose-dog-harness-vs-collar',
+    title: 'Dog Harness vs. Collar: Which Is Right for Your Dog?',
+    description: 'Should your dog wear a harness or a collar? It depends on breed, size, and behavior. Here\'s the complete breakdown from vets and trainers.',
+    date: '2026-07-01',
+    readTime: '6 min read',
+    category: 'Walking & Safety',
+    emoji: '🦺',
+    heroImage: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&q=85&auto=format&fit=crop',
+    content: `
+If you've ever stood in a pet store staring at 40 different walking products wondering which one is right for your dog — you're not alone. Harness vs. collar is one of the most common questions we get. Here's the clear answer.
+
+## When to Use a Collar
+
+Collars are appropriate for dogs that walk calmly on a leash, don't pull, and don't have any neck or trachea sensitivities. They're ideal for:
+
+- Well-trained adult dogs that heel reliably
+- ID tags and microchip registration (collars should always be worn for ID, even if you walk with a harness)
+- Lightweight dogs with no pulling tendencies
+- Breeds without flat faces (brachycephalic dogs like Bulldogs and Pugs should never use collars during walks — more on this below)
+
+The main risk of collars is **tracheal damage from pulling**. Even a single strong lunge can strain or injure the trachea, especially in small dogs. Vets see this injury constantly.
+
+## When to Use a Harness
+
+Harnesses are the right choice for most dogs, especially:
+
+**Pullers**: The #1 reason. When a dog pulls on a harness, the pressure distributes across the chest and shoulders — not the neck. This prevents tracheal injury and actually gives you better control.
+
+**Small dogs**: Chihuahuas, Yorkshire Terriers, and Pomeranians are especially prone to tracheal collapse. A harness is non-negotiable for these breeds.
+
+**Flat-faced (brachycephalic) breeds**: Bulldogs, Pugs, French Bulldogs, Boxers, and Boston Terriers already have compromised airways. Any collar pressure is dangerous.
+
+**Puppies still being trained**: Puppies pull. A lot. Protect their developing trachea with a harness from day one.
+
+**Dogs recovering from injury**: Harnesses avoid pressure on any injured areas of the body.
+
+## Types of Harnesses
+
+**Back-clip harnesses** attach the leash at the dog's back. Great for calm dogs — easy to put on, comfortable for the dog. Not ideal for pullers because they can actually give dogs more leverage to pull forward.
+
+**Front-clip harnesses** attach at the chest. When a dog pulls, they turn sideways — which interrupts the pulling motion. These are excellent for dogs in training.
+
+**No-pull harnesses** combine chest and back clips with a design that gently discourages pulling by redirecting movement. Our [No-Pull Dog Harness](/products/no-pull-dog-harness) uses this approach and is one of our most recommended products.
+
+**Step-in harnesses** let dogs step in and you clip over the back — easier than over-the-head designs for dogs that hate having things put over their face.
+
+## Getting the Right Fit
+
+A harness that doesn't fit is worse than no harness at all. Check these fit points:
+
+- **Chest**: Should fit snugly but allow two fingers between the harness and your dog's body
+- **Belly strap**: Same rule — snug but not tight
+- **Shoulder area**: Harness shouldn't restrict shoulder movement or dig into the armpits
+- **Position**: The chest plate should sit on the sternum, not on the neck
+
+To check: have your dog walk and trot. If the harness slides sideways or rubs the armpits, it doesn't fit correctly.
+
+## Our Recommendation
+
+For most dogs — especially any dog that pulls, any small breed, or any brachycephalic breed — a well-fitted front-clip or no-pull harness is the right choice. Pair it with a flat collar for ID tags.
+
+If your dog walks perfectly and is a medium-to-large breed with no health concerns, a quality collar is fine. But when in doubt, the harness is the safer option for your dog's long-term health.
+    `,
+  },
+
+  // ─── Post 19 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-cat-toys-for-indoor-cats-2026',
+    title: 'Best Cat Toys for Indoor Cats in 2026 (That Cats Actually Play With)',
+    description: 'Most cat toys end up under the couch. We found the ones that actually get cats moving, hunting, and playing — tested on real cats.',
+    date: '2026-07-02',
+    readTime: '6 min read',
+    category: 'Cat Care',
+    emoji: '🐱',
+    heroImage: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Most cat toys look great in the store and immediately disappear under the sofa. Sound familiar? The problem isn't your cat — it's that most toys don't account for how cats actually hunt and play.
+
+Here's what actually works, and why.
+
+## How Cats Are Wired to Play
+
+Cats are obligate hunters. Even the most spoiled indoor cat has a hardwired prey drive that needs an outlet. When that drive isn't satisfied, you get:
+
+- Midnight zoomies (predatory energy with nowhere to go)
+- Furniture scratching and destruction
+- Aggression toward owners
+- Overeating out of boredom
+- Depression and lethargy
+
+The key to a good cat toy is that it must **mimic prey**. Cats respond to unpredictable movement, small size, feathers or fur-like textures, sounds (crinkle, squeak), and objects that can be "caught" and carried.
+
+## What Doesn't Work
+
+Toys that move in predictable, mechanical patterns bore cats quickly. Most battery-powered spinners and automatic laser pointers lose a cat's interest within a few sessions because the "prey" doesn't actually respond like real prey would.
+
+## What Works: The Hierarchy of Cat Toys
+
+### 1. Interactive Wand Toys (Best)
+
+Wand toys let you control movement in unpredictable ways — making the toy dart, freeze, and dart again like a real mouse or bird. This satisfies the full hunting sequence: stalk, pounce, catch, kill.
+
+The key: vary the movement. Drag it slowly, then let it go still. Flick it over your cat's head. Let them catch it sometimes so they don't get frustrated.
+
+10–15 minutes of wand play twice a day can dramatically reduce destructive behavior.
+
+### 2. Crinkle Balls and Mylar Toys
+
+Lightweight, unpredictable, and they make sounds. Cats can bat them independently without you. Keep a few scattered around the house for spontaneous solo play.
+
+### 3. Puzzle Feeders and Lick Mats
+
+Feeding enrichment is just as important as play enrichment for cats. A [cat lick mat](/products/lick-mat-suction-cups) spread with a small amount of wet food or tuna water gives cats 10–20 minutes of satisfying activity. Our customers consistently say this is the most-used cat product they've bought.
+
+### 4. Catnip Toys
+
+Not all cats respond to catnip (genetic trait — about 50% of cats lack the gene), but those that do go absolutely wild for it. Refreshable catnip toys that let you add loose catnip have the longest lifespan.
+
+### 5. Tunnels and Hiding Spots
+
+Cats love ambush spots. A simple crinkle tunnel gives cats a place to hide, pounce from, and retreat to. The crinkle sound alone is engaging.
+
+## Setting Up a Play Routine
+
+The best toy is the one that gets used. Build a 10-minute play session into your morning and evening routine. This is especially important for:
+
+- Single indoor cats (no feline stimulation)
+- Cats that scratch furniture (redirected hunting energy)
+- Overweight cats that need exercise
+- Cats showing signs of stress or anxiety
+
+End sessions with a treat or small meal — this completes the hunt/eat cycle and leaves cats satisfied rather than wound up.
+
+## The Bottom Line
+
+You don't need 20 cat toys. You need 3–5 good ones that you actually use. A wand toy you play with actively, a puzzle feeder for meal enrichment, and a few independent toys to scatter around. Rotate them weekly so novelty stays high.
+
+The single most important rule: **play with your cat, don't just give them toys**. No object is as interesting as an owner who's actively engaged.
+    `,
+  },
+
+  // ─── Post 20 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'dog-food-toppers-complete-guide',
+    title: 'Dog Food Toppers: Are They Worth It? (Complete 2026 Guide)',
+    description: 'Dog food toppers can boost nutrition, hydration, and palatability — or they can be a waste of money. Here\'s how to choose the right one.',
+    date: '2026-07-03',
+    readTime: '5 min read',
+    category: 'Feeding & Nutrition',
+    emoji: '🍖',
+    heroImage: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Dog food toppers are one of the fastest-growing segments of the pet industry — and for good reason. A small addition to your dog's bowl can dramatically increase palatability, add nutrients, and even help with health issues. But not all toppers are created equal.
+
+Here's what you need to know before buying.
+
+## What Are Dog Food Toppers?
+
+A topper is anything added to your dog's regular kibble or wet food to enhance nutrition, flavor, or moisture. Options range from freeze-dried proteins and broths to raw food additions and supplements.
+
+The goal is usually one of:
+- Getting a picky eater to finish their bowl
+- Adding hydration (especially important for kibble-fed dogs)
+- Boosting specific nutrients (joint support, coat health, digestive health)
+- Adding variety to avoid meal fatigue
+
+## Do They Actually Work?
+
+Yes — but only if you choose the right one for your goal.
+
+**For picky eaters**: Bone broth (low-sodium) or a small amount of canned pumpkin are the most effective. Both add strong smell signals that trigger appetite. Start with just a tablespoon.
+
+**For hydration**: Dry kibble contains only 10% moisture. Dogs need significantly more. Adding warm water or broth to kibble creates a gravy that increases overall fluid intake — especially helpful for senior dogs and dogs prone to UTIs.
+
+**For joint support**: Toppers containing glucosamine, chondroitin, and omega-3s (from fish oil or sardines) provide measurable joint benefits over time. These are particularly valuable for large breeds and senior dogs.
+
+**For digestive health**: Plain canned pumpkin (not pie filling — just pumpkin) is the single most effective dietary supplement for loose stool and constipation. A tablespoon a day works better than most commercial digestive supplements.
+
+**For coat and skin**: Salmon oil or sardines added to food dramatically improve coat shine in most dogs within 4–6 weeks. The omega-3 fatty acids are the active ingredient.
+
+## What to Avoid
+
+**High-sodium broths**: Many store-bought broths have dangerous sodium levels for dogs. Always use unsalted or low-sodium options, or make your own.
+
+**Toppings high in fat**: A spoonful of bacon grease or high-fat table scraps as toppers can trigger pancreatitis, especially in small dogs and breeds predisposed to it (like Schnauzers and Cocker Spaniels).
+
+**Onion, garlic, or chives**: Toxic to dogs in any amount. Never add these, even in "small" quantities.
+
+**Artificial sweeteners**: Xylitol is extremely toxic to dogs and shows up in unexpected places (some peanut butters, flavored broths, etc.). Always check labels.
+
+## The Lick Mat Approach
+
+One of the most popular ways to use toppers is spreading them on a [lick mat](/products/lick-mat-suction-cups) rather than mixing into a bowl. This creates a slow-feeding enrichment activity that:
+
+- Extends mealtime from 30 seconds to 5–15 minutes
+- Reduces anxiety through the calming action of repetitive licking
+- Prevents bloat by slowing food intake
+- Keeps dogs mentally engaged
+
+Our customers love freezing lick mats with a mixture of pumpkin, Greek yogurt, and kibble — it creates a 20-minute project that leaves dogs calm and satisfied.
+
+## How to Introduce Toppers
+
+Start small. Add just 1–2 tablespoons of any topper and observe your dog over 48 hours. Watch for:
+- Changes in stool consistency (a little looser is okay; significant change means reduce the amount)
+- Allergic reactions (itching, hives, digestive upset)
+- Changes in appetite (you want increased interest, not less)
+
+If all is well after a week, you can establish it as a regular addition.
+
+The best toppers are simple, whole-food based, and appropriate for your dog's specific needs. Don't overcomplicate it — sometimes the best topper is just warm water.
+    `,
+  },
+
+  // ─── Post 21 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-crate-train-a-puppy',
+    title: 'How to Crate Train a Puppy: Step-by-Step Guide (2026)',
+    description: 'Crate training done right gives puppies a safe space they love — not a punishment. Here\'s the exact method vets and trainers recommend.',
+    date: '2026-07-04',
+    readTime: '8 min read',
+    category: 'Training',
+    emoji: '🏠',
+    heroImage: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Crate training has a bad reputation it doesn't deserve. When done correctly, dogs come to love their crate as a den — a safe, quiet retreat they choose on their own. When done incorrectly, it becomes a source of anxiety. This guide shows you the right way.
+
+## The Mindset Shift: Den Animals, Not Prisoners
+
+Dogs are den animals. In the wild, canines seek out small, enclosed spaces to sleep and feel secure. A crate taps directly into that instinct — but only if introduced gradually and positively. A dog forced into a crate or locked up for too long will develop crate anxiety, not crate love.
+
+The goal is for your puppy to choose to go to their crate voluntarily.
+
+## Choosing the Right Crate Size
+
+This is where most owners make their first mistake. A crate that's too large defeats the purpose. Dogs won't soil an area they sleep in — but if the crate is big enough to eliminate in one corner and sleep in another, they will.
+
+The right size: **your puppy should be able to stand up, turn around, and lie down comfortably — and that's it**.
+
+For puppies who will grow significantly, use a divider to make the crate smaller now. Expand as they grow.
+
+## The 5-Step Introduction Process
+
+**Week 1: Introduction with no door**
+
+Put the crate in a room where your family spends time. Remove the door or tie it open. Drop treats inside periodically throughout the day — let the puppy discover them. Never push or lure them in. Let them choose to enter.
+
+Add comfortable bedding. A [calming pet bed](/products/calming-pet-bed) or blanket with your scent works well. Some owners place a used T-shirt inside.
+
+**Week 2: Meals near, then in, the crate**
+
+Start feeding meals just outside the crate entrance. Over a few days, gradually move the bowl further inside. By end of week, your puppy should be walking fully into the crate to eat.
+
+Leave the door open while they eat. Don't close it yet.
+
+**Week 3: First door closures**
+
+After your puppy enters freely for meals, close the door while they eat. Open it immediately when they finish. Over the next few days, keep the door closed for a few minutes after eating. Sit nearby and speak calmly.
+
+If your puppy whines, don't open the door — wait for even a 2-second pause in whining, then open it. This teaches that quiet earns freedom, not noise.
+
+**Week 4: Extending crate time**
+
+Gradually extend crate time to 10, 20, then 30 minutes while you're in the room. Use a stuffed Kong or [lick mat](/products/lick-mat-suction-cups) to make this enjoyable — a frozen lick mat can keep a puppy occupied for 20–30 minutes.
+
+Move to short absences: leave the room, return, open. Extend these absences gradually.
+
+**Week 5+: Overnights and regular use**
+
+Most puppies are ready for overnight crating by week 5. Place the crate in your bedroom — puppies sleep better hearing you breathe. A puppy under 6 months will need at least one nighttime bathroom break.
+
+## Common Mistakes
+
+**Using the crate as punishment**: The crate should never be associated with negative emotion. If you're sending your dog to their crate because you're frustrated, they'll learn to fear it.
+
+**Leaving too long**: Puppies can hold their bladder for roughly one hour per month of age, plus one (so a 3-month puppy can hold for 4 hours max). Don't exceed this.
+
+**Releasing during whining**: This teaches that whining opens doors. Always wait for quiet.
+
+**Moving too fast**: Rushing any step creates anxiety. If your puppy is stressed, go back to the previous step for another few days.
+
+## Signs Crate Training Is Working
+
+- Puppy enters the crate voluntarily for naps
+- No whining or distress when the door is closed
+- Relaxed body language inside the crate
+- Puppy goes to their crate on their own when tired
+
+Most puppies reach this point within 4–6 weeks of consistent training. The investment is absolutely worth it — a crate-trained dog has a safe space for life, which dramatically reduces stress during travel, vet visits, and emergencies.
+    `,
+  },
+
+  // ─── Post 22 ────────────────────────────────────────────────────────────────
+  {
+    slug: 'best-pet-products-apartment-dogs',
+    title: 'Best Pet Products for Apartment Dogs (Small Space, Happy Dog)',
+    description: 'Living in an apartment with a dog doesn\'t mean sacrificing their wellbeing. These products solve the unique challenges of small-space dog ownership.',
+    date: '2026-07-05',
+    readTime: '6 min read',
+    category: 'Enrichment',
+    emoji: '🏙️',
+    heroImage: 'https://images.unsplash.com/photo-1534361960057-19f4434a5fd6?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Apartment living with a dog is absolutely doable — even with large breeds. But it does require the right tools. Without outdoor space to self-regulate, apartment dogs need indoor enrichment that meets their physical and mental needs.
+
+Here's exactly what to get.
+
+## The Apartment Dog's Unique Challenges
+
+**Limited self-regulation**: Dogs in homes with yards can burn energy any time — run a lap, dig, roll in the grass. Apartment dogs can only move when you take them out.
+
+**Noise sensitivity**: Close neighbors, hallway sounds, and building noises can make apartment dogs anxious. Thin walls amplify everything.
+
+**Bathroom logistics**: Especially with puppies or seniors, getting outside quickly is harder. Accidents are more likely.
+
+**Exercise gaps**: Between work hours, a dog in a 600-square-foot apartment may be cooped up for 8+ hours. Without enrichment, behavioral problems develop fast.
+
+## What Actually Helps
+
+### Indoor Enrichment (Most Important)
+
+A [lick mat](/products/lick-mat-suction-cups) is the single most-recommended product for apartment dogs. Spread peanut butter, wet food, or pumpkin on one and freeze it — you get 20–30 minutes of calm, focused activity that burns mental energy without requiring any space.
+
+A [snuffle mat](/products/snuffle-mat) works similarly for feeding time. Hiding kibble in fabric loops satisfies foraging instinct and extends meal time 5–10x. For apartments where you need your dog to be calm while you work, this is invaluable.
+
+### Calming Solutions
+
+Apartment noise and close neighbors are a real stressor for many dogs. A [calming pet bed](/products/calming-pet-bed) with raised edges creates a secure denning space that significantly reduces anxiety. The raised rim lets dogs rest their chin — a comfort position that lowers heart rate.
+
+For dogs with noise sensitivity, pair the calming bed with white noise. A fan, air purifier, or white noise machine masks hallway sounds that trigger barking.
+
+### Exercise in Small Spaces
+
+**Tug of war**: 10 minutes of tug burns energy fast. Grab a quality rope toy and go. Tug doesn't create aggression — it's a cooperative game that strengthens your bond.
+
+**Training sessions**: Mental exercise is exhausting. A 15-minute session of sit, stay, leave it, and new tricks will tire a dog as much as a 45-minute walk.
+
+**Stair work**: If your building has stairs, use them. Stair climbing is excellent low-impact cardio for dogs.
+
+**Long-line sniff walks**: Even apartment walks are better when you let the dog sniff. Sniffing at a natural pace for 30 minutes is more tiring than a 30-minute power walk. Let them lead with their nose.
+
+### For Noise-Sensitive or Anxious Dogs
+
+Apartment dogs are more likely to develop separation anxiety because the contrast between company and solitude is more pronounced in a small space. If you're gone 8 hours a day, your dog goes from constant close proximity to complete isolation.
+
+Signs of separation anxiety: destructive behavior, excessive vocalization when you leave, self-harm (paw licking, tail chasing).
+
+Interventions that work: puzzle feeders on departure (positive association with leaving), gradual absences starting at 5 minutes, and calming beds that maintain the sense of security.
+
+### Apartment-Specific Products That Help
+
+**Pee pads or dog door** (if rules allow): For puppies and seniors, having indoor bathroom options reduces the stress on both of you.
+
+**Collapsible food/water bowls**: Pack easily for traveling between home and wherever you take your dog.
+
+**No-pull harness**: Apartment walking often means crowded sidewalks, elevators, and small lobbies. A [no-pull harness](/products/no-pull-dog-harness) gives you control in tight spaces.
+
+**Portable water bottle with bowl**: Essential for city dogs on hot days. Many walks don't have accessible water.
+
+## The Most Important Thing
+
+The products help, but the biggest factor in an apartment dog's wellbeing is consistency. A consistent walk schedule (morning and evening at minimum), predictable feeding times, and daily enrichment sessions make apartment living genuinely good for dogs — regardless of space.
+
+The apartment dogs I see thriving are almost always owned by people who treat the limitations as reasons to be more intentional, not excuses. They walk more, train more, and engage more than suburban dog owners who rely on a yard to do the work for them.
+    `,
+  },
+
 // Map each post slug to the product tags/categories it's most relevant for
 const POST_RELEVANCE = {
   'best-slow-feeder-bowls-for-dogs':       ['Feeding', 'Dogs', 'Enrichment'],
@@ -1257,6 +1695,12 @@ const POST_RELEVANCE = {
   'senior-dog-care-guide-2026':           ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
   'how-to-stop-dog-pulling-on-leash':     ['Walking', 'Safety', 'Training', 'Dogs'],
   'best-gifts-for-dog-owners-2026':       ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
+  'best-interactive-dog-toys-2026':       ['Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'how-to-choose-dog-harness-vs-collar':  ['Walking', 'Safety', 'Dogs'],
+  'best-cat-toys-for-indoor-cats-2026':   ['Play', 'Enrichment', 'Cats'],
+  'dog-food-toppers-complete-guide':      ['Feeding', 'Health', 'Dogs', 'Enrichment'],
+  'how-to-crate-train-a-puppy':          ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
+  'best-pet-products-apartment-dogs':     ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
 };
 
 /**

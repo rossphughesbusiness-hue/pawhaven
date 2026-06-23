@@ -62,6 +62,18 @@ export default function sitemap() {
       priority: 0.75,
     },
     {
+      url: `${BASE}/small-dogs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
+      url: `${BASE}/indoor-cats`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
       url: `${BASE}/dogs`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
