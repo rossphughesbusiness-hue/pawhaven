@@ -71,9 +71,11 @@ export default function Footer() {
                 { href: '/small-dogs', label: 'Small Dogs' },
                 { href: '/senior-dogs', label: 'Senior Dogs' },
                 { href: '/dog-training', label: 'Dog Training' },
+                { href: '/dog-walking', label: 'Walking Gear' },
                 { href: '/cats', label: '🐱 All Cats' },
                 { href: '/indoor-cats', label: 'Indoor Cats' },
                 { href: '/cat-enrichment', label: 'Cat Enrichment' },
+                { href: '/grooming', label: 'Grooming Tools' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },
               ].map((link) => (
                 <li key={link.href}>

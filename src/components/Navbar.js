@@ -12,6 +12,7 @@ const DOG_LINKS = [
   { href: '/small-dogs', label: '🦮 Small Dogs', desc: 'Sized for small breeds' },
   { href: '/senior-dogs', label: '🐾 Senior Dogs', desc: 'Joint, mobility & comfort' },
   { href: '/dog-training', label: '🎯 Training', desc: 'Treat pouches & gear' },
+  { href: '/dog-walking', label: '🦮 Walking Gear', desc: 'Harness, leash & more' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
 ];
 
@@ -19,6 +20,7 @@ const CAT_LINKS = [
   { href: '/cats', label: '🐱 All Cats', desc: 'Browse every cat product' },
   { href: '/indoor-cats', label: '🏠 Indoor Cats', desc: 'Essential indoor kit' },
   { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Toys & mental stimulation' },
+  { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
 ];
 
 function NavDropdown({ label, href, links }) {
