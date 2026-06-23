@@ -468,6 +468,151 @@ export const SEEDED_REVIEWS = {
   ],
 };
 
+  'cat-interactive-feeder-bowl': [
+    {
+      name: 'Patricia K.',
+      rating: 5,
+      text: 'My cat was vomiting almost every day from eating too fast. This bowl fixed it within the first week. The shallow maze is perfectly sized for her snout — she can use it without frustration.',
+      date: 'June 12, 2026',
+      ts: 1749686400000,
+    },
+    {
+      name: 'Michael T.',
+      rating: 5,
+      text: 'Finally a slow feeder designed for cats, not just a dog bowl labeled for cats. The proportions are correct and my two cats both use it without issue. Dishwasher safe is a must-have.',
+      date: 'June 4, 2026',
+      ts: 1748995200000,
+    },
+    {
+      name: 'Sandra B.',
+      rating: 4,
+      text: 'Works well. My Siamese took two days to figure it out but now eats from it every meal without hesitation. Slowed her down significantly and no more post-meal vomiting.',
+      date: 'May 20, 2026',
+      ts: 1747699200000,
+    },
+  ],
+
+  'cat-tunnel-crinkle-play-tube': [
+    {
+      name: 'Amanda R.',
+      rating: 5,
+      text: 'My lazy cat who never plays has completely lost it for this tunnel. She runs through it at full speed 40+ times a day. I\'ve never seen her this active. The crinkle sound triggers something primal in her.',
+      date: 'June 15, 2026',
+      ts: 1749945600000,
+    },
+    {
+      name: 'James L.',
+      rating: 5,
+      text: 'Both cats play in it simultaneously without major conflict — the T-junction is key for this. The crinkle material has held up surprisingly well to constant use and occasional aggressive biting.',
+      date: 'June 6, 2026',
+      ts: 1749168000000,
+    },
+    {
+      name: 'Olivia S.',
+      rating: 4,
+      text: 'Exactly what I wanted. Folds flat, easy to store, easy to set up. The crinkle is louder than expected (a feature for the cat, less so for me at 6am) but the quality and entertainment value are excellent.',
+      date: 'May 28, 2026',
+      ts: 1748390400000,
+    },
+  ],
+
+  'dog-cooling-gel-mat': [
+    {
+      name: 'David C.',
+      rating: 5,
+      text: 'My English bulldog overheats in summer and this mat has been transformative. He lies on it for hours voluntarily — completely self-directed. Recharges within 20 minutes of him getting off. Works without power or water.',
+      date: 'June 14, 2026',
+      ts: 1749859200000,
+    },
+    {
+      name: 'Lisa N.',
+      rating: 5,
+      text: 'Perfect for my 12-year-old lab who can\'t regulate temperature as well as she used to. She found it herself on the first day and hasn\'t looked back. The large size gives her room to fully stretch out.',
+      date: 'June 3, 2026',
+      ts: 1748908800000,
+    },
+    {
+      name: 'Tom A.',
+      rating: 4,
+      text: 'Works exactly as described. Noticeably cool to the touch. My shepherd uses it continuously in the afternoon heat. Needs 30 minutes to recharge between long sessions but for a zero-electricity product that\'s impressive.',
+      date: 'May 22, 2026',
+      ts: 1747872000000,
+    },
+  ],
+
+  'sisal-cat-scratching-post': [
+    {
+      name: 'Catherine M.',
+      rating: 5,
+      text: 'I put this post right next to the couch my cat was destroying, exactly as recommended. She\'s used the post exclusively for three weeks and hasn\'t touched the couch once. The height and sisal texture are what make it work.',
+      date: 'June 16, 2026',
+      ts: 1750032000000,
+    },
+    {
+      name: 'Robert K.',
+      rating: 5,
+      text: 'My tall Maine Coon can fully extend on this — that\'s rare in a scratching post. The base doesn\'t wobble even when he pushes hard. He started using it the same day I set it up.',
+      date: 'June 5, 2026',
+      ts: 1749081600000,
+    },
+    {
+      name: 'Helen S.',
+      rating: 4,
+      text: 'Good quality sisal, stable base, appropriate height. My two cats share it. The sisal naturally frays after heavy use which is normal and expected — still fully functional after two months of daily use.',
+      date: 'May 25, 2026',
+      ts: 1748131200000,
+    },
+  ],
+
+  'dog-treat-training-pouch': [
+    {
+      name: 'Brian T.',
+      rating: 5,
+      text: 'Training my puppy went from frustrating to fun once I got this pouch. The magnetic closure means treats are out in under a second and she responds so much faster when the reward is immediate. Can\'t train effectively without it now.',
+      date: 'June 13, 2026',
+      ts: 1749772800000,
+    },
+    {
+      name: 'Nancy H.',
+      rating: 5,
+      text: 'The magnetic closure is genuinely better than every zipper pouch I\'ve used. One-hand access, closes automatically. I\'ve tried three other brands and this is the first one I plan to reorder when it wears out.',
+      date: 'June 2, 2026',
+      ts: 1748822400000,
+    },
+    {
+      name: 'Paul G.',
+      rating: 4,
+      text: 'Good pouch. Holds plenty of treats, clips securely to my belt, and the built-in waste bag dispenser actually works. The magnetic closure stays clean and functional after months of use.',
+      date: 'May 18, 2026',
+      ts: 1747526400000,
+    },
+  ],
+
+  'heavy-duty-rope-tug-toy': [
+    {
+      name: 'Marcus W.',
+      rating: 5,
+      text: 'My pit mix destroys every toy in minutes. This rope has lasted three weeks and counting — the tight weave is completely different from cheap ropes that unravel immediately. First toy I haven\'t had to replace in months.',
+      date: 'June 17, 2026',
+      ts: 1750118400000,
+    },
+    {
+      name: 'Rachel P.',
+      rating: 5,
+      text: 'My vet noticed cleaner teeth at my dog\'s last checkup and asked what changed. It was this rope. My dog chews the knots between tug sessions and it clearly makes a difference.',
+      date: 'June 7, 2026',
+      ts: 1749254400000,
+    },
+    {
+      name: 'Kevin S.',
+      rating: 4,
+      text: 'Solid rope that holds up to two labs playing with it simultaneously. Got the XL for our 80-lb lab and the size is right. Natural cotton means no worries about them swallowing dyes or synthetic fibers.',
+      date: 'May 30, 2026',
+      ts: 1748563200000,
+    },
+  ],
+};
+
 /**
  * Get seeded reviews for a product slug.
  * Returns empty array if no seeded reviews exist for that slug.
