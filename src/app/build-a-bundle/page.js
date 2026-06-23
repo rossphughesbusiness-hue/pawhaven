@@ -6,8 +6,6 @@ import { useCart } from '@/context/CartContext';
 import { products } from '@/lib/products';
 import { trackAddToCart } from '@/lib/analytics';
 
-export const metadata = undefined; // client component — set in layout
-
 // Tiered discount by bundle size
 const TIERS = [
   { count: 1, pct: 0,  label: null },
