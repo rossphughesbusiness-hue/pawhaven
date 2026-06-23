@@ -109,7 +109,16 @@ export default function ProductPage({ params }) {
       '@type': 'AggregateRating',
       ratingValue: product.rating,
       reviewCount: product.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
     },
+    review: product.reviews.slice(0, 3).map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.name },
+      reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+      reviewBody: r.text,
+      datePublished: r.date,
+    })),
   };
 
   const breadcrumbJsonLd = {
