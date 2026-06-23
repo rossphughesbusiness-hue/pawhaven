@@ -4378,6 +4378,128 @@ A cat that eats too fast is not being greedy — they're following instincts tha
     \`,
   },
 
+  {
+    slug: 'pet-first-aid-kit-essentials',
+    title: 'What to Put in a Pet First Aid Kit — The Complete 2026 List',
+    description: 'A vet-reviewed list of everything you need in a pet first aid kit, why each item matters, and what to do in the most common pet emergencies.',
+    category: 'Dogs',
+    tag: 'Safety',
+    date: '2026-07-01',
+    readTime: '7 min read',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Every pet owner will face a moment when they need to act fast — a cut paw on a hike, a bee sting at the park, or something swallowed at home. A well-stocked pet first aid kit means the difference between calm, effective action and panicked searching through bathroom cabinets. Here is exactly what to include and why.
+
+## The Core Kit: What Every Owner Needs
+
+**Gauze pads and self-adhesive bandage wrap** (like Vetrap) are your most-used items. Gauze absorbs blood and protects wounds; self-adhesive wrap holds it in place without sticking to fur. Keep several sizes of gauze pads and two rolls of bandage wrap.
+
+**Chlorhexidine solution** is what vets use to clean wounds. Dilute to a pale blue color with water before applying — full concentration can slow healing. Do not use hydrogen peroxide to clean wounds (it damages tissue); reserve it only for inducing vomiting, and only when specifically instructed by a vet or Poison Control.
+
+**Saline solution** (sterile, unpreserved) is used to flush eyes and rinse wounds. A standard bottle from the contact lens aisle works perfectly. Eye injuries are common and should always be flushed before any other treatment.
+
+**Digital rectal thermometer** — normal temperature for dogs is 101–102.5°F; for cats, 100.5–102.5°F. Above 104°F is a medical emergency. A reading tells your vet critical information over the phone before you arrive.
+
+**Tweezers and blunt-end scissors** for removing splinters, thorns, and ticks, and for cutting bandage material. Blunt-end scissors reduce the risk of accidental injury when cutting near skin or fur.
+
+**A muzzle** — even the gentlest dog may bite when in pain. A properly fitted muzzle (or improvised one from a strip of bandage wrap) protects you so you can help your pet. Cats can be wrapped in a thick towel.
+
+**Latex gloves** protect you from blood-borne pathogens and keep wounds clean. Keep several pairs.
+
+**Instant cold pack** for reducing swelling from bee stings, sprains, and minor impact injuries. Never apply ice directly to skin — wrap in a cloth first and limit to 10 minutes.
+
+## Important Numbers to Keep in the Kit
+
+Write these on a card and tape it inside the kit lid:
+
+- Your vet's number (business hours and after-hours)
+- Nearest 24-hour emergency animal hospital
+- ASPCA Animal Poison Control Center: 888-426-4435 (24/7)
+- Pet Poison Helpline: 855-764-7661 (24/7 alternative)
+
+These numbers are useless if you search for them during an emergency. Add them to your phone contacts today.
+
+## Optional But Useful Additions
+
+**Hydrogen peroxide (3%)** — keep it, but only use to induce vomiting when explicitly instructed by a vet or Poison Control. For some toxins, inducing vomiting causes more harm.
+
+**Benadryl (diphenhydramine, plain formula)** — useful for mild allergic reactions under vet guidance. Standard dose is approximately 1mg per pound of body weight. Call your vet before administering.
+
+**Paw balm** — after cleaning a cut paw, a beeswax-based paw balm protects the pad as it heals and is safe if licked. Apply post-cleaning to keep the pad soft and shielded.
+
+**An E-collar (cone)** — prevents your pet from licking or chewing wounds before you reach the vet. Inflatable options are less stressful than hard plastic cones.
+
+**A copy of your pet's medical records** — vaccination history, current medications, and any known allergies. Keep a photo on your phone as backup.
+
+## What to Skip
+
+Avoid human antiseptic products containing benzalkonium chloride (common in hand sanitizers) — toxic to cats. Skip rubbing alcohol (painful and toxic if licked) and Neosporin for cats (polyethylene glycol can cause anemia). When uncertain whether something is safe, flush with clean water and call your vet.
+
+## Where to Keep Your Kit
+
+Store it in a labeled, consistent spot — a cabinet by the door, a garage hook, or your car if you hike with your pets. Check it every six months: replenish used supplies, replace expired medications, and update phone numbers if anything has changed.
+
+The best first aid kit is the one you can reach in 10 seconds. A modest, organized kit beats an elaborate one stored in the wrong place.
+    \`,
+  },
+  {
+    slug: 'common-household-toxins-for-dogs-and-cats',
+    title: 'Common Household Toxins for Dogs and Cats — What Owners Miss',
+    description: 'The household foods, plants, cleaning products, and medications most likely to poison your dog or cat — including several that surprise most owners.',
+    category: 'Dogs',
+    tag: 'Safety',
+    date: '2026-07-02',
+    readTime: '8 min read',
+    heroImage: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=1200&q=85&auto=format&fit=crop',
+    content: `
+The ASPCA Animal Poison Control Center handles over 400,000 calls per year. Most exposures happen at home, involve things owners did not know were dangerous, and are preventable. Here are the categories responsible for the most cases — and the specific items within each that owners most often miss.
+
+## Foods: The Surprising Ones
+
+**Grapes and raisins** are among the most dangerous foods for dogs. Even a single grape can cause acute kidney failure in some individuals — the toxic dose varies unpredictably between dogs, so no amount is considered safe. This includes grape juice, wine, and raisin bread.
+
+**Xylitol** is the toxin most likely to catch owners off guard. It is a sugar alcohol used in hundreds of products: sugar-free gum, certain peanut butters (read labels carefully), breath mints, vitamins, toothpaste, and diet baked goods. In dogs, xylitol causes a dramatic and potentially fatal drop in blood sugar followed by liver failure. If your dog ate anything labeled sugar-free, call Poison Control immediately.
+
+**Onions, garlic, leeks, and chives** damage red blood cells in both dogs and cats, causing hemolytic anemia. The danger is cumulative — small amounts fed regularly are as harmful as a large single exposure. Cooked, raw, or powdered forms are all equally dangerous.
+
+**Macadamia nuts** cause weakness, vomiting, tremors, and hyperthermia in dogs within 12 hours of ingestion. Recovery is usually complete within 48 hours but vet evaluation is still recommended.
+
+**Alcohol** in any form — wine, beer, spirits, or raw bread dough (which produces alcohol as yeast ferments) — causes rapid, severe intoxication. Pet livers cannot process it at anything close to the rate a human liver can.
+
+## Plants: What Owners Routinely Miss
+
+**Lilies** are the most dangerous plant for cats. True lilies (Easter lily, tiger lily, Asiatic lily, daylily) can cause fatal kidney failure from even minimal exposure — pollen on fur, drinking lily vase water, or chewing a single leaf. There is no safe lily exposure level for cats.
+
+**Sago palms** are found in yards and homes across warm climates. Every part of the plant is toxic; the seeds are most concentrated. Even a single seed can cause severe liver failure. Fatality rates are high even with aggressive treatment.
+
+**Tulips and daffodils** — the bulb is most toxic, but the entire plant contains compounds that cause gastrointestinal distress, drooling, and in larger amounts, cardiac effects.
+
+**Aloe vera**, despite its human health reputation, causes vomiting, diarrhea, and lethargy in cats and dogs. The saponins in the outer leaf skin are the culprit.
+
+Common houseplants widely owned and routinely toxic: pothos, philodendron, dieffenbachia, peace lily, and snake plant. Cats are at higher risk from the calcium oxalate crystals in philodendron and pothos.
+
+## Cleaning Products
+
+**Phenol-based cleaners** (Pine-Sol, Lysol concentrates, many disinfectant sprays) are significantly dangerous for cats. Cats cannot metabolize phenols efficiently. Spraying Lysol on a surface and allowing a cat to walk through it, then groom their paws, can cause liver damage. Use phenol-free products in cat households.
+
+**Bleach** at household concentrations is irritating but rarely severely toxic when pets walk through dried surfaces. The biggest risk is undiluted solutions — keep pets away during use and allow to dry completely.
+
+**Laundry pods** contain concentrated detergent in a form that dogs find appealing to chew. A single pod can cause serious illness. Keep them in sealed containers out of reach.
+
+## Medications
+
+**Ibuprofen and naproxen** (Advil, Motrin, Aleve) are among the most common dog poisonings. Even a single standard-dose ibuprofen tablet can cause stomach ulcers, kidney damage, and death in a small dog.
+
+**Acetaminophen** (Tylenol) is acutely fatal for cats in very small amounts and dangerous for dogs. Never give a pet any human pain medication without explicit veterinary guidance.
+
+**Antidepressants, sleep aids, and ADHD medications** are increasingly common in households and in Poison Control calls. These affect the same neurological pathways in pets as humans, but at dramatically lower doses. A single pill dropped on the floor can be lethal.
+
+## If You Suspect Poisoning
+
+Act before symptoms appear. By the time a pet shows clinical signs of poisoning, absorption is often well underway. Call ASPCA Poison Control (888-426-4435) or your vet with: the substance name, estimated amount ingested, and your pet's weight. Do not induce vomiting without instruction — for acids, alkalis, and petroleum products it causes additional damage. The best outcome always starts with an early call.
+    \`,
+  },
+
 ]
 
 export function getPostBySlug(slug) {
@@ -4456,6 +4578,8 @@ const POST_RELEVANCE = {
   'how-to-groom-a-dog-at-home-complete-guide':        ['Grooming', 'Dogs', 'Health'],
   'best-cat-food-bowls-2026':                         ['Cat Feeding', 'Cats', 'Health', 'Enrichment'],
   'how-to-stop-cat-eating-too-fast':                  ['Cat Feeding', 'Cats', 'Health'],
+  'pet-first-aid-kit-essentials':                      ['Safety', 'Health', 'Dogs', 'Cats'],
+  'common-household-toxins-for-dogs-and-cats':         ['Safety', 'Health', 'Dogs', 'Cats'],
 };
 
 export function getProductsForPost(postSlug, allProducts, limit = 3) {
@@ -4482,3 +4606,4 @@ export function getProductsForPost(postSlug, allProducts, limit = 3) {
     .slice(0, limit)
     .map(({ product }) => product);
 }
+
