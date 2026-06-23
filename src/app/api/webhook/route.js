@@ -792,5 +792,24 @@ export async function POST(req) {
     }
   }
 
+  // ── Queue "you might also like" recommendation email for 14 days ──────────
+  if (customerEmail) {
+    try {
+      const recAt = Date.now() + 14 * 24 * 60 * 60 * 1000;
+      // Store the slugs/categories purchased so the cron can compute complementary picks
+      const purchasedSlugs = cartItems.map((it) => it.slug).filter(Boolean);
+      await redisSave(`rec_pending:${customerEmail.toLowerCase()}`, {
+        email: customerEmail,
+        customerName,
+        purchasedSlugs,
+        scheduledAt: recAt,
+      }, 30 * 24 * 60 * 60);
+      await redisZAdd('rec_queue', recAt, customerEmail.toLowerCase());
+      console.log(`[webhook] 💌 Recommendation email queued for ${customerEmail}`);
+    } catch (err) {
+      console.error('[webhook] Recommendation queue error:', err.message);
+    }
+  }
+
   return NextResponse.json({ received: true });
 }
