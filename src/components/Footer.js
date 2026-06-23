@@ -82,6 +82,7 @@ export default function Footer() {
                 { href: '/cat-toys', label: 'Cat Toys' },
                 { href: '/cat-beds', label: 'Cat Beds' },
                 { href: '/senior-cats', label: 'Senior Cats' },
+                { href: '/cat-anxiety', label: 'Cat Anxiety' },
                 { href: '/grooming', label: 'Grooming Tools' },
                 { href: '/travel', label: '✈️ Travel Gear' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },

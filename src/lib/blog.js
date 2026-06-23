@@ -3399,6 +3399,35 @@ Separation anxiety is a panic response to the absence of an attachment figure. T
 Strong evidence: Lick mats and food-dispensing toys reduce cortisol measurably -- repetitive licking stimulates the parasympathetic nervous system and triggers serotonin release. Puzzle feeders and enrichment lower baseline arousal and reduce stereotypic behavior. Behavioral modification protocols (systematic desensitization, counterconditioning) produce lasting change by altering the emotional response to triggers. Pharmaceutical interventions (fluoxetine, trazodone, gabapentin) have clinical trial data and FDA approval -- significantly more effective than OTC products for moderate to severe anxiety. Moderate evidence: Pressure wraps (Thundershirt) have consistent anecdotal support and small studies showing positive effects, particularly for noise phobia. DAP/Adaptil pheromone diffusers have a mixed but generally positive body of research for situational anxiety. Limited evidence: Calming supplements (L-theanine, melatonin, CBD) have inconsistent, methodologically weak evidence. Not harmful, may work for some dogs, should not replace evidence-based interventions. The most effective approach: mild anxiety -- lick mat at the stressor, enrichment as daily management. Moderate anxiety -- behavioral modification plus enrichment plus adjuncts. Severe anxiety -- behavioral modification plus pharmaceutical support from your vet.
     \`,
   },
+  {
+    slug: 'signs-of-stress-in-cats-what-owners-miss',
+    title: '7 Signs of Stress in Cats That Most Owners Miss',
+    excerpt: "Cats are experts at hiding anxiety. These subtle behavioral changes are the earliest warning signs — catch them before they become health problems.",
+    category: 'Cats',
+    tag: 'Anxiety Relief',
+    date: '2026-06-25',
+    readTime: '9 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+Cats evolved as both predators and prey. Showing vulnerability was dangerous, so they learned to hide illness and distress. This instinct persists in domestic cats -- and it means that by the time most owners notice a problem, the cat has been stressed for weeks. Here are seven signs to watch for.
+
+1. Changes in litter box behavior. A cat that starts eliminating outside the box, making more trips than usual, or spending more or less time in the box than normal is showing a stress signal. This is also a sign of urinary issues, which stress directly causes in cats (stress cystitis is common). See a vet if it persists more than 48 hours.
+
+2. Overgrooming. Cats groom when anxious as a self-soothing behavior. Overgrooming presents as thin patches of fur, usually on the belly, inner legs, and tail base -- areas the cat can reach easily. Many owners attribute this to allergies or parasites, which should be ruled out, but stress is the most common cause.
+
+3. Reduced interaction. A cat that was previously affectionate and is now avoiding contact has changed. This is easy to rationalize as "just the cat mood," but a consistent, sustained reduction in social behavior is meaningful.
+
+4. Hiding more than usual. Cats hide when they feel unsafe. A cat that now spends most of the day in a closet or under a bed is telling you something has changed in their environment.
+
+5. Changes in appetite. Both reduced appetite and increased eating can be stress responses. Track food intake -- small changes over days are more significant than single-meal variation.
+
+6. Increased vocalization. Particularly significant in previously quiet cats. Night vocalization in older cats often indicates pain or cognitive dysfunction, but sudden new vocalization at any age is a stress signal worth investigating.
+
+7. Redirected aggression. A cat that watches something outside (another cat, a bird) and then attacks the nearest person or pet is experiencing redirected aggression from an aroused stress state. This is common, well-understood, and manageable -- but needs to be identified correctly.
+
+The pattern across all of these: the signal is change. A naturally shy, quiet cat hiding in closets is not stressed -- that is baseline. A previously social cat hiding in closets is stressed. Know your cat's normal so you can recognize when it shifts.
+    `,
+  },
 
 ];
 
@@ -3461,4 +3490,5 @@ const POST_RELEVANCE = {
   'how-to-litter-train-a-kitten':                ['Health', 'Cats', 'Anxiety Relief'],
   'separation-anxiety-in-dogs-complete-guide':   ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
   'calming-products-for-dogs-what-works':        ['Anxiety Relief', 'Enrichment', 'Dogs'],
+  'signs-of-stress-in-cats-what-owners-miss':    ['Anxiety Relief', 'Health', 'Cats', 'Comfort'],
 };

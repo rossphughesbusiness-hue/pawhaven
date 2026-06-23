@@ -30,6 +30,7 @@ const CAT_LINKS = [
   { href: '/cat-toys', label: '🧶 Cat Toys', desc: 'Wands, lasers & tunnels' },
   { href: '/cat-beds', label: '😴 Cat Beds', desc: 'Caves, perches & hideaways' },
   { href: '/senior-cats', label: '🌸 Senior Cats', desc: 'Comfort & care for cats 7+' },
+  { href: '/cat-anxiety', label: '😿 Cat Anxiety', desc: 'Calming & stress relief' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
 ];
