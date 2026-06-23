@@ -66,6 +66,24 @@ export function CartProvider({ children }) {
     } catch {}
   }, [state.items]);
 
+  // Abandoned cart recovery: save cart to Redis whenever cart has items + we have email
+  useEffect(() => {
+    if (state.items.length === 0) return;
+    let email;
+    try { email = localStorage.getItem('pawhaven_email'); } catch {}
+    if (!email) return;
+
+    const timer = setTimeout(() => {
+      fetch('/api/cart/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, items: state.items }),
+      }).catch(() => {});
+    }, 2000); // debounce 2s so rapid changes don't spam the API
+
+    return () => clearTimeout(timer);
+  }, [state.items]);
+
   const itemCount = state.items.reduce((sum, i) => sum + i.quantity, 0);
 
   const subtotal = state.items.reduce(
