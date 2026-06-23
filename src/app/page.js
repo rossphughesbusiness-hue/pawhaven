@@ -312,7 +312,7 @@ export default function HomePage() {
                   { href: '/grooming', emoji: '✂️', label: 'Grooming', desc: 'Brushes & grinders' },
                   { href: '/senior-dogs', emoji: '🦮', label: 'Senior Dogs', desc: 'Joint & mobility care' },
                   { href: '/puppies', emoji: '🐕', label: 'Puppies', desc: 'New puppy essentials' },
-                  { href: '/travel', emoji: '✈️', label: 'Travel', desc: 'Car & on-the-go gear' },
+                  { href: '/dog-enrichment', emoji: '🧠', label: 'Enrichment', desc: 'Puzzles & mental stim' },
                 ].map(({ href, emoji, label, desc }) => (
                   <Link key={href} href={href}
                     className="flex items-center gap-3 p-3.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-100 hover:border-amber-200 transition-all duration-200 group"
@@ -338,9 +338,9 @@ export default function HomePage() {
                   { href: '/cat-toys', emoji: '🧶', label: 'Cat Toys', desc: 'Wands, lasers & tunnels' },
                   { href: '/cat-beds', emoji: '😴', label: 'Cat Beds', desc: 'Caves, perches & more' },
                   { href: '/cat-enrichment', emoji: '🎾', label: 'Enrichment', desc: 'Puzzles & mental stim' },
-                  { href: '/grooming', emoji: '✂️', label: 'Grooming', desc: 'Deshedding & more' },
+                  { href: '/kittens', emoji: '🐱', label: 'Kittens', desc: 'New kitten essentials' },
+                  { href: '/senior-cats', emoji: '🌸', label: 'Senior Cats', desc: 'Comfort & care for 7+' },
                   { href: '/indoor-cats', emoji: '🏠', label: 'Indoor Cats', desc: 'Essential indoor kit' },
-                  { href: '/travel', emoji: '✈️', label: 'Travel', desc: 'Carriers & on-the-go' },
                   { href: '/anxiety', emoji: '😌', label: 'Anxiety & Calm', desc: 'Calming products' },
                   { href: '/cats', emoji: '🐱', label: 'All Cat Products', desc: 'Browse everything' },
                 ].map(({ href, emoji, label, desc }) => (
