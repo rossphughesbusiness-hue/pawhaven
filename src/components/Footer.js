@@ -92,6 +92,7 @@ export default function Footer() {
                 { href: '/travel', label: '✈️ Travel Gear' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },
                 { href: '/dog-anxiety', label: 'Dog Anxiety' },
+                { href: '/pet-first-aid', label: 'Pet First Aid' },
                 { href: '/puppy-training', label: 'Puppy Training' },
               ].map((link) => (
                 <li key={link.href}>

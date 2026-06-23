@@ -4258,4 +4258,227 @@ For most dogs, a three-tool kit covers the full routine: slicker brush for weekl
 The best grooming investment you can make isn't a specific tool — it's consistency. A cheap slicker brush used weekly outperforms an expensive set used sporadically.
     `,
   },
-];
+  {
+    slug: 'best-cat-food-bowls-2026',
+    title: 'Best Cat Food Bowls 2026 — Slow Feeders, Puzzle Bowls & Lick Mats',
+    excerpt: "Most cat bowls are chosen for aesthetics — but the bowl design directly affects how fast your cat eats, and fast eating causes real health problems. Here's what to use instead.",
+    category: 'Cats',
+    tag: 'Cat Feeding',
+    date: '2026-07-01',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+Most cat owners choose a food bowl based on how it looks on the kitchen floor. But bowl design has a direct and measurable effect on how fast a cat eats — and eating speed is one of the most underappreciated drivers of cat health problems.
+
+Here's what the best cat food bowls in 2026 actually look like, and why it matters.
+
+## The Problem With Standard Cat Bowls
+
+A standard deep, round cat bowl creates two problems. First, it concentrates food in a pile that cats can inhale in seconds. Second, the narrow diameter causes whisker fatigue — discomfort from a cat's whiskers pressing against the bowl sides during eating. Whisker fatigue is documented by veterinary behaviorists: affected cats paw food out of the bowl onto the floor, or refuse to eat from the bowl entirely.
+
+The result: your cat eats from a pile in 20–30 seconds flat, swallows air with every gulp, and vomits a partially digested meal onto your floor within 15 minutes. If this sounds familiar, the bowl is usually the first thing to change.
+
+## Slow Feeder Bowls
+
+Slow feeder bowls have raised ridges, mazes, or obstacles in the base that force cats to eat around them. A well-designed slow feeder extends a 30-second meal to 3–8 minutes without any training or effort from the owner.
+
+The best slow feeders for cats use a wide, shallow design (no whisker fatigue), BPA-free food-grade material, and a non-slip base. The Maze Slow Feeder Bowl hits all three: the interlocking maze pattern works for both dry and wet food, and the rubber base keeps it in place even with persistent eaters.
+
+Avoid slow feeders with deep narrow grooves that trap wet food and become bacterial breeding grounds, or sharp internal ridges that scratch a cat's tongue or muzzle.
+
+## Puzzle Feeders
+
+Puzzle feeders take slow feeding further by requiring cats to solve a challenge to access their food. Instead of eating around obstacles, cats must lift, push, or swipe pieces to reveal kibble in hidden compartments.
+
+The benefit beyond slowing eating: puzzle feeders provide genuine mental enrichment. A cat eating from a puzzle feeder is problem-solving, using their paws, and engaging prey-drive instincts. Ten minutes at a puzzle feeder produces measurably lower post-meal arousal than the same food from a standard bowl.
+
+The Cat Puzzle Slow Feeder uses a multi-chamber design with adjustable difficulty — start with chambers open for first-time users, then close them progressively. Most cats adapt within 3–5 sessions.
+
+## Lick Mats for Wet Food
+
+Lick mats are the slow feeder for wet food, pâté, or treat paste. The textured silicone surface spreads food into a thin layer that cats must lick rather than gulp. A thin spread of wet food on a lick mat takes 5–10 minutes to clean — versus 20 seconds from a standard bowl.
+
+The added benefit: lick mats are calming. Repetitive licking activates the parasympathetic nervous system and triggers endorphin release — the same mechanism behind self-grooming behavior in stressed cats. A lick mat during a vet visit, car journey, or high-anxiety moment provides measurable calming without medication.
+
+The Calming Lick Mat is the most versatile option: suction cups hold it steady on smooth surfaces, dishwasher-safe silicone cleans easily, and the texture pattern works for wet food, treat paste, and frozen treats.
+
+## Which Bowl for Which Cat?
+
+For cats that eat dry food and vomit: Maze Slow Feeder Bowl — immediate slowdown, minimal adjustment required.
+
+For bored indoor cats: Cat Puzzle Slow Feeder — addresses both speed and mental enrichment simultaneously.
+
+For cats on wet food diets: Calming Lick Mat — extends mealtime and adds the calming benefit of repetitive licking.
+
+For cats with whisker sensitivity: any wide, flat, shallow design. Shape matters more than material.
+
+## The Bottom Line
+
+The best cat food bowl in 2026 is not the one that matches your kitchen. It's the one that slows your cat down, accommodates their whisker width, and converts mealtime from a 20-second inhale into something that benefits their health. For most fast-eating cats, switching to a slow feeder eliminates vomiting within the first week.
+    \`,
+  },
+
+  {
+    slug: 'how-to-stop-cat-eating-too-fast',
+    title: 'How to Stop Your Cat Eating Too Fast (And Why It Matters)',
+    excerpt: "Cats that eat too fast vomit, gain weight, and miss the cognitive engagement that mealtime should provide. Here's the complete guide to slowing them down.",
+    category: 'Cats',
+    tag: 'Cat Feeding',
+    date: '2026-07-02',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+If your cat finishes their food in under a minute and then vomits on your floor, you're not imagining a connection — there is one. Eating too fast is the single most common cause of cat vomiting, and it's almost entirely preventable with the right feeding approach.
+
+## Why Cats Eat So Fast
+
+Domestic cats are solitary hunters by instinct. In the wild, a kill could be stolen or scavenged by competitors — so eating fast was protective. That instinct remains fully intact in domestic cats even when they're the only animal in the house and their food is going nowhere.
+
+Multi-cat households accelerate this: cats in groups often eat fast because they feel competitive pressure, even if no one is actually stealing their food. The proximity of another cat at mealtime triggers the same "eat before it's gone" response.
+
+## What Fast Eating Actually Does
+
+When a cat eats too fast, they swallow food and air simultaneously. The stomach receives barely-chewed food faster than it can handle, triggering a regurgitation reflex — the food comes back up relatively intact, usually within 5–15 minutes of eating. This is regurgitation rather than true vomiting, but it means the cat doesn't absorb the meal properly.
+
+Beyond the immediate vomiting issue, chronic fast eating contributes to weight gain (the satiety signal from the gut takes 20 minutes to reach the brain — a cat that finishes in 30 seconds feels hungry again almost immediately) and reduced enrichment (mealtime is the primary cognitive engagement opportunity for indoor cats — a 30-second meal wastes it entirely).
+
+## Solution 1: Slow Feeder Bowl
+
+The most immediate fix is replacing the standard bowl with a slow feeder. Maze-pattern slow feeders have raised ridges and obstacles that force cats to eat around them, extending mealtime from under a minute to 3–8 minutes without any training.
+
+Choose a wide, shallow slow feeder. The same maze ridges in a narrow bowl cause whisker fatigue, which creates a different problem. A wide design lets cats eat comfortably at their natural muzzle angle while the maze does the slowing work.
+
+The Maze Slow Feeder Bowl works well for most cats and handles both dry and wet food. Introduce it gradually: put the feeder out alongside the regular bowl for the first few days so the cat can explore it without pressure.
+
+## Solution 2: Puzzle Feeder
+
+Puzzle feeders require cats to actively work for their food — pushing, lifting, or swiping components to access kibble in hidden compartments. They're slower than maze bowls (meals can take 10–15 minutes for first-time users) and provide significant mental enrichment alongside the slowdown.
+
+The adjustment period is longer than a simple slow feeder — some cats refuse puzzle feeders initially. The key is starting with the easiest setting and using extremely high-value food. Increase difficulty only when the cat completes the current level confidently. Most cats adapt within a week.
+
+## Solution 3: Lick Mat for Wet Food
+
+For cats on wet food diets, a lick mat is the equivalent of a slow feeder bowl. Spreading wet food across the textured silicone surface means cats lick it off rather than scoop and swallow — extending a 20-second meal to 5–10 minutes, with the added benefit of triggering the calming parasympathetic response from repetitive licking.
+
+Freeze the lick mat with food on it for an even longer session: frozen wet food or treat paste takes considerably more licking to clear and keeps cats engaged for 15–20 minutes.
+
+## Solution 4: Portion Control and Meal Frequency
+
+Fast eating is made worse by large infrequent meals. A cat fed once a day is genuinely hungry at mealtime and has more instinctive urgency to eat fast. Moving to two or three smaller measured meals reduces the hunger drive that accelerates eating speed.
+
+Free-choice feeding (always-available dry food) doesn't cause the same fast-eating problem, but it makes weight management nearly impossible. Two measured meals in a slow feeder is the setup that addresses both speed and portion simultaneously.
+
+## Solution 5: Separate Multi-Cat Households
+
+If you have multiple cats, feed them in separate rooms or with a visual barrier between them. The competitive proximity effect disappears when cats can't see each other eating. This is the fastest intervention for multi-cat households and often resolves fast eating without any equipment change.
+
+## The Bottom Line
+
+A cat that eats too fast is not being greedy — they're following instincts that evolved for a completely different context. The fix is environmental: change the bowl, change the format, change the meal structure. A maze slow feeder or puzzle feeder eliminates most fast-eating vomiting within the first week and turns a 30-second inhale into an actual feeding experience your cat benefits from.
+    \`,
+  },
+
+]
+
+export function getPostBySlug(slug) {
+  return posts.find((p) => p.slug === slug) || null;
+}
+
+export function getAllPosts() {
+  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+// Map each post slug to the product tags/categories it is most relevant for
+const POST_RELEVANCE = {
+  'best-slow-feeder-bowls-for-dogs':                    ['Feeding', 'Dogs', 'Enrichment'],
+  'how-to-calm-an-anxious-dog':                         ['Anxiety Relief', 'Dogs', 'Enrichment', 'Comfort'],
+  'best-led-dog-collars-night-safety':                  ['Safety', 'Dogs', 'Outdoor'],
+  'best-cat-water-fountains-2026':                      ['Health', 'Cats'],
+  'best-orthopedic-dog-beds-arthritis':                 ['Comfort', 'Dogs', 'Health'],
+  'best-no-pull-harness-for-dogs-2026':                 ['Safety', 'Outdoor', 'Dogs'],
+  'how-to-keep-indoor-cat-entertained':                 ['Toys', 'Cats', 'Comfort'],
+  'dog-car-safety-guide':                               ['Travel', 'Dogs', 'Safety'],
+  'how-to-groom-dog-at-home':                          ['Grooming', 'Dogs'],
+  'cat-shedding-solutions-deshedding-guide':            ['Grooming', 'Cats'],
+  'pet-travel-accessories-guide':                       ['Travel', 'Dogs', 'Cats'],
+  'new-puppy-first-week-checklist':                     ['Feeding', 'Walking', 'Anxiety Relief', 'Safety', 'Dogs'],
+  'signs-of-anxiety-in-dogs':                          ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'senior-dog-care-guide-2026':                        ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
+  'how-to-stop-dog-pulling-on-leash':                  ['Walking', 'Safety', 'Training', 'Dogs'],
+  'best-gifts-for-dog-owners-2026':                    ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
+  'best-interactive-dog-toys-2026':                    ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'how-to-choose-dog-harness-vs-collar':               ['Walking', 'Safety', 'Dogs'],
+  'best-cat-toys-for-indoor-cats-2026':                ['Toys', 'Play', 'Enrichment', 'Cats'],
+  'dog-food-toppers-complete-guide':                   ['Feeding', 'Health', 'Dogs', 'Enrichment'],
+  'how-to-crate-train-a-puppy':                       ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
+  'best-pet-products-apartment-dogs':                  ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
+  'best-harness-for-small-dogs-2026':                 ['Walking', 'Safety', 'Dogs'],
+  'how-to-stop-cat-from-scratching-furniture':         ['Play', 'Enrichment', 'Cats', 'Comfort'],
+  'best-puzzle-toys-for-dogs-reviewed':               ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'best-gifts-for-cat-lovers-2026':                   ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
+  'cat-water-fountain-vs-bowl-which-is-better':        ['Health', 'Cats'],
+  'retractable-dog-leash-pros-cons-safety':            ['Walking', 'Safety', 'Dogs'],
+  'best-slow-feeder-for-cats-2026':                   ['Cat Feeding', 'Health', 'Cats', 'Enrichment'],
+  'best-cat-tunnels-for-indoor-cats':                 ['Play', 'Enrichment', 'Cats'],
+  'how-to-keep-dogs-cool-in-summer':                  ['Comfort', 'Health', 'Dogs'],
+  'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
+  'tug-toys-for-dogs-benefits-how-to-play':           ['Toys', 'Play', 'Enrichment', 'Training', 'Dogs'],
+  'sisal-vs-carpet-scratching-posts-which-cats-prefer': ['Comfort', 'Play', 'Cats'],
+  'best-dog-walking-accessories-2026':                ['Walking', 'Outdoor', 'Safety', 'Training', 'Dogs'],
+  'cat-grooming-guide-tools-and-tips':                ['Grooming', 'Health', 'Cats'],
+  'pet-road-trip-guide-2026':                         ['Travel', 'Dogs', 'Cats', 'Safety'],
+  'best-dog-grooming-tools-2026':                     ['Grooming', 'Dogs', 'Health'],
+  'dog-bed-buying-guide-2026':                        ['Comfort', 'Dogs', 'Health'],
+  'enrichment-for-bored-dogs-at-home':                ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'first-time-cat-owner-complete-guide':              ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
+  'best-cat-beds-for-every-sleep-style':              ['Comfort', 'Cats'],
+  'dog-enrichment-complete-guide-2026':               ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'senior-cat-care-guide-2026':                       ['Health', 'Cats', 'Comfort', 'Enrichment'],
+  'signs-your-cat-is-aging-what-to-do':               ['Health', 'Cats', 'Comfort', 'Anxiety Relief'],
+  'new-kitten-checklist-first-month':                 ['Toys', 'Health', 'Enrichment', 'Cats', 'Comfort'],
+  'how-to-litter-train-a-kitten':                     ['Health', 'Cats', 'Anxiety Relief'],
+  'separation-anxiety-in-dogs-complete-guide':        ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'calming-products-for-dogs-what-works':             ['Anxiety Relief', 'Enrichment', 'Dogs'],
+  'signs-of-stress-in-cats-what-owners-miss':         ['Anxiety Relief', 'Health', 'Cats', 'Comfort'],
+  'outdoor-vs-indoor-cats-complete-guide':            ['Cats', 'Health', 'Enrichment', 'Comfort'],
+  'best-dog-collars-2026':                            ['Walking', 'Safety', 'Dogs'],
+  'how-to-introduce-a-new-dog-to-your-home':          ['Anxiety Relief', 'Training', 'Dogs', 'Comfort'],
+  'dog-dental-health-guide-2026':                     ['Health', 'Dogs', 'Grooming'],
+  'best-dog-gear-for-hiking-2026':                    ['Outdoor', 'Travel', 'Safety', 'Dogs'],
+  'how-to-read-dog-body-language':                    ['Training', 'Safety', 'Dogs', 'Anxiety Relief'],
+  'best-accessories-for-large-dogs-2026':             ['Comfort', 'Walking', 'Toys', 'Dogs'],
+  'how-to-train-a-puppy-first-8-weeks':               ['Training', 'Walking', 'Dogs', 'Anxiety Relief'],
+  'how-to-groom-a-cat-at-home':                       ['Grooming', 'Health', 'Cats'],
+  'best-cat-food-toppers-2026':                       ['Cat Feeding', 'Health', 'Cats'],
+  'how-to-introduce-two-cats':                        ['Anxiety Relief', 'Health', 'Cats'],
+  'indoor-cat-enrichment-ideas-2026':                 ['Enrichment', 'Play', 'Cats'],
+  'why-cats-knock-things-over':                       ['Play', 'Enrichment', 'Cats'],
+  'how-to-groom-a-dog-at-home-complete-guide':        ['Grooming', 'Dogs', 'Health'],
+  'best-cat-food-bowls-2026':                         ['Cat Feeding', 'Cats', 'Health', 'Enrichment'],
+  'how-to-stop-cat-eating-too-fast':                  ['Cat Feeding', 'Cats', 'Health'],
+};
+
+export function getProductsForPost(postSlug, allProducts, limit = 3) {
+  const tags = POST_RELEVANCE[postSlug] || [];
+  if (tags.length === 0) return [];
+
+  const scored = allProducts.map((product) => {
+    let score = 0;
+    const productTags = [
+      product.category,
+      ...(product.tags || []),
+      product.tag,
+    ].filter(Boolean);
+
+    for (const tag of tags) {
+      if (productTags.includes(tag)) score++;
+    }
+    return { product, score };
+  });
+
+  return scored
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ product }) => product);
+}

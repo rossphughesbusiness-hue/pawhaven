@@ -21,6 +21,7 @@ const DOG_LINKS = [
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
   { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Separation & noise anxiety' },
+  { href: '/pet-first-aid', label: '🩹 Pet First Aid', desc: 'Emergency guide for pet owners' },
   { href: '/large-dogs', label: '🦴 Large Dogs', desc: 'Gear built for big breeds' },
   { href: '/puppy-training', label: '🎓 Puppy Training', desc: 'Treats, harness & training gear' },
 ];
@@ -122,6 +123,7 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/products', label: 'Shop All' },
     { href: '/bundles', label: '🎁 Bundles' },
+    { href: '/new-arrivals', label: '✨ New Arrivals', desc: 'Just added to the store' },
     { href: '/quiz', label: '✨ Quiz' },
     { href: '/blog', label: 'Blog' },
     { href: '/affiliates', label: '🤝 Affiliates' },

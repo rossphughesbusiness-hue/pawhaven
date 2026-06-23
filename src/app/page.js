@@ -425,11 +425,11 @@ export default function HomePage() {
               <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-1">Just Landed</p>
               <h2 className="text-3xl font-black text-navy-900">New Arrivals</h2>
             </div>
-            <Link href="/products" className="text-brand-500 font-semibold hover:underline text-sm">View all →</Link>
+            <Link href="/new-arrivals" className="text-brand-500 font-semibold hover:underline text-sm">View all →</Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {[...products]
-              .filter(p => [31, 32, 33, 34, 35].includes(p.id))
+              .filter(p => [36, 37, 38, 39, 40].includes(p.id))
               .map((product) => (
                 <Link key={product.id} href={`/products/${product.slug}`}
                   className="group bg-gray-50 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 border border-gray-100"

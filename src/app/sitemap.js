@@ -224,6 +224,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/pet-first-aid`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.82,
+    },
+    {
       url: `${BASE}/quiz`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -240,6 +246,12 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    {
+      url: `${BASE}/new-arrivals`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     ...productUrls,
     ...blogUrls,
