@@ -3815,6 +3815,425 @@ Large dogs deserve gear built for their actual size and health needs. The minimu
     \`,
   },
 
+  {
+    slug: 'how-to-train-a-puppy-first-8-weeks',
+    title: "How to Train a Puppy in the First 8 Weeks: A Complete Beginner's Guide",
+    excerpt: "The first 8 weeks at home set the tone for your puppy's entire life. Here's the positive-reinforcement playbook that actually works — from day one.",
+    category: 'Dogs',
+    tag: 'Training',
+    date: '2026-06-23',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+Bringing a puppy home is exciting and chaotic in equal measure. Most owners spend the first week in survival mode — managing accidents, interrupted sleep, and a small animal that seems determined to chew everything. What gets lost in this chaos is that weeks 8 through 16 are the single most important training window of your dog's life.
+
+The socialization window closes around 16 weeks. The habits your puppy builds in these early weeks become the baseline behaviors of adult life. Here's how to use this time well.
+
+## Start Day One, Not Week Two
+
+There's a common misconception that puppies need to "settle in" before training begins. This is wrong, and it costs owners weeks of critical time. Your puppy is learning from the moment they arrive home — the question is whether you're directing that learning or leaving it to chance.
+
+On day one, start with just three things: name recognition (say the name, treat when they look at you), sit (lure with treat above the nose, treat when the bottom hits the floor), and crate introduction (door open, treats inside, no pressure). Three minutes, three times a day.
+
+## Why Positive Reinforcement Works
+
+Positive reinforcement — rewarding the behavior you want — works because it builds behavior through association rather than fear. When a puppy sits and immediately receives a high-value treat, their brain creates a strong link between the action and the outcome.
+
+The key word is "immediately." Your reward window is 1–2 seconds. After that, your puppy cannot connect the treat to the behavior. This is why a treat pouch on your hip matters — rummaging in a bag while your puppy's bottom lifts off the floor breaks the timing, and the reward arrives too late to reinforce the right moment.
+
+## The Four Skills That Matter Most in Weeks 8–16
+
+Name recognition. Your puppy's name should mean "look at me, something good is coming." Say the name once, treat the moment they make eye contact. Never repeat the name while they ignore you — that teaches them the name means nothing.
+
+Sit. This is the foundation command everything else builds on. Lure with a treat held above the nose, say "sit" as the bottom touches the ground, reward immediately. Within a week, most 8-week-old puppies have a reliable sit.
+
+Come. Recall is the most important safety command your dog will ever learn. Practice in low-distraction environments first, reward heavily every single time, and never call your puppy to come for something they dislike (nail trims, baths). Come must always predict something good.
+
+Crate acceptance. A puppy that tolerates — and eventually enjoys — their crate has a safe space that helps with sleep training, housebreaking, and preventing destructive behavior. Introduce it slowly: door open, treats scattered inside, no forced entry. Progress to closing the door only after your puppy enters voluntarily.
+
+## The Socialization Priority
+
+Between weeks 8 and 16, socialization outranks trick training. A dog that knows 10 commands but is terrified of strangers, other dogs, or traffic has a serious problem. A dog that knows only "sit" but is confident and calm in new environments is set up for life.
+
+During the socialization window, expose your puppy to as many safe, positive experiences as possible: different people (hats, beards, children, uniforms), sounds (traffic, sirens, applause), surfaces (grass, gravel, grates), and animals. Pair every new experience with treats.
+
+## Common Mistakes That Slow Training Down
+
+Inconsistent cues. "Sit," "sit down," "sit!," and "sit, I said sit" are four different signals to a puppy. Pick one word, use it the same way every time, and make sure everyone in the household uses the same cues.
+
+Punishing accidents. Rubbing a puppy's nose in an accident or scolding them after the fact teaches them only that humans are unpredictable. Housebreaking is a management problem — reduce opportunities to fail, reward every outdoor elimination immediately.
+
+Sessions that run too long. A 3-minute training session with full engagement beats a 20-minute session where your puppy checks out after minute five. Short, frequent sessions are always more effective.
+
+## The Gear That Makes It Faster
+
+A treat pouch worn on your hip is the single best training investment you can make. It closes the timing gap that breaks the learning loop. Our Rapid Reward Treat Pouch has a magnetic closure that opens in under a second — exactly what you need when the reward window is 1–2 seconds wide.
+
+For leash training, start with a step-in harness rather than a collar. Puppies' tracheas are still developing, and collar tension can cause lasting damage. A harness distributes pressure across the chest and makes the first leash experiences far more comfortable.
+
+For crate training: freeze a lick mat with peanut butter or wet food and leave it inside the crate during introduction. The extended licking calms the nervous system and builds a positive association with the crate faster than treats alone.
+
+## The Bottom Line
+
+The first 8 weeks at home are not a break-in period — they're the foundation. Start training on day one, keep sessions short, prioritize socialization over tricks, reward with precision, and be consistent. The puppies that struggle in adolescence are almost always the ones whose critical window was spent in survival mode rather than structured learning.
+
+You don't need to be a professional trainer. You need to be present, patient, and consistent. That's enough.
+    `,
+  },
+
+  {
+    slug: 'how-to-groom-a-cat-at-home',
+    title: 'How to Groom a Cat at Home: A Vet-Backed Step-by-Step Guide',
+    description: 'Learn how to groom a cat at home safely and effectively — coat brushing, nail trimming, ear care, and dental hygiene with vet-backed techniques and the right tools.',
+    date: '2026-06-23',
+    readTime: '8 min read',
+    category: 'Cats',
+    tag: 'Grooming',
+    emoji: '✂️',
+    heroImage: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1200&q=85&auto=format&fit=crop',
+    content: `
+At-home cat grooming isn't optional maintenance — it's preventive healthcare. Regular brushing reduces hairballs, distributes skin oils, and gives you weekly contact with your cat's body so you can catch lumps, parasites, or sore spots before they become problems. Nail trims prevent injuries and paw-pad damage. Dental care is the single most under-addressed health issue in domestic cats: by age 3, 70% of cats have some form of periodontal disease.
+
+This guide covers every area of cat grooming, in the order to introduce them, with techniques that work even for cats who have never been groomed before.
+
+## Why Cats Need Help Despite Self-Grooming
+
+Cats spend roughly 30–50% of their waking hours grooming — but there are real limits to what they can do alone. They cannot prevent matting in long or medium coats, particularly around the belly, armpits, and neck. They cannot remove all loose undercoat, which accumulates into hairballs. They cannot trim their own nails, which grow continuously and can curl into paw pads without intervention. And they cannot clean their ears or teeth.
+
+Even short-haired cats that appear immaculate benefit significantly from weekly brushing. A session that removes loose fur before it sheds naturally means far less on your furniture — and far fewer hairballs for your cat to deal with.
+
+## Coat Brushing: The Foundation
+
+**What you need:** A self-cleaning slicker brush works for most coat types. Long-haired cats (Persians, Maine Coons, Ragdolls) benefit from a wider-toothed comb used first to work through tangles before the slicker brush, which removes undercoat and leaves the coat smooth.
+
+**Technique:** Brush in the direction of hair growth, working in sections. Pay extra attention to mat-prone areas: behind the ears, under the armpits, around the collar line, and the base of the tail. Never pull through a tangle — work through it from the tip inward, holding the base of the fur to avoid pulling the skin.
+
+**Frequency:** Short-haired cats: once weekly. Medium-haired cats: 2–3 times weekly. Long-haired cats: daily. During spring and autumn shedding seasons, increase frequency by one session per week regardless of coat length.
+
+**Introducing a reluctant cat to brushing:** Start with your hand. Pet your cat normally, then introduce the brush so the first contact is indistinguishable from petting. Keep the initial session under two minutes and end while the cat is still relaxed. Use a high-value treat immediately afterward. Build duration over 2–3 weeks. Most cats that resist brushing have simply never been desensitized to it — the process is reliable if you don't rush it.
+
+## Nail Trimming: The Overlooked Essential
+
+Indoor cats don't wear their nails down on rough surfaces, so regular trimming is essential. Overgrown nails curl into the paw pad — painful, and a source of infection if left unaddressed. The tell-tale sign: clicking on hard floors means it's time.
+
+**What you need:** Cat-specific nail clippers or a rechargeable nail grinder. Grinders are safer for nervous cats because the gradual abrasion gives better control than the sudden pressure of clippers. They also produce smoother edges with less risk of splitting.
+
+**Technique:** Hold your cat in your lap facing away from you, or wrap them in a towel with one paw exposed at a time. Gently press each toe pad to extend the claw. Identify the quick — the pink blood vessel visible inside the nail — and trim only the curved, translucent tip, leaving at least 2mm of clearance from the quick. If you nick the quick, apply styptic powder or cornstarch to stop bleeding immediately.
+
+**Frequency:** Every 2–4 weeks for most cats. Senior cats may need more frequent trimming because they scratch less as joints stiffen.
+
+## Ear Care: Monthly Checks, Not Daily Cleaning
+
+Cats' ears are largely self-cleaning — the goal is inspection and occasional cleaning when needed, not routine cleaning of a healthy ear. Healthy ears are pale pink inside, odorless, and free of visible debris. Signs of a problem: dark discharge, strong odor, excessive scratching at the ear, or head shaking — all warrant a vet visit, as they may indicate ear mites or infection.
+
+**When cleaning is needed:** Use a vet-approved ear cleaning solution and a cotton ball — never a cotton swab inside the ear canal. Apply a few drops of solution, massage the base of the ear for 20–30 seconds, let your cat shake their head, then wipe the outer canal with the cotton ball.
+
+**Frequency:** Monthly inspection; cleaning only when you see visible buildup.
+
+## Dental Care: The Highest-Impact Neglected Area
+
+Periodontal disease causes significant pain and can lead to organ damage as bacteria from infected gums enter the bloodstream. Most cats show no obvious signs of dental pain — they continue eating even with severe dental disease. The absence of symptoms is not the absence of a problem.
+
+**What you need:** A cat-specific toothbrush or finger brush, and cat-safe enzymatic toothpaste (poultry or fish flavored — never use human toothpaste, which contains fluoride and xylitol, both toxic to cats).
+
+**Technique:** Start by letting your cat lick toothpaste from your finger for several days before introducing the brush. Apply paste to the brush and run it along the outer surface of the teeth. Focus on the large back teeth, where tartar accumulates fastest. The whole process takes under a minute once your cat accepts it.
+
+**Frequency:** Daily is ideal. Even 3 times per week significantly slows plaque accumulation.
+
+## A Sustainable Weekly Routine
+
+The most effective grooming happens on a predictable schedule. Cats adapt to routines remarkably well — what starts as a 10-minute ordeal becomes a calm 3-minute session within weeks once they know what to expect.
+
+A practical routine for a short-haired cat: Full brush session plus ear check on Monday (5 minutes), quick brush plus teeth brushing on Thursday (3 minutes), and a monthly nail trim with a deeper ear inspection (10 minutes). For long-haired cats, add a 5-minute brush session every other day.
+
+The investment is modest; the payoff — fewer hairballs, less shedding, healthier teeth, and early detection of health issues — is substantial. That's the real value of regular grooming: it makes you familiar enough with your cat's body to notice when something changes.
+    `,
+  },
+
+
+  {
+    slug: 'best-cat-food-toppers-2026',
+    title: 'Best Cat Food Toppers 2026 — Hydration, Appetite & Health',
+    excerpt: 'Cat food toppers are one of the easiest ways to boost hydration, palatability, and nutrition in one step. Here are the best options in 2026.',
+    category: 'Cats',
+    tag: 'Cat Feeding',
+    date: '2026-06-26',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+Most cats are chronically mildly dehydrated. They evolved as desert hunters who got most of their water from prey, not a bowl — so the instinct to seek water proactively is weak. Dry kibble exacerbates this: it contains around 10% moisture, compared to 70-80% in prey. Over years, this creates the conditions for kidney disease, urinary crystals, and bladder inflammation.
+
+Cat food toppers are the simplest intervention most owners never try. A tablespoon of the right topper on kibble can double your cat's moisture intake at that meal, increase palatability for picky eaters, and deliver targeted nutrients in a form most cats love.
+
+## What Exactly Is a Cat Food Topper?
+
+A topper is anything added to your cat's primary food to enhance it. Broad category — but for practical purposes, the best toppers share a few traits: high moisture content, minimal fillers, palatability cats respond to, and compatibility with the primary food (won't unbalance the diet in normal serving sizes).
+
+## Why Cats Often Refuse Water and How Toppers Help
+
+Cats detect dehydration poorly. Unlike dogs, who seek water actively when thirsty, cats often remain dehydrated without showing obvious thirst signals. By the time a cat is visibly thirsty, they may already have mild kidney stress.
+
+Toppers sidestep the problem entirely. Instead of trying to get a cat to drink more water, you're delivering moisture directly in food — which cats consume reliably because they're food-motivated in a way they're not water-motivated.
+
+## The Best Types of Cat Food Toppers in 2026
+
+**Bone broth (low-sodium, no onion/garlic):** The highest-value topper for most cats. Bone broth is highly palatable — the smell alone gets even finicky cats interested — and delivers collagen, glycine, and liquid. Critical: must be specifically formulated for cats or dogs. Human bone broth often contains onion or garlic, both toxic to cats. Warm it slightly before serving for maximum aroma.
+
+**Freeze-dried raw protein:** Single-ingredient freeze-dried chicken, fish, or rabbit rehydrates quickly when mixed into wet or dry food. High protein, no fillers, and the texture and smell are compelling to cats. Best for cats on a dry diet who need a protein boost.
+
+**Unseasoned cooked fish or chicken:** Inexpensive and highly effective. A teaspoon of plain steamed salmon or chicken breast mixed into kibble will get most reluctant eaters engaged. No salt, no seasoning, no garlic or onion. Rotate proteins to prevent sensitivity.
+
+**Fortiflora or probiotic toppers:** These are medically-intended products — a powdered probiotic supplement that also happens to be extremely palatable. Used by vets to encourage eating in sick or recovering cats. Useful for cats who are picky or off their food.
+
+**Wet food as a topper:** If your cat is on dry food primarily, mixing a spoonful of high-quality wet food (look for named protein first ingredient, no carrageenan) adds moisture and variety without fully switching formats. More expensive per calorie but worth it for hydration.
+
+## What to Avoid
+
+Avoid toppers with these ingredients: onion, garlic, chives (toxic), xylitol (toxic), high sodium (damages kidneys over time), carrageenan (linked to GI inflammation), unnamed meat byproducts (low quality), or excessive carbohydrates. Even well-intentioned toppers can do harm if they're high in salt or contain hidden seasonings.
+
+## How Much to Add
+
+A tablespoon of liquid topper or a teaspoon of solid protein topper per meal is enough for most cats. Don't go over 10% of daily caloric intake with toppers — they should complement the primary food, not replace it.
+
+## The Picky Cat Problem
+
+Some cats are so accustomed to a single food texture or brand that they reject everything else. Start with the most aromatic option you can find — bone broth is usually the winner here — and introduce slowly. Mix just a drop initially. Most cats habituate over 5-7 days.
+
+Food topping isn't about turning every meal into a gourmet event. It's a practical intervention for a real health problem — chronic feline dehydration — that most vets agree is underaddressed by dry-food-only diets.
+    `,
+  },
+  {
+    slug: 'how-to-introduce-two-cats',
+    title: 'How to Introduce Two Cats Without a War',
+    excerpt: 'Most failed cat introductions come from moving too fast. This step-by-step protocol — used by shelters and behaviorists — gives both cats the best chance at coexisting peacefully.',
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-27',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+The most common mistake people make when bringing a new cat home: they let the cats meet on day one. This almost always results in hissing, swatting, one cat hiding, and sometimes a full fight that sets back the relationship by weeks or months.
+
+Cats are territorial. Unlike dogs, who evolved in social packs with clear hierarchy and reconciliation behaviors, cats are primarily solitary hunters. Their social structures are flexible — they can coexist, even bond — but they need time to adjust to a new animal sharing their space. The introduction process isn't optional. It's the difference between two cats who tolerate each other and two cats who genuinely choose each other's company.
+
+## Phase 1: Separate Spaces (Days 1-7)
+
+The new cat goes into a dedicated room — a bathroom, bedroom, or spare room — with their own food, water, litter box, bedding, and toys. The door stays closed.
+
+This serves several purposes. The new cat has a safe space to decompress after the stress of travel and a new environment. The resident cat still has free run of the rest of the home and doesn't feel their territory is being invaded. Both cats can smell and hear each other without visual contact, which is the first step in social introduction.
+
+Feed both cats near the door — resident cat on one side, new cat on the other. Neither can see each other, but they associate the smell coming under the door with a positive experience (food). Do this at every meal during Phase 1.
+
+Signs Phase 1 is going well: both cats are eating normally, using the litter box, and interacting with you. Some hissing at the door is normal and expected. Spraying or refusing to eat for more than 24 hours is not — consult a vet or behaviorist.
+
+## Phase 2: Scent Swapping (Days 3-10, Overlapping Phase 1)
+
+While the cats are still separated, begin scent swapping. Take a cloth or sock and rub it on the new cat's cheeks (where they have scent glands) and place it near the resident cat's food bowl. Do the reverse — rub a cloth on the resident cat and place it in the new cat's room.
+
+You can also swap bedding. Put the new cat's blanket where the resident cat sleeps, and vice versa. If either cat hisses and retreats, that's fine — they'll investigate in their own time.
+
+## Phase 3: Visual Contact (Days 7-14)
+
+Once both cats are eating calmly and showing curiosity rather than distress at the door, open it slightly with a door stop or baby gate — just enough for them to see each other, not to have full access.
+
+Continue feeding near the barrier. Supervise these sessions. Watch for:
+- Relaxed body language (soft tail, forward ears, normal eating) — good sign, can extend sessions
+- Staring without eating — back up the food bowls a bit
+- Hissing and retreating — normal, end the session and try again tomorrow
+- Lunging or sustained aggressive display — too fast, go back to Phase 1 for a few more days
+
+Don't force them to be near each other. Let them set the pace.
+
+## Phase 4: Supervised Access (Days 10-21)
+
+Open the door fully during supervised periods. Have a distraction ready — a fishing rod toy, wand toy, or treat scatter on the floor. This gives both cats something to do besides stare at each other.
+
+Interrupt early signs of escalation (tail lashing, flattened ears, direct stalking) with a noise distraction or by physically redirecting with a toy. Don't physically intervene in a fight with your bare hands.
+
+## Phase 5: Unsupervised Access
+
+Once both cats are able to be in the same room calmly for 30+ minutes without incident across multiple supervised sessions, you can begin leaving them together unsupervised for short periods. Have multiple resources (litter boxes, food stations, high perches) in the home so no single resource is contested.
+
+The full timeline from separated to fully integrated is usually 3-6 weeks for adults. Kittens typically integrate faster. Adult cats with previous trauma, resource guarding, or territorial histories may need longer — sometimes months.
+
+## Resources to Have Ready
+
+Multiple litter boxes (rule of thumb: one per cat plus one extra), feeding stations in separate locations, tall cat trees or shelves so both cats can be in the same room at different heights, and Feliway multicat diffusers — a synthetic feline pheromone shown in studies to reduce intercat tension during introductions. It's not magic but it helps.
+    `,
+  },
+  {
+    slug: 'indoor-cat-enrichment-ideas-2026',
+    title: '15 Indoor Cat Enrichment Ideas for 2026',
+    excerpt: 'Boredom is one of the most underdiagnosed problems in indoor cats. These 15 enrichment ideas will keep your cat mentally active, physically healthy, and genuinely happy.',
+    category: 'Cats',
+    tag: 'Enrichment',
+    date: '2026-06-28',
+    readTime: '9 min read',
+    img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
+    content: `
+Indoor cats live longer, safer lives than outdoor cats — but they pay a price. A cat who never hunts, climbs, explores, or solves problems is like a working dog who never works: the mental and physical needs are still there, and when they go unmet, they find expression in destructive behaviors, anxiety, aggression, or depression.
+
+Enrichment is the solution. It's not about buying expensive toys (though some are genuinely useful). It's about designing an environment and a daily routine that meets a cat's core behavioral needs: hunting, climbing, hiding, scratching, and social interaction on their terms.
+
+Here are 15 ideas organized by effort level.
+
+## Low Effort (5 Minutes or Less)
+
+**1. Window perch.** A simple suction-cup perch turns a window into a TV for your cat — birds, squirrels, passing people. Cats can watch for hours. Place near a bird feeder outside for maximum engagement.
+
+**2. Cardboard boxes.** Leave them out after deliveries. Cats are drawn to enclosed spaces for security; a box on the floor will be investigated, slept in, and shredded over a week or two of use.
+
+**3. Paper bags (handles removed).** Crinkle, hide treats inside, let them explore. Remove handles to prevent neck entanglement.
+
+**4. Rotate toys.** Don't leave all toys out all the time. Put most away and rotate on a weekly basis — toys that seemed boring become exciting again after a week in a drawer.
+
+**5. Scatter feeding.** Instead of placing food in a bowl, scatter dry kibble across a mat, in a snuffle mat, or across multiple small containers. Activates foraging behavior and extends mealtime.
+
+## Medium Effort (15-30 Minutes)
+
+**6. Wand toy sessions.** 10-15 minutes of active wand toy play twice a day meets most cats' hunting needs. The key: let them catch the prey. If the "prey" always escapes, cats disengage — they learn the hunt is futile. Let them catch and "kill" the toy regularly.
+
+**7. Puzzle feeders.** Food dispensing puzzles replace bowl feeding with a hunt. Start simple (a muffin tin with kibble) and increase complexity as your cat gains skill. Many cats never return to bowl feeding once they experience puzzle feeders.
+
+**8. Tunnels.** Cat tunnels satisfy the need for cover during a simulated hunt. Crinkle tunnels with multiple openings are especially popular. Wave a wand toy through the openings.
+
+**9. Vertical space.** Cat trees, wall-mounted shelves, and cleared high surfaces give cats territory at elevation, which they naturally seek for safety and survey. A shy cat with nowhere to go up becomes a stressed cat.
+
+**10. Hide treats around the room.** Simple foraging activity. Hide 10-15 small treats in various locations and let your cat find them. Takes 30 seconds to set up; cats may spend 30 minutes working through it.
+
+## Higher Effort (Ongoing Setup)
+
+**11. Catio or enclosed outdoor access.** Even a small window box catio — basically a screened enclosure attached to a window — gives a cat access to outdoor smells, sounds, and sights safely. Significantly improves quality of life for cats who seem perpetually frustrated by the outdoors they can see but not reach.
+
+**12. Clicker training.** Yes, cats can be clicker trained. Sit, stay, spin, high-five — all achievable with patience and high-value treats. Training sessions provide mental stimulation that physical play doesn't replicate, and they strengthen the cat-owner bond.
+
+**13. Bird feeder outside a dedicated window.** Combine this with a window perch. A bird feeder positioned for a cat's viewing window turns passive observation into an active, ever-changing show.
+
+**14. Herb garden (cat-safe species).** Cat grass, valerian, silver vine, and catnip grown in pots provide scent enrichment and tactile stimulation. Not all cats respond to catnip (it's genetic), but most respond to at least one of these options.
+
+**15. Second cat.** The highest-effort solution — but for the right cat in the right household, a companion dramatically improves quality of life. Social cats left alone for most of the day often do better with a feline companion. Requires proper introduction protocol (see our cat introduction guide).
+
+## A Note on Play Quality
+
+The most enriching play mimics predation: stalk, chase, catch, kill, groom, sleep. Good play ends with a catch and a wind-down. Give your cat a small treat after play sessions to complete the prey sequence — this is the behavioral loop cats are designed for.
+
+Enrichment doesn't need to be expensive or elaborate. It needs to be consistent. Ten minutes of wand play and a scatter feeding, daily, is more valuable than an expensive cat tree that sits unused because you never play with them on it.
+    `,
+  },
+  {
+    slug: 'why-cats-knock-things-over',
+    title: 'Why Do Cats Knock Things Over? (And How to Redirect It)',
+    excerpt: "It's not spite. Cats knock things over for specific, understandable reasons — and once you understand them, redirecting the behavior becomes straightforward.",
+    category: 'Cats',
+    tag: 'Play',
+    date: '2026-06-29',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1501820488136-72669149e0d4?w=800&q=85&auto=format&fit=crop',
+    content: `
+If you've owned a cat, you've watched them make direct eye contact with you, pause for effect, and then deliberately push something off a table. It's funny. It's also infuriating. And it prompts a near-universal question: why?
+
+The short answer: it's not malice. Cats don't have the cognitive architecture for spite in the way humans experience it. The behavior is driven by instinct, curiosity, and sometimes attention-seeking — all of which are redirectable once you understand what's actually happening.
+
+## Reason 1: Prey Testing
+
+Cats are hardwired to test objects before committing to them. In the wild, a mouse that looks dead might not be — pawing at it confirms whether it will move (and flee, triggering the chase response) or stay still (and is safe to bite). Your cat is doing the same thing to your water glass. The paw swipe tests whether the object is alive, will move, and is worth pursuing.
+
+Objects that roll, fall, or make sound when pushed are especially interesting — they behave like small prey. This is why round objects, pens, and anything that wobbles gets pushed more than flat or heavy objects.
+
+## Reason 2: Attention Seeking
+
+Cats are quick learners. If a cat has discovered that knocking something over gets an immediate reaction from you — any reaction, including yelling — they've learned a reliable method of getting your attention. In behavioral terms, negative attention is still attention, and for a bored or attention-hungry cat, it's worth the knocked-over glass.
+
+This is one of the clearest cases of owner-reinforced behavior in cats. The cat tests the behavior once, gets a strong reaction, and repeats it. Eventually it becomes the default "pay attention to me" behavior.
+
+## Reason 3: Exploration and Sensory Curiosity
+
+Cats gather information about their environment through touch, sound, and smell. Pushing objects off surfaces reveals how they sound when they hit the floor, how they bounce, and what happens next. A cat who seems fascinated by the actual falling and impact — watching the trajectory, following the object on the floor — is probably exploring rather than seeking attention.
+
+## Reason 4: Understimulation
+
+A bored cat is an active cat in the wrong way. If a cat's hunting and exploration drives aren't met through play and environmental enrichment, they find other outlets. Knocking things off shelves, counter surfing, and nocturnal zooming are all commonly overstimulation-driven behaviors in cats who don't have adequate outlets for their energy.
+
+## How to Redirect the Behavior
+
+**Increase interactive play.** The single most effective intervention for attention-driven and boredom-driven knocking is 10-15 minutes of wand toy play, twice daily. Cats who've had their hunting drive satisfied are significantly less likely to improvise.
+
+**Don't react.** For attention-seeking knockers, the goal is extinction — removing the reward. When the cat knocks something over, don't react at all. Turn away, leave the room, give zero engagement. If you hold firm, the behavior usually extinguishes within two to three weeks. If you react even inconsistently, the variable reinforcement makes the behavior more persistent.
+
+**Clear the surfaces they use.** If there's a specific shelf or counter the cat returns to, removing the objects removes the opportunity. Combined with increased play, most cats move on.
+
+**Give them sanctioned pushing.** Puzzle feeders, treat balls, and toys that respond to batting give cats an appropriate object to push and paw at. A treat ball rolling across the floor is functionally identical to a glass falling off a table, from the cat's perspective — but you're not upset about the ball.
+
+**Address the underlying need.** If the behavior has been going on for a long time, it's worth auditing the cat's daily routine. Are they getting at least two play sessions? Do they have vertical space, hiding spots, and window access? Do they have a consistent daily schedule? Chronic knocking in an otherwise calm, healthy cat is usually an enrichment problem.
+
+The behavior doesn't mean your cat is bad or dominant or trying to spite you. It means your cat is a cat — with hunting instincts, curiosity, and a very effective method of getting what they want. Meet those needs more directly, and the method becomes unnecessary.
+    `,
+  },
+  {
+    slug: 'best-cat-water-fountains-2026-reviewed',
+    title: 'Best Cat Water Fountains 2026 — Reviewed & Ranked',
+    excerpt: 'A deep dive into the best cat water fountains of 2026 — tested for noise, durability, filtration, and whether cats actually use them.',
+    category: 'Cats',
+    tag: 'Cat Feeding',
+    date: '2026-06-30',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?w=800&q=85&auto=format&fit=crop',
+    content: `
+Cat water fountains have gone mainstream — there are now hundreds of options across a huge price range. Most of them look identical in product photos. But in practice, the differences between a good fountain and a mediocre one matter enormously: noise level, filter quality, material, ease of cleaning, and critically, whether your specific cat will actually use it.
+
+We've tested more than a dozen models across different cats, household sizes, and price points. Here's what we found.
+
+## Why Fountains Beat Bowls for Cat Hydration
+
+Cats are descended from desert-dwelling ancestors who got most of their moisture from prey rather than standing water. Their thirst drive is weak, and still water in a bowl often doesn't trigger the drinking response effectively — especially in cats used to dry food.
+
+Moving water is instinctively appealing to cats. It signals freshness. In multiple studies comparing fountain access to still bowl access, cats consistently drank 50-100% more water with a fountain available. Over years, this difference is meaningful: the two leading causes of illness and death in cats over 10 are kidney disease and urinary tract disease, both directly linked to chronic mild dehydration.
+
+## What We Tested For
+
+**Noise:** Fountains near a sleeping area or in an open-plan home can become genuinely annoying. We measured noise levels and noted which ones were audible from across a room versus functionally silent.
+
+**Filtration:** We examined the filter design — whether it used activated charcoal, foam pre-filter, or both — and how easy filter replacement was. Some cheap fountains use filters that are difficult to source.
+
+**Material:** Ceramic and stainless steel resist bacterial biofilm better than plastic. Scratched plastic surfaces harbor bacteria; ceramic and stainless don't scratch in normal use.
+
+**Cleaning ease:** We disassembled and cleaned every fountain at least three times. This is the most commonly underweighted factor in reviews — if cleaning is difficult, owners do it less often, leading to the bacterial buildup the fountain was supposed to prevent.
+
+**Cat acceptance:** We tracked which fountains cats approached immediately, which needed a slow introduction period, and which were avoided entirely.
+
+## Top Picks by Category
+
+**Best overall: Ceramic gravity fountain (1.5-2L)** — Quiet pump, genuine ceramic construction, easy full disassembly, dual filter system. Most cats accepted within 24 hours. Cleans fully in the dishwasher. No filter subscription required. The gold standard for 1-2 cat households.
+
+**Best for multi-cat households: Stainless steel fountain (3L+)** — Larger capacity means less frequent refilling. Stainless surface is completely non-porous. Heavier and takes more counter space, but the durability advantage is significant. Our pick for homes with 3+ cats.
+
+**Best budget: Quality plastic fountain with replaceable filter** — Not all plastic is equal. Look for BPA-free, food-grade plastic with a foam pre-filter and charcoal layer. Replace filters every 2-3 weeks (not monthly as most packages claim). Acceptable for cost-conscious owners who are diligent about cleaning.
+
+**Best for reluctant drinkers: Waterfall-style fountain** — Cats who won't drink from a traditional fountain often respond to a full waterfall flow style, where water runs continuously over a wide surface. Louder than most options, but the high water exposure surface seems to engage cats who ignore other fountain types.
+
+## What to Avoid
+
+Avoid fountains without replaceable filters (or with proprietary filters that cost more than the fountain). Avoid very cheap plastic fountains with no BPA-free labeling — they're not worth the health risk. Avoid fountains where the pump is integrated into the body in a way that prevents full disassembly — you can't clean what you can't reach.
+
+## Getting Your Cat to Use It
+
+**Location matters more than most owners expect.** Place the fountain away from the food bowl — cats instinctively avoid drinking where they eat (prey could contaminate the water). A corner of the living room or hallway works better than next to the food station.
+
+**Don't remove the old bowl immediately.** Let your cat see, sniff, and interact with the fountain for several days before it becomes the only option. Forced transition often results in rejection.
+
+**Try scent introduction.** Rub a cloth on your cat's cheeks (where scent glands are concentrated) and place it near the fountain. This can speed up acceptance.
+
+Most cats convert within 3-7 days. The ones who take longest are usually older cats or cats who've been on exclusively dry food for years — their water-seeking behavior is suppressed, and it takes time for the movement cue to register.
+
+## Maintenance Schedule
+
+Weekly: Empty, rinse, refill. Wipe down all surfaces.
+Every 2-3 weeks: Full disassembly, deep clean with a bottle brush, filter replacement.
+Monthly: Inspect the pump for debris buildup; clean with a small brush.
+
+A fountain that isn't cleaned regularly becomes a bacteria farm. The maintenance is what makes the investment worth it.
+    `,
+  },
 ];
 
 export function getPostBySlug(slug) {
@@ -3830,7 +4249,7 @@ const POST_RELEVANCE = {
   'best-slow-feeder-bowls-for-dogs':       ['Feeding', 'Dogs', 'Enrichment'],
   'how-to-calm-an-anxious-dog':            ['Anxiety Relief', 'Dogs', 'Enrichment', 'Comfort'],
   'best-led-dog-collars-night-safety':     ['Safety', 'Dogs', 'Outdoor'],
-  'best-cat-water-fountains-2026':         ['Health', 'Cats'],
+  'best-cat-water-fountains-2026':         ['Health', 'Cats', 'Cat Feeding'],
   'best-orthopedic-dog-beds-arthritis':    ['Comfort', 'Dogs', 'Health'],
   'best-no-pull-harness-for-dogs-2026':    ['Safety', 'Outdoor', 'Dogs'],
   'how-to-keep-indoor-cat-entertained':    ['Toys', 'Cats', 'Comfort'],
@@ -3884,5 +4303,14 @@ const POST_RELEVANCE = {
   'best-dog-gear-for-hiking-2026':         ['Outdoor', 'Travel', 'Safety', 'Dogs'],
   'how-to-read-dog-body-language':         ['Training', 'Safety', 'Dogs', 'Anxiety Relief'],
   'best-accessories-for-large-dogs-2026':  ['Comfort', 'Walking', 'Toys', 'Dogs'],
+
+  'how-to-train-a-puppy-first-8-weeks':    ['Training', 'Walking', 'Dogs', 'Anxiety Relief'],
+  'how-to-groom-a-cat-at-home':                  ['Grooming', 'Health', 'Cats'],
+
+  'best-cat-food-toppers-2026':            ['Health', 'Cats', 'Cat Feeding'],
+  'how-to-introduce-two-cats':             ['Anxiety Relief', 'Cats', 'Health', 'Comfort'],
+  'indoor-cat-enrichment-ideas-2026':      ['Enrichment', 'Play', 'Cats', 'Toys', 'Anxiety Relief'],
+  'why-cats-knock-things-over':            ['Play', 'Enrichment', 'Cats', 'Toys'],
+  'best-cat-water-fountains-2026-reviewed': ['Health', 'Cats', 'Cat Feeding'],
 
 };
