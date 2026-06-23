@@ -1667,6 +1667,533 @@ The products help, but the biggest factor in an apartment dog's wellbeing is con
 The apartment dogs I see thriving are almost always owned by people who treat the limitations as reasons to be more intentional, not excuses. They walk more, train more, and engage more than suburban dog owners who rely on a yard to do the work for them.
     `,
   },
+  // ─── Post 23 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'best-harness-for-small-dogs-2026',
+    title: 'Best Harness for Small Dogs in 2026 (Vet-Tested for Tiny Breeds)',
+    description: 'The best small dog harnesses that actually fit — no slipping, no neck strain, no wrestling to put on. Tested on Chihuahuas, Yorkies, and Shih Tzus.',
+    date: '2026-07-07',
+    readTime: '7 min read',
+    category: 'Walking',
+    emoji: '🐕',
+    heroImage: 'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Small dogs have very specific harness needs — and most harnesses are designed for medium to large breeds. The result? Harnesses that gap around the chest, slip over narrow shoulders, or put pressure in exactly the wrong places.
+
+Here's what actually works for little dogs, and why it matters more than most owners realize.
+
+## Why Small Dogs Need a Different Kind of Harness
+
+Small dog anatomy differs from large dogs in ways that make standard harnesses genuinely problematic:
+
+**Fragile tracheas**: Small breeds — especially Chihuahuas, Yorkies, Pomeranians, and Shih Tzus — have tracheas proportionally narrower than large breeds. Even brief pressure from a collar or a poorly fitted harness can cause tracheal collapse, a painful and progressive condition common in small dogs.
+
+**Narrow chest width**: A harness designed for a lab will sit too wide on a Yorkie, creating pressure points on the sides of the chest rather than distributing across it correctly.
+
+**Tendency to back out**: Small dogs are masters at reversing out of a harness. If the fit isn't snug in the right places, they'll slip backward and be free.
+
+**Sensitivity to chest straps**: Anything that crosses the chest incorrectly can restrict the natural shoulder movement small dogs need for their stride.
+
+## What to Look for in a Small Dog Harness
+
+**Step-in design**: Step-in harnesses eliminate the need to wrestle a harness over a dog's head — a game-changer for small dogs that resist overhead handling. Your dog steps their front paws in, you lift and clip at the back.
+
+**Chest + back clips**: A Y-shaped front that rests in the sternum groove, not across the shoulder joints. This is the most anatomically correct fit.
+
+**Adjustable straps**: Two or three adjustment points so you can dial in the fit precisely, not just pick a size.
+
+**Secure closure**: Buckles, not velcro — small dogs can wriggle free of velcro closures.
+
+## Our Top Pick: The Reflective Step-In Harness
+
+The [Reflective Step-In Harness](/products/reflective-step-in-harness) was specifically designed with small breed anatomy in mind. The Y-shape chest strap distributes pressure correctly, and the step-in design means no more head fights.
+
+What makes it stand out for small dogs:
+
+- **Sizes XS through M** with specific measurements (not just "small" that could mean 20 lbs)
+- **Two adjustment points** at the chest and belly for a precise, escape-proof fit
+- **Lightweight materials** — you'd be surprised how heavy some "small dog" harnesses are relative to a 6-lb Chihuahua
+- **Reflective stitching** for visibility on evening walks
+- Back clip only — appropriate for small dogs where pulling is less of a control issue and neck protection is the priority
+
+## How to Measure Your Small Dog
+
+1. **Chest girth**: Measure around the widest part of the chest, just behind the front legs. This is your primary sizing number.
+2. **Neck**: Measure where a collar would sit — you want the harness to clear this comfortably.
+3. **Weight**: Use weight as a secondary check, not primary — two dogs of the same weight can have very different chest measurements.
+
+For most toy breeds:
+- Under 5 lbs: XXS
+- 5–10 lbs: XS
+- 10–18 lbs: S
+- 18–25 lbs: M
+
+Always check the specific brand's measurement chart — sizing varies significantly between manufacturers.
+
+## Fitting Tips for Small Dogs
+
+**Two-finger rule**: You should be able to slide two fingers comfortably under any strap. More than that and it's too loose; if you can't fit two fingers, it's too tight.
+
+**Check shoulder freedom**: Put the harness on and watch your dog walk. Their front leg movement should be completely unrestricted. If the harness shifts forward with each stride, the chest piece is too far forward.
+
+**Test the back-out**: Gently hold the harness at the back clip and see if your dog can reverse out of it. If they can, tighten the belly strap.
+
+**Watch for rubbing**: After the first few walks, check under the armpits (behind the front legs) for any redness or hair loss. This is the most common fitting issue and means the girth strap needs adjusting.
+
+## Common Mistakes with Small Dog Harnesses
+
+**Buying based on weight alone**: A 10-lb Dachshund and a 10-lb Pomeranian have dramatically different body shapes. Always measure.
+
+**Choosing a harness that's too lightweight**: Flimsy materials stretch and shift. For a dog that pulls, you want solid construction even in small sizes.
+
+**Using a collar instead**: Many small dog owners use collars for walks "just for a second" — and that's often when the damage happens. Even brief pulling on a collar can injure a small dog's trachea.
+
+**Forgetting to re-check the fit**: Puppies grow fast. Check the harness fit monthly for dogs under 18 months.
+
+The right harness makes walks genuinely pleasant for both of you. A small dog in a well-fitted harness walks more confidently, pulls less, and is significantly less likely to develop the tracheal issues so common in toy breeds.
+    `,
+  },
+
+  // ─── Post 24 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'how-to-stop-cat-from-scratching-furniture',
+    title: 'How to Stop Your Cat from Scratching Furniture (What Actually Works)',
+    description: 'Scratching is a natural cat behavior — you can\'t eliminate it, but you can redirect it. Here\'s what vets and behaviorists recommend.',
+    date: '2026-07-08',
+    readTime: '7 min read',
+    category: 'Behavior',
+    emoji: '🐱',
+    heroImage: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Your cat isn't scratching your couch to spite you. Scratching is as hardwired as breathing — it marks territory, conditions the claws, and stretches the muscles. You can't train a cat out of scratching. What you can do is redirect it to something better.
+
+Here's what actually works, from a behavioral standpoint.
+
+## Why Cats Scratch Furniture Specifically
+
+Cats choose scratching surfaces based on:
+
+**Texture**: Cats prefer surfaces with some resistance. The rough texture of sisal or wood satisfies the nail-conditioning instinct; leather and woven fabric do too, which is why couches are targeted.
+
+**Location**: Cats scratch where they sleep and where they greet people. A cat scratching the sofa isn't just choosing a texture — they're marking the territory where the social activity happens.
+
+**Visibility**: Scratching is partly visual territory marking. Cats scratch vertical, visible surfaces so other cats (and their owners) can see the marks.
+
+**Height**: Cats scratch while stretching their full body length. A scratching post that doesn't let them fully extend isn't satisfying.
+
+## The Solution: Make the Right Place More Appealing Than the Wrong Place
+
+Punishment doesn't work. Squirt bottles, double-sided tape on the couch, and loud noises create anxiety without addressing the behavior. The effective approach is environmental design.
+
+### Step 1: Get the Right Scratching Surface
+
+Most cat owners buy short, carpeted posts. Most cats ignore them. Here's why — and what to get instead:
+
+**Sisal rope or sisal fabric**: This is the texture cats go for. The resistance satisfies the claw-conditioning instinct in a way carpet doesn't.
+
+**Height**: The post needs to let your cat fully extend. For most adult cats, this means at least 28–32 inches tall. If the post wobbles when they push against it, they'll reject it.
+
+**Stability**: A tipping post is immediately abandoned. A heavy base or wall-mounted post is preferable.
+
+**Variety**: Cats like both vertical (posts) and horizontal (flat pads) scratching surfaces. Most will prefer one, but some like both. Get one of each initially.
+
+### Step 2: Location, Location, Location
+
+Put the scratching post **next to the furniture they're currently scratching**. Not across the room. Right next to the sofa.
+
+This is the step most owners skip. The cat scratches the sofa because that's where they want to scratch. Give them a better option in the same spot.
+
+Once they're consistently using the post, you can gradually move it (a few inches a day) to where you'd prefer it to be.
+
+### Step 3: Make the Furniture Less Appealing
+
+While you're establishing the new scratching habit:
+
+**Double-sided tape**: Apply to the exact spots they're scratching. Cats hate sticky surfaces. This buys you time while the habit shifts.
+
+**Aluminum foil**: Similarly effective temporarily. Crinkles when touched and feels wrong under paws.
+
+**Cat deterrent spray**: Works for some cats. Citrus scents are natural deterrents — cats dislike orange, lemon, and grapefruit.
+
+### Step 4: Enrichment That Reduces Scratching
+
+Scratching increases when cats are bored or stressed. More play, more enrichment, and more hiding spots reduce the overall scratching impulse.
+
+A [feather wand teaser](/products/feather-wand-cat-teaser) played with for 10–15 minutes before the times your cat usually scratches can significantly reduce the behavior — they've met their activity need.
+
+A [cat window perch](/products/cat-window-perch-hammock) gives them a visual territory they feel ownership over, reducing the need to mark the furniture.
+
+The [cozy cat cave hideaway](/products/cozy-cat-cave-hideaway) satisfies the denning instinct that often underlies territorial scratching — cats with a secure, enclosed space to retreat to scratch less overall.
+
+## What About Nail Caps?
+
+Soft plastic nail caps (like Soft Paws) adhere over the claws and prevent damage. They last 4–6 weeks and fall off naturally as claws grow. Cats tolerate them reasonably well after initial adjustment.
+
+This is a viable solution but treats symptoms rather than behavior. It also requires monthly re-application. Most behaviorists recommend redirection first and nail caps as a backup.
+
+## What Doesn't Work
+
+**Declawing**: This is not a scratching solution — it's amputation of the last knuckle of each toe. It causes chronic pain and behavioral problems. It's banned in many countries and increasingly unavailable in the US.
+
+**Punishment**: Cats don't associate a squirt of water with the action that preceded it. They associate it with you. You create a cat that hides to scratch, or an anxious cat — not a cat that stops.
+
+**Moving the post across the room**: The cat will keep using the couch because that's where they want to scratch. The post needs to go where the behavior happens.
+
+## Realistic Timeline
+
+Most cats redirect within 2–4 weeks if you:
+1. Have the right post (sisal, tall, stable)
+2. Place it next to the furniture they're scratching
+3. Make the furniture temporarily unappealing
+
+The cats that "can't be trained" are almost always in situations where the scratching post doesn't meet their texture preference, isn't tall enough, or is in the wrong location.
+    `,
+  },
+
+  // ─── Post 25 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'best-puzzle-toys-for-dogs-reviewed',
+    title: 'Best Puzzle Toys for Dogs in 2026 — Beat Boredom and Bad Behavior',
+    description: 'The right puzzle toy can replace 30 minutes of walking. Here\'s how to choose the right difficulty, avoid the toys dogs destroy in minutes, and which ones vets recommend.',
+    date: '2026-07-09',
+    readTime: '6 min read',
+    category: 'Enrichment',
+    emoji: '🧩',
+    heroImage: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Mental exhaustion is real for dogs — and more efficient than physical exercise. A well-designed puzzle toy tires a dog out faster than a 30-minute walk, creates zero mess, and keeps them occupied while you work.
+
+The problem: most "puzzle toys" sold online are either too simple (solved in 30 seconds), too complex (the dog gives up and chews the toy), or made from materials that don't survive a determined chewer.
+
+Here's what actually works, and why.
+
+## Why Mental Enrichment Matters More Than Most Owners Think
+
+Dogs evolved to solve problems for food — tracking, hunting, foraging — not to have kibble appear in a bowl twice a day. A dog that does nothing but eat from a bowl and walk on a leash is not meeting its cognitive needs.
+
+The consequences of under-stimulation are predictable: destructive behavior, excessive barking, leash reactivity, anxiety, and restlessness. These aren't personality flaws. They're symptoms of boredom.
+
+Mental enrichment directly addresses this. Puzzle feeders, snuffle mats, and interactive toys provide the cognitive engagement dogs are wired for.
+
+## Types of Dog Puzzle Toys
+
+**Level 1 — Beginner**: Slide covers, lift flaps, or spin dishes. Good for puppies, seniors, and dogs new to puzzles. Solved quickly but builds confidence.
+
+**Level 2 — Intermediate**: Multiple-step sequences where dogs must perform two or three actions to get the treat. The [IQ Puzzle Feeder Toy](/products/iq-puzzle-feeder-toy) sits in this category — dogs must figure out the sequence, which takes several sessions to master.
+
+**Level 3 — Advanced**: Complex hide-and-seek puzzles, multi-compartment boxes, or puzzles requiring object manipulation. Best for highly intelligent breeds (border collies, Australian shepherds, poodles).
+
+**Slow feeder bowls**: Technically a meal-enrichment tool rather than a puzzle toy, but the [Maze Slow Feeder Bowl](/products/maze-slow-feeder-bowl) provides consistent daily enrichment — turning every meal into a mental exercise. This is often the highest-ROI enrichment product because it's used multiple times a day, every day.
+
+**Lick mats**: While simple, lick mats like the [Calming Lick Mat](/products/calming-lick-mat) engage the dog's sensory processing and trigger calming neurochemistry. Freeze them for extended engagement (20–30 minutes vs. 5 minutes unfrozen).
+
+## Choosing the Right Difficulty
+
+Starting too hard leads to frustration and avoidance. Starting too easy creates a dog that loses interest quickly.
+
+**Start one level below where you think your dog is.** A dog that's never done a puzzle will give up on Level 2. Let them experience success first — success builds engagement.
+
+Watch how they approach it:
+- **Too easy**: Solved in under 2 minutes without much thought. Move up.
+- **Right**: Works at it for 5–15 minutes, occasionally pausing, then gets it.
+- **Too hard**: Gives up after 2–3 minutes or tries to destroy it. Drop a level.
+
+## What to Look for in a Dog Puzzle Toy
+
+**Material durability**: Avoid thin plastic with a chewing dog. ABS plastic is the minimum; rubber or food-grade silicone is better for heavy chewers.
+
+**Non-slip base**: Puzzle toys slide everywhere without one. Rubber feet or suction cups matter.
+
+**Dishwasher safe**: You'll be putting food in this thing multiple times a day. Easy cleaning isn't optional.
+
+**Difficulty adjustability**: The best puzzles can be made harder or easier depending on how you load them.
+
+## Breeds That Benefit Most
+
+All dogs benefit from enrichment, but these breeds need it more than others:
+
+**Herding breeds** (Border Collie, Australian Shepherd, Sheltie): Built to problem-solve all day. Without cognitive work, they develop neurotic behaviors — obsessive chasing, excessive barking, destructive chewing.
+
+**Hunting breeds** (Beagle, Bloodhound, Weimaraner): High drive, need outlets for scent and search behaviors. Snuffle mats and nose work games are especially good matches.
+
+**Working breeds** (German Shepherd, Doberman, Rottweiler): Need both physical and mental challenge. A puzzle toy pre-walk reduces leash reactivity significantly.
+
+**Any anxious dog**: Puzzle toys provide focus that interrupts anxiety cycles. A dog working on a puzzle can't simultaneously be spiraling about an upcoming thunderstorm.
+
+## The Enrichment Rotation
+
+Dogs get bored of the same puzzle. Rotate between 3–4 different enrichment formats to keep engagement high:
+
+- **Meal 1**: Slow feeder bowl (daily)
+- **Meal 2**: Lick mat (daily, alternating toppings)
+- **Mid-afternoon**: Puzzle feeder toy (rotate between 2–3 puzzles)
+- **Pre-bedtime**: Frozen Kong or stuffed toy
+
+This rotation gives dogs variety while making enrichment a sustainable part of their routine rather than a once-a-week novelty.
+    `,
+  },
+
+  // ─── Post 26 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'best-gifts-for-cat-lovers-2026',
+    title: '20 Best Gifts for Cat Lovers in 2026 (That Cats Actually Like)',
+    description: 'The best cat lover gifts are products that make a real difference in cat wellbeing — not novelty items that collect dust. Here are the ones that actually get used.',
+    date: '2026-07-10',
+    readTime: '5 min read',
+    category: 'Gift Guides',
+    emoji: '🎁',
+    heroImage: 'https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=1200&q=85&auto=format&fit=crop',
+    content: `
+The best gifts for cat owners aren't mugs with cat faces on them. They're products that actually make a cat's life better — things the owner didn't know they needed, or knew they needed but hadn't bought themselves yet.
+
+Here's what's worth giving.
+
+## For Play and Enrichment
+
+### Feather Wand Teaser
+The [Feather Wand Cat Teaser](/products/feather-wand-cat-teaser) is the most universally effective cat toy available. Unlike electronic toys, it requires a human to control it — which means the cat gets both physical exercise and social interaction. Cats that have stopped playing often re-engage within days with a wand toy.
+
+Why it makes a good gift: Even cat owners who have plenty of toys often don't have a high-quality wand toy. The difference in engagement versus cheap alternatives is immediate and obvious.
+
+### Interactive Automatic Laser Toy
+The [Interactive Automatic Laser Toy](/products/interactive-automatic-laser-toy) is the gift for the cat owner who's working from home. Random movement patterns, multiple speeds, and auto-shutoff mean the cat gets exercise without requiring human attention. Always pair it with a physical reward (treats or a wand toy session) at the end so the cat has something to "catch."
+
+## For Indoor Enrichment
+
+### Cat Window Perch Hammock
+Indoor cats spend up to 18 hours a day in the same space. A [window perch](/products/cat-window-perch-hammock) transforms a window into the best seat in the house — birds, squirrels, weather, and changing light provide hours of passive enrichment. Suction cups mount in minutes, no tools required.
+
+This is especially valuable for cats in apartments or homes without much vertical space.
+
+### Cat Cave Hideaway
+Most cats need a space that's entirely theirs — enclosed, warm, and secure. The [Cozy Cat Cave Hideaway](/products/cozy-cat-cave-hideaway) satisfies this need better than open beds. Cats with anxiety, new cats adjusting to a home, and multi-cat households benefit enormously from enclosed sleeping spaces.
+
+## For Health and Hydration
+
+### Cat Water Fountain
+Cats evolved in dry environments and have a low thirst drive. They're wired to distrust still water — running water is instinctively safer. The [Silent Cat Water Fountain](/products/silent-cat-water-fountain) increases daily water intake by 50–100% in most cats, reducing the risk of urinary crystals, kidney disease, and UTIs.
+
+This is genuinely one of the highest-impact health products for indoor cats. Cat owners with older cats or cats with urinary history will particularly appreciate it.
+
+## For Grooming
+
+### Cat Deshedding Grooming Glove
+The [Cat Deshedding Grooming Glove](/products/cat-deshedding-grooming-glove) solves two problems at once: it reduces shedding and provides a grooming experience most cats prefer to brushes. Cats perceive the glove as petting. Long-haired cat owners will use this product every week.
+
+## Gift Bundle Ideas
+
+### The "New Cat Owner" Bundle
+- Feather wand teaser
+- Cat window perch
+- Cozy cat cave hideaway
+
+This covers play, enrichment, and safe resting — the three things every cat needs that aren't automatically provided.
+
+### The "Senior Cat Care" Bundle
+- Silent cat water fountain (kidney support)
+- Cozy cat cave hideaway (security and warmth)
+- Feather wand teaser (low-impact exercise)
+
+Senior cats need more warmth, more hydration support, and gentler play. This bundle addresses all three.
+
+### The "Anxious or Shelter Cat" Bundle
+- Cat cave hideaway (security)
+- Cat window perch (safe territory)
+- Feather wand teaser (confidence through play)
+
+Cats adjusting to new homes need: a safe hiding space, a territory to observe from, and positive play interactions that build trust.
+
+## What to Avoid
+
+**Automatic feeders with Wi-Fi apps**: Often overkill and frequently fail. Simple timed feeders are more reliable.
+
+**Novelty toys**: Mylar crinkle balls and cheap feather puffs are ignored after a day. Invest in quality interactive toys instead.
+
+**Cat trees that aren't stable**: A cat tree that wobbles when jumped on is immediately abandoned and never used again. Stability matters more than height or complexity.
+
+**Small collars for indoor cats**: Indoor cats are often better without collars — they can get caught on furniture or fixtures.
+
+The gifts that get the most use are the ones that solve a real problem or meet a genuine need. Everything on this list falls into one of those categories.
+    `,
+  },
+
+  // ─── Post 27 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'cat-water-fountain-vs-bowl-which-is-better',
+    title: 'Cat Water Fountain vs. Bowl: Which Is Actually Better? (The Science)',
+    description: 'The data on cat hydration is clear, but fountains aren\'t perfect for every situation. Here\'s an honest comparison from both a health and practical standpoint.',
+    date: '2026-07-11',
+    readTime: '6 min read',
+    category: 'Health',
+    emoji: '💧',
+    heroImage: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Ask any veterinary internist about cat hydration and they'll give you a clear answer: fountains win. But the real question is whether the difference is significant enough to matter for your specific cat — and what to look for if you decide to switch.
+
+## Why Cats Have a Chronic Dehydration Problem
+
+Cats evolved as desert predators. Their prey — mice, birds, small mammals — is 70–75% water by weight. Cats' bodies are designed to get most of their hydration from food, not from drinking.
+
+This is a problem for cats eating dry kibble (10% moisture content). Their kidneys are efficient at concentrating urine, but this efficiency comes at a cost: chronic low-level dehydration is extremely common in dry-food-fed cats.
+
+The consequences accumulate over years:
+- Urinary crystals and blockages (especially common in male cats)
+- Chronic kidney disease (affects approximately 30% of cats over age 12)
+- UTIs and bladder inflammation
+- Kidney stones
+
+Cats fed primarily wet food get most of their hydration from food and this isn't as critical. For kibble-fed cats, it's significant.
+
+## The Research on Drinking Behavior
+
+Multiple veterinary studies have found that cats prefer running water over still water. The most commonly cited finding: cats drink 50–100% more water when water is flowing versus stationary.
+
+The evolutionary reason is practical: still water in nature is more likely to be stagnant and contaminated. Running water, by contrast, is almost always fresher and safer. Cats' instincts correctly reflect this.
+
+A water fountain exploits this preference. Most cats that previously "didn't drink much" from a bowl will drink meaningfully more from a fountain — sometimes within the first few days.
+
+## The Case for Fountains
+
+**Increased hydration**: The primary benefit. If your cat has any urinary history, a fountain is a straightforward preventive measure.
+
+**Aerated water**: Running water picks up oxygen, which affects taste. Cats seem to prefer aerated water — not just flowing water — which is why water at the edge of the fountain stream (most aerated) tends to be the preferred drinking spot.
+
+**Temperature maintenance**: Water in a bowl on a warm floor can reach uncomfortable temperatures. A circulating fountain maintains more consistent temperature.
+
+**Filtration**: Most fountains include carbon filters that remove odors and improve taste. Cats are sensitive to water taste — chlorine in tap water is a documented deterrent.
+
+## The Case for Bowls
+
+**Simplicity**: A bowl is zero maintenance if you're diligent about changing the water daily. Fountains require weekly cleaning and filter replacement.
+
+**No failure points**: Fountains are electromechanical devices. They can clog, get louder over time, or stop working. A bowl doesn't fail.
+
+**Wet food cats**: If your cat eats primarily wet food, they're already getting 70%+ of their hydration from food. The marginal benefit of a fountain is much smaller.
+
+**Some cats just don't care**: A small percentage of cats are indifferent to moving water. If your cat drinks happily from a regularly refreshed bowl, they may not benefit meaningfully from switching.
+
+## Our Recommendation: The Silent Cat Water Fountain
+
+For the majority of indoor, kibble-fed cats, a fountain is worth it. The [Silent Cat Water Fountain](/products/silent-cat-water-fountain) specifically addresses the main objections to fountains:
+
+**Noise**: The biggest complaint about most fountains is pump noise, especially at night. This fountain runs at under 40 decibels — below the threshold most people notice.
+
+**Cleaning**: The simple design disassembles fully, and all parts are dishwasher-safe. Weekly cleaning takes about 3 minutes.
+
+**Capacity**: Large enough for multi-cat households or owners who travel occasionally.
+
+**Filter replacement**: Standard activated carbon filters, replaced monthly.
+
+## Making the Switch
+
+Some cats adapt immediately. Others need a transition period.
+
+If your cat is skeptical:
+1. Run both the fountain and a bowl simultaneously for 1–2 weeks
+2. Place the fountain where the bowl currently is (location matters to cats)
+3. Try different water levels — some cats prefer the bowl-style surface, others prefer the stream
+4. Keep the bowl clean — if the fountain water smells like plastic, cats will reject it (run the fountain for 24 hours before the first use)
+
+Most cats that initially ignore a fountain start using it within 2 weeks. The rare cat that genuinely prefers a bowl is probably fine with their current setup.
+
+## Bottom Line
+
+| | Fountain | Bowl |
+|---|---|---|
+| Hydration | ↑ 50-100% more drinking | Baseline |
+| Maintenance | Weekly cleaning | Daily water change |
+| For kibble cats | High value | Adequate |
+| For wet food cats | Moderate value | Adequate |
+| For urinary-prone cats | Strongly recommended | Not ideal |
+
+If you're on the fence, start with a fountain. The hydration benefits for kibble-fed cats are well-documented and the stakes (kidney disease, urinary blockages) are high enough that the modest maintenance effort is worth it.
+    `,
+  },
+
+  // ─── Post 28 ──────────────────────────────────────────────────────────────
+  {
+    slug: 'retractable-dog-leash-pros-cons-safety',
+    title: 'Retractable Dog Leash: Pros, Cons, and How to Use One Safely',
+    description: 'Retractable leashes get a bad reputation — usually because of cheap ones used incorrectly. Here\'s an honest assessment of when they\'re great and when they\'re dangerous.',
+    date: '2026-07-12',
+    readTime: '6 min read',
+    category: 'Walking',
+    emoji: '🦮',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Retractable leashes are one of the most controversial products in the dog world. Trainers often hate them. Dog parks ban them. Yet they remain enormously popular — for good reason. Here's an honest look at when they work, when they're genuinely dangerous, and what to look for if you buy one.
+
+## The Case Against Retractable Leashes
+
+The criticisms are real:
+
+**Cord injuries**: The thin cord of a cheap retractable leash can cause serious lacerations to both dogs and humans when a dog runs to the end of it at full speed. This is not theoretical — emergency vets see cord lacerations regularly.
+
+**Loss of control**: A dog at 16 feet of extension with a malfunctioning lock is effectively uncontrolled. Near traffic, other dogs, or children, this is dangerous.
+
+**Teaching pulling**: A dog that can pull to the end of the line learns that pulling gets them what they want. This is the opposite of leash manners training.
+
+**Cheap mechanism failure**: Entry-level retractable leashes have locking mechanisms that fail — sometimes gradually (increasing click before lock), sometimes suddenly (no lock at all). This is the most common cause of accidents.
+
+## The Case For Retractable Leashes
+
+In the right situations, retractable leashes provide genuine benefits:
+
+**Safe exploration**: On a quiet trail or in a low-traffic area, a well-behaved dog on a retractable leash can sniff, explore, and cover ground in a way that's genuinely enriching — without being off-leash in an uncontrolled environment.
+
+**Bathroom convenience**: A retractable leash lets your dog move away from you to find their preferred spot without you following into wet grass.
+
+**Senior or injured dogs**: A dog recovering from surgery or with mobility issues that limits walking speed benefits from a retractable leash that lets them pace themselves.
+
+**Already well-trained dogs**: A dog that walks nicely on a standard leash doesn't "learn" to pull on a retractable — they apply their existing behavior to a new context.
+
+The problems with retractable leashes are almost entirely user error or equipment quality issues, not inherent to the design.
+
+## What Separates a Safe Retractable Leash from a Dangerous One
+
+**Cord vs. tape**: Thin cords (common in cheaper models) are what cause lacerations. Wider tape-style retractable leashes eliminate most of this risk. Look for tape-style, not cord.
+
+**Lock mechanism quality**: The brake should engage instantly and hold completely. Test this before you buy — squeeze the lock and tug. Any lag or slippage is a red flag.
+
+**Weight rating**: The leash must be rated for your dog's weight with a meaningful safety margin. A 50 lb rating on a 45 lb dog is not enough if the dog hits the end running.
+
+**Handle grip**: A rubberized, ergonomic handle prevents the leash from being yanked out of your hand.
+
+## The Retractable Pro Dog Leash
+
+The [Retractable Pro Dog Leash](/products/retractable-pro-dog-leash) addresses the specific failure modes of cheaper retractables:
+
+- **Tape-style cord** eliminates laceration risk
+- **Single-button lock** with tested mechanism — one press, it holds. No lag.
+- **Bright orange cord** for visibility (prevents tripping)
+- **Weight-rated for dogs up to 110 lbs** with substantial margin for smaller dogs
+- **Rubberized non-slip grip**
+
+The lock button is the most important thing to test on any retractable leash, and this one holds reliably.
+
+## How to Use a Retractable Leash Safely
+
+**Keep the lock engaged by default**: Only extend when you're in a safe, open environment. Keep it locked (short) near traffic, crowds, and other dogs.
+
+**Never use near roads**: A dog that runs to the end of 16 feet of line near traffic has no room for error.
+
+**Don't use for leash training**: If your dog is still learning not to pull, use a standard 6-foot leash until the behavior is reliable.
+
+**Inspect before every walk**: Look for fraying on the cord or tape, and test the lock. Replace the leash at any sign of mechanical degradation.
+
+**Hold the handle — don't wrap the cord around your hand**: If a dog runs to the end of an unspooled line and you've got it wrapped around your hand, the injury is serious.
+
+**Use it as a reward, not a default**: Extend it when the dog is walking calmly. Lock it when they start pulling. They'll learn that calm walking earns exploration freedom.
+
+## Who Should and Shouldn't Use One
+
+**Good candidates**: Well-trained dogs in low-traffic areas, dogs used for trail walking or hiking, senior dogs with mobility limits, dogs with reliably good recall.
+
+**Poor candidates**: Dogs in training for leash manners, dogs with high reactivity (other dogs, bikes, squirrels), any dog near traffic or crowded areas without reliable lock engagement.
+
+A retractable leash isn't a good or bad product — it's a specific tool for specific situations. Used appropriately, with a quality mechanism, it gives dogs meaningful additional freedom on walks. Used as an always-on default, it creates risk and undermines training. The distinction is how and when you use it.
+    `,
+  },
 ];
 
 export function getPostBySlug(slug) {
@@ -1701,6 +2228,12 @@ const POST_RELEVANCE = {
   'dog-food-toppers-complete-guide':      ['Feeding', 'Health', 'Dogs', 'Enrichment'],
   'how-to-crate-train-a-puppy':          ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
   'best-pet-products-apartment-dogs':     ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
+  'best-harness-for-small-dogs-2026':    ['Walking', 'Safety', 'Dogs'],
+  'how-to-stop-cat-from-scratching-furniture': ['Play', 'Enrichment', 'Cats', 'Comfort'],
+  'best-puzzle-toys-for-dogs-reviewed':  ['Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'best-gifts-for-cat-lovers-2026':      ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
+  'cat-water-fountain-vs-bowl-which-is-better': ['Health', 'Cats'],
+  'retractable-dog-leash-pros-cons-safety': ['Walking', 'Safety', 'Dogs'],
 };
 
 /**
