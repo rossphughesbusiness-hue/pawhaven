@@ -70,6 +70,7 @@ export default function Footer() {
                 { href: '/puppies', label: 'Puppies' },
                 { href: '/small-dogs', label: 'Small Dogs' },
                 { href: '/senior-dogs', label: 'Senior Dogs' },
+                { href: '/large-dogs', label: 'Large Dogs' },
                 { href: '/dog-training', label: 'Dog Training' },
                 { href: '/dog-walking', label: 'Walking Gear' },
                 { href: '/dog-toys', label: 'Dog Toys' },
@@ -83,10 +84,13 @@ export default function Footer() {
                 { href: '/cat-beds', label: 'Cat Beds' },
                 { href: '/senior-cats', label: 'Senior Cats' },
                 { href: '/cat-anxiety', label: 'Cat Anxiety' },
+                { href: '/outdoor-cats', label: 'Outdoor Cats' },
                 { href: '/grooming', label: 'Grooming Tools' },
+                { href: '/cat-grooming', label: 'Cat Grooming' },
                 { href: '/travel', label: '✈️ Travel Gear' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },
                 { href: '/dog-anxiety', label: 'Dog Anxiety' },
+                { href: '/puppy-training', label: 'Puppy Training' },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-gray-400 hover:text-brand-400 transition-colors duration-200">

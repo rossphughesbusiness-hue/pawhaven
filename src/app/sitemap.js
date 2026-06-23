@@ -176,6 +176,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/outdoor-cats`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/dog-anxiety`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -183,6 +189,24 @@ export default function sitemap() {
     },
     {
       url: `${BASE}/cat-anxiety`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/cat-grooming`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/large-dogs`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/puppy-training`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.85,

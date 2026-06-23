@@ -117,7 +117,7 @@ const testimonials = [
 const stats = [
   { value: '10,000+', label: 'Happy Pet Owners' },
   { value: '4.8★', label: 'Average Rating' },
-  { value: '30+', label: 'Vet-Approved Products' },
+  { value: '35+', label: 'Vet-Approved Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
 
@@ -309,7 +309,7 @@ export default function HomePage() {
                   { href: '/dog-beds', emoji: '🛏️', label: 'Dog Beds', desc: 'Orthopedic & cooling' },
                   { href: '/dog-walking', emoji: '🐾', label: 'Walking Gear', desc: 'Harness, leash & more' },
                   { href: '/dog-training', emoji: '🎯', label: 'Training', desc: 'Treat pouches & gear' },
-                  { href: '/grooming', emoji: '✂️', label: 'Grooming', desc: 'Brushes & grinders' },
+                  { href: '/dog-anxiety', emoji: '🧘', label: 'Dog Anxiety', desc: 'Calming & stress relief' },
                   { href: '/senior-dogs', emoji: '🦮', label: 'Senior Dogs', desc: 'Joint & mobility care' },
                   { href: '/puppies', emoji: '🐕', label: 'Puppies', desc: 'New puppy essentials' },
                   { href: '/dog-enrichment', emoji: '🧠', label: 'Enrichment', desc: 'Puzzles & mental stim' },
@@ -341,7 +341,7 @@ export default function HomePage() {
                   { href: '/kittens', emoji: '🐱', label: 'Kittens', desc: 'New kitten essentials' },
                   { href: '/senior-cats', emoji: '🌸', label: 'Senior Cats', desc: 'Comfort & care for 7+' },
                   { href: '/indoor-cats', emoji: '🏠', label: 'Indoor Cats', desc: 'Essential indoor kit' },
-                  { href: '/anxiety', emoji: '😌', label: 'Anxiety & Calm', desc: 'Calming products' },
+                  { href: '/cat-anxiety', emoji: '😿', label: 'Cat Anxiety', desc: 'Calming products' },
                   { href: '/cats', emoji: '🐱', label: 'All Cat Products', desc: 'Browse everything' },
                 ].map(({ href, emoji, label, desc }) => (
                   <Link key={href} href={href}

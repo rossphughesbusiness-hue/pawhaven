@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Best Cat Toys 2026 — Interactive, Laser & Tunnel Toys | PawHaven',
@@ -144,9 +145,11 @@ export default function CatToysPage() {
                   className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden"
                 >
                   <div className="relative">
-                    <img
+                    <Image
                       src={p.img}
                       alt={p.name}
+                      width={600}
+                      height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <span className="absolute top-3 left-3 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">

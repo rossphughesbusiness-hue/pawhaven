@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Dog Enrichment Toys & Activities 2026 — Mental Stimulation for Dogs | PawHaven',
@@ -223,9 +224,11 @@ export default function DogEnrichmentPage() {
                   className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden"
                 >
                   <div className="relative">
-                    <img
+                    <Image
                       src={p.img}
                       alt={p.name}
+                      width={600}
+                      height={480}
                       className="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <span className="absolute top-2 left-2 bg-emerald-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">

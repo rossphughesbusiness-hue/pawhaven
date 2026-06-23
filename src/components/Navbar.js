@@ -20,6 +20,8 @@ const DOG_LINKS = [
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
   { href: '/anxiety', label: '😌 Anxiety', desc: 'Calming products' },
   { href: '/dog-anxiety', label: '🧘 Dog Anxiety', desc: 'Separation & noise anxiety' },
+  { href: '/large-dogs', label: '🦴 Large Dogs', desc: 'Gear built for big breeds' },
+  { href: '/puppy-training', label: '🎓 Puppy Training', desc: 'Treats, harness & training gear' },
 ];
 
 const CAT_LINKS = [
@@ -31,7 +33,9 @@ const CAT_LINKS = [
   { href: '/cat-beds', label: '😴 Cat Beds', desc: 'Caves, perches & hideaways' },
   { href: '/senior-cats', label: '🌸 Senior Cats', desc: 'Comfort & care for cats 7+' },
   { href: '/cat-anxiety', label: '😿 Cat Anxiety', desc: 'Calming & stress relief' },
+  { href: '/outdoor-cats', label: '🌿 Outdoor Cats', desc: 'Safety & gear for outdoor cats' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
+  { href: '/cat-grooming', label: '✂️ Cat Grooming', desc: 'Brushes, nail tools & more' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
 ];
 
