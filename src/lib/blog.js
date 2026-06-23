@@ -3199,6 +3199,155 @@ The lowest-investment, highest-impact first step: replace your dog\'s food bowl 
 From there, add one enrichment activity per week until you\'ve built a full daily schedule.
     \`,
   },
+  {
+    slug: 'senior-cat-care-guide-2026',
+    title: 'Senior Cat Care Guide 2026: Everything Changes at 7',
+    excerpt: "What your cat needs changes significantly after age 7. Vet-backed guide to sleep, enrichment, nutrition, grooming, and health checks for older cats.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-19',
+    readTime: '11 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+# Senior Cat Care Guide 2026: Everything Changes at 7
+
+Cats are experts at hiding discomfort. It's a survival instinct — in the wild, showing weakness invites predation. This makes senior cats particularly challenging to care for well: the changes are subtle, slow, and easy to miss until they become significant.
+
+The good news is that most of what changes for senior cats is highly manageable with the right approach and products. This guide covers what to expect at each aging stage and exactly how to adapt your care.
+
+## When Is a Cat "Senior"?
+
+The veterinary consensus: 7 years. For reference, a 7-year-old cat is roughly equivalent to a 44-year-old human. By 10, your cat is closer to 56. By 15, they're the equivalent of a 76-year-old.
+
+The three stages vet guidelines recognize:
+- **Mature (7–10 years):** Metabolic slowdown begins, early joint changes, dental accumulation
+- **Senior (11–14 years):** Visible activity reduction, coat quality changes, sleep increases
+- **Geriatric (15+):** Significant mobility limitation, possible cognitive changes, sensory decline
+
+Most cats show their first notable changes between 9–11 years, though some breeds age faster (Persians) and some slower (Siamese, which routinely reach 15–20 in good health).
+
+## What Changes Most — and What to Do
+
+### Sleep and Rest
+Senior cats sleep 15–20 hours per day, up from the adult average of 12–16. They need better sleep surfaces. Arthritis — present in over 90% of cats over 12 — makes hard surfaces painful even for short naps.
+
+**What helps:** Low-entry beds with thick padding or memory foam. The key spec is entry height — a bed your cat can step into without lifting their legs more than 4 inches. Cave beds are particularly effective for anxious senior cats, who tend to hide more as they age.
+
+### Enrichment
+Older cats still need mental stimulation — they just can't sustain the intensity of younger cats. High-jump pursuits and rapid chase games stress joints. But stopping all play accelerates cognitive and physical decline.
+
+**What helps:** Slow-moving wand toys at floor level, window perches for passive bird-watching enrichment, lick mats for calm mental engagement. Two 5–10 minute low-intensity sessions daily is better than one 20-minute session.
+
+### Grooming
+Senior cats groom less effectively, particularly their lower back and tail base — areas they can no longer reach easily due to stiffness. This leads to matting and skin issues.
+
+**What helps:** A soft slicker brush used 2–3 times per week. Check claws monthly — arthritic cats scratch less, so claws overgrow and can curl into the paw pad.
+
+### Nutrition
+Senior cats often need more protein than younger adults (counterintuitively) because they metabolize it less efficiently. Many also develop decreased kidney function, requiring reduced phosphorus.
+
+Always consult your vet before switching a senior cat's food — the right diet depends heavily on individual health status. But as a general rule: avoid low-protein "senior" formulas unless kidney disease is confirmed.
+
+### Veterinary Care
+The biggest change: twice-yearly visits instead of once annually. Age-related conditions — kidney disease, hyperthyroidism, diabetes, dental disease — progress quickly and are dramatically easier to manage when caught early. A $150 wellness check at 11 years old can prevent a $2,000 kidney crisis at 14.
+
+## Common Senior Cat Health Issues
+
+**Hyperthyroidism** affects roughly 10% of cats over 10. Signs: weight loss despite increased appetite, increased thirst, restlessness, vomiting. Very manageable with medication if caught early.
+
+**Chronic kidney disease (CKD)** is the leading cause of death in senior cats. Early signs are subtle: increased thirst and urination. Annual blood panels after age 7 are the only reliable early detection method.
+
+**Arthritis** is nearly universal in cats over 12 but rarely diagnosed because cats don't limp — they simply stop doing things that hurt. If your cat has stopped jumping to favorite spots, watch the timing and circumstance carefully.
+
+**Dental disease** causes significant pain in many senior cats. Signs: dropping food, reduced appetite, preference for softer food, reluctance to have face touched.
+
+## Setting Up Your Home for a Senior Cat
+
+Three changes with the highest impact:
+
+1. **Add ramps or steps** to every elevated surface your cat uses. A cat that used to leap to the windowsill now needs a step.
+2. **Add litter boxes on every floor.** Senior cats sometimes don't make it downstairs in time. Low-entry boxes eliminate the need to step over high walls.
+3. **Move food, water, and beds** to where your cat already spends most of their time — reduce travel distances.
+
+Stability matters enormously. Senior cats adapt poorly to change. Moving furniture, adding new pets, or changing feeding schedules creates disproportionate stress in older cats. When possible, keep their environment consistent and predictable.
+
+## The Bottom Line
+
+Senior cat care is about observing more closely and reducing friction. The products matter — good bedding, the right enrichment, gentle grooming tools — but the most important thing is attention. The earlier you notice changes, the more options you have.
+    \`,
+  },
+  {
+    slug: 'signs-your-cat-is-aging-what-to-do',
+    title: '8 Signs Your Cat Is Aging (And Exactly What to Do)',
+    excerpt: "Cats hide pain and aging well. Learn the subtle signs that your cat is entering their senior years and the specific changes that help them age comfortably.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-20',
+    readTime: '9 min read',
+    img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
+    content: `
+# 8 Signs Your Cat Is Aging (And Exactly What to Do)
+
+Cats are the stoic philosophers of the pet world. They don't complain. They don't limp obviously. They simply... stop doing things that hurt. This makes recognizing aging signs harder than with dogs — but also more important, because delayed intervention in cats is expensive and often heartbreaking.
+
+Here are eight signs to watch for and the specific actions that help.
+
+## 1. They've Stopped Jumping to a Favorite Spot
+
+**What it means:** This is almost always the first sign of arthritis. Cats with joint pain don't usually limp — they just quietly stop using elevated surfaces that require effort.
+
+**What to do:** Add a step or ramp. Don't wait to see if they "figure it out." A single low-cost step can restore access to a spot they've used for years. Also schedule a vet visit to assess joint health — early arthritis management (often just a monthly injection) significantly improves quality of life.
+
+## 2. Changes in Coat Quality
+
+**What it means:** Senior cats groom less effectively. Stiffness prevents them from reaching their lower back, tail base, and hindquarters. The result: dull, matted, or greasy patches in exactly those areas.
+
+**What to do:** Help with regular gentle brushing. Soft slicker brushes work well for most coat types. Focus on areas your cat can't reach easily. While grooming, check for unusual lumps, skin changes, or weight loss — things you might not notice otherwise.
+
+## 3. Increased Vocalization, Especially at Night
+
+**What it means:** A previously quiet cat that begins yowling at night — particularly in a disoriented, repetitive way — may be experiencing feline cognitive dysfunction (cat dementia) or hyperthyroidism. Both are common in cats over 10.
+
+**What to do:** Don't assume it's behavioral. A vet check including thyroid and kidney bloodwork can identify treatable causes quickly. In the meantime, a nightlight and stable sleeping locations reduce disorientation for cats with cognitive changes.
+
+## 4. Weight Loss (Even With Good Appetite)
+
+**What it means:** Weight loss despite eating normally is a significant red flag in senior cats. The most common causes: hyperthyroidism (causes calorie burn to outpace intake), diabetes, or intestinal disease.
+
+**What to do:** Weigh your cat monthly using a kitchen scale (weigh yourself holding the cat, subtract your weight). A loss of more than 10% of body weight warrants a vet visit. Don't attribute weight loss to "old age" — it's a symptom, not a cause.
+
+## 5. Changes in Litter Box Habits
+
+**What it means:** Increased trips to the litter box, straining, or missing the box entirely can indicate kidney disease, diabetes, urinary issues, or simply arthritis making it painful to step over a high-sided box.
+
+**What to do:** Add a low-entry litter box on every floor. Increase vet visit frequency. Track any changes in volume or frequency — this information is genuinely useful to your vet.
+
+## 6. Sleeping More, Engaging Less
+
+**What it means:** Senior cats sleep 15–20 hours per day. But if your cat has gone from interactive to completely withdrawn, something has changed. Pain, illness, or depression can all cause this pattern.
+
+**What to do:** Distinguish between peaceful extra sleep (cat is comfortable, resting, responsive when awake) and withdrawal (avoidant, unresponsive, not eating). The latter needs a vet visit. For general low-energy seniors, provide low-effort enrichment: a window perch with bird feeders outside, a lick mat, slow-moving floor-level play.
+
+## 7. Reduced Grooming, or Over-Grooming
+
+**What it means:** Both are signs of something off. Under-grooming is usually arthritis or general decline. Over-grooming (bald patches, skin irritation) is usually anxiety, pain, or a skin condition.
+
+**What to do:** For under-groomers: supplement with regular brushing and check with your vet. For over-groomers: this is always worth a vet visit, as the underlying cause determines the right intervention.
+
+## 8. Increased Hiding or Clinginess (Either Extreme)
+
+**What it means:** Senior cats often become either more reclusive or more needy as they age. Both can reflect discomfort, anxiety, or cognitive changes. Reclusive cats are usually in pain or poorly. Clingy cats are often anxious.
+
+**What to do:** For reclusive cats: provide cave-style beds or hideaways near where you spend time — they want proximity without direct interaction. Don't force contact. Schedule a vet visit. For anxious, clingy cats: maintain routine, consider a calming lick mat during stressful times (vet visits, guests), and discuss options with your vet.
+
+## The Underlying Principle
+
+Every item on this list shares a common thread: cats hide problems. Your job as an owner is to notice what they're *not* doing — not just what they are. A cat that's stopped jumping. A cat that's not finishing its food. A cat that's not playing the way it used to.
+
+The single best thing you can do for a senior cat: schedule twice-yearly vet visits from age 7 onward. Most of the serious conditions that end cat lives early are highly manageable when caught at the blood-panel stage rather than the emergency stage.
+    \`,
+  },
+
 ];
 
 export function getPostBySlug(slug) {

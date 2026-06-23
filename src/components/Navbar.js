@@ -27,6 +27,7 @@ const CAT_LINKS = [
   { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Toys & mental stimulation' },
   { href: '/cat-toys', label: '🧶 Cat Toys', desc: 'Wands, lasers & tunnels' },
   { href: '/cat-beds', label: '😴 Cat Beds', desc: 'Caves, perches & hideaways' },
+  { href: '/senior-cats', label: '🌸 Senior Cats', desc: 'Comfort & care for cats 7+' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
 ];
