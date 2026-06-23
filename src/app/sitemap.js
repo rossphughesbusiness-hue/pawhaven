@@ -140,6 +140,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/dog-enrichment`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
       url: `${BASE}/dog-beds`,
       lastModified: new Date(),
       changeFrequency: 'weekly',

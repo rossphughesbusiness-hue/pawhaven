@@ -3119,6 +3119,85 @@ If your cat consistently curls into a tight ball to sleep — especially pressin
 
 Most cats accept a correctly-placed, familiar-smelling bed within 3–5 days. If they ignore it after a week, move it to a different spot before concluding it's the wrong bed.
     \`,
+  },  {
+    slug: 'dog-enrichment-complete-guide-2026',
+    title: 'Dog Enrichment: The Complete Guide to Mental Stimulation for Dogs (2026)',
+    excerpt: 'A bored dog is a destructive dog. Here\'s the science of dog enrichment — four types of activities, a daily schedule, and the products that make it easy.',
+    category: 'Dogs',
+    tag: 'Enrichment',
+    date: '2026-06-18',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+# Dog Enrichment: The Complete Guide to Mental Stimulation for Dogs (2026)
+
+Dogs were domesticated from wolves — animals that spend 80% of their waking hours hunting, scenting, problem-solving, and collaborating with their pack. Today\'s pet dog spends most of its time waiting. That mismatch between what dogs are built for and what most pet lives provide is the root cause of the majority of "behavior problems" vets and trainers see.
+
+The solution isn\'t necessarily more exercise. It\'s enrichment.
+
+## What Is Dog Enrichment?
+
+Enrichment means providing activities that engage your dog\'s natural behavioral needs: foraging, problem-solving, sniffing, chewing, chasing, and social interaction. The goal isn\'t just to tire the dog out — it\'s to satisfy the instincts that, when unmet, express themselves as destructive behavior, excessive barking, reactivity, or anxiety.
+
+## Why Mental Stimulation Matters More Than You Think
+
+The scent-processing region of a dog\'s brain is proportionally 40x larger than a human\'s. A dog has roughly 300 million olfactory receptors (humans have 6 million). When a dog sniffs, it\'s engaging a neural system of enormous complexity — and that engagement is cognitively tiring in a way that physical exercise isn\'t.
+
+Research at Bristol University found that dogs given regular enrichment activities showed significantly lower cortisol levels and fewer stress behaviors than dogs receiving the same amount of physical exercise alone. The combination of physical exercise AND mental enrichment produces the most settled dogs.
+
+## The 4 Types of Dog Enrichment
+
+### 1. Cognitive / Puzzle Enrichment
+
+Puzzle toys and feeders require dogs to use problem-solving to access rewards. The IQ Puzzle Feeder Toy has two difficulty levels — start at Level 1 and move to Level 2 once your dog solves it consistently in under 2 minutes.
+
+**Key rule:** Introduce new puzzles at the easiest setting and use high-value treats (small pieces of chicken or cheese, not dry kibble) for the first 3–5 sessions. Dogs that fail too early become frustrated and give up — that\' what we\'re trying to avoid.
+
+### 2. Olfactory / Sniff Enrichment
+
+Sniffing is the most tiring enrichment type, minute for minute. Scatter feeding (spreading kibble across grass instead of using a bowl) forces dogs to use their nose for every bite. A 15-minute scatter feed session produces the same tiredness as a 45-minute low-stimulation walk.
+
+Lick mats extend this into calming territory. The Calming Lick Mat spreads wet food or peanut butter into crevices that require sustained licking — a repetitive behavior shown to activate the parasympathetic nervous system and reduce anxiety markers in dogs.
+
+### 3. Physical / Interactive Enrichment
+
+Tug-of-war gets unfairly maligned — decades of outdated advice warned it would make dogs "dominant" or aggressive. Modern behavioral science doesn\'t support this. Tug played with clear start/stop cues is one of the most effective bonding activities and provides intense physical and mental engagement in a small space.
+
+The Heavy-Duty Rope Tug Toy is built for dogs that destroy standard rope toys. 5–10 minutes of tug tires dogs more than 30 minutes of fetch.
+
+### 4. Feeding Enrichment
+
+Replacing your dog\'s standard food bowl with a slow feeder is the single easiest enrichment upgrade. The Maze Slow Feeder Bowl slows eating by 10x, forces problem-solving to access food, and engages scent throughout the meal. For dogs prone to bloat, it\'s also a safety device.
+
+## A Daily Enrichment Schedule
+
+You don\'t need to overhaul your routine. These four sessions add about 45 minutes total:
+
+| Time | Activity | Time Required |
+|------|----------|--------------|
+| Morning | Scatter feed or slow feeder breakfast | 10–15 min |
+| Midday | Lick mat or puzzle session | 10–15 min |
+| Pre-walk | 5-min tug to burn edge | 5 min |
+| Evening | Slow feeder dinner + chew | 10–15 min |
+
+## Signs Your Dog Needs More Enrichment
+
+Watch for:
+- Destructive chewing (furniture, baseboards, shoes)
+- Excessive barking when you\'re home
+- Pacing, circling, or restlessness after exercise
+- Attention-seeking that doesn\'t stop with interaction
+- Digging (inside or outside)
+- Difficulty settling at night
+
+These behaviors often disappear within 2–4 weeks of consistent enrichment routines.
+
+## Getting Started
+
+The lowest-investment, highest-impact first step: replace your dog\'s food bowl with the Maze Slow Feeder Bowl. You don\'t need to change anything else about your routine. Do this for one week and observe whether your dog is calmer after meals. Most owners notice a difference within 3 days.
+
+From there, add one enrichment activity per week until you\'ve built a full daily schedule.
+    \`,
   },
 ];
 
@@ -3174,47 +3253,5 @@ const POST_RELEVANCE = {
   'enrichment-for-bored-dogs-at-home':                   ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
   'first-time-cat-owner-complete-guide':                 ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
   'best-cat-beds-for-every-sleep-style':                 ['Comfort', 'Cats'],
+  'dog-enrichment-complete-guide-2026':         ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
 };
-
-/**
- * Returns up to `limit` products most relevant to the given blog post.
- * Scoring: +2 if product.tag matches a relevance tag, +1 if product.category matches.
- */
-export function getProductsForPost(postSlug, allProducts, limit = 3) {
-  const tags = POST_RELEVANCE[postSlug] || [];
-  if (tags.length === 0) return [];
-
-  const scored = allProducts.map((p) => {
-    let score = 0;
-    if (p.tag && tags.includes(p.tag)) score += 2;
-    if (p.category && tags.includes(p.category)) score += 1;
-    score += Math.min((p.soldCount || 0) / 1000, 0.5); // tie-break by popularity
-    return { product: p, score };
-  });
-
-  return scored
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map(({ product }) => product);
-}
-
-/**
- * Returns up to `limit` blog posts most relevant to the given product.
- * Scoring: +2 for matching tag, +1 for matching category.
- */
-export function getRelatedPosts(product, limit = 3) {
-  const keys = [product.tag, product.category].filter(Boolean);
-
-  const scored = posts.map((post) => {
-    const tags = POST_RELEVANCE[post.slug] || [];
-    const score = keys.reduce((acc, k) => acc + (tags.includes(k) ? (k === product.tag ? 2 : 1) : 0), 0);
-    return { post, score };
-  });
-
-  return scored
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map(({ post }) => post);
-}

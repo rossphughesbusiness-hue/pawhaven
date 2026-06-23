@@ -14,6 +14,7 @@ const DOG_LINKS = [
   { href: '/dog-training', label: '🎯 Training', desc: 'Treat pouches & gear' },
   { href: '/dog-walking', label: '🐾 Walking Gear', desc: 'Harness, leash & more' },
   { href: '/dog-toys', label: '🧸 Toys', desc: 'Tug, puzzle & squeaky' },
+  { href: '/dog-enrichment', label: '🧠 Enrichment', desc: 'Puzzles & mental stim' },
   { href: '/dog-beds', label: '🛏️ Beds', desc: 'Orthopedic & cooling' },
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & paw cleaners' },
   { href: '/travel', label: '✈️ Travel', desc: 'Car & on-the-go gear' },
