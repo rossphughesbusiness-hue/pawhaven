@@ -1097,7 +1097,7 @@ export const products = [
     supplierCost: 4.10,
     shippingDays: '5–8 days',
     shortDescription: 'Ergonomic curved corrugated board satisfies the horizontal scratch instinct — saves couches and carpets.',
-    description: 'Most cats scratch horizontally as much as vertically. This double-sided corrugated board curves to fit a cat's natural scratching angle — targeting the stretch-and-claw motion cats use to mark territory and maintain their claws. Sprinkle the included catnip to make introduction effortless.',
+    description: 'Most cats scratch horizontally as much as vertically. This double-sided corrugated board curves to fit a cat\'s natural scratching angle — targeting the stretch-and-claw motion cats use to mark territory and maintain their claws. Sprinkle the included catnip to make introduction effortless.',
     features: [
       '😸 Double-sided corrugated surface — use both sides before replacing',
       '🌿 Includes catnip sachet for instant interest',
@@ -1106,9 +1106,9 @@ export const products = [
       '♻️ Recyclable cardboard — eco-friendly and replaceable',
     ],
     reviews: [
-      { name: 'Priya S.', rating: 5, date: 'June 2026', text: 'My cats completely stopped scratching the sofa the day this arrived. The catnip helps — they found it immediately and haven't left it alone since.' },
-      { name: 'Andrew T.', rating: 5, date: 'May 2026', text: 'Best cheap cat product I've ever bought. All three of my cats use this daily. Ordered a second one to put in the bedroom.' },
-      { name: 'Fiona L.', rating: 4, date: 'May 2026', text: 'Really effective scratcher. The curve is a nice touch — my cats go at it with more enthusiasm than the flat boards I've tried before.' },
+      { name: 'Priya S.', rating: 5, date: 'June 2026', text: 'My cats completely stopped scratching the sofa the day this arrived. The catnip helps — they found it immediately and haven\'t left it alone since.' },
+      { name: 'Andrew T.', rating: 5, date: 'May 2026', text: 'Best cheap cat product I\'ve ever bought. All three of my cats use this daily. Ordered a second one to put in the bedroom.' },
+      { name: 'Fiona L.', rating: 4, date: 'May 2026', text: 'Really effective scratcher. The curve is a nice touch — my cats go at it with more enthusiasm than the flat boards I\'ve tried before.' },
     ],
   },
   {
@@ -1139,7 +1139,7 @@ export const products = [
     supplierCost: 5.80,
     shippingDays: '5–8 days',
     shortDescription: 'Ultra-quiet USB-rechargeable nail grinder that smooths instead of clips — virtually eliminates the stress of nail trims.',
-    description: 'Most pets hate nail clippers because of the pressure-and-crack sensation. Grinding is calmer, quieter, and produces smooth edges that won't scratch floors or skin. This USB-rechargeable grinder has 3 speed settings and a protective cap system so you never grind too far.',
+    description: 'Most pets hate nail clippers because of the pressure-and-crack sensation. Grinding is calmer, quieter, and produces smooth edges that won\'t scratch floors or skin. This USB-rechargeable grinder has 3 speed settings and a protective cap system so you never grind too far.',
     features: [
       '🔇 Super-quiet motor (< 50dB) — most pets tolerate it immediately',
       '⚡ USB-C rechargeable — 3-hour charge lasts 4+ hours of use',
@@ -1181,7 +1181,7 @@ export const products = [
     supplierCost: 6.40,
     shippingDays: '5–8 days',
     shortDescription: 'Fully waterproof dog raincoat with reflective strips and leash hole — keeps dogs dry and visible in wet weather.',
-    description: 'Rain doesn't cancel walks — not with the right gear. This fully waterproof raincoat features taped seams, reflective strips for visibility in low light, and a back leash hole so your harness stays accessible. Adjustable velcro belly and neck straps fit most body shapes.',
+    description: 'Rain doesn\'t cancel walks — not with the right gear. This fully waterproof raincoat features taped seams, reflective strips for visibility in low light, and a back leash hole so your harness stays accessible. Adjustable velcro belly and neck straps fit most body shapes.',
     features: [
       '☔ Fully waterproof PU-coated shell with taped seams — no wet-through',
       '🔆 360° reflective strips for low-light and rainy-day visibility',
@@ -1191,7 +1191,7 @@ export const products = [
     ],
     reviews: [
       { name: 'Natalie P.', rating: 5, date: 'June 2026', text: 'My beagle comes home completely dry now. The reflective strips are bright and the leash hole works perfectly over her harness. Exactly what I needed.' },
-      { name: 'Tom J.', rating: 4, date: 'May 2026', text: 'Really good quality for the price. I sized up one from the chart and it fits my corgi perfectly. Easy to get on and off even when he's wiggly.' },
+      { name: 'Tom J.', rating: 4, date: 'May 2026', text: 'Really good quality for the price. I sized up one from the chart and it fits my corgi perfectly. Easy to get on and off even when he\'s wiggly.' },
       { name: 'Lisa M.', rating: 5, date: 'May 2026', text: 'Waterproof and then some — we walked through a genuine downpour and my lab was bone dry underneath. The velcro stays secure even with a pulling dog.' },
     ],
   },
@@ -1232,9 +1232,9 @@ export const products = [
       '🐱 Safe for solo play — entertains cats while owners are away',
     ],
     reviews: [
-      { name: 'Sophie T.', rating: 5, date: 'June 2026', text: 'My cat who never plays is absolutely obsessed with this. She bats at it for 20 minutes straight and then naps. Best cat toy I've ever bought.' },
-      { name: 'Richard B.', rating: 5, date: 'May 2026', text: 'All three of my cats use this simultaneously. Haven't had a single fight over it in two weeks. The three tiers give everyone a ball to play with.' },
-      { name: 'Chloe W.', rating: 4, date: 'May 2026', text: 'Great quality track toy. Sturdy base doesn't slide on hardwood. My cats figured it out immediately and it's kept them busy while I work from home.' },
+      { name: 'Sophie T.', rating: 5, date: 'June 2026', text: 'My cat who never plays is absolutely obsessed with this. She bats at it for 20 minutes straight and then naps. Best cat toy I\'ve ever bought.' },
+      { name: 'Richard B.', rating: 5, date: 'May 2026', text: 'All three of my cats use this simultaneously. Haven\'t had a single fight over it in two weeks. The three tiers give everyone a ball to play with.' },
+      { name: 'Chloe W.', rating: 4, date: 'May 2026', text: 'Great quality track toy. Sturdy base doesn\'t slide on hardwood. My cats figured it out immediately and it\'s kept them busy while I work from home.' },
     ],
   },
   {
@@ -1273,7 +1273,7 @@ export const products = [
       '🐾 Non-toxic, pet-safe fleece — safe for all breeds and sizes',
     ],
     reviews: [
-      { name: 'Amber K.', rating: 5, date: 'June 2026', text: 'My hyperactive border collie is completely wiped out after 20 minutes on this mat. Best enrichment tool I've ever bought — she forgets all about barking at the mailman.' },
+      { name: 'Amber K.', rating: 5, date: 'June 2026', text: 'My hyperactive border collie is completely wiped out after 20 minutes on this mat. Best enrichment tool I\'ve ever bought — she forgets all about barking at the mailman.' },
       { name: 'Derek S.', rating: 5, date: 'May 2026', text: 'Used this during thunderstorm season and it keeps my dog calm the whole time. Way better than just a Kong. Worth every penny.' },
       { name: 'Priya L.', rating: 4, date: 'May 2026', text: 'Great quality and really easy to wash. My golden sniffs it clean in about 15 minutes then settles right down for a nap. Exactly what I was looking for.' },
     ],
@@ -1355,9 +1355,9 @@ export const products = [
       '✏️ Twist-up stick applicator — precise, mess-free application',
     ],
     reviews: [
-      { name: 'Claire B.', rating: 5, date: 'June 2026', text: 'My lab's paws were a cracked mess after winter. Two weeks of this balm and they look completely healed. The stick format is so easy — done in 30 seconds before every walk.' },
-      { name: 'James H.', rating: 5, date: 'May 2026', text: 'I was skeptical but the results are undeniable. My dog's paws are visibly softer and he doesn't lick them constantly anymore. All-natural formula is a huge plus.' },
-      { name: 'Sandra P.', rating: 5, date: 'May 2026', text: 'Perfect size to throw in your bag. The twist-up stick means you don't have to touch the product at all — just apply directly to each pad. So convenient.' },
+      { name: 'Claire B.', rating: 5, date: 'June 2026', text: 'My lab\'s paws were a cracked mess after winter. Two weeks of this balm and they look completely healed. The stick format is so easy — done in 30 seconds before every walk.' },
+      { name: 'James H.', rating: 5, date: 'May 2026', text: 'I was skeptical but the results are undeniable. My dog\'s paws are visibly softer and he doesn\'t lick them constantly anymore. All-natural formula is a huge plus.' },
+      { name: 'Sandra P.', rating: 5, date: 'May 2026', text: 'Perfect size to throw in your bag. The twist-up stick means you don\'t have to touch the product at all — just apply directly to each pad. So convenient.' },
     ],
   },
   {
@@ -1387,7 +1387,7 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/cat-puzzle-slow-feeder-p-cj-placeholder-39.html',
     supplierCost: 4.00,
     shippingDays: '5–8 days',
-    shortDescription: 'Multi-level puzzle feeder that slows eating, fights boredom, and satisfies cats' hunting instinct at mealtime.',
+    shortDescription: 'Multi-level puzzle feeder that slows eating, fights boredom, and satisfies cats\' hunting instinct at mealtime.',
     description: 'Indoor cats need mental stimulation at every meal, not just a bowl. This multi-level puzzle feeder hides kibble in rotating discs, sliding tunnels, and deep wells — forcing cats to paw, nudge, and problem-solve their way to each bite. Slower eating means better digestion and fewer vomit episodes, while the puzzle engagement tires them out between meals. Dishwasher-safe base, no batteries.',
     features: [
       '🧩 Three challenge levels — rotating discs, tunnels, and deep wells',
@@ -1398,7 +1398,7 @@ export const products = [
     reviews: [
       { name: 'Hannah L.', rating: 5, date: 'June 2026', text: 'My cat went from inhaling food in 30 seconds to spending 10 minutes on each meal. No more vomiting after eating! The puzzle clearly engages her — she looks satisfied afterward.' },
       { name: 'Oliver C.', rating: 5, date: 'May 2026', text: 'This was recommended by my vet for a cat who eats too fast and this is the first product that actually worked. Durable, dishwasher safe, and my cat loves the challenge.' },
-      { name: 'Natasha F.', rating: 4, date: 'May 2026', text: 'Great enrichment feeder. The three levels mean she doesn't get bored and the non-slip base keeps it in place. I refill the wells twice a day and she stays busy.' },
+      { name: 'Natasha F.', rating: 4, date: 'May 2026', text: 'Great enrichment feeder. The three levels mean she doesn\'t get bored and the non-slip base keeps it in place. I refill the wells twice a day and she stays busy.' },
     ],
   },
   {
