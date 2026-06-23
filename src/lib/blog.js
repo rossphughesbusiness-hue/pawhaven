@@ -4584,26 +4584,594 @@ const POST_RELEVANCE = {
 
 export function getProductsForPost(postSlug, allProducts, limit = 3) {
   const tags = POST_RELEVANCE[postSlug] || [];
-  if (tags.length === 0) return [];
+  if (tags.length === 0) return [
+  {
+    slug: 'best-no-pull-harness-for-large-dogs-2026',
+    title: 'Best No-Pull Harness for Large Dogs 2026',
+    excerpt: 'Large dogs need a harness that can handle the force without hurting them or you. Here are the best no-pull harnesses tested on dogs over 50 lbs in 2026.',
+    category: 'Dogs',
+    tag: 'Walking',
+    date: '2026-07-01',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=800&q=85&auto=format&fit=crop',
+    content: `
+A 70-lb dog that pulls can generate over 200 lbs of force. Standard collars concentrate that force on the trachea and cervical spine -- repeated pulling on a collar is a documented cause of hypothyroidism, neck injuries, and eye pressure increases in dogs. For large breeds, a well-fitted no-pull harness isn't optional equipment. It's the responsible choice.
 
-  const scored = allProducts.map((product) => {
-    let score = 0;
-    const productTags = [
-      product.category,
-      ...(product.tags || []),
-      product.tag,
-    ].filter(Boolean);
+## How No-Pull Harnesses Work
 
-    for (const tag of tags) {
-      if (productTags.includes(tag)) score++;
-    }
-    return { product, score };
-  });
+The two main mechanisms are front-clip and dual-clip (front and back) designs. Both redirect the dog's momentum differently.
 
-  return scored
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map(({ product }) => product);
+Front-clip harnesses attach the leash to a ring on the dog's chest. When the dog pulls forward, the leash attachment causes them to turn sideways toward you rather than continuing forward. The dog can't gain momentum because the physics of the harness redirect them mid-pull. This is the most effective mechanism for strong, persistent pullers.
+
+Dual-clip harnesses add a second clip on the back, allowing you to use a dual-clip leash for simultaneous front and back attachment. The front clip does the correction work; the back clip provides stability and is useful when the dog is walking nicely.
+
+Avoid harnesses with pressure-based tightening mechanisms. Sometimes marketed as "anti-pull," these work by causing discomfort when the dog pulls -- aversive and potentially harmful for large dogs with respiratory vulnerabilities.
+
+## What Makes Large-Dog Harnesses Different
+
+Large breeds need wider, more substantial chest straps. Narrow straps on a 90-lb dog dig into muscle and restrict movement. Look for padded, wide straps (1.5+ inches) across the chest and under the belly. The back piece should sit flat without restricting shoulder rotation -- a misfit harness that rides into the shoulders causes a shortened, compensatory gait over time.
+
+Sizing matters enormously. Most harnesses offer sizing by chest circumference, not weight. Measure your dog's chest at the widest point (just behind the front legs) before buying. A harness sized by weight alone often fits poorly on large breeds with deep chests (Greyhounds, Boxers) or wide barrels (Mastiffs, Rottweilers).
+
+## Top Features to Look For
+
+Easy on/off matters more than it sounds. Large dogs are difficult to wrestle into a complex harness. The best designs have two or three clips that snap on in under 10 seconds.
+
+A reflective stitching is a meaningful safety feature for dogs walked in low-light conditions.
+
+A handle on the back lets you steady or guide your dog in crowded areas without bending to reach the collar. Essential for large breed owners navigating vet offices, stairs, or city streets.
+
+Multiple adjustment points (minimum four) allow a precise fit on breeds that vary enormously in body shape.
+
+## Fitting Correctly
+
+Fasten the harness and check: you should be able to fit two fingers under every strap. The chest strap should sit across the sternum, not against the throat. The belly strap should sit behind the front legs, not across the armpit. The back piece should sit flat across the shoulders without bunching or riding up.
+
+Walk the dog before declaring the fit correct. Many harnesses that look right statically shift during movement. A harness that slides sideways needs the belly strap tightened. One that rides up to the neck needs the chest strap raised.
+
+## Introducing the Harness
+
+Large dogs that have only worn collars often resist harnesses initially. Introduce it over several days: leave it on the floor for investigation, then drape it over the dog without fastening, then fasten briefly with treats. Most dogs habituate within a week. Fighting a 90-lb dog into a harness every walk makes both of you dread the experience -- the slow introduction is worth the time investment.
+    `,
+  },
+  {
+    slug: 'how-to-introduce-puppy-to-older-dog',
+    title: 'How to Introduce a Puppy to an Older Dog Without the Drama',
+    excerpt: 'Resident dogs often find puppies exhausting and overwhelming. This step-by-step introduction protocol protects both dogs and sets the relationship up for success.',
+    category: 'Dogs',
+    tag: 'Training',
+    date: '2026-07-02',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+People focus on whether the puppy will be okay. The real risk is the resident dog. Adult dogs have legitimate reasons to find puppies stressful: puppies are relentlessly physical, ignore social signals, eat from other dogs' bowls, and disrupt established routines. Without a careful introduction, resident dogs develop anxiety, resource guarding, or aggression -- and the relationship starts in a hole it may never climb out of.
+
+## Before the Puppy Arrives
+
+Set up separate spaces. The puppy needs a confined area -- a playpen, a gated room, or a crate setup -- that the older dog cannot access. This isn't punishment for either dog. It's the physical architecture that makes a slow introduction possible.
+
+Identify your older dog's triggers. Does she guard food? Does she snap when surprised? Is she anxious in new situations? Knowing this ahead of time lets you manage the introduction around those vulnerabilities rather than discovering them at the worst moment.
+
+## The First Meeting: Neutral Territory
+
+The first introduction should happen outdoors, in a space neither dog considers their territory. A quiet park, a neighbor's yard, a school parking lot on the weekend -- somewhere that isn't your home or yard.
+
+Walk both dogs in parallel -- separate handlers, same direction, about 15 feet apart. Let them observe each other while moving. After a few minutes, close the distance to 8-10 feet. Watch the older dog's body language: loose body, soft eyes, wagging tail means proceed. Stiff posture, hard stare, raised hackles means more distance, slower pace.
+
+Do not let them rush up to each other for face-to-face greetings. A head-on approach is confrontational in dog social language. If they do meet, make it brief and lateral -- dogs greeting side-by-side or end-to-end rather than face-to-face.
+
+## The First Week at Home
+
+Puppy lives in the confined area. Older dog has the rest of the house. Feed them on opposite sides of a closed door or baby gate -- they can smell each other without contact. This builds positive association (mealtime = other dog's presence) without risk.
+
+Supervised interaction time, once or twice daily. Short sessions -- 5 to 10 minutes -- with both dogs on leash or in an open space where the older dog can disengage freely. Let the older dog set the pace of engagement. If she moves away, let her. If she investigates, reward both dogs with calm praise.
+
+The most important rule: the older dog always wins. Priority access to resting spots, food, entry through doors, attention. This isn't favoritism -- it maintains the older dog's status and removes any resource competition that would fuel tension.
+
+## Reading the Older Dog
+
+Growling is communication, not aggression. A growl from the older dog to the puppy is the older dog saying "enough" or "back off." Do not correct it. A corrected growl becomes a bite without warning -- the growl is the safety valve. Instead, interrupt the puppy and redirect. The older dog is teaching the puppy appropriate limits; that's good.
+
+What actually requires intervention: sustained rigid staring, standing over the puppy, blocking the puppy's movement, or snapping that escalates. These are signs the older dog is overwhelmed and the interactions need to slow down.
+
+## Weeks Two Through Four
+
+Increase supervised time together. Continue feeding separately. As the puppy learns to read the older dog's signals -- backs off when growled at, doesn't mob the sleeping dog -- tension typically drops significantly.
+
+Most introductions settle into a workable routine within three to four weeks. Some older dogs become tolerant; some become genuinely playful; a few remain indifferent but functional. All three outcomes are fine. The goal isn't that they become best friends -- it's that both dogs can coexist without stress.
+    `,
+  },
+  {
+    slug: 'signs-your-dog-is-bored-and-what-to-do',
+    title: '8 Signs Your Dog Is Bored (And Exactly What to Do About It)',
+    excerpt: 'Boredom in dogs looks like bad behavior. Here are 8 signs to watch for -- and the specific interventions that actually fix them.',
+    category: 'Dogs',
+    tag: 'Enrichment',
+    date: '2026-07-03',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
+    content: `
+Most "bad dog" behaviors are bored dog behaviors. Dogs aren't being destructive or loud because they're disobedient -- they're doing it because their brain and body have energy that hasn't been given a productive outlet. Understanding this reframes the problem from a training issue to an enrichment issue, which is much easier to fix.
+
+## 1. Destructive Chewing
+
+The dog chews chair legs, shoes, baseboards, pillows -- anything accessible. Chewing is self-soothing for dogs. It releases calming neurochemicals. When a dog is under-stimulated, they self-medicate with whatever's available.
+
+Fix: Provide appropriate chew outlets daily. A bully stick, antler, or rubber chew toy with food packed inside gives the behavior a legal target. For heavy chewers, rotate items to keep novelty high. If destructive chewing is happening while you're away, a frozen Kong or stuffed rubber toy at departure redirects the energy.
+
+## 2. Excessive Barking
+
+Barking at windows, at sounds, seemingly at nothing. Dogs who aren't mentally occupied scan their environment for stimulation. Every passing dog, squirrel, or delivery vehicle becomes an event worth reacting to.
+
+Fix: Block visual access to triggers (frosted window film on lower windows), increase morning exercise before alone time, and add a white noise machine. The barking is symptom management; the root fix is a dog tired enough not to be on high alert.
+
+## 3. Hyperactivity Indoors
+
+Can't settle, constantly moving, bouncing off furniture. For most dogs, a 20-minute leash walk doesn't come close to meeting their actual exercise needs. Labrador Retrievers, Border Collies, Belgian Malinois, and similar working breeds need 60-90 minutes of actual cardiovascular effort daily.
+
+Fix: Increase intensity, not just duration. Fetch, off-leash running, swimming, or structured play with another dog burns more energy per minute than walking. Mental exercise also matters: 10 minutes of training or a puzzle feeder is cognitively equivalent to 30 minutes of walking for many breeds.
+
+## 4. Pestering for Attention
+
+Pawing, nudging, dropping toys repeatedly, barking at you. The dog has learned that pestering eventually works. It's also a sign they need more independent play skills.
+
+Fix: Don't reward the pestering -- even negative attention is attention. Set up independent enrichment options: a snuffle mat with kibble, a stuffed toy, a chew. Teach the dog that good things happen when they settle independently.
+
+## 5. Eating Non-Food Items (Pica)
+
+Eating rocks, sticks, dirt, fabric, paper. A combination of oral fixation, under-stimulation, and sometimes nutritional deficiency. Always rule out nutritional causes with a vet, but in otherwise healthy dogs, pica is often enrichment-related.
+
+Fix: Puzzle feeders that require extended engagement, more foraging opportunities (scatter feeding, snuffle mats), and supervised outdoor time.
+
+## 6. Digging
+
+Holes in the yard, scratching at floors or furniture. Natural behavior that hasn't been given an appropriate outlet. Terriers, Huskies, and Dachshunds are especially prone.
+
+Fix: Designate a legal digging spot and bury toys or treats there. The designated spot gets interesting; the flower beds don't. Consistent reinforcement of the designated spot redirects most diggers within a few weeks.
+
+## 7. Stealing Objects and Running Away
+
+Grabs a sock, makes eye contact, bolts. Keep-away is fun -- it's self-initiated play when legitimate play has been insufficient.
+
+Fix: Two sessions of structured play daily -- fetch, tug, or training. Teach "drop it" separately from the stealing context. The keep-away behavior fades when legitimate play is abundant.
+
+## 8. Escaping
+
+Jumping fences, digging under gates, squeezing through gaps. Whatever is out there is more interesting than what's in here. This is among the strongest signals of under-stimulation.
+
+Fix: Increase exercise and enrichment dramatically. A genuinely tired, mentally satisfied dog has little motivation to escape. Physical containment improvements address the symptom; enrichment addresses the cause.
+    `,
+  },
+  {
+    slug: 'dog-enrichment-ideas-rainy-day',
+    title: "15 Dog Enrichment Ideas for Rainy Days When You Can't Go Outside",
+    excerpt: "Bad weather doesn't have to mean a destructive, bored dog. These 15 indoor enrichment ideas burn energy and keep your dog mentally satisfied without going outside.",
+    category: 'Dogs',
+    tag: 'Enrichment',
+    date: '2026-07-04',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=800&q=85&auto=format&fit=crop',
+    content: `
+Rain days stress dog owners more than dogs. The dog doesn't know it's raining -- they just know they have unspent energy and nowhere to put it. The good news: mental exercise is roughly as effective as physical exercise for burning that energy. A 20-minute puzzle session can be as calming as a 45-minute walk for most breeds.
+
+## Feeding-Based Enrichment
+
+**1. Scatter feeding.** Skip the bowl. Scatter their kibble across a snuffle mat or on a clean floor. The sniffing and searching activates the dog's foraging drive and takes 10-15 minutes instead of 45 seconds.
+
+**2. Frozen Kong or lick mat.** Fill a rubber Kong or lick mat with a mixture of peanut butter, canned food, banana, or kibble soaked in broth, then freeze overnight. Even experienced Kong users can spend 20-30 minutes on a fully frozen one.
+
+**3. Muffin tin puzzle.** Place kibble or treats in the cups of a muffin tin and cover with tennis balls. The dog has to remove each ball to find the food. Simple, free, and effective.
+
+**4. Ice block treats.** Freeze treats or kibble in a block of water. Let the dog lick out the rewards as the ice melts. Particularly good in summer but works year-round.
+
+## Nose Work
+
+**5. Find it.** Place treats in visible spots around the room. Release with "find it." Once they understand the game, hide treats in harder spots -- behind furniture legs, under a towel, in a paper bag. Mentally exhausting in the best way.
+
+**6. Which hand?** Hold a treat in one closed fist, offer both fists to the dog. When they nose the correct hand, open and reward. Simple, low-prep, works for five or ten minutes.
+
+**7. Hide and seek.** Have someone hold the dog while you hide in the house. Call their name once. Let them find you. Reinforces recall and burns energy.
+
+## Training Sessions
+
+**8. New tricks.** Five minutes of trick training -- spin, shake, bow, play dead -- is more mentally tiring than a half-hour walk for many dogs. Break sessions into five-minute blocks separated by rest.
+
+**9. Impulse control games.** "Leave it," "stay" with increasing duration, "look at me" with distractions. Practical skills that require genuine mental focus.
+
+**10. Name games.** Place toys on the floor and name each one. Say the name of a specific toy and reward when the dog picks it up correctly. Takes patience but develops into the dog reliably fetching named objects.
+
+## Puzzle Toys
+
+**11. Level 1-3 puzzle feeders.** Puzzle feeders range from simple (slide a compartment to reveal food) to complex (multiple steps requiring sequential problem-solving). Start at a level your dog can succeed at, then increase difficulty.
+
+**12. Treat dispensing balls.** Fill with kibble and let the dog bat it around the floor. Lower mental intensity than puzzle feeders but keep the dog occupied for extended periods.
+
+## Physical Indoor Activities
+
+**13. Stairs fetch.** Toss a ball to the stair landing. Stair running burns more energy per minute than flat-ground exercise -- five minutes of stair fetch can replace 15-20 minutes of walking.
+
+**14. Flirt pole.** A lure attached to a rod by a bungee cord -- the dog chases it around your legs. Five to ten minutes of flirt pole is intense exercise. Excellent for high-drive dogs in limited indoor space.
+
+**15. Indoor agility.** Couch cushions as jumps, a broomstick balanced between chairs as a bar, a cardboard box as a tunnel. Simple household setups that create a structured physical challenge.
+
+## The Rainy Day Routine
+
+Pick two or three of these rather than trying to do all fifteen. A frozen Kong at morning feeding, a 15-minute find-it session midday, and a training session in the afternoon covers most dogs' needs on a day without outdoor exercise.
+    `,
+  },
+  {
+    slug: 'how-often-should-you-wash-your-dog',
+    title: 'How Often Should You Wash Your Dog? A Vet-Backed Guide by Breed',
+    excerpt: 'The answer varies more than most owners realize. Washing too often strips protective oils; too rarely causes skin buildup. Here is the right frequency by coat type.',
+    category: 'Dogs',
+    tag: 'Grooming',
+    date: '2026-07-05',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=85&auto=format&fit=crop',
+    content: `
+The most common bathing mistake isn't washing too rarely -- it's washing too often. Dog skin produces natural oils that protect the coat and skin barrier. Frequent bathing strips these oils, leading to dryness, flaking, and itching. The dog starts to smell faster because stripped skin overproduces oil to compensate, creating a cycle of frequent bathing and faster smell return.
+
+## By Coat Type
+
+**Short, smooth coats (Beagles, Vizslas, Boxers, Dobermans):** Every 4-6 weeks is sufficient for most dogs. They have minimal coat to trap debris, and their natural oils spread efficiently across a small surface area. Wipe-downs with a damp cloth between baths handle day-to-day dirt.
+
+**Double coats (Huskies, German Shepherds, Golden Retrievers, Labrador Retrievers):** Every 6-8 weeks for most, more if the dog swims frequently or gets into mud. The dense undercoat requires thorough drying -- a wet undercoat that doesn't dry fully creates conditions for hot spots (acute moist dermatitis). Blow dry on low heat or use a high-velocity dryer to push air through to the skin layer.
+
+**Long, silky coats (Yorkshire Terriers, Maltese, Afghan Hounds):** Every 2-4 weeks. These coats trap dirt and debris efficiently and mat quickly without regular maintenance. Dry thoroughly and brush while slightly damp to prevent mat formation.
+
+**Wire coats (Schnauzers, most Terriers):** Every 4-6 weeks. Wire coats are naturally somewhat repellent to dirt. Some terrier owners hand-strip rather than clip; stripping should be done dry, so bathing timing should work around stripping schedule.
+
+**Curly coats (Poodles, Doodles, Portuguese Water Dogs):** Every 3-4 weeks. Curly coats trap loose fur that can't fall out naturally, creating mats close to the skin if not maintained. Bathing, conditioning, and thorough brushing while damp is the maintenance cycle these coats need.
+
+## Lifestyle Adjustments
+
+A dog that swims daily, gets muddy on every walk, or is a working dog with high physical activity needs more frequent bathing -- or at minimum, more frequent rinses. A freshwater rinse after swimming doesn't strip oils the way shampoo does and removes salt, algae, and lake bacteria effectively.
+
+Dogs with skin conditions may need prescription medicated baths weekly during flares. Dogs that are primarily indoor and sedentary may go 8 weeks between baths without any odor or skin issues.
+
+## Water Temperature and Technique
+
+Use lukewarm water, not hot. Dog skin is sensitive to heat, and hot water increases skin dryness. Wet the coat thoroughly down to the skin before applying shampoo; dry coat repels water-based shampoos. Work shampoo from neck to tail, avoiding eyes and ear canals. Rinse until the water runs completely clear -- shampoo residue left in the coat causes itching and flaking.
+
+For dogs with skin sensitivity: dilute the shampoo 1:1 with water before applying. This reduces the risk of irritation and distributes it more evenly across the coat.
+
+## Post-Bath Care
+
+Towel dry first, then finish with a dryer on the lowest heat setting. Cold water trapped against the skin is uncomfortable and contributes to hot spots in double-coated breeds. Don't let a wet dog go outside in cold weather.
+
+Post-bath is the best time to apply paw balm, check ears, and do a quick coat inspection. The coat is clean and flat, making it easy to spot skin issues, parasites, or lumps that might be hidden in a dirty coat.
+
+## Choosing the Right Shampoo
+
+Match shampoo to skin type: sensitive skin needs fragrance-free, oatmeal-based formulas. Normal skin does fine with general-purpose dog shampoos. Oily or smelly dogs may benefit from clarifying formulas every few baths. Never use human shampoo -- the pH is wrong for dogs and disrupts the skin barrier with repeated use.
+    `,
+  },
+  {
+    slug: 'why-does-my-cat-wake-me-up-at-night',
+    title: 'Why Does My Cat Wake Me Up at Night? (And How to Stop It)',
+    excerpt: 'Nighttime waking is one of the most common cat behavior complaints. The cause is almost always behavioral, not medical -- and the fix is simpler than most owners expect.',
+    category: 'Cats',
+    tag: 'Enrichment',
+    date: '2026-07-01',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+Cats are crepuscular -- most active at dawn and dusk. This evolved from their hunting schedule: small prey animals are active at sunrise and sunset, so cats timed their activity accordingly. Domestic life doesn't change this biological rhythm. Your cat isn't misbehaving at 3am. They're just being a cat on a cat schedule.
+
+The problem is that most indoor cat households run on a human schedule: low stimulation during the day, moderate evening activity, then sleep. The cat naps during the day, receives a burst of activity in the evening, and still has unspent energy when their biological active period hits at dawn.
+
+## The Three Most Common Causes
+
+**Under-stimulation during the day.** A cat that has been inactive for 12+ hours will have energy to spend at 4am. This is the most common cause and the most fixable.
+
+**Hunger.** Cats that eat two meals a day -- morning and evening -- are genuinely hungry by early morning. A cat that wakes you to meow for food at 5am may simply be running on an empty stomach.
+
+**Medical issues.** In cats over 10, nighttime vocalization can indicate hyperthyroidism, hypertension, cognitive dysfunction, or pain. Any sudden onset of nighttime waking in a senior cat warrants a vet visit before behavioral intervention.
+
+## The Behavioral Fix
+
+**Scheduled play before bed.** A 15-minute wand toy session at 9-10pm engages the hunt drive and burns energy. End the play session by letting the cat catch the toy repeatedly -- completing the hunt sequence (stalk, chase, catch, kill) leaves the cat satisfied. Immediately after play, offer a small meal or treat to complete the prey sequence. Cats eat after a successful hunt, then sleep.
+
+**Puzzle feeder at bedtime.** A puzzle feeder with their last meal of the day keeps them occupied in the hour before you sleep. By the time they finish, they're ready to settle.
+
+**Automatic feeder.** Program a small feeding at 4-5am. The cat wakes, gets their food, and goes back to sleep without involving you. The cat learns that meowing doesn't produce food -- the feeder does. This is the single most effective solution for hunger-driven early waking.
+
+**Don't respond to nighttime waking.** This is the hardest part. Every time you get up to feed, pet, or interact with a cat that's woken you, you reinforce the behavior. If you're implementing a new schedule, the first week will be worse before it gets better -- the cat will try harder before giving up. Hold the line.
+
+## The Daytime Solution
+
+Nighttime activity is downstream of daytime boredom. A cat that has had play sessions, puzzle feeding, and environmental enrichment during the day is genuinely tired by evening. Window access with a bird feeder outside, midday puzzle feeding, and interactive play sessions dramatically reduce early-morning activity.
+
+## What Doesn't Work
+
+Closing the bedroom door helps you sleep but doesn't address the cause -- and many cats will scratch and meow outside the door, which is worse. Punishment never works for this behavior and damages the relationship.
+    `,
+  },
+  {
+    slug: 'best-toys-for-indoor-cats-2026',
+    title: 'Best Toys for Indoor Cats 2026 -- Tested and Ranked',
+    excerpt: 'Not all cat toys actually get used. We tested the most popular options with real cats to find out which ones earn sustained engagement vs. which ones end up under the couch.',
+    category: 'Cats',
+    tag: 'Toys',
+    date: '2026-07-02',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
+    content: `
+The pet toy market is full of cat toys that look good in product photos and get ignored by actual cats. The challenge: cats have specific preferences shaped by their prey drive, and "cute" doesn't reliably predict "engaging." After testing dozens of toys across multiple cats, here's what consistently earns real engagement.
+
+## Interactive vs. Solo Toys
+
+Interactive toys require a human to operate -- wand toys, fishing rods, laser pointers. They reliably trigger the hunt drive because they behave unpredictably, like real prey. Solo toys -- balls, crinkle toys, motorized gadgets -- have to be interesting enough on their own, and most aren't for long.
+
+Most cats need both. Interactive play for daily hunt-drive satisfaction; solo toys for independent entertainment when you're not available.
+
+## Top Interactive Toys
+
+**Wand toys with feather or fur attachments.** The best category for most cats. The key is movement technique: drag the lure across the floor rather than waving it in the air. Prey animals don't fly in circles -- they run, freeze, dart, and hide. A feather lure dragged under a blanket or skittered across the floor in short bursts triggers genuine stalking behavior. Cats that seem uninterested in wand toys are usually seeing them moved incorrectly.
+
+**Fishing rod toys with lightweight line.** Longer reach than standard wand toys. The thin line lets the lure move naturally -- even small movements translate to realistic prey motion at the end.
+
+**Crinkle tunnels.** Semi-interactive: the human waves a wand through one end while the cat waits at the other. Also doubles as a solo toy -- many cats use tunnels for independent play, ambushing toys that roll past.
+
+## Top Solo Toys
+
+**Motorized spinning toys.** Motorized toys with wand-like attachments that rotate unpredictably can engage some cats well for short periods. Limitation: cats learn the pattern within a few days and interest drops. These work best rotated in and out of availability rather than left out permanently.
+
+**Catnip-filled kickers.** Long, cylindrical toys sized for a cat to grab and bunny-kick. The bunny kick is a natural behavior cats use to subdue prey -- providing a kicker toy channels this appropriately. Cats that don't respond to catnip often respond to silver vine or valerian-stuffed versions.
+
+**Treat dispensing balls.** Simple balls with adjustable openings that dispense kibble or treats as the cat bats them. Combines food motivation with play. These get used more consistently than most toys because the reward is immediate.
+
+**Crinkle balls.** Inexpensive foil or crinkle-paper balls often outperform expensive motorized toys. The sound feedback -- crinkle when touched, crinkle when batted -- provides sensory enrichment that mimics the rustling of small prey.
+
+## What Consistently Fails
+
+**Laser pointers without a conclusion.** Cats that only play with lasers and never catch anything develop frustration. The hunt drive triggers but never completes. Always end laser sessions by directing the dot to a physical toy or treat the cat can catch.
+
+**Overly complex motorized toys.** Toys with multiple moving parts, loud motors, or erratic movements often trigger wariness rather than play.
+
+## The Rotation Principle
+
+Even the best toys become invisible when left out permanently. Store most toys out of reach and rotate weekly. A toy that has been in a drawer for a week becomes interesting again when it reappears. Novelty is more important than quality for sustained engagement over time.
+    `,
+  },
+  {
+    slug: 'how-to-get-cat-to-drink-more-water',
+    title: 'How to Get Your Cat to Drink More Water (Without a Fountain)',
+    excerpt: 'Cat water fountains are not the only solution to chronic feline dehydration. These low-tech strategies work even for cats who ignore fountains entirely.',
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-07-03',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?w=800&q=85&auto=format&fit=crop',
+    content: `
+Fountains work for many cats, but not all. Some cats ignore fountains. Others develop fountain preferences that make travel or power outages stressful. And some owners simply don't want the maintenance overhead. The good news: there are reliable ways to increase cat water intake without running water.
+
+## Why This Matters
+
+Cats have a low thirst drive inherited from desert-dwelling ancestors. Their kidneys are highly efficient at concentrating urine -- which means mild dehydration goes undetected for a long time. Over years, baseline low hydration contributes to kidney disease and urinary tract disease, the two most common causes of illness in cats over 10. Getting more water into a dry-food cat is health maintenance, not optional.
+
+## Strategy 1: Switch to or Add Wet Food
+
+Dry kibble contains 8-10% moisture. High-quality wet food contains 70-78% moisture -- nearly what a cat would get from whole prey. Switching to a wet-food diet is the single biggest lever for increasing feline water intake, often tripling daily moisture consumption.
+
+If a full switch isn't feasible, add a tablespoon of wet food as a topper on kibble at each meal. Even a small amount of wet food meaningfully increases daily moisture.
+
+## Strategy 2: Multiple Water Stations
+
+Cats avoid drinking near where they eat -- an instinctive behavior from the wild (prey contaminating the water source). A single bowl next to the food dish gets ignored. Place two or three water bowls in different rooms, away from the feeding station. Many cats that "don't drink" start drinking when the bowl is in the right location.
+
+## Strategy 3: Wide, Shallow Bowls
+
+Many cats dislike drinking from deep or narrow bowls because their whiskers touch the sides -- whisker fatigue. Wide, shallow bowls (at least 4 inches across) remove this barrier. Stainless steel or ceramic materials are preferable to plastic, which harbors bacteria in surface scratches.
+
+## Strategy 4: Fresh Water More Frequently
+
+Cats are highly sensitive to water freshness. A bowl sitting for 24 hours often smells different to a cat than a freshly filled one. Refill water bowls at least twice daily. Some cats will only drink from water filled within the last few hours.
+
+## Strategy 5: Flavored Water
+
+Adding a small amount of liquid makes the water more attractive. Low-sodium tuna juice (from tuna packed in water, no onion or garlic), the liquid from a can of chicken, or pet-formulated bone broth all work. Add just enough to scent the water -- a teaspoon per bowl.
+
+## Strategy 6: Ice Cubes
+
+Some cats are attracted to ice cubes in their water, possibly because the temperature and movement simulate fresher water. Drop an ice cube into the bowl and observe -- cats that immediately investigate and then drink are ice responders.
+
+## Strategy 7: Broth as a Supplement
+
+Offer a small separate dish of low-sodium, no-additive bone broth (formulated for pets or verified to contain no onion or garlic) as a supplement. Some cats who ignore water bowls will lap up a dish of warm broth enthusiastically.
+
+## Monitoring Progress
+
+A 4kg cat needs roughly 240ml of water daily. Wet food contributes most of this in wet-fed cats. A dry-food-only cat depends entirely on the water bowl, which is why dry-food cats are chronically at higher risk of dehydration-related illness.
+    `,
+  },
+  {
+    slug: 'cat-scratching-furniture-solutions',
+    title: "Cat Scratching Furniture? Here's What Actually Works",
+    excerpt: 'Scratching is a necessary behavior -- you cannot stop it, but you can redirect it. Here is why cats scratch, what makes a scratching post they will actually use, and how to protect your furniture.',
+    category: 'Cats',
+    tag: 'Enrichment',
+    date: '2026-07-04',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1501820488136-72669149e0d4?w=800&q=85&auto=format&fit=crop',
+    content: `
+Scratching is not misbehavior. It's a biological need. Cats scratch to maintain their claws (removing the outer sheath), to stretch and exercise their shoulders and back, and to deposit scent from glands in their paw pads. The goal isn't elimination -- it's redirection.
+
+## Why Your Cat Prefers the Couch
+
+Most failed scratching post setups fail for the same reasons: the post is in the wrong location, the wrong material, or the wrong orientation.
+
+**Location:** Cats scratch in socially significant spots -- near their sleeping area, near entrances, in the middle of rooms where family congregates. A scratching post in a back hallway fails because it's in a low-value location. The couch succeeds because it's in the living room where everything happens.
+
+**Material:** Most commercial scratching posts use tightly woven carpet. Many cats prefer sisal rope or sisal fabric, corrugated cardboard, or natural wood. The best way to find your cat's preference: offer all four and observe. Cats that scratch vertical fabric surfaces often prefer sisal or wood. Cats that scratch horizontal surfaces (rugs, mats) often prefer corrugated cardboard.
+
+**Orientation:** Posts that wobble or tip during use are immediately rejected. The post needs to be tall enough for full extension while scratching (at least 30 inches for an average cat) and stable enough not to shift when 10 lbs of cat pulls down on it.
+
+## What Actually Works
+
+**Step 1:** Place a scratching post next to the furniture being targeted. Not across the room -- right next to it. The cat is scratching there because that's where they want to scratch. The new post needs to be a better option in the same location.
+
+**Step 2:** Make the post appealing. Rub catnip or silver vine on it. Use a wand toy to play near the post so the cat approaches it naturally. Reward any interaction with the post with treats.
+
+**Step 3:** Protect the furniture temporarily. Double-sided tape (cats dislike sticky texture on their paws), aluminum foil, or commercial scratch deterrent covers can be applied to the furniture surface. Remove them after the cat has been using the post consistently for a few weeks.
+
+**Step 4:** Maintain the post. Once the outer sisal layer shreds, the surface underneath is often smooth and less satisfying. Replace or re-wrap sisal when heavily used. Contrary to instinct, the more shredded a cardboard scratcher looks, the more appealing it is -- the exposed inner cardboard provides excellent texture.
+
+## Multiple Posts Matter
+
+One post for a multi-cat household or a large home is insufficient. Rule of thumb: one scratching surface per cat, plus one extra, in different locations. Vertical posts in the living areas, horizontal pads near sleeping spots.
+
+## Nail Caps as a Transitional Solution
+
+Soft plastic nail caps (Soft Paws or similar) can be applied over existing nails and block the sharp tip from catching on surfaces. They fall off with the nail sheath after 4-6 weeks. They work well as a transitional solution while you establish appropriate scratching posts. Application requires a cooperative cat and some practice.
+    `,
+  },
+  {
+    slug: 'how-to-tell-if-your-cat-is-happy',
+    title: 'How to Tell If Your Cat Is Happy: 10 Signs Owners Miss',
+    excerpt: 'Cats don\'t show happiness the way dogs do. These 10 subtle signals are how your cat actually expresses contentment -- and some of them look nothing like what most owners expect.',
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-07-05',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=85&auto=format&fit=crop',
+    content: `
+Dogs wear their emotions on their faces and bodies in ways humans find easy to read. Cats are subtler. A happy cat doesn't bound up to you at the door or wag its tail. Cat contentment is quieter, context-dependent, and easy to miss if you're looking for the wrong signals.
+
+## 1. Slow Blinking
+
+A cat that makes eye contact with you and slowly closes and reopens its eyes is communicating trust and affection. This is the feline equivalent of a relaxed smile. You can reciprocate by slow-blinking back. Research has confirmed that slow blinking increases the likelihood of cats approaching humans -- it's a genuine social signal.
+
+## 2. Kneading
+
+Kneading -- alternating paw pushes against a soft surface -- originates from kittenhood, when kittens knead to stimulate milk flow. In adult cats, it's a comfort behavior associated with relaxation and attachment. It means the cat is happy and feels safe.
+
+## 3. Exposing Their Belly
+
+A cat that rolls over and shows its belly is displaying trust. The abdomen is the most vulnerable area of a cat's body. Exposing it voluntarily signals that the cat feels safe and unthreatened. Note: this is not an invitation to pet the belly -- many cats will swat if touched there, even while looking relaxed.
+
+## 4. Rubbing Their Head and Face on You
+
+Cats have scent glands along their cheeks, forehead, and chin. When a cat bunts you (pushes their head against you) or rubs their cheeks along your leg, they're scent-marking you -- placing their scent on you and mingling it with theirs. You're part of their social group.
+
+## 5. Chirping or Chattering
+
+The rapid, clicking vocalizations cats make when watching birds indicates excitement and engagement. It's often interpreted as frustration, but it's actually a focused, aroused state. A cat that chirps is a cat that's mentally stimulated and interested in their environment.
+
+## 6. Sleeping Near or On You
+
+Cats choose their sleeping locations carefully. They sleep where they feel safe. A cat that consistently chooses to sleep on your lap, at your feet, or in the same room as you is communicating that you're a safe presence in their world.
+
+## 7. Greeting You at the Door
+
+Not as dramatically as dogs, but a cat that moves toward you when you enter, meows once, or circles your legs is greeting you. This behavior is absent in stressed, unwell, or unhappy cats.
+
+## 8. Playing Into Adulthood
+
+Play behavior tends to decrease with age and disappears entirely in chronically stressed or unhealthy cats. An adult cat that still plays enthusiastically is a cat with enough mental wellbeing to access exploratory, playful behavior. It's a strong positive indicator.
+
+## 9. Bringing You Presents
+
+A cat that drops a toy at your feet, carries a stuffed mouse to you while yowling, or deposits prey nearby is sharing a successful hunt. This is an affiliative behavior -- sharing resources with social allies. It's an expression of treating you as part of its social group.
+
+## 10. A Relaxed Posture at Rest
+
+A happy cat at rest looks genuinely relaxed: eyes soft or half-closed, body loose, tail still or making slow gentle movements, ears forward or to the side. Contrast this with a stressed cat: wide eyes, flattened ears, tucked tail, tense muscles, crouched posture. A cat that consistently rests in an open, loose posture in the main areas of the home -- rather than only in hidden, enclosed spots -- is a cat that feels safe in its environment.
+    `,
+  },
+];
+
+export function getPostBySlug(slug) {
+  return posts.find((p) => p.slug === slug) || null;
 }
 
+export function getAllPosts() {
+  return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+// Map each post slug to the product tags/categories it is most relevant for
+const POST_RELEVANCE = {
+  'best-slow-feeder-bowls-for-dogs':                     ['Feeding', 'Dogs', 'Enrichment'],
+  'how-to-calm-an-anxious-dog':                          ['Anxiety Relief', 'Dogs', 'Enrichment', 'Comfort'],
+  'best-led-dog-collars-night-safety':                   ['Safety', 'Dogs', 'Outdoor'],
+  'best-cat-water-fountains-2026':                       ['Health', 'Cats', 'Cat Feeding'],
+  'best-orthopedic-dog-beds-arthritis':                  ['Comfort', 'Dogs', 'Health'],
+  'best-no-pull-harness-for-dogs-2026':                  ['Safety', 'Outdoor', 'Dogs'],
+  'how-to-keep-indoor-cat-entertained':                  ['Toys', 'Cats', 'Comfort'],
+  'dog-car-safety-guide':                                ['Travel', 'Dogs', 'Safety'],
+  'how-to-groom-dog-at-home':                            ['Grooming', 'Dogs'],
+  'cat-shedding-solutions-deshedding-guide':             ['Grooming', 'Cats'],
+  'pet-travel-accessories-guide':                        ['Travel', 'Dogs', 'Cats'],
+  'new-puppy-first-week-checklist':                      ['Feeding', 'Walking', 'Anxiety Relief', 'Safety', 'Dogs'],
+  'signs-of-anxiety-in-dogs':                           ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'senior-dog-care-guide-2026':                         ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
+  'how-to-stop-dog-pulling-on-leash':                   ['Walking', 'Safety', 'Training', 'Dogs'],
+  'best-gifts-for-dog-owners-2026':                     ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
+  'best-interactive-dog-toys-2026':                     ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'how-to-choose-dog-harness-vs-collar':                ['Walking', 'Safety', 'Dogs'],
+  'best-cat-toys-for-indoor-cats-2026':                 ['Toys', 'Play', 'Enrichment', 'Cats'],
+  'dog-food-toppers-complete-guide':                    ['Feeding', 'Health', 'Dogs', 'Enrichment'],
+  'how-to-crate-train-a-puppy':                        ['Anxiety Relief', 'Comfort', 'Dogs', 'Training'],
+  'best-pet-products-apartment-dogs':                   ['Enrichment', 'Comfort', 'Anxiety Relief', 'Dogs'],
+  'best-harness-for-small-dogs-2026':                  ['Walking', 'Safety', 'Dogs'],
+  'how-to-stop-cat-from-scratching-furniture':         ['Play', 'Enrichment', 'Cats', 'Comfort'],
+  'best-puzzle-toys-for-dogs-reviewed':                ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'best-gifts-for-cat-lovers-2026':                    ['Play', 'Enrichment', 'Comfort', 'Health', 'Cats'],
+  'cat-water-fountain-vs-bowl-which-is-better':        ['Health', 'Cats'],
+  'retractable-dog-leash-pros-cons-safety':            ['Walking', 'Safety', 'Dogs'],
+  'best-slow-feeder-for-cats-2026':                    ['Cat Feeding', 'Health', 'Cats', 'Enrichment'],
+  'best-cat-tunnels-for-indoor-cats':                  ['Play', 'Enrichment', 'Cats'],
+  'how-to-keep-dogs-cool-in-summer':                   ['Comfort', 'Health', 'Dogs'],
+  'positive-reinforcement-dog-training-beginners-guide': ['Training', 'Walking', 'Safety', 'Dogs'],
+  'tug-toys-for-dogs-benefits-how-to-play':            ['Toys', 'Play', 'Enrichment', 'Training', 'Dogs'],
+  'sisal-vs-carpet-scratching-posts-which-cats-prefer': ['Comfort', 'Play', 'Cats'],
+  'best-dog-walking-accessories-2026':                 ['Walking', 'Outdoor', 'Safety', 'Training', 'Dogs'],
+  'cat-grooming-guide-tools-and-tips':                 ['Grooming', 'Health', 'Cats'],
+  'pet-road-trip-guide-2026':                          ['Travel', 'Dogs', 'Cats', 'Safety'],
+  'best-dog-grooming-tools-2026':                      ['Grooming', 'Dogs', 'Health'],
+  'dog-bed-buying-guide-2026':                         ['Comfort', 'Dogs', 'Health'],
+  'enrichment-for-bored-dogs-at-home':                 ['Toys', 'Enrichment', 'Play', 'Anxiety Relief', 'Dogs'],
+  'first-time-cat-owner-complete-guide':               ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
+  'best-cat-beds-for-every-sleep-style':               ['Comfort', 'Cats'],
+  'dog-enrichment-complete-guide-2026':                ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'senior-cat-care-guide-2026':                        ['Health', 'Cats', 'Comfort', 'Enrichment'],
+  'signs-your-cat-is-aging-what-to-do':               ['Health', 'Cats', 'Comfort', 'Anxiety Relief'],
+  'new-kitten-checklist-first-month':                  ['Toys', 'Health', 'Enrichment', 'Cats', 'Comfort'],
+  'how-to-litter-train-a-kitten':                     ['Health', 'Cats', 'Anxiety Relief'],
+  'separation-anxiety-in-dogs-complete-guide':        ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'calming-products-for-dogs-what-works':             ['Anxiety Relief', 'Enrichment', 'Dogs'],
+  'signs-of-stress-in-cats-what-owners-miss':         ['Anxiety Relief', 'Health', 'Cats', 'Comfort'],
+  'outdoor-vs-indoor-cats-complete-guide':            ['Health', 'Cats', 'Comfort'],
+  'best-dog-collars-2026':                            ['Walking', 'Safety', 'Dogs'],
+  'how-to-introduce-a-new-dog-to-your-home':          ['Training', 'Anxiety Relief', 'Dogs'],
+  'dog-dental-health-guide-2026':                     ['Health', 'Dogs', 'Grooming'],
+  'best-dog-gear-for-hiking-2026':                    ['Outdoor', 'Travel', 'Safety', 'Dogs'],
+  'how-to-read-dog-body-language':                    ['Training', 'Safety', 'Dogs', 'Anxiety Relief'],
+  'best-accessories-for-large-dogs-2026':             ['Walking', 'Outdoor', 'Dogs'],
+  'how-to-train-a-puppy-first-8-weeks':              ['Training', 'Walking', 'Safety', 'Dogs'],
+  'how-to-groom-a-cat-at-home':                      ['Grooming', 'Health', 'Cats'],
+  'best-cat-food-toppers-2026':                       ['Health', 'Cats', 'Cat Feeding'],
+  'how-to-introduce-two-cats':                        ['Anxiety Relief', 'Cats', 'Health', 'Comfort'],
+  'indoor-cat-enrichment-ideas-2026':                 ['Enrichment', 'Play', 'Cats', 'Toys', 'Anxiety Relief'],
+  'why-cats-knock-things-over':                       ['Play', 'Enrichment', 'Cats', 'Toys'],
+  'how-to-groom-a-dog-at-home-complete-guide':        ['Grooming', 'Dogs', 'Health'],
+  'best-no-pull-harness-for-large-dogs-2026':        ['Walking', 'Safety', 'Dogs'],
+  'how-to-introduce-puppy-to-older-dog':             ['Training', 'Anxiety Relief', 'Dogs'],
+  'signs-your-dog-is-bored-and-what-to-do':          ['Enrichment', 'Toys', 'Dogs', 'Anxiety Relief'],
+  'dog-enrichment-ideas-rainy-day':                  ['Enrichment', 'Toys', 'Dogs', 'Anxiety Relief'],
+  'how-often-should-you-wash-your-dog':              ['Grooming', 'Health', 'Dogs'],
+  'why-does-my-cat-wake-me-up-at-night':             ['Enrichment', 'Play', 'Cats', 'Anxiety Relief'],
+  'best-toys-for-indoor-cats-2026':                  ['Toys', 'Play', 'Cats', 'Enrichment'],
+  'how-to-get-cat-to-drink-more-water':              ['Health', 'Cat Feeding', 'Cats'],
+  'cat-scratching-furniture-solutions':              ['Enrichment', 'Cats', 'Toys'],
+  'how-to-tell-if-your-cat-is-happy':                ['Health', 'Cats', 'Enrichment', 'Anxiety Relief'],
+};
+
+export function getProductsForPost(postSlug, allProducts, limit = 3) {
+  const tags = POST_RELEVANCE[postSlug];
+  if (!tags || !allProducts) return [];
+  const matched = allProducts.filter(
+    (p) => tags.includes(p.tag) || tags.includes(p.category)
+  );
+  return matched.slice(0, limit);
+}
