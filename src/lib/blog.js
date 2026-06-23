@@ -3347,6 +3347,32 @@ Every item on this list shares a common thread: cats hide problems. Your job as 
 The single best thing you can do for a senior cat: schedule twice-yearly vet visits from age 7 onward. Most of the serious conditions that end cat lives early are highly manageable when caught at the blood-panel stage rather than the emergency stage.
     \`,
   },
+  {
+    slug: 'new-kitten-checklist-first-month',
+    title: 'New Kitten Checklist: Everything You Need in the First Month',
+    excerpt: "A staged week-by-week checklist for new kitten owners — what to buy before they arrive, what to add in week one, and what can wait until month two.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-21',
+    readTime: '10 min read',
+    img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=85&auto=format&fit=crop',
+    content: `
+Most kittens need less than you think in week one. Give them one enclosed bed in one quiet room, an uncovered low-sided litter box with unscented clumping litter, food and water bowls, and a feather wand for twice-daily play sessions. That is the complete first-week kit. Add a scratching post and lick mat in week two. Expand room access in week two once they are confident. Add a puzzle feeder, window perch, and second litter box in month one. Avoid catnip toys before 6 months, automatic feeders, and multiple beds spread around the house before they have established a safe room. The principle: buy less, give more interactive play time.
+    `,
+  },
+  {
+    slug: 'how-to-litter-train-a-kitten',
+    title: 'How to Litter Train a Kitten',
+    excerpt: "Most kittens litter train themselves when the setup is correct. Here is the foolproof setup and what to do when accidents keep happening.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-06-22',
+    readTime: '8 min read',
+    img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
+    content: `
+The instinct to bury waste is innate in cats. Litter training is almost entirely about correct setup, not teaching. Use an uncovered box with low sides, unscented clumping litter at 2-3 inches depth, placed in a quiet spot away from food. On arrival, carry your kitten to the box and let them sniff it. After each meal and nap for the first 3-5 days, place them in the box. Scoop daily — cats avoid dirty boxes. When accidents happen near the box, the box setup is wrong. When accidents happen in a consistent alternate spot, place a second box there and move it gradually. When accidents are random, see a vet — UTI and parasites present this way. Never punish; redirect to the box calmly. Litter training failures are almost always environment or health issues, not stubbornness.
+    `,
+  },
 
 ];
 
@@ -3403,4 +3429,8 @@ const POST_RELEVANCE = {
   'first-time-cat-owner-complete-guide':                 ['Toys', 'Health', 'Play', 'Enrichment', 'Cats'],
   'best-cat-beds-for-every-sleep-style':                 ['Comfort', 'Cats'],
   'dog-enrichment-complete-guide-2026':         ['Toys', 'Enrichment', 'Play', 'Feeding', 'Anxiety Relief', 'Dogs'],
+  'senior-cat-care-guide-2026':                  ['Health', 'Cats', 'Comfort', 'Enrichment'],
+  'signs-your-cat-is-aging-what-to-do':          ['Health', 'Cats', 'Comfort', 'Anxiety Relief'],
+  'new-kitten-checklist-first-month':            ['Toys', 'Health', 'Enrichment', 'Cats', 'Comfort'],
+  'how-to-litter-train-a-kitten':                ['Health', 'Cats', 'Anxiety Relief'],
 };

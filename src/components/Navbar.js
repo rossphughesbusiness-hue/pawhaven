@@ -23,6 +23,7 @@ const DOG_LINKS = [
 
 const CAT_LINKS = [
   { href: '/cats', label: '🐱 All Cats', desc: 'Browse every cat product' },
+  { href: '/kittens', label: '🐱 Kittens', desc: 'New kitten essentials' },
   { href: '/indoor-cats', label: '🏠 Indoor Cats', desc: 'Essential indoor kit' },
   { href: '/cat-enrichment', label: '🎾 Enrichment', desc: 'Toys & mental stimulation' },
   { href: '/cat-toys', label: '🧶 Cat Toys', desc: 'Wands, lasers & tunnels' },
