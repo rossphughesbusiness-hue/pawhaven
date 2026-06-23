@@ -38,6 +38,7 @@ const CAT_LINKS = [
   { href: '/grooming', label: '✂️ Grooming', desc: 'Brushes & deshedding tools' },
   { href: '/cat-grooming', label: '✂️ Cat Grooming', desc: 'Brushes, nail tools & more' },
   { href: '/travel', label: '✈️ Travel', desc: 'Carriers & on-the-go gear' },
+  { href: '/cat-feeding', label: '🍽️ Cat Feeding', desc: 'Bowls, feeders & portion tips' },
 ];
 
 function NavDropdown({ label, href, links }) {

@@ -45,9 +45,24 @@ const team = [
   },
 ];
 
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'PawHaven',
+  url: 'https://pawhavenpets.org',
+  logo: 'https://pawhavenpets.org/logo.png',
+  description: 'Vet-approved pet accessories for dogs and cats, shipped direct.',
+  contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://pawhavenpets.org/contact' },
+};
+
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
+      <div className="min-h-screen bg-white">
 
       {/* Hero */}
       <div className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 text-white">
@@ -187,5 +202,6 @@ export default function AboutPage() {
       </div>
 
     </div>
+    </>
   );
 }

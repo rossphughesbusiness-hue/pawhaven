@@ -85,6 +85,7 @@ export default function Footer() {
                 { href: '/cat-beds', label: 'Cat Beds' },
                 { href: '/senior-cats', label: 'Senior Cats' },
                 { href: '/cat-anxiety', label: 'Cat Anxiety' },
+                { href: '/cat-feeding', label: 'Cat Feeding' },
                 { href: '/outdoor-cats', label: 'Outdoor Cats' },
                 { href: '/grooming', label: 'Grooming Tools' },
                 { href: '/cat-grooming', label: 'Cat Grooming' },

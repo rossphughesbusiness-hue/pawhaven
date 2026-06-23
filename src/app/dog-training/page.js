@@ -84,6 +84,15 @@ const FAQ_TRAINING = [
   },
 ];
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'Dog Training', item: 'https://pawhavenpets.org/dog-training' },
+  ],
+};
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',

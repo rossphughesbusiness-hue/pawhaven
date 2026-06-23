@@ -39,6 +39,15 @@ const FEATURED_SLUGS = [
   'cat-deshedding-grooming-glove',
 ];
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'Cats', item: 'https://pawhavenpets.org/cats' },
+  ],
+};
+
 export default function CatsPage({ searchParams }) {
   const activeTag = searchParams?.tag || null;
   const filtered = activeTag
@@ -49,7 +58,12 @@ export default function CatsPage({ searchParams }) {
     .filter(Boolean);
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <div className="min-h-screen bg-white">
 
       {/* ─── Hero ─── */}
       <section className="relative bg-gradient-to-br from-violet-900 via-purple-800 to-brand-600 overflow-hidden">
@@ -229,5 +243,6 @@ export default function CatsPage({ searchParams }) {
         </div>
       </section>
     </div>
+    </>
   );
 }

@@ -57,6 +57,15 @@ const FAQ_PUPPIES = [
   { q: 'What is the best toy for a puppy?', a: 'Interactive puzzle feeders and crinkle squeaky toys are best for puppies. Puzzle feeders provide mental stimulation that tires them out faster than physical play alone — a mentally tired puppy is a well-behaved puppy. Squeaky toys satisfy hunting instincts safely.' },
 ];
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'Puppies', item: 'https://pawhavenpets.org/puppies' },
+  ],
+};
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',

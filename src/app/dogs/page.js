@@ -41,6 +41,15 @@ const FEATURED_SLUGS = [
   'orthopedic-memory-foam-dog-bed',
 ];
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'Dogs', item: 'https://pawhavenpets.org/dogs' },
+  ],
+};
+
 export default function DogsPage({ searchParams }) {
   const activeTag = searchParams?.tag || null;
   const filtered = activeTag
@@ -51,7 +60,12 @@ export default function DogsPage({ searchParams }) {
     .filter(Boolean);
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <div className="min-h-screen bg-white">
 
       {/* ─── Hero ─── */}
       <section className="relative bg-gradient-to-br from-navy-900 via-navy-800 to-brand-600 overflow-hidden">
@@ -220,5 +234,6 @@ export default function DogsPage({ searchParams }) {
         </div>
       </section>
     </div>
+    </>
   );
 }
