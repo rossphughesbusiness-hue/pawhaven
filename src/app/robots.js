@@ -2,9 +2,8 @@ export default function robots() {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
+      allow: ['/', '/api/feed/'],
       disallow: ['/api/', '/checkout/'],
-    allow: ['/api/feed/'],
     },
     sitemap: 'https://pawhavenpets.org/sitemap.xml',
   };
