@@ -76,6 +76,7 @@ export default function Footer() {
                 { href: '/indoor-cats', label: 'Indoor Cats' },
                 { href: '/cat-enrichment', label: 'Cat Enrichment' },
                 { href: '/grooming', label: 'Grooming Tools' },
+                { href: '/travel', label: '✈️ Travel Gear' },
                 { href: '/anxiety', label: 'Anxiety & Calm' },
               ].map((link) => (
                 <li key={link.href}>
