@@ -852,6 +852,383 @@ Add to the kit as you learn what your specific pet needs. Every dog and cat is d
 The goal is a travel experience that's low enough stress for both of you that you actually do it. Pets that travel regularly when young tolerate it much better as adults — start early, go slow, and reward constantly.
     `,
   },
+
+  // ─── New posts ─────────────────────────────────────────────────────────────
+
+  {
+    slug: 'new-puppy-first-week-checklist',
+    title: 'New Puppy First Week Checklist: What You Actually Need',
+    description: 'Bringing home a new puppy? Here\'s exactly what to buy, do, and expect in the first 7 days — from vets who\'ve seen what works (and what doesn\'t).',
+    date: '2026-06-15',
+    readTime: '7 min read',
+    category: 'Puppy Care',
+    emoji: '🐶',
+    heroImage: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=85&auto=format&fit=crop',
+    content: `
+The first week with a new puppy is overwhelming. Every pet store visit ends with $200 of things you weren't sure you needed. Every forum thread contradicts the last. Here's a simple, prioritized guide based on what actually matters.
+
+## Day 1: The Non-Negotiables
+
+Before your puppy sets foot in the house, have these ready:
+
+**A slow feeder bowl.** Puppies eat fast — dangerously fast. [Slow feeder bowls](/products/maze-slow-feeder-bowl) cut eating speed by up to 80% and eliminate the gulping that causes vomiting and bloat risk. Start this on day one and it becomes a lifelong habit.
+
+**A step-in harness.** Puppies pull. A lot. When a puppy on a collar pulls, all that force concentrates on the trachea — a fragile structure in small dogs especially. A [step-in harness](/products/reflective-step-in-harness) distributes pressure across the chest and shoulders. It's also easier to put on a wriggly puppy than a clip-over-the-head harness.
+
+**A crate.** Whether you plan to crate train or not, your puppy needs a defined safe space. Line it with familiar-smelling fabric (a worn T-shirt works perfectly) and never use it as punishment.
+
+**Baby gates.** You cannot watch a puppy every second. Gates let you contain them to puppy-proofed areas without constant supervision.
+
+## Days 2–4: The Settling Period
+
+Most puppies take 48–72 hours to decompress from the transition. Expect:
+
+- **Separation anxiety crying** at night — this is normal and peaks around night 2
+- **Irregular eating** — stressed puppies sometimes skip meals
+- **More sleeping than expected** — puppies sleep 16–18 hours a day
+
+### Tackle Night Crying with a Lick Mat
+
+The most effective tool for settling a crying puppy isn't comfort (which can reinforce the behavior) — it's a frozen [calming lick mat](/products/calming-lick-mat) with wet food or peanut butter. Place it in the crate at bedtime. The rhythmic licking releases endorphins and helps puppies self-settle. Most owners see improvement by night 3.
+
+## Days 5–7: Starting Routines
+
+**Feeding schedule**: 3x daily for puppies under 6 months, 2x for 6 months+. Always use a slow feeder. Same time, same place, every day — this creates digestive predictability and builds structure.
+
+**First walks**: Keep them short (5 minutes per month of age, twice daily). Puppies have small attention spans and immature joints — 10 minutes is plenty at 8 weeks. Focus on exposure to sights and sounds, not distance.
+
+**Alone time practice**: Start leaving your puppy alone for 5–10 minutes on day 3 or 4. Extend gradually. Puppies that are never left alone in the first week develop severe separation anxiety.
+
+## What You Don't Need Yet
+
+- **Puppy training pads**: They teach puppies to eliminate indoors, which creates a habit you'll spend months breaking. Go straight to outdoor potty training if possible.
+- **Dozens of toys**: Puppies only need 2–3 rotating toys. Too many choices creates overstimulation.
+- **A dog bed right away**: Most puppies sleep in their crate for the first month. Save the [orthopedic bed](/products/orthopedic-memory-foam-dog-bed) for when they're crate-trained and trusted.
+
+## The Week 1 Shopping List
+
+| Item | Priority |
+|------|----------|
+| [Slow feeder bowl](/products/maze-slow-feeder-bowl) | Essential — Day 1 |
+| [Step-in harness](/products/reflective-step-in-harness) | Essential — Day 1 |
+| [Calming lick mat](/products/calming-lick-mat) | Essential — Night 1 |
+| [LED safety collar](/products/safeglow-led-collar) | Important — Week 1 |
+| Baby gates | Essential |
+| Crate (appropriately sized) | Essential |
+
+## Vet Visit in Week 1
+
+Book your first vet appointment before bringing your puppy home. Most vets want to see new puppies within 72 hours. Bring any health records from the breeder or shelter. Your vet will confirm vaccination schedule, discuss deworming, and check for common issues like hernias, heart murmurs, and parasites.
+
+The first week sets the tone for the next decade. Invest in the right gear, establish routines early, and resist the urge to coddle. Puppies thrive with structure, consistency, and a slow feeder bowl.
+    `,
+  },
+
+  {
+    slug: 'signs-of-anxiety-in-dogs',
+    title: '12 Signs of Anxiety in Dogs (And What to Do About Each One)',
+    description: 'Not all dog anxiety looks like shaking and hiding. Learn the subtle signs most owners miss — and which products actually help, ranked by effectiveness.',
+    date: '2026-06-12',
+    readTime: '8 min read',
+    category: 'Dog Behavior',
+    emoji: '😰',
+    heroImage: 'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Up to 40% of dogs experience anxiety at some point — but most owners only recognize it when it reaches the dramatic stage: full shaking, destructive chewing, or escape attempts. Here are the earlier, subtler signs, and what actually helps for each.
+
+## The 12 Signs (Ranked by How Often They're Missed)
+
+### 1. Yawning Outside of Tiredness
+Yawning is one of dogs' primary calming signals — a way of communicating "I'm stressed" to both humans and other dogs. If your dog yawns repeatedly in non-sleepy situations (at the vet, during visitors, when hearing loud noises), that's anxiety.
+
+**What helps**: Identify the trigger. Remove or desensitize. A [calming lick mat](/products/calming-lick-mat) 20 minutes before predicted triggers can pre-empt the anxiety response.
+
+### 2. Lip Licking (Not Around Food)
+Like yawning, lip licking is a calming/stress signal. Dogs do this when they're uncertain or uncomfortable — often before a situation escalates.
+
+**What helps**: This is one of the earliest warning signs. Note what preceded it. Often it's a specific person, noise, or situation you can manage.
+
+### 3. Panting Without Heat or Exercise
+If your dog pants heavily while resting in a cool room, anxiety is the most common cause after ruling out pain. It's often intensified during thunderstorms or before vet visits.
+
+**What helps**: An orthopedic space to retreat to ([memory foam beds](/products/orthopedic-memory-foam-dog-bed) feel more secure to anxious dogs than flat surfaces) plus a frozen lick mat to engage the calming lick reflex.
+
+### 4. Whale Eye
+"Whale eye" is when you can see the whites of your dog's eyes — they turn their head away but keep their eyes fixed on the trigger. It signals high stress and a risk of escalation.
+
+**What helps**: Create distance from the trigger immediately. This is a pre-bite signal in some dogs.
+
+### 5. Sudden Scratching or Biting Themselves
+Self-directed behaviors under stress are common. Dogs scratch, bite, or lick their paws when they have no other outlet for anxiety. Chronic cases cause skin damage.
+
+**What helps**: Redirection to a [puzzle feeder](/products/iq-puzzle-feeder-toy) or lick mat provides a healthy outlet for the same nervous energy.
+
+### 6. Destructive Chewing (Specifically When Alone)
+If your dog only destroys things when you're gone, that's separation anxiety — not "bad behavior." The chewing releases endorphins and is self-soothing.
+
+**What helps**: A [calming lick mat](/products/calming-lick-mat) frozen with their favorite treat, left in their safe space before you leave. The licking provides the same endorphin release without destruction.
+
+### 7. House Accidents (Regression)
+A house-trained dog having accidents indoors is often anxious, not "acting out." The nervous system literally overwhelms bladder control under high stress.
+
+**What helps**: Rule out medical causes first. If anxiety-driven, address the underlying trigger rather than punishing the accident.
+
+### 8. Excessive Barking at Specific Triggers
+Reactive barking (at the mailman, delivery trucks, specific sounds) is anxiety-based, not aggression. The dog is trying to make the scary thing go away.
+
+**What helps**: Desensitization through controlled exposure. Puzzle feeders during trigger windows give the brain something else to focus on.
+
+### 9. Pacing
+Pacing in a set pattern — back and forth on the same path — is a sign the dog's cortisol is high and they have excess nervous energy with no outlet.
+
+**What helps**: Physical and mental exercise before anticipated anxiety triggers. A [maze slow feeder](/products/maze-slow-feeder-bowl) at mealtimes adds 10–15 minutes of mental engagement.
+
+### 10. Refusing to Eat
+Anxious dogs often skip meals. The digestive system shuts down under stress — the same reason humans lose appetite when nervous. If your dog regularly skips meals, anxiety is worth ruling in.
+
+**What helps**: Note when skipped meals coincide with triggers. A [lick mat](/products/calming-lick-mat) with high-value food (wet food, peanut butter) is more likely to engage a stressed dog than a dry kibble bowl.
+
+### 11. Clinging or Velcro Behavior
+Some anxious dogs become hyperattached — following you from room to room, panicking if they lose sight of you. This is separation anxiety in its early form.
+
+**What helps**: Practice micro-separations: leave the room for 30 seconds, return calmly. Increase duration gradually. Don't make exits and entrances emotional events.
+
+### 12. Shaking or Trembling
+The most obvious sign — but by the time your dog is shaking, they've likely been showing earlier signals for a while. Shaking is high cortisol, full nervous system activation.
+
+**What helps**: Remove from trigger immediately. Physical warmth (weighted blankets, contact) helps some dogs. A lick mat, once calm enough to engage with it, helps restore the parasympathetic state.
+
+## Products That Actually Help (Ranked by Evidence)
+
+**1. Calming Lick Mat** — The most evidence-backed calming tool available. Licking physically activates the parasympathetic nervous system. Works for mild to moderate anxiety. Best used proactively, before anxiety peaks.
+
+**2. Puzzle Feeders** — Redirect anxious energy into focused problem-solving. Most effective for boredom-based anxiety and dogs that pace or scratch.
+
+**3. Orthopedic Beds** — Giving anxious dogs a designated "safe place" they choose voluntarily reduces cortisol. The memory foam provides physical security.
+
+**4. Slow Feeder Bowls** — Extend mealtimes from 30 seconds to 5 minutes, adding a structured, predictable calm period twice a day.
+
+Anxiety medications exist and are appropriate for severe cases — talk to your vet. But for mild to moderate anxiety, environmental tools work for most dogs without side effects. Start with the [calming collection](/anxiety) and see what clicks for your dog.
+    `,
+  },
+
+  {
+    slug: 'senior-dog-care-guide-2026',
+    title: 'The Complete Senior Dog Care Guide (Age 7+)',
+    description: 'Senior dogs have different needs than younger dogs. Here\'s what changes at age 7, 10, and 12+ — and the products that make the biggest quality-of-life difference.',
+    date: '2026-06-10',
+    readTime: '9 min read',
+    category: 'Senior Dog Care',
+    emoji: '🐕',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop',
+    content: `
+A dog is typically considered "senior" around age 7 — though this varies dramatically by size. Large breeds like Great Danes and Mastiffs enter their senior years at 5–6; small breeds like Chihuahuas and Dachshunds may not reach senior status until 10–11. Giant breeds (over 100 lbs) are geriatric by 7.
+
+Here's what actually changes as dogs age — and what to do about it.
+
+## What Changes at Age 7
+
+**Joints**: Arthritis begins for many dogs in their late 6s to early 7s, even without visible lameness. You may notice slower stairs, reluctance to jump, or a stiff first-10-minutes after waking. Up to 80% of dogs over 8 have some degree of arthritis.
+
+**Metabolism**: Slower metabolism means weight gain on the same calorie intake. Obesity dramatically worsens joint disease — a 10-pound overweight dog puts significantly more stress on already-inflamed joints.
+
+**Digestion**: Gastric motility slows. Bloat risk increases. This is when a [slow feeder bowl](/products/maze-slow-feeder-bowl) becomes genuinely important rather than optional.
+
+**Hearing and vision**: Subtle declines begin around 7–8. You may notice your dog startles more easily or doesn't respond to commands given from behind.
+
+**Cognitive function**: Canine Cognitive Dysfunction (doggy dementia) affects around 14% of dogs aged 8 and rises sharply with age. Signs include disorientation, disrupted sleep, loss of learned behaviors.
+
+## The Single Biggest Investment: Orthopedic Bedding
+
+If you do one thing for a senior dog, make it an orthopedic bed. Here's why it matters more than most people realize:
+
+Standard dog beds compress under the dog's weight, meaning arthritic joints end up resting against the floor through 2 inches of compressed foam. Memory foam distributes weight evenly across the sleeping surface, reducing pressure on hips, elbows, and spine.
+
+The [Orthopedic Memory Foam Dog Bed](/products/orthopedic-memory-foam-dog-bed) is the most impactful product we offer for senior dogs. Multiple customers have reported their dogs sleeping more, moving more freely in the mornings, and voluntarily choosing the bed within hours of introduction.
+
+Placement matters: put the bed in a draft-free area, away from hard floors. Cold floors worsen joint inflammation. If your dog sleeps on hardwood or tile, temperature regulation is part of the problem.
+
+## Bloat Prevention After 7
+
+Bloat (Gastric Dilatation-Volvulus) is a life-threatening emergency where the stomach fills with gas and twists. While it can affect any dog, risk increases significantly with age. Large and giant breeds are most at risk.
+
+Prevention strategies:
+- **Feed from a [slow feeder bowl](/products/maze-slow-feeder-bowl)**: Reduces eating speed by 50–80%, limiting air ingestion
+- **Two smaller meals vs. one large meal**: Splits the digestive load
+- **No vigorous exercise within 90 minutes of eating**: Allows the stomach to settle
+- **Avoid elevated feeders for high-risk breeds**: Despite intuition, elevated feeders may increase bloat risk in some breeds
+
+## Mental Stimulation: The Overlooked Need
+
+Senior dogs need less physical exercise than young dogs — but they still need mental engagement. Cognitive decline accelerates without it. Puzzle feeders and lick mats keep the prefrontal cortex active and delay cognitive dysfunction progression.
+
+The [Calming Lick Mat](/products/calming-lick-mat) is particularly good for senior dogs because:
+- It doesn't require physical exertion
+- Licking triggers endorphin release, counteracting age-related anxiety
+- It works for dogs with dental disease (soft food spreads easily)
+- The repetitive action is soothing for dogs with early cognitive decline
+
+## Managing Walks and Harnesses
+
+Senior dogs with joint pain often resist walking because the leash causes discomfort. Traditional collar-and-leash setups pull on the neck — problematic for dogs with cervical arthritis or degenerative disc disease.
+
+A [step-in harness](/products/reflective-step-in-harness) distributes the load across the chest and shoulders, making walks more comfortable. The reflective stitching is also practical: senior dogs move slower, and evening walks become more common as owners avoid mid-day heat for older dogs.
+
+## Age 10+: The Geriatric Stage
+
+At 10+, changes become more pronounced:
+
+**Pain management**: Talk to your vet about NSAIDs, supplements (fish oil, glucosamine/chondroitin have reasonable evidence), and acupuncture. Don't rely on visible limping as a pain indicator — dogs are stoic and often mask pain until it's severe.
+
+**Diet**: Switch to senior-formulated food with adjusted protein-to-phosphorus ratios. Kidney function declines with age, and standard adult protein levels can stress aging kidneys.
+
+**Vet visits**: Increase to every 6 months (vs. annually for adult dogs). Blood work catches kidney disease, thyroid issues, and diabetes while still manageable.
+
+**Temperature sensitivity**: Old dogs lose their ability to regulate temperature. Add blankets, move their bed away from A/C vents, and be cautious about outdoor time in extreme heat or cold.
+
+## What a Senior Dog Actually Needs
+
+The core kit for a dog 7+:
+1. **[Orthopedic memory foam bed](/products/orthopedic-memory-foam-dog-bed)** — the highest-impact purchase
+2. **[Slow feeder bowl](/products/maze-slow-feeder-bowl)** — bloat prevention and digestive support
+3. **[Calming lick mat](/products/calming-lick-mat)** — mental stimulation and anxiety management
+4. **[Step-in harness](/products/reflective-step-in-harness)** — joint-friendly walks
+
+Your senior dog spent 7+ years giving you everything. These four products directly address their four biggest physical needs — and most owners report visible improvement within a week.
+    `,
+  },
+
+  {
+    slug: 'how-to-stop-dog-pulling-on-leash',
+    title: 'How to Stop a Dog From Pulling on the Leash (The Right Way)',
+    description: 'Most leash-pulling advice doesn\'t work long-term. Here\'s what actually does — including why your collar might be making the problem worse.',
+    date: '2026-06-08',
+    readTime: '6 min read',
+    category: 'Training',
+    emoji: '🦮',
+    heroImage: 'https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=1200&q=85&auto=format&fit=crop',
+    content: `
+Leash pulling is the #1 complaint from dog owners — and also the most poorly addressed. The reason most training advice doesn't stick: it focuses on the behavior without addressing the equipment that makes pulling physically possible.
+
+Here's the full picture.
+
+## Why Dogs Pull (And Why It Gets Worse)
+
+Dogs pull because walking fast is more rewarding than walking slow. When your dog lunges forward and the walk continues, they learn that pulling works. Repeat this hundreds of times across puppyhood and you've trained pulling.
+
+The equipment problem: most dogs are on collars. When a collar-wearing dog pulls, the pressure on their neck is uncomfortable — but it doesn't actually prevent movement. Dogs are capable of pulling through significant discomfort, which is why sled dogs, police dogs, and herding dogs pull their handlers around effortlessly.
+
+## The Equipment Switch That Works Immediately
+
+The single fastest change you can make is switching from a neck collar to a front-clip harness.
+
+A front-clip harness has the leash attachment point on the dog's chest, not their back. When they pull forward, the leash creates lateral pressure that turns their body sideways — physically redirecting their momentum without requiring training.
+
+**Results are often immediate.** Dogs that have pulled for years frequently walk loose-leash within the first session on a front-clip harness — not because they've been trained, but because the mechanics don't reward pulling anymore.
+
+The [Reflective Step-In Harness](/products/reflective-step-in-harness) is the most popular harness on our site for exactly this reason. The step-in design is easy to put on (no lifting paws through loops), the chest attachment point addresses pulling directly, and the reflective stitching is practical for early-morning and evening walks.
+
+## What NOT to Do
+
+**Choke chains and prong collars**: These create pain-based suppression of the behavior, not learning. The dog stops pulling when they associate it with pain — but the behavior often returns when the equipment is removed. Long-term use also causes tracheal damage, spinal injuries, and increased anxiety.
+
+**Retractable leashes**: These actively reward pulling. Every time a dog pulls and the lead extends, they learn that pulling grants freedom. Retractable leashes make leash training significantly harder.
+
+**Stopping and waiting**: "Stop when they pull, continue when they don't" is correct in principle but requires hundreds of repetitions over weeks to change behavior. It works, but it's slow. Pair it with better equipment for faster results.
+
+## Training That Works With Equipment
+
+Once you have a front-clip harness, add these techniques:
+
+**The change-of-direction method**: When your dog hits the end of the leash, change direction abruptly (no warning, no command). After 2–3 weeks of 10-minute sessions, most dogs start watching you instead of pulling ahead.
+
+**Reward the position, not the lack of pulling**: Mark with "yes!" and treat whenever your dog is beside you at loose leash — not just when they stop pulling. You want them seeking the reward position, not merely avoiding the bad position.
+
+**High-value rewards on walks**: Walks should be the most exciting reward context in your dog's life. Use your dog's highest-value treats — freeze-dried meat, tiny bits of cheese — exclusively on walks during the training period.
+
+## The Realistic Timeline
+
+- **Week 1–2**: Dramatic improvement from the harness switch alone. Most owners see loose-leash walking 60–70% of the walk.
+- **Week 3–6**: Add change-of-direction training. Consistency is everything — every walk should follow the same rules.
+- **Month 2–3**: Most dogs walk reliably on a loose leash with occasional lapses (squirrels, other dogs).
+
+The dogs that don't improve in this window usually have owners who are inconsistent — the harness is on for some walks, the collar for others. Pulling rules must be the same every single time.
+
+## For Puppies: Start Right Now
+
+If your puppy is under 6 months, you have a significant advantage: pulling hasn't become a deeply ingrained habit yet. Start with a [step-in harness](/products/reflective-step-in-harness) from the first walk. Puppies put on harnesses before they learn to pull frequently become easy walkers for life.
+
+The leash-walking investment pays compounding returns. A dog that walks well is a dog that gets more walks, more exercise, more enrichment — and is calmer, healthier, and better-behaved as a result.
+    `,
+  },
+
+  {
+    slug: 'best-gifts-for-dog-owners-2026',
+    title: 'The 15 Best Gifts for Dog Owners in 2026 (That They\'ll Actually Use)',
+    description: 'Skip the novelty items. These are the practical, high-quality gifts that dog owners genuinely want but rarely buy for themselves — with options at every budget.',
+    date: '2026-06-05',
+    readTime: '5 min read',
+    category: 'Gift Guides',
+    emoji: '🎁',
+    heroImage: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=1200&q=85&auto=format&fit=crop',
+    content: `
+The challenge with buying gifts for dog owners: the best gifts are the practical ones they haven't gotten around to buying for themselves. Not novelty mugs. Not "dog mom" T-shirts. The gear that actually makes dog ownership easier, safer, and more enjoyable.
+
+Here's what dog owners actually want, organized by budget.
+
+## Under $25
+
+**[Maze Slow Feeder Bowl](/products/maze-slow-feeder-bowl) — $24.99**
+The gift that keeps giving. Dogs that eat fast are at risk for bloat and vomiting; slow feeders fix this immediately. It's not glamorous, but virtually every dog owner who receives one becomes a convert. Parents of Golden Retrievers, Labs, and Beagles (all notorious fast eaters) will especially appreciate this.
+
+**[Calming Lick Mat](/products/calming-lick-mat) — $19.99**
+An underrated gift that makes bath time, nail trims, and thunderstorms dramatically less stressful. Spread peanut butter on it and stick it to the shower wall — hands-free bath time is genuinely life-changing. For the dog owner who's been wrestling their dog through baths for years, this is revelatory.
+
+**[Portable Paw Cleaner](/products/portable-paw-cleaner) — $22.99**
+Essential for anyone who walks their dog in mud, rain, or snow. Twist the muddypaws device, wipe, done. New puppy owners and people with light-colored carpets rank this as one of their most-used purchases.
+
+## $25–$60
+
+**[Reflective Step-In Harness](/products/reflective-step-in-harness) — $29.99**
+A genuinely better walking experience. The reflective stitching is visible from 300 feet in the dark — important for early-morning and evening walks. The front-clip design helps with pulling. Great gift for new dog owners who are still using a collar, or owners whose dogs pull.
+
+**[SafeGlow LED Collar](/products/safeglow-led-collar) — $27.99**
+Dogs are hit by cars most often at dawn and dusk — when drivers struggle to see them. An LED collar makes your dog visible for hundreds of feet. Most dog owners haven't upgraded to LED yet and receive it as a gift. USB-rechargeable, so no battery replacement headache.
+
+**[IQ Puzzle Feeder Toy](/products/iq-puzzle-feeder-toy) — $34.99**
+For high-energy dogs, puzzle feeders provide the mental stimulation that physical exercise alone doesn't. A well-exercised dog but mentally bored dog will still chew the furniture. 15 minutes on a puzzle feeder is cognitively equivalent to a 30-minute walk. Perfect for owners of working breeds (Border Collies, Aussies, Huskies).
+
+**[Car Seat Hammock & Cover](/products/dog-car-seat-cover-hammock) — $44.99**
+If the gift recipient has a dog and a car, they probably have dog hair in the backseat. The hammock keeps dogs safely contained in the backseat and keeps the seat clean. One of the most-purchased items by dog owners after their first road trip.
+
+## $60–$100
+
+**[Orthopedic Memory Foam Dog Bed](/products/orthopedic-memory-foam-dog-bed) — $79.99**
+The gift that senior dog owners talk about constantly. Most dogs sleep on compressed, inadequate foam that provides no joint support. Upgrading to memory foam is like switching from a college dorm mattress to a hotel bed — the dog immediately spends more time on it, sleeps longer, and moves more freely in the morning. Best for dogs over 5, especially large breeds.
+
+**Dog DNA Test Kit**
+Not PawHaven, but worth mentioning: DNA tests ($70–$100) have become one of the most popular dog gifts. Knowing a dog's breed mix helps owners understand behavioral tendencies, weight ranges, and health risks. Embark is the most accurate test currently available.
+
+## Bundles (Best Value)
+
+The best gift for a dog owner who has most of the basics is a bundle that fills the gaps. Our [bundles page](/bundles) groups complementary products — you'll often find 15–20% off vs. buying separately.
+
+Popular combinations:
+- **The Calm Canine Bundle**: Lick mat + slow feeder + orthopedic bed — for anxious or fast-eating dogs
+- **The Adventure Bundle**: Harness + LED collar + portable bowls — for outdoor and active dogs
+- **The New Puppy Bundle**: Slow feeder + lick mat + paw cleaner — the three most-used items in year one
+
+## What to Avoid
+
+**Novelty items**: "World's Best Dog Dad" mugs, paw-print jewelry, dog-themed socks. These fill a drawer and create no lasting value.
+
+**Cheap toys that last one session**: Spend a bit more on durable toys. The $5 plush that gets destroyed in 20 minutes isn't a gift; it's a problem to dispose of.
+
+**Food without knowing the dog's dietary restrictions**: Treats are risky gifts. Many dogs have allergies, and owners are particular about ingredients. When in doubt, go with gear.
+
+The dog owners who receive practical, well-made gear tend to talk about it unprompted for months. That's what makes a genuinely good gift.
+    `,
+  },
 ];
 
 export function getPostBySlug(slug) {
@@ -875,6 +1252,11 @@ const POST_RELEVANCE = {
   'how-to-groom-dog-at-home':              ['Grooming', 'Dogs'],
   'cat-shedding-solutions-deshedding-guide': ['Grooming', 'Cats'],
   'pet-travel-accessories-guide':          ['Travel', 'Dogs', 'Cats'],
+  'new-puppy-first-week-checklist':        ['Feeding', 'Walking', 'Anxiety Relief', 'Safety', 'Dogs'],
+  'signs-of-anxiety-in-dogs':             ['Anxiety Relief', 'Enrichment', 'Comfort', 'Dogs'],
+  'senior-dog-care-guide-2026':           ['Comfort', 'Feeding', 'Anxiety Relief', 'Walking', 'Dogs'],
+  'how-to-stop-dog-pulling-on-leash':     ['Walking', 'Safety', 'Training', 'Dogs'],
+  'best-gifts-for-dog-owners-2026':       ['Feeding', 'Comfort', 'Safety', 'Travel', 'Dogs'],
 };
 
 /**
