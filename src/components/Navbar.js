@@ -38,6 +38,7 @@ export default function Navbar() {
     { href: '/dogs', label: '🐶 Dogs' },
     { href: '/cats', label: '🐱 Cats' },
     { href: '/bundles', label: '🎁 Bundles' },
+    { href: '/build-a-bundle', label: '🧩 Build a Bundle' },
     { href: '/quiz', label: '✨ Quiz' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Help' },

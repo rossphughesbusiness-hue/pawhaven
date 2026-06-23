@@ -44,6 +44,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${BASE}/build-a-bundle`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.80,
+    },
+    {
       url: `${BASE}/dogs`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
