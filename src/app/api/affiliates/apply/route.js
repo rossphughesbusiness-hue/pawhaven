@@ -3,6 +3,7 @@
  * Stores affiliate application in Redis and notifies admin.
  */
 import { NextResponse } from 'next/server';
+import { buildApproveToken } from '@/app/api/admin/affiliates/quick-approve/route';
 
 const BASE = 'https://pawhavenpets.org';
 const ADMIN_EMAIL = 'rossphughes@gmail.com';
@@ -118,20 +119,61 @@ export async function POST(req) {
 </html>`,
   });
 
-  // Notify admin
+  // Build one-click approval token
+  const approveToken = buildApproveToken(email.toLowerCase(), name, 15);
+  const approveUrl = approveToken
+    ? `${BASE}/api/admin/affiliates/quick-approve?token=${encodeURIComponent(approveToken)}`
+    : null;
+
+  // Notify admin with rich HTML + one-click approve button
   await sendEmail({
     to: ADMIN_EMAIL,
     subject: `🤝 New affiliate application: ${name} (${platform}, ${audience})`,
-    html: `<p>New affiliate application received:</p>
-<ul>
-<li><strong>Name:</strong> ${name}</li>
-<li><strong>Email:</strong> ${email}</li>
-<li><strong>Platform:</strong> ${platform}</li>
-<li><strong>Handle:</strong> ${handle}</li>
-<li><strong>Audience:</strong> ${audience}</li>
-<li><strong>Why:</strong> ${why || '(not provided)'}</li>
-</ul>
-<p>To approve: <code>curl -X POST https://pawhavenpets.org/api/admin/affiliates/approve -H "Authorization: Bearer YOUR_ADMIN_SECRET" -H "Content-Type: application/json" -d '{"email":"${email}","name":"${name}","commissionPct":15}'</code></p>`,
+    html: `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"></head>
+<body style="margin:0;padding:0;background:#0f172a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#0f172a;padding:32px 0;">
+    <tr><td align="center">
+      <table width="520" cellpadding="0" cellspacing="0" style="background:#1e293b;border-radius:14px;overflow:hidden;">
+        <tr>
+          <td style="background:#1a2b4a;padding:24px 32px;border-bottom:1px solid #334155;">
+            <div style="font-size:13px;font-weight:800;color:#f97316;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">PawHaven Admin</div>
+            <div style="font-size:20px;font-weight:800;color:#f1f5f9;">New Affiliate Application</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:28px 32px;">
+            <table width="100%" cellpadding="0" cellspacing="0" style="background:#0f172a;border-radius:10px;overflow:hidden;margin-bottom:24px;">
+              <tr><td style="padding:10px 16px;border-bottom:1px solid #1e293b;"><span style="font-size:12px;color:#64748b;">Name</span><br><span style="font-size:15px;font-weight:700;color:#f1f5f9;">${name}</span></td></tr>
+              <tr><td style="padding:10px 16px;border-bottom:1px solid #1e293b;"><span style="font-size:12px;color:#64748b;">Email</span><br><span style="font-size:14px;color:#cbd5e1;">${email}</span></td></tr>
+              <tr><td style="padding:10px 16px;border-bottom:1px solid #1e293b;"><span style="font-size:12px;color:#64748b;">Platform</span><br><span style="font-size:14px;color:#cbd5e1;">${platform} · ${handle}</span></td></tr>
+              <tr><td style="padding:10px 16px;border-bottom:1px solid #1e293b;"><span style="font-size:12px;color:#64748b;">Audience Size</span><br><span style="font-size:14px;color:#cbd5e1;">${audience}</span></td></tr>
+              <tr><td style="padding:10px 16px;"><span style="font-size:12px;color:#64748b;">Why they want to partner</span><br><span style="font-size:13px;color:#94a3b8;margin-top:4px;display:block;">${why || '(not provided)'}</span></td></tr>
+            </table>
+
+            ${approveUrl ? `
+            <div style="text-align:center;margin-bottom:16px;">
+              <a href="${approveUrl}"
+                 style="display:inline-block;background:#16a34a;color:#ffffff;font-weight:800;font-size:16px;padding:16px 40px;border-radius:50px;text-decoration:none;letter-spacing:0.01em;">
+                ✅ Approve This Affiliate
+              </a>
+            </div>
+            <p style="text-align:center;font-size:11px;color:#475569;margin:0 0 16px;">
+              One click — approves, generates their code, and sends their welcome email automatically.<br>Link valid for 7 days.
+            </p>` : ''}
+
+            <div style="background:#0f172a;border-radius:8px;padding:14px 16px;">
+              <div style="font-size:10px;color:#475569;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Manual approval (if button doesn't work)</div>
+              <code style="font-size:11px;color:#64748b;word-break:break-all;">curl -X POST ${BASE}/api/admin/affiliates/approve -H "Authorization: Bearer YOUR_ADMIN_SECRET" -H "Content-Type: application/json" -d '{"email":"${email}","name":"${name}","commissionPct":15}'</code>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`,
   });
 
   return NextResponse.json({ ok: true });
