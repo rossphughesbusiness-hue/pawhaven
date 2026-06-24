@@ -4169,7 +4169,6 @@ A bored cat is an active cat in the wrong way. If a cat\'s hunting and explorati
 The behavior doesn\'t mean your cat is bad or dominant or trying to spite you. It means your cat is a cat — with hunting instincts, curiosity, and a very effective method of getting what they want. Meet those needs more directly, and the method becomes unnecessary.
     `,
   },
-,
   {
     slug: 'how-to-groom-a-dog-at-home-complete-guide',
     title: 'How to Groom a Dog at Home: The Complete 2026 Guide',
@@ -4581,6 +4580,13 @@ const POST_RELEVANCE = {
   'pet-first-aid-kit-essentials':                      ['Safety', 'Health', 'Dogs', 'Cats'],
   'common-household-toxins-for-dogs-and-cats':         ['Safety', 'Health', 'Dogs', 'Cats'],
 };
+
+export function getRelatedPosts(product, limit = 3) {
+  if (!product) return [];
+  return posts
+    .filter((p) => p.category === product.category || p.tag === product.tag)
+    .slice(0, limit);
+}
 
 export function getProductsForPost(postSlug, allProducts, limit = 3) {
   const tags = POST_RELEVANCE[postSlug];
