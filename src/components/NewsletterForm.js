@@ -17,7 +17,7 @@ export default function NewsletterForm() {
     return (
       <div className="bg-white/10 border border-white/20 rounded-2xl px-8 py-6 max-w-md mx-auto text-center">
         <div className="text-4xl mb-3">🎉</div>
-        <p className="text-white font-bold text-lg">You're in! Check your inbox.</p>
+        <p className="text-white font-bold text-lg">You\'re in! Check your inbox.</p>
         <p className="text-gray-400 text-sm mt-1">Your 10% discount code is on its way.</p>
       </div>
     );

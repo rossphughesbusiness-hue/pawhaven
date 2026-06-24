@@ -239,7 +239,7 @@ export default function PetFirstAidPage() {
         <section className="bg-red-700 text-white py-4 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <p className="font-bold text-sm sm:text-base">
-              🚨 <strong>Life-threatening emergency?</strong> Call your vet or emergency animal hospital now — don't search for advice online first.
+              🚨 <strong>Life-threatening emergency?</strong> Call your vet or emergency animal hospital now — don\'t search for advice online first.
               ASPCA Poison Control: <strong>888-426-4435</strong> (24/7)
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function PetFirstAidPage() {
         <section className="bg-red-700 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🩺 <strong>Vet tip:</strong> The single most effective thing you can do right now is save your vet's number and the nearest 24-hour emergency animal hospital number in your phone. In an emergency, every second spent searching costs your pet. Do it before you need it.
+              🩺 <strong>Vet tip:</strong> The single most effective thing you can do right now is save your vet\'s number and the nearest 24-hour emergency animal hospital number in your phone. In an emergency, every second spent searching costs your pet. Do it before you need it.
             </p>
           </div>
         </section>

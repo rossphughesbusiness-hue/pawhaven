@@ -16,7 +16,7 @@ export default function RefundPolicy() {
               🛡️ 30-Day Hassle-Free Returns
             </p>
             <p className="text-emerald-700 mt-1">
-              If you're not 100% satisfied with your purchase, we'll make it right. No questions asked.
+              If you\'re not 100% satisfied with your purchase, we\'ll make it right. No questions asked.
             </p>
           </section>
 
@@ -38,8 +38,8 @@ export default function RefundPolicy() {
             <p className="mb-3">To start a return or refund:</p>
             <ol className="list-decimal list-inside space-y-2 ml-2">
               <li>Email us at <strong>support@pawhaven.com</strong> with your order number and reason for the return</li>
-              <li>We'll respond within 1–2 business days with instructions</li>
-              <li>Ship the item back if required (we'll provide a return label for defective items)</li>
+              <li>We\'ll respond within 1–2 business days with instructions</li>
+              <li>Ship the item back if required (we\'ll provide a return label for defective items)</li>
               <li>Once we confirm the return, your refund will be processed within 3–5 business days</li>
             </ol>
           </section>
@@ -61,7 +61,7 @@ export default function RefundPolicy() {
           <section>
             <h2 className="text-xl font-bold text-navy-900 mb-3">Lost or Missing Packages</h2>
             <p>
-              If your tracking shows delivered but you haven't received your package, please wait 2 business days (packages are occasionally marked delivered early). If it still hasn't arrived, contact us and we'll investigate with the carrier. If confirmed lost, we'll reship your order or issue a full refund.
+              If your tracking shows delivered but you haven\'t received your package, please wait 2 business days (packages are occasionally marked delivered early). If it still hasn\'t arrived, contact us and we\'ll investigate with the carrier. If confirmed lost, we\'ll reship your order or issue a full refund.
             </p>
           </section>
 

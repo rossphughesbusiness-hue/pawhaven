@@ -28,7 +28,7 @@ export async function GET(req) {
   const data = await redisGet(`affiliate:${code}`);
   if (!data) return NextResponse.json({ error: 'not found' }, { status: 404 });
 
-  // Don't expose internal fields
+  // Don\'t expose internal fields
   const { email, ...safe } = data;
   return NextResponse.json(safe);
 }

@@ -158,7 +158,7 @@ function buildTransitEmail(customerName, orderRef, upsells) {
         <tr>
           <td style="padding:28px 40px 0;">
             <div style="font-size:17px;font-weight:800;color:#1a2b4a;margin-bottom:6px;text-align:center;">
-              While you wait — complete your pet's setup
+              While you wait — complete your pet\'s setup
             </div>
             <div style="font-size:13px;color:#94a3b8;text-align:center;margin-bottom:20px;">
               Customers who bought your items also loved these:

@@ -194,13 +194,13 @@ export default function CatEnrichmentPage() {
           <div className="prose max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl font-black text-navy-900 mb-4">Why Cat Enrichment Is Not Optional</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Domestic cats are obligate hunters. Even well-fed indoor cats have a hardwired drive to stalk, chase, pounce, and catch — and when they can't express these behaviors, the frustration manifests as behavioral problems: destructive scratching, aggression, anxiety, and stress-related illnesses.
+              Domestic cats are obligate hunters. Even well-fed indoor cats have a hardwired drive to stalk, chase, pounce, and catch — and when they can\'t express these behaviors, the frustration manifests as behavioral problems: destructive scratching, aggression, anxiety, and stress-related illnesses.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               The <Link href="/products/cat-tunnel-crinkle-play-tube" className="text-brand-500 hover:underline">crinkle tunnel</Link> is one of the most versatile enrichment tools available. The sound mimics prey rustling through undergrowth, the enclosed space provides a hunting blind, and the multiple openings allow ambush play between cats. Most cats figure it out within minutes and use it independently throughout the day.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              For interactive play, nothing replaces a <Link href="/products/feather-wand-cat-teaser" className="text-brand-500 hover:underline">feather wand</Link> operated by a human. Wand toys allow you to mimic the erratic, unpredictable movement of real prey — something automated toys can't fully replicate. The key is to let your cat "catch" the toy every few minutes so they complete the prey sequence and don't become frustrated.
+              For interactive play, nothing replaces a <Link href="/products/feather-wand-cat-teaser" className="text-brand-500 hover:underline">feather wand</Link> operated by a human. Wand toys allow you to mimic the erratic, unpredictable movement of real prey — something automated toys can\'t fully replicate. The key is to let your cat "catch" the toy every few minutes so they complete the prey sequence and don\'t become frustrated.
             </p>
             <p className="text-gray-600 leading-relaxed">
               For cats left home alone, the <Link href="/products/interactive-automatic-laser-toy" className="text-brand-500 hover:underline">automatic laser toy</Link> provides stimulation without requiring your presence. Set it to run for 15–20 minutes at midday and your cat gets physical exercise and mental engagement at their most active time.

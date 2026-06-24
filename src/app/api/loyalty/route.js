@@ -19,7 +19,7 @@ async function redisGet(key) {
 
 /**
  * GET /api/loyalty?email=xxx
- * Returns the customer's current PawPoints balance.
+ * Returns the customer\'s current PawPoints balance.
  */
 export async function GET(req) {
   const { searchParams } = new URL(req.url);

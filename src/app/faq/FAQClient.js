@@ -21,7 +21,7 @@ export const FAQ = [
       },
       {
         q: 'How do I track my order?',
-        a: "Once your order ships, you'll receive a confirmation email with a tracking link. You can also visit our Order Tracking page and enter your order ID at any time.",
+        a: "Once your order ships, you\'ll receive a confirmation email with a tracking link. You can also visit our Order Tracking page and enter your order ID at any time.",
       },
       {
         q: 'What if I need to change my shipping address?',
@@ -34,23 +34,23 @@ export const FAQ = [
     questions: [
       {
         q: 'What is your return policy?',
-        a: "We offer a 30-day no-questions-asked return policy. If you're not 100% happy with your purchase — or your pet isn't! — just let us know and we'll make it right.",
+        a: "We offer a 30-day no-questions-asked return policy. If you\'re not 100% happy with your purchase — or your pet isn\'t! — just let us know and we\'ll make it right.",
       },
       {
         q: 'How do I start a return?',
-        a: "Email support@pawhavenpets.org with your order number and reason for return. We'll send you a prepaid return label within 1 business day.",
+        a: "Email support@pawhavenpets.org with your order number and reason for return. We\'ll send you a prepaid return label within 1 business day.",
       },
       {
         q: 'When will I receive my refund?',
-        a: "Once we receive your return, refunds are processed within 1–2 business days. You'll see the amount back in your account within 3–5 business days depending on your bank.",
+        a: "Once we receive your return, refunds are processed within 1–2 business days. You\'ll see the amount back in your account within 3–5 business days depending on your bank.",
       },
       {
         q: 'What if my item arrives damaged or defective?',
-        a: "We're so sorry if that happens! Take a photo and email it to support@pawhavenpets.org. We'll send a replacement or issue a full refund immediately — no need to return the damaged item.",
+        a: "We\'re so sorry if that happens! Take a photo and email it to support@pawhavenpets.org. We\'ll send a replacement or issue a full refund immediately — no need to return the damaged item.",
       },
       {
         q: 'Can I exchange an item for a different product?',
-        a: "Absolutely. Start a return as normal and place a new order for the item you'd prefer. If the prices differ, we'll credit or charge the difference.",
+        a: "Absolutely. Start a return as normal and place a new order for the item you\'d prefer. If the prices differ, we\'ll credit or charge the difference.",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const FAQ = [
     questions: [
       {
         q: 'Are your products safe for pets?',
-        a: "Yes. Every product in our catalog is reviewed for safety before listing. We prioritize BPA-free materials, non-toxic dyes, and pet-safe construction. When in doubt, check the product's materials section or email us.",
+        a: "Yes. Every product in our catalog is reviewed for safety before listing. We prioritize BPA-free materials, non-toxic dyes, and pet-safe construction. When in doubt, check the product\'s materials section or email us.",
       },
       {
         q: 'Where are your products sourced from?',
-        a: "We work with carefully vetted suppliers who meet our quality and safety standards. We're constantly testing and updating our catalog to ensure every product earns its place.",
+        a: "We work with carefully vetted suppliers who meet our quality and safety standards. We\'re constantly testing and updating our catalog to ensure every product earns its place.",
       },
       {
         q: 'Do you offer size guides for products like harnesses and collars?',
-        a: "Yes — size information is listed on each individual product page in the Key Features section. When in doubt, we recommend measuring your pet's neck and chest girth before ordering. You can also email us for sizing advice.",
+        a: "Yes — size information is listed on each individual product page in the Key Features section. When in doubt, we recommend measuring your pet\'s neck and chest girth before ordering. You can also email us for sizing advice.",
       },
       {
-        q: "What if the product doesn't work for my pet?",
-        a: "Every pet is different. If a product doesn't suit your pet within 30 days, return it for a full refund under our happiness guarantee — no explanation needed.",
+        q: "What if the product doesn\'t work for my pet?",
+        a: "Every pet is different. If a product doesn\'t suit your pet within 30 days, return it for a full refund under our happiness guarantee — no explanation needed.",
       },
       {
         q: 'Do you sell products for both dogs and cats?',
@@ -99,8 +99,8 @@ export const FAQ = [
         a: 'Enter your code in the "Coupon code" field on the Cart page before clicking "Proceed to Checkout." The discount is applied immediately and reflected in your order total.',
       },
       {
-        q: "I was charged but didn't receive an order confirmation email — what do I do?",
-        a: "Check your spam folder first. If it's not there, email support@pawhavenpets.org with your name and the email you used at checkout. We'll track down your order and resend the confirmation.",
+        q: "I was charged but didn\'t receive an order confirmation email — what do I do?",
+        a: "Check your spam folder first. If it\'s not there, email support@pawhavenpets.org with your name and the email you used at checkout. We\'ll track down your order and resend the confirmation.",
       },
     ],
   },
@@ -109,7 +109,7 @@ export const FAQ = [
     questions: [
       {
         q: 'What makes PawHaven different from other pet stores?',
-        a: "We don't list everything — we list the best. Every product is hand-picked for quality, safety, and value. We'd rather carry 30 great products than 3,000 mediocre ones.",
+        a: "We don\'t list everything — we list the best. Every product is hand-picked for quality, safety, and value. We\'d rather carry 30 great products than 3,000 mediocre ones.",
       },
       {
         q: 'How can I contact customer support?',
@@ -171,7 +171,7 @@ export default function FAQClient() {
             Everything you need to know about PawHaven.
           </p>
           <p className="text-gray-400 text-sm mt-2">
-            Can't find what you're looking for?{' '}
+            Can\'t find what you\'re looking for?{' '}
             <Link href="/contact" className="text-brand-500 font-semibold hover:underline">
               Contact us →
             </Link>

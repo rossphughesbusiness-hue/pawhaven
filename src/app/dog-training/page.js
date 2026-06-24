@@ -161,7 +161,7 @@ export default function DogTrainingPage() {
             <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">Core Training Kit</p>
             <h2 className="text-3xl sm:text-4xl font-black text-navy-900 mb-4">The 4 Tools Every Trainer Uses</h2>
             <p className="text-gray-500 max-w-xl mx-auto">
-              Professional trainers agree: the right equipment isn't a shortcut — it's what makes the science of positive reinforcement actually work in practice.
+              Professional trainers agree: the right equipment isn\'t a shortcut — it\'s what makes the science of positive reinforcement actually work in practice.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -196,7 +196,7 @@ export default function DogTrainingPage() {
           <div className="prose max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl font-black text-navy-900 mb-4">Why Training Accessories Actually Matter</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Positive reinforcement training is about timing: the reward must arrive within 2 seconds of the correct behavior or your dog can't make the association. This is why the <Link href="/products/dog-treat-training-pouch" className="text-brand-500 hover:underline">treat training pouch</Link> is the single most important piece of training equipment you can own. When treats are on your hip with one-hand magnetic access, you reward in 0.5 seconds instead of 3–4 seconds fumbling in a pocket. That gap makes or breaks whether learning happens.
+              Positive reinforcement training is about timing: the reward must arrive within 2 seconds of the correct behavior or your dog can\'t make the association. This is why the <Link href="/products/dog-treat-training-pouch" className="text-brand-500 hover:underline">treat training pouch</Link> is the single most important piece of training equipment you can own. When treats are on your hip with one-hand magnetic access, you reward in 0.5 seconds instead of 3–4 seconds fumbling in a pocket. That gap makes or breaks whether learning happens.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               For leash training, a <Link href="/products/reflective-step-in-harness" className="text-brand-500 hover:underline">step-in harness</Link> is essential. Loose-leash walking is one of the hardest behaviors to teach when a collar is involved — every pull tightens on the throat, which creates a stress response that makes dogs more reactive, not less. A chest harness removes that aversive element entirely, so your dog can focus on learning the correct behavior rather than escaping discomfort.

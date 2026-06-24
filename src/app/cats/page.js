@@ -83,7 +83,7 @@ export default function CatsPage({ searchParams }) {
               🐱 For Cat Owners
             </div>
             <h1 className="text-4xl sm:text-6xl font-black text-white leading-tight mb-5">
-              For the World's Pickiest Pets
+              For the World\'s Pickiest Pets
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg">
               Premium cat accessories designed around how cats actually live — independent, curious, and always a little dramatic. Your cat will be impressed. Maybe.
@@ -99,7 +99,7 @@ export default function CatsPage({ searchParams }) {
                 href="/quiz"
                 className="bg-white/10 hover:bg-white/20 text-white font-bold px-7 py-3.5 rounded-full border border-white/20 transition-all backdrop-blur-sm"
               >
-                🎯 Find My Cat's Perfect Match
+                🎯 Find My Cat\'s Perfect Match
               </Link>
             </div>
           </div>
@@ -146,8 +146,8 @@ export default function CatsPage({ searchParams }) {
           <h2 className="text-2xl font-black text-navy-900 mb-4">Cat Accessories That Actually Work</h2>
           <div className="prose prose-gray max-w-none text-gray-600 text-base leading-relaxed space-y-4">
             <p>
-              Cats are notoriously hard to please — which is why we've done the work of finding products they'll actually use.
-              PawHaven's cat collection focuses on three things: hydration, enrichment, and comfort. Because a bored, dehydrated
+              Cats are notoriously hard to please — which is why we\'ve done the work of finding products they\'ll actually use.
+              PawHaven\'s cat collection focuses on three things: hydration, enrichment, and comfort. Because a bored, dehydrated
               cat is a destructive one.
             </p>
             <p>
@@ -156,11 +156,11 @@ export default function CatsPage({ searchParams }) {
                 silent cat water fountain
               </Link>{' '}
               encourages cats to drink more by mimicking running water — a natural instinct. Running water stays
-              oxygenated and fresh, which is better for your cat's kidneys long-term. Our{' '}
+              oxygenated and fresh, which is better for your cat\'s kidneys long-term. Our{' '}
               <Link href="/products/feather-wand-cat-teaser" className="text-brand-500 font-semibold hover:underline">
                 feather wand teaser
               </Link>{' '}
-              triggers your cat's natural prey drive for a healthy daily workout, and our{' '}
+              triggers your cat\'s natural prey drive for a healthy daily workout, and our{' '}
               <Link href="/products/cozy-cat-cave-hideaway" className="text-brand-500 font-semibold hover:underline">
                 cozy cave hideaway
               </Link>{' '}
@@ -171,7 +171,7 @@ export default function CatsPage({ searchParams }) {
               <Link href="/quiz" className="text-brand-500 font-semibold hover:underline">
                 quick quiz
               </Link>{' '}
-              and we'll help you find the right products for each of their unique personalities.
+              and we\'ll help you find the right products for each of their unique personalities.
             </p>
           </div>
         </div>
@@ -254,7 +254,7 @@ export default function CatsPage({ searchParams }) {
           <div className="text-5xl mb-4">🐱</div>
           <h2 className="text-3xl font-black text-white mb-3">Not sure what your cat needs?</h2>
           <p className="text-gray-400 mb-7">
-            Take our 60-second quiz and get personalized recommendations for your cat's personality and lifestyle.
+            Take our 60-second quiz and get personalized recommendations for your cat\'s personality and lifestyle.
           </p>
           <Link
             href="/quiz"

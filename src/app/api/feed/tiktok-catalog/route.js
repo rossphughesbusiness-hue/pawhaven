@@ -1,6 +1,6 @@
 /**
  * TikTok Shop Product Catalog Feed
- * Format: CSV (TikTok's required format for catalog ingestion)
+ * Format: CSV (TikTok\'s required format for catalog ingestion)
  * Submit in TikTok Ads Manager → Assets → Catalog → Create Catalog → Import from URL
  * URL: https://pawhavenpets.org/api/feed/tiktok-catalog
  *
@@ -23,7 +23,7 @@ function csvRow(cells) {
   return cells.map(csvCell).join(',');
 }
 
-// TikTok uses Google's product category taxonomy
+// TikTok uses Google\'s product category taxonomy
 function tiktokCategory(tag) {
   const map = {
     Feeding:          'Animals & Pet Supplies > Pet Supplies > Dog Supplies > Dog Bowls & Feeders',

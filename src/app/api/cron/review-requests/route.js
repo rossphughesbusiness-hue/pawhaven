@@ -70,7 +70,7 @@ function buildReviewEmail({ customerName, orderRef, productNames, sessionId }) {
           <td style="background:linear-gradient(135deg,#f97316,#fb923c);padding:28px 40px;text-align:center;">
             <div style="font-size:28px;margin-bottom:4px;">🐾</div>
             <div style="color:#ffffff;font-size:22px;font-weight:800;">PawHaven</div>
-            <div style="color:rgba(255,255,255,0.85);font-size:13px;margin-top:2px;">How's your order?</div>
+            <div style="color:rgba(255,255,255,0.85);font-size:13px;margin-top:2px;">How\'s your order?</div>
           </td>
         </tr>
 
@@ -78,10 +78,10 @@ function buildReviewEmail({ customerName, orderRef, productNames, sessionId }) {
         <tr>
           <td style="padding:36px 40px;">
             <p style="margin:0 0 8px;font-size:18px;font-weight:700;color:#1a2b4a;">
-              Hey ${firstName}, we'd love your feedback! ⭐
+              Hey ${firstName}, we\'d love your feedback! ⭐
             </p>
             <p style="margin:0 0 24px;font-size:15px;color:#64748b;line-height:1.6;">
-              It's been about a week since your order <strong style="color:#1a2b4a;">#${orderRef}</strong> arrived.
+              It\'s been about a week since your order <strong style="color:#1a2b4a;">#${orderRef}</strong> arrived.
               We hope your pet is loving their new gear! Would you mind taking 60 seconds to leave a review?
               It helps other pet owners find the right products.
             </p>
@@ -120,7 +120,7 @@ function buildReviewEmail({ customerName, orderRef, productNames, sessionId }) {
         <tr>
           <td style="background:#f8fafc;padding:18px 40px;border-top:1px solid #f0f0f0;text-align:center;">
             <p style="margin:0;font-size:11px;color:#94a3b8;line-height:1.6;">
-              You're receiving this because you ordered from PawHaven.<br>
+              You\'re receiving this because you ordered from PawHaven.<br>
               Questions? <a href="mailto:support@pawhavenpets.org" style="color:#f97316;text-decoration:none;">support@pawhavenpets.org</a>
               · <a href="${BASE}" style="color:#94a3b8;text-decoration:none;">pawhavenpets.org</a>
             </p>
@@ -144,7 +144,7 @@ async function sendReviewEmail({ to, customerName, orderRef, productNames, sessi
     body: JSON.stringify({
       from: 'PawHaven <orders@pawhavenpets.org>',
       to: [to],
-      subject: `${customerName.split(' ')[0]}, how's your PawHaven order? ⭐`,
+      subject: `${customerName.split(' ')[0]}, how\'s your PawHaven order? ⭐`,
       html: buildReviewEmail({ customerName, orderRef, productNames, sessionId }),
     }),
   });

@@ -286,7 +286,7 @@ export default function DogAnxietyPage() {
         <section className="bg-blue-600 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🔬 <strong>Vet tip:</strong> The most effective anxiety protocol is behavioral modification + enrichment + environmental management. Products accelerate the process but don't replace it. If your dog's anxiety is affecting their quality of life, a certified veterinary behaviorist can design a protocol specific to your dog's triggers.
+              🔬 <strong>Vet tip:</strong> The most effective anxiety protocol is behavioral modification + enrichment + environmental management. Products accelerate the process but don\'t replace it. If your dog\'s anxiety is affecting their quality of life, a certified veterinary behaviorist can design a protocol specific to your dog\'s triggers.
             </p>
           </div>
         </section>

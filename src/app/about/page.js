@@ -69,7 +69,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <div className="text-5xl mb-4">🐾</div>
           <h1 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
-            We're Pet Owners First.<br />
+            We\'re Pet Owners First.<br />
             <span className="text-brand-400">Sellers Second.</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
@@ -100,7 +100,7 @@ export default function AboutPage() {
         <div className="prose prose-gray max-w-none space-y-4 text-gray-600 leading-relaxed">
           <p>
             It started with a slow feeder bowl. Our golden retriever Max was eating so fast
-            he'd get sick every few nights — our vet recommended a slow feeder, but the ones
+            he\'d get sick every few nights — our vet recommended a slow feeder, but the ones
             we found locally were either flimsy plastic that cracked after a month or wildly
             overpriced "premium" options that were essentially the same thing in fancier packaging.
           </p>
@@ -108,15 +108,15 @@ export default function AboutPage() {
             So we went looking. We spent three months testing products from manufacturers across
             the world, comparing materials, checking for BPA and non-toxic certifications, stress-testing
             durability. Max ended up with a feeder that lasted, and we ended up with a list of
-            products we'd actually recommend to friends.
+            products we\'d actually recommend to friends.
           </p>
           <p>
             That list became PawHaven. Every product in our catalog went through the same process:
             real-world testing, material verification, vet review, and a simple question — would we
-            buy this for our own pets? If the answer wasn't a clear yes, it didn't make the cut.
+            buy this for our own pets? If the answer wasn\'t a clear yes, it didn\'t make the cut.
           </p>
           <p>
-            We're not a big-box retailer trying to squeeze margin on a million SKUs. We're a small
+            We\'re not a big-box retailer trying to squeeze margin on a million SKUs. We\'re a small
             team with high standards and a genuine belief that your pet deserves quality gear without
             you having to spend hours researching to find it.
           </p>
@@ -147,7 +147,7 @@ export default function AboutPage() {
             {
               icon: '🛡️',
               title: '30-Day No-Questions-Asked Returns',
-              desc: "If you're not happy for any reason within 30 days, we\'ll refund you in full. No hoops, no guilt trips.",
+              desc: "If you\'re not happy for any reason within 30 days, we\'ll refund you in full. No hoops, no guilt trips.",
             },
             {
               icon: '🚚',

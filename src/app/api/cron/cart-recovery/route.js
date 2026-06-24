@@ -81,7 +81,7 @@ function buildRecoveryEmail(items, cartUrl) {
           <td style="padding:32px 40px;">
             <p style="color:#374151;font-size:15px;margin:0 0 24px;line-height:1.6;">
               Hey there 👋 — your PawHaven cart is still waiting for you.
-              Here's what you left behind:
+              Here\'s what you left behind:
             </p>
 
             <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -117,7 +117,7 @@ function buildRecoveryEmail(items, cartUrl) {
           <td style="background:#f8fafc;padding:20px 40px;text-align:center;">
             <div style="font-size:12px;color:#9ca3af;">
               PawHaven · <a href="https://pawhavenpets.org" style="color:#9ca3af;">pawhavenpets.org</a><br />
-              You're receiving this because you signed up at pawhavenpets.org.
+              You\'re receiving this because you signed up at pawhavenpets.org.
             </div>
           </td>
         </tr>
@@ -174,7 +174,7 @@ export async function GET(req) {
         }),
       });
 
-      // Remove from sorted set so we don't re-send
+      // Remove from sorted set so we don\'t re-send
       await redisZRemRangeByScore('abandoned_carts', cartData.savedAt, cartData.savedAt);
       // Keep cart data in Redis briefly in case they click back
       sent++;

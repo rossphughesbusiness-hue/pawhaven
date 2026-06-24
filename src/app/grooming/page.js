@@ -26,7 +26,7 @@ const TIPS = [
   {
     icon: '🐾',
     title: 'Clean paws after every walk',
-    desc: 'Paws collect bacteria, allergens, and road chemicals. A quick 5-second paw rinse protects floors and your pet's health.',
+    desc: 'Paws collect bacteria, allergens, and road chemicals. A quick 5-second paw rinse protects floors and your pet\'s health.',
   },
   {
     icon: '🛁',
@@ -54,8 +54,8 @@ const FAQS = [
     a: 'A self-cleaning slicker brush has a button that retracts the bristles so collected fur ejects instantly into the trash — no need to pull fur off the brush by hand. This makes grooming sessions faster and much less messy.',
   },
   {
-    q: 'How do I clean my dog's paws without a bath?',
-    a: "A portable paw cleaner is the fastest solution. Fill it with water, insert each paw, twist gently, and the silicone bristles loosen mud and debris in seconds. It's gentle enough for daily use and takes about 5 seconds per paw.",
+    q: 'How do I clean my dog\'s paws without a bath?',
+    a: "A portable paw cleaner is the fastest solution. Fill it with water, insert each paw, twist gently, and the silicone bristles loosen mud and debris in seconds. It\'s gentle enough for daily use and takes about 5 seconds per paw.",
   },
 ];
 
@@ -97,7 +97,7 @@ export default function GroomingPage() {
                 <span className="text-emerald-600">effortless</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Regular grooming isn't just about looks — it's how you keep your pet healthy, comfortable, and bonded to you. Our tools make the routine faster, cleaner, and stress-free for both of you.
+                Regular grooming isn\'t just about looks — it\'s how you keep your pet healthy, comfortable, and bonded to you. Our tools make the routine faster, cleaner, and stress-free for both of you.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link

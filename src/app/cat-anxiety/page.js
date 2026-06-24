@@ -292,7 +292,7 @@ export default function CatAnxietyPage() {
         <section className="bg-purple-600 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🐾 <strong>Vet tip:</strong> The most impactful change for most anxious cats is adding choice — one hideway per room, one perch per cat, resources that don't require passing another cat's territory. Control reduces anxiety faster than any product.
+              🐾 <strong>Vet tip:</strong> The most impactful change for most anxious cats is adding choice — one hideway per room, one perch per cat, resources that don\'t require passing another cat\'s territory. Control reduces anxiety faster than any product.
             </p>
           </div>
         </section>

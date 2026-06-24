@@ -36,7 +36,7 @@ const TIPS = [
   {
     icon: '🦺',
     title: 'Use a Harness, Not a Collar',
-    desc: "Puppies haven't learned leash manners yet. When they pull, a collar concentrates stress on their throat. A step-in harness distributes pressure safely and is easier to size.",
+    desc: "Puppies haven\'t learned leash manners yet. When they pull, a collar concentrates stress on their throat. A step-in harness distributes pressure safely and is easier to size.",
   },
   {
     icon: '🧩',
@@ -165,7 +165,7 @@ export default function PuppiesPage() {
           <div className="prose max-w-3xl mx-auto mb-16">
             <h2 className="text-2xl font-black text-navy-900 mb-4">Puppy Accessories That Make a Real Difference</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              The first 16 weeks of a puppy's life are the most critical for forming healthy habits. The accessories you choose during this period can determine whether your dog grows up calm and well-behaved — or anxious and destructive.
+              The first 16 weeks of a puppy\'s life are the most critical for forming healthy habits. The accessories you choose during this period can determine whether your dog grows up calm and well-behaved — or anxious and destructive.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               A <Link href="/products/maze-slow-feeder-bowl" className="text-brand-500 hover:underline">slow feeder bowl</Link> is the single highest-leverage investment for a new puppy. Beyond bloat prevention, it teaches puppies to pace themselves — a skill that carries into adulthood. Most puppies finish their meal 3–5 times slower with a slow feeder.

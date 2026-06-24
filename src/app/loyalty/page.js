@@ -149,7 +149,7 @@ export default function LoyaltyPage() {
                         <span className="text-brand-500 font-black">{pointsToNext} more points</span> until your $10 reward
                       </div>
                       <div className="text-gray-400 text-sm mt-1">
-                        That's just ${pointsToNext} more spent at PawHaven
+                        That\'s just ${pointsToNext} more spent at PawHaven
                       </div>
                     </div>
                   )}
@@ -184,7 +184,7 @@ export default function LoyaltyPage() {
 
       {/* Already a customer CTA */}
       <section className="py-10 px-4 bg-brand-500 text-white text-center">
-        <p className="font-bold text-lg mb-3">Haven't placed your first order yet?</p>
+        <p className="font-bold text-lg mb-3">Haven\'t placed your first order yet?</p>
         <Link
           href="/products"
           className="inline-block bg-white text-brand-500 font-black px-8 py-3 rounded-full hover:bg-orange-50 transition-colors"

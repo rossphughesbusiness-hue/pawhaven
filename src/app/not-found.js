@@ -14,8 +14,8 @@ export default function NotFound() {
       <h1 className="text-6xl font-black text-navy-900 mb-2">404</h1>
       <h2 className="text-2xl font-bold text-navy-700 mb-3">Oops — this page ran away!</h2>
       <p className="text-gray-500 max-w-md mx-auto mb-10">
-        The page you're looking for doesn't exist (maybe your pet knocked it off the table).
-        Let's get you back on track.
+        The page you\'re looking for doesn\'t exist (maybe your pet knocked it off the table).
+        Let\'s get you back on track.
       </p>
 
       <div className="flex flex-col sm:flex-row gap-3 mb-16">

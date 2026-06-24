@@ -32,8 +32,8 @@ export default function BackInStockForm({ product }) {
       <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-4 flex items-center gap-3">
         <span className="text-xl">✅</span>
         <div>
-          <p className="font-bold text-emerald-800 text-sm">You're on the list!</p>
-          <p className="text-emerald-600 text-xs mt-0.5">We'll email you the moment {product.name} is restocked.</p>
+          <p className="font-bold text-emerald-800 text-sm">You\'re on the list!</p>
+          <p className="text-emerald-600 text-xs mt-0.5">We\'ll email you the moment {product.name} is restocked.</p>
         </div>
       </div>
     );
@@ -44,9 +44,9 @@ export default function BackInStockForm({ product }) {
       <div className="flex items-start gap-3 mb-4">
         <span className="text-2xl">🔔</span>
         <div>
-          <p className="font-bold text-navy-900 text-sm">Get notified when it's back</p>
+          <p className="font-bold text-navy-900 text-sm">Get notified when it\'s back</p>
           <p className="text-gray-500 text-xs mt-0.5">
-            Enter your email and we'll alert you the moment this item is restocked.
+            Enter your email and we\'ll alert you the moment this item is restocked.
           </p>
         </div>
       </div>

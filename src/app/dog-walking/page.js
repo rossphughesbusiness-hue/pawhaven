@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     q: 'Should my dog wear an LED collar at night?',
-    a: "Absolutely. Most dog-related accidents happen at dawn and dusk when visibility is lowest. An LED collar makes your dog visible to drivers from over 500 feet away — compared to just 50 feet for a non-lit dog. It's one of the cheapest, most effective safety upgrades you can make.",
+    a: "Absolutely. Most dog-related accidents happen at dawn and dusk when visibility is lowest. An LED collar makes your dog visible to drivers from over 500 feet away — compared to just 50 feet for a non-lit dog. It\'s one of the cheapest, most effective safety upgrades you can make.",
   },
   {
     q: 'Why use a treat pouch on walks?',

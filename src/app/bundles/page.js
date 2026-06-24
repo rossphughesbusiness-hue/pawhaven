@@ -189,7 +189,7 @@ export default function BundlesPage() {
               },
               {
                 q: 'Are bundle items the same quality as individual listings?',
-                a: "Yes — every bundle item is the same product you'd find in our shop, just at an exclusive bundled price.",
+                a: "Yes — every bundle item is the same product you\'d find in our shop, just at an exclusive bundled price.",
               },
               {
                 q: 'How fast will my bundle arrive?',
@@ -197,7 +197,7 @@ export default function BundlesPage() {
               },
               {
                 q: 'Can I return a bundle item separately?',
-                a: "Yes — each item in your bundle is covered by our standard 30-day return policy. Contact us and we'll sort it out.",
+                a: "Yes — each item in your bundle is covered by our standard 30-day return policy. Contact us and we\'ll sort it out.",
               },
             ].map(({ q, a }) => (
               <div key={q} className="bg-white rounded-2xl p-5 border border-gray-100">

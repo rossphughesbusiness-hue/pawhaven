@@ -101,7 +101,7 @@ export default function SmallDogsPage() {
             Big Care for<br className="hidden sm:block" /> Little Dogs
           </h1>
           <p className="text-lg sm:text-xl text-white/75 max-w-2xl mx-auto mb-8">
-            Small dogs have unique needs — trachea-safe harnesses, shallow feeders, and enrichment sized for tiny paws. Here's what vets actually recommend.
+            Small dogs have unique needs — trachea-safe harnesses, shallow feeders, and enrichment sized for tiny paws. Here\'s what vets actually recommend.
           </p>
           <Link
             href="#products"

@@ -144,13 +144,13 @@ export default function SalePage() {
         <div className="mt-16 bg-gradient-to-r from-red-50 to-orange-50 rounded-3xl p-8 text-center">
           <p className="text-2xl font-black text-navy-900 mb-2">Still looking?</p>
           <p className="text-gray-500 mb-6 text-sm">
-            Take our pet quiz to find the perfect product for your pet's specific needs.
+            Take our pet quiz to find the perfect product for your pet\'s specific needs.
           </p>
           <Link
             href="/quiz"
             className="inline-block bg-brand-500 hover:bg-brand-400 text-white font-bold px-8 py-3 rounded-full transition-colors"
           >
-            ✨ Find My Pet's Perfect Match
+            ✨ Find My Pet\'s Perfect Match
           </Link>
         </div>
       </div>

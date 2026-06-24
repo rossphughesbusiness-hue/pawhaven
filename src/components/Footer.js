@@ -18,7 +18,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-sm">
               Premium accessories for dogs and cats who deserve the best. Every
-              product is hand-picked for quality, safety, and your pet's happiness.
+              product is hand-picked for quality, safety, and your pet\'s happiness.
             </p>
             {/* Trust badges */}
             <div className="flex flex-wrap gap-3">

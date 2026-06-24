@@ -289,7 +289,7 @@ export default function DogHealthPage() {
         <section className="bg-emerald-700 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🏥 <strong>Vet tip:</strong> The most cost-effective thing you can do for your dog's long-term health is brush their teeth. Dental disease is the most common canine health problem — and it's almost entirely preventable. Start at 8 weeks for easiest lifetime compliance.
+              🏥 <strong>Vet tip:</strong> The most cost-effective thing you can do for your dog\'s long-term health is brush their teeth. Dental disease is the most common canine health problem — and it\'s almost entirely preventable. Start at 8 weeks for easiest lifetime compliance.
             </p>
           </div>
         </section>

@@ -103,7 +103,7 @@ function buildEmail({ headline, subheadline, body, ctaText, ctaUrl, coupon, coup
             <p style="margin:0;font-size:11px;color:#94a3b8;line-height:1.7;">
               © ${new Date().getFullYear()} PawHaven ·
               <a href="${BASE}" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a><br>
-              You're receiving this because you subscribed to PawHaven updates.
+              You\'re receiving this because you subscribed to PawHaven updates.
             </p>
           </td>
         </tr>

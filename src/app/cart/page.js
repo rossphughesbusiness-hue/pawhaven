@@ -273,7 +273,7 @@ export default function CartPage() {
           <div className="text-7xl mb-6">🛒</div>
           <h1 className="text-3xl font-black text-navy-900 mb-3">Your cart is empty</h1>
           <p className="text-gray-500 mb-8">
-            Looks like you haven't added anything yet. Your pet is waiting!
+            Looks like you haven\'t added anything yet. Your pet is waiting!
           </p>
           <Link
             href="/products"
@@ -319,7 +319,7 @@ export default function CartPage() {
             {amountToFreeShipping === 0 && subtotal > 0 && (
               <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-4 mb-6">
                 <p className="text-emerald-700 text-sm font-semibold">
-                  🎉 You've unlocked free shipping!
+                  🎉 You\'ve unlocked free shipping!
                 </p>
               </div>
             )}

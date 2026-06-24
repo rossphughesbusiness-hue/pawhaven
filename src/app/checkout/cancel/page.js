@@ -11,7 +11,7 @@ export default function CancelPage() {
         <div className="text-7xl mb-6">🛒</div>
         <h1 className="text-4xl font-black text-navy-900 mb-3">No worries!</h1>
         <p className="text-gray-500 mb-8">
-          Your cart is still saved. Head back whenever you're ready to complete your order.
+          Your cart is still saved. Head back whenever you\'re ready to complete your order.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link

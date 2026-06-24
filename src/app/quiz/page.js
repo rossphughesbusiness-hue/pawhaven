@@ -31,7 +31,7 @@ const STEPS = [
   },
   {
     id: 'goal',
-    question: "What's your biggest priority right now?",
+    question: "What\'s your biggest priority right now?",
     emoji: '🎯',
     options: [
       { value: 'health', label: 'Better Health & Eating', emoji: '🥗' },
@@ -50,7 +50,7 @@ const STEPS = [
   },
   {
     id: 'budget',
-    question: "What's your budget?",
+    question: "What\'s your budget?",
     emoji: '💰',
     options: [
       { value: 'low', label: 'Under $25', emoji: '💵' },
@@ -227,7 +227,7 @@ function EmailGate({ answers, onSubmit }) {
             Your results are ready!
           </h2>
           <p className="text-gray-500 leading-relaxed">
-            We found the perfect picks for your <strong className="text-navy-900">{petLabel}</strong> focused on <strong className="text-navy-900">{goalLabel}</strong>. Enter your email to see them — we'll also send you a copy so you can revisit anytime.
+            We found the perfect picks for your <strong className="text-navy-900">{petLabel}</strong> focused on <strong className="text-navy-900">{goalLabel}</strong>. Enter your email to see them — we\'ll also send you a copy so you can revisit anytime.
           </p>
         </div>
 
@@ -245,7 +245,7 @@ function EmailGate({ answers, onSubmit }) {
           />
           {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
           <p className="text-xs text-gray-400 mb-5">
-            We'll also send you a 10% off code. No spam, unsubscribe any time.
+            We\'ll also send you a 10% off code. No spam, unsubscribe any time.
           </p>
           <button
             type="submit"
@@ -317,7 +317,7 @@ export default function QuizPage() {
               Perfect picks for {petLabel}!
             </h1>
             <p className="text-gray-500">
-              Based on your answers, here's what we'd recommend:
+              Based on your answers, here\'s what we\'d recommend:
             </p>
           </div>
 

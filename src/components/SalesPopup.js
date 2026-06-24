@@ -40,7 +40,7 @@ export default function SalesPopup() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Don't show immediately — wait a bit so page loads first
+    // Don\'t show immediately — wait a bit so page loads first
     const initialDelay = setTimeout(() => {
       show();
     }, 8000);

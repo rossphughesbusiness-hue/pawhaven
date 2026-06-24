@@ -36,7 +36,7 @@ const PREP_TIPS = [
   {
     icon: '🧸',
     title: 'Bring familiar scents',
-    desc: "A pet's own blanket or toy in the carrier provides massive comfort. The familiar smell reduces stress hormones measurably.",
+    desc: "A pet\'s own blanket or toy in the carrier provides massive comfort. The familiar smell reduces stress hormones measurably.",
   },
 ];
 
@@ -47,11 +47,11 @@ const FAQS = [
   },
   {
     q: 'Are cat carrier backpacks safe for airlines?',
-    a: "Yes — many cat carrier backpacks are designed to fit under airline seats and qualify as personal items on most major carriers. Always check your specific airline's pet policy before flying. Cats should be able to stand, turn around, and lie down comfortably in the carrier.",
+    a: "Yes — many cat carrier backpacks are designed to fit under airline seats and qualify as personal items on most major carriers. Always check your specific airline\'s pet policy before flying. Cats should be able to stand, turn around, and lie down comfortably in the carrier.",
   },
   {
     q: 'How often should I stop on a road trip with a pet?',
-    a: "Every 2–3 hours is ideal for both dogs and cats. Dogs need bathroom breaks and stretching; cats benefit from a check-in and water offer even if they don't move much. Never leave a pet unattended in a parked car — temperatures rise dangerously fast even on mild days.",
+    a: "Every 2–3 hours is ideal for both dogs and cats. Dogs need bathroom breaks and stretching; cats benefit from a check-in and water offer even if they don\'t move much. Never leave a pet unattended in a parked car — temperatures rise dangerously fast even on mild days.",
   },
   {
     q: 'What should I pack in a travel kit for my pet?',
@@ -97,7 +97,7 @@ export default function TravelPage() {
                 <span className="text-orange-600">stress-free</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                The right gear turns chaotic car trips and vet visits into smooth, comfortable experiences for your pet. Whether you're road-tripping across states or just heading to the park, these are the essentials that make travel better for both of you.
+                The right gear turns chaotic car trips and vet visits into smooth, comfortable experiences for your pet. Whether you\'re road-tripping across states or just heading to the park, these are the essentials that make travel better for both of you.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link

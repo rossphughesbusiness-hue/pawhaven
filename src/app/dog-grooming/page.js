@@ -199,7 +199,7 @@ export default function DogGroomingPage() {
         <section className="py-12 px-4 bg-amber-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-bold text-center text-navy-900 mb-2">The 4 Areas of Dog Grooming</h2>
-            <p className="text-gray-500 text-center mb-8 text-sm">Each area has different tools, technique, and frequency — here's what to know</p>
+            <p className="text-gray-500 text-center mb-8 text-sm">Each area has different tools, technique, and frequency — here\'s what to know</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {groomingTypes.map(({ icon, type, desc }) => (
                 <div key={type} className="bg-white rounded-2xl p-5 shadow-sm border border-amber-100 text-center">
@@ -318,7 +318,7 @@ export default function DogGroomingPage() {
         <section className="bg-amber-700 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🐾 <strong>Vet tip:</strong> Regular at-home grooming isn't just about appearance — it's preventive healthcare. Monthly checks for lumps, skin changes, and ear or dental issues caught during grooming visits are more likely to be found by owners than at annual vet appointments.
+              🐾 <strong>Vet tip:</strong> Regular at-home grooming isn\'t just about appearance — it\'s preventive healthcare. Monthly checks for lumps, skin changes, and ear or dental issues caught during grooming visits are more likely to be found by owners than at annual vet appointments.
             </p>
           </div>
         </section>

@@ -79,7 +79,7 @@ export function CartProvider({ children }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, items: state.items }),
       }).catch(() => {});
-    }, 2000); // debounce 2s so rapid changes don't spam the API
+    }, 2000); // debounce 2s so rapid changes don\'t spam the API
 
     return () => clearTimeout(timer);
   }, [state.items]);

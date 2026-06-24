@@ -167,7 +167,7 @@ export default function DogEnrichmentPage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-5xl mb-4">🧠</div>
             <h1 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
-              Tire Out Your Dog's<br />
+              Tire Out Your Dog\'s<br />
               <span className="text-emerald-200">Brain, Not Just Their Legs</span>
             </h1>
             <p className="text-emerald-100 text-lg max-w-2xl mx-auto mb-8">
@@ -299,7 +299,7 @@ export default function DogEnrichmentPage() {
         <section className="bg-emerald-600 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🧠 <strong>Vet tip:</strong> The #1 predictor of destructive dog behavior isn't lack of exercise — it's lack of mental stimulation. A physically tired but mentally bored dog will still chew your furniture.
+              🧠 <strong>Vet tip:</strong> The #1 predictor of destructive dog behavior isn\'t lack of exercise — it\'s lack of mental stimulation. A physically tired but mentally bored dog will still chew your furniture.
             </p>
           </div>
         </section>

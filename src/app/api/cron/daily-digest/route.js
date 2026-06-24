@@ -1,11 +1,11 @@
 /**
  * GET /api/cron/daily-digest
- * Runs daily at 07:00 UTC. Sends Ross a morning email with yesterday's
+ * Runs daily at 07:00 UTC. Sends Ross a morning email with yesterday\'s
  * business performance: revenue, orders, AOV, new subscribers, page views,
  * abandoned carts, and top-viewed product.
  *
  * Data sources:
- *  - Stripe: payment_intents (yesterday's succeeded charges)
+ *  - Stripe: payment_intents (yesterday\'s succeeded charges)
  *  - Upstash Redis: page views (views:{slug} keys), abandoned carts (cart_recovery:*)
  *  - Resend: audience contact count
  */
@@ -61,7 +61,7 @@ async function getRedisStats() {
   if (!url || !token) return { views: 0, abandonedCarts: 0, topProduct: null };
 
   try {
-    // Total page views (all-time key, we'll show it as "total")
+    // Total page views (all-time key, we\'ll show it as "total")
     const viewRes = await fetch(`${url}/get/${encodeURIComponent('views:total')}`, {
       headers: { Authorization: `Bearer ${token}` }, cache: 'no-store',
     });

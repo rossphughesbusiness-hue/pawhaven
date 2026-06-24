@@ -1,6 +1,6 @@
 /**
  * Meta (Facebook/Instagram) Product Catalog Feed
- * Format: CSV (Meta's preferred format for simple catalogs)
+ * Format: CSV (Meta\'s preferred format for simple catalogs)
  * Submit this URL in Meta Commerce Manager → Catalog → Data Sources → Feed
  * URL: https://pawhavenpets.org/api/feed/meta-catalog
  *

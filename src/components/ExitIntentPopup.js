@@ -117,7 +117,7 @@ export default function ExitIntentPopup({ onApplyCoupon }) {
                 Get 10% off your first order
               </h2>
               <p className="text-orange-100 text-sm mt-1.5">
-                Enter your email and we'll send your discount code instantly.
+                Enter your email and we\'ll send your discount code instantly.
               </p>
             </>
           ) : (
@@ -153,14 +153,14 @@ export default function ExitIntentPopup({ onApplyCoupon }) {
                 {submitting ? 'Sending…' : 'Get My 10% Off →'}
               </button>
               <p className="text-center text-xs text-gray-400 leading-relaxed">
-                We'll also send you new arrivals and exclusive deals. Unsubscribe anytime.
+                We\'ll also send you new arrivals and exclusive deals. Unsubscribe anytime.
               </p>
               <button
                 type="button"
                 onClick={dismiss}
                 className="w-full text-center text-xs text-gray-400 hover:text-gray-600 transition-colors py-1"
               >
-                No thanks, I'll pay full price
+                No thanks, I\'ll pay full price
               </button>
             </form>
           ) : (
@@ -192,14 +192,14 @@ export default function ExitIntentPopup({ onApplyCoupon }) {
               )}
 
               <p className="text-center text-xs text-gray-400 leading-relaxed">
-                Applies to your first order. Can't be combined with other offers.
+                Applies to your first order. Can\'t be combined with other offers.
               </p>
 
               <button
                 onClick={dismiss}
                 className="w-full text-center text-xs text-gray-400 hover:text-gray-600 transition-colors py-1"
               >
-                No thanks, I'll pay full price
+                No thanks, I\'ll pay full price
               </button>
             </>
           )}

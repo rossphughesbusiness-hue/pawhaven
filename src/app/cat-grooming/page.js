@@ -167,7 +167,7 @@ export default function CatGroomingPage() {
         <section className="py-12 px-4 bg-teal-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-bold text-center text-navy-900 mb-2">The 4 Areas of Cat Grooming</h2>
-            <p className="text-gray-500 text-center mb-8 text-sm">Each area has different tools, technique, and frequency — here's the overview</p>
+            <p className="text-gray-500 text-center mb-8 text-sm">Each area has different tools, technique, and frequency — here\'s the overview</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {groomingTypes.map(({ icon, type, desc }) => (
                 <div key={type} className="bg-white rounded-2xl p-5 shadow-sm border border-teal-100 text-center">
@@ -284,7 +284,7 @@ export default function CatGroomingPage() {
         <section className="bg-teal-700 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🐾 <strong>Vet tip:</strong> Regular grooming isn't just cosmetic — it's preventive healthcare. Brushing distributes skin oils, reduces hairballs, and gives you weekly contact with your cat's skin and coat so you can catch lumps, parasites, or sore spots early.
+              🐾 <strong>Vet tip:</strong> Regular grooming isn\'t just cosmetic — it\'s preventive healthcare. Brushing distributes skin oils, reduces hairballs, and gives you weekly contact with your cat\'s skin and coat so you can catch lumps, parasites, or sore spots early.
             </p>
           </div>
         </section>

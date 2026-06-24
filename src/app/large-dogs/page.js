@@ -167,7 +167,7 @@ export default function LargeDogsPage() {
         <section className="py-12 px-4 bg-amber-50">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold text-center text-navy-900 mb-2">Breed Size Guide</h2>
-            <p className="text-center text-gray-500 text-sm mb-6">Find the right gear tier for your dog's weight class</p>
+            <p className="text-center text-gray-500 text-sm mb-6">Find the right gear tier for your dog\'s weight class</p>
             <div className="overflow-x-auto rounded-2xl border border-amber-100">
               <table className="w-full text-sm bg-white">
                 <thead className="bg-amber-800 text-white">

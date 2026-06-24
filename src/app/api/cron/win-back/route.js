@@ -84,14 +84,14 @@ function buildWinBackEmail(customerName) {
           <td style="background:linear-gradient(135deg,#1a2b4a,#2d3f6b);padding:32px 40px;text-align:center;">
             <div style="font-size:36px;margin-bottom:6px;">🐾</div>
             <div style="color:#ffffff;font-size:22px;font-weight:800;">We miss you, ${firstName}!</div>
-            <div style="color:rgba(255,255,255,0.75);font-size:14px;margin-top:4px;">It's been a while — here's a treat to bring you back</div>
+            <div style="color:rgba(255,255,255,0.75);font-size:14px;margin-top:4px;">It\'s been a while — here\'s a treat to bring you back</div>
           </td>
         </tr>
 
         <tr>
           <td style="padding:36px 40px;text-align:center;">
             <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
-              We haven't seen you in a bit and we wanted to check in on you — and your pet! As a welcome-back gift, here's <strong style="color:#f97316;">15% off your next order</strong>:
+              We haven\'t seen you in a bit and we wanted to check in on you — and your pet! As a welcome-back gift, here\'s <strong style="color:#f97316;">15% off your next order</strong>:
             </p>
 
             <!-- Coupon -->
@@ -143,7 +143,7 @@ function buildWinBackEmail(customerName) {
             <p style="margin:0;font-size:11px;color:#94a3b8;line-height:1.7;">
               © ${new Date().getFullYear()} PawHaven ·
               <a href="${BASE}" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a><br>
-              You're receiving this because you're a valued PawHaven customer.
+              You\'re receiving this because you\'re a valued PawHaven customer.
             </p>
           </td>
         </tr>
@@ -165,7 +165,7 @@ async function sendWinBackEmail({ to, customerName }) {
     body: JSON.stringify({
       from: 'PawHaven <orders@pawhavenpets.org>',
       to: [to],
-      subject: `We miss you, ${(customerName || '').split(' ')[0] || 'friend'}! Here's 15% off 🐾`,
+      subject: `We miss you, ${(customerName || '').split(' ')[0] || 'friend'}! Here\'s 15% off 🐾`,
       html,
     }),
   });
@@ -196,7 +196,7 @@ export async function GET(req) {
     // Remove from queue first (re-added on next purchase)
     await redisZRem('winback_queue', email);
 
-    // Check if they've bought recently (loyalty key updated on each purchase)
+    // Check if they\'ve bought recently (loyalty key updated on each purchase)
     const loyalty = await redisGet(`loyalty:${email}`);
     if (loyalty?.lastPurchase && now - loyalty.lastPurchase < 43 * 24 * 60 * 60 * 1000) {
       // Bought within the last 43 days — skip, queue them again 45 days from now

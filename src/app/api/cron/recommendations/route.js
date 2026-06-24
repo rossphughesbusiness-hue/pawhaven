@@ -6,7 +6,7 @@
  * Logic:
  * - Pull due emails from rec_queue (sorted set, score = send timestamp)
  * - Load what they bought (rec_pending:{email})
- * - Find top-rated products they HAVEN'T bought yet, biased toward complementary categories
+ * - Find top-rated products they HAVEN\'T bought yet, biased toward complementary categories
  * - Send personalized HTML email with 3 product picks
  * - 90-day cooldown per email (rec_sent:{email})
  */
@@ -198,7 +198,7 @@ function buildRecommendationEmail(customerName, recommendations) {
             <p style="margin:0;font-size:11px;color:#94a3b8;line-height:1.7;">
               © ${new Date().getFullYear()} PawHaven ·
               <a href="${BASE}" style="color:#f97316;text-decoration:none;">pawhavenpets.org</a><br>
-              You're receiving this because you made a purchase at PawHaven.
+              You\'re receiving this because you made a purchase at PawHaven.
             </p>
           </td>
         </tr>
@@ -249,7 +249,7 @@ export async function GET(req) {
   for (const email of due) {
     await redisZRem('rec_queue', email);
 
-    // 90-day cooldown — don't bombard repeat buyers
+    // 90-day cooldown — don\'t bombard repeat buyers
     const alreadySent = await redisGet(`rec_sent:${email}`);
     if (alreadySent) { skipped++; continue; }
 

@@ -123,13 +123,13 @@ export default function ContactPage() {
         {/* Contact form */}
         <div className="bg-white rounded-3xl border border-gray-100 p-8 sm:p-10">
           <h2 className="text-2xl font-black text-navy-900 mb-2">Still need help?</h2>
-          <p className="text-gray-500 text-sm mb-8">Send us a message and we'll get back to you within 24 hours.</p>
+          <p className="text-gray-500 text-sm mb-8">Send us a message and we\'ll get back to you within 24 hours.</p>
 
           {status === 'done' ? (
             <div className="text-center py-8">
               <div className="text-4xl mb-3">✅</div>
               <p className="font-bold text-navy-900 text-lg">Message sent!</p>
-              <p className="text-gray-500 text-sm mt-1">We'll reply to {form.email} within 24 hours.</p>
+              <p className="text-gray-500 text-sm mt-1">We\'ll reply to {form.email} within 24 hours.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">

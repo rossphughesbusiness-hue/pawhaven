@@ -160,7 +160,7 @@ export default function UpsellPage() {
             Wait — customers who bought this also grabbed…
           </h1>
           <p className="text-gray-500">
-            Add this to your order at a special 20% discount. You won't see this price anywhere else.
+            Add this to your order at a special 20% discount. You won\'t see this price anywhere else.
           </p>
         </div>
 

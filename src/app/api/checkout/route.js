@@ -44,9 +44,9 @@ export async function POST(req) {
       };
     });
 
-    // Build fulfillment metadata: store each cart item's supplier info as a
+    // Build fulfillment metadata: store each cart item\'s supplier info as a
     // numbered key so the webhook can create the CJDropshipping order.
-    // Each value stays well under Stripe's 500-char-per-key limit.
+    // Each value stays well under Stripe\'s 500-char-per-key limit.
     const fulfillmentMeta = { item_count: String(items.length) };
     items.forEach((item, idx) => {
       fulfillmentMeta[`item_${idx}`] = JSON.stringify({

@@ -175,7 +175,7 @@ export default function SizeGuide({ type }) {
                 <a href="mailto:support@pawhavenpets.org" className="text-brand-500 font-semibold hover:underline">
                   Email us
                 </a>{' '}
-                and we'll help you pick the right size.
+                and we\'ll help you pick the right size.
               </p>
             </div>
           </div>

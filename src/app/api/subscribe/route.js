@@ -117,10 +117,10 @@ const WELCOME_HTML = `<!DOCTYPE html>
         <tr>
           <td style="padding:36px 40px;">
             <p style="margin:0 0 20px;font-size:18px;font-weight:700;color:#1a2b4a;">
-              Here's your exclusive discount 🎉
+              Here\'s your exclusive discount 🎉
             </p>
             <p style="margin:0 0 28px;font-size:15px;color:#64748b;line-height:1.6;">
-              Thanks for joining PawHaven! As a welcome gift, here's 10% off your entire first order:
+              Thanks for joining PawHaven! As a welcome gift, here\'s 10% off your entire first order:
             </p>
 
             <!-- Coupon block -->
@@ -131,7 +131,7 @@ const WELCOME_HTML = `<!DOCTYPE html>
             </div>
 
             <p style="margin:0 0 28px;font-size:15px;color:#64748b;line-height:1.6;">
-              Just enter <strong style="color:#1a2b4a;">WELCOME10</strong> at checkout and the discount will apply automatically. It doesn't expire, so use it whenever you're ready.
+              Just enter <strong style="color:#1a2b4a;">WELCOME10</strong> at checkout and the discount will apply automatically. It doesn\'t expire, so use it whenever you\'re ready.
             </p>
 
             <!-- CTA -->

@@ -72,7 +72,7 @@ export default function EmailPopup() {
           {status === 'done' ? (
             <div className="text-center py-4">
               <div className="text-4xl mb-3">🎉</div>
-              <p className="font-bold text-navy-900 text-lg">You're in!</p>
+              <p className="font-bold text-navy-900 text-lg">You\'re in!</p>
               <p className="text-gray-500 text-sm mt-1">
                 Use code{' '}
                 <span className="font-black text-orange-500 tracking-wider">WELCOME10</span>
@@ -82,7 +82,7 @@ export default function EmailPopup() {
           ) : (
             <>
               <p className="text-gray-600 text-sm text-center mb-5">
-                Enter your email and we'll send you an exclusive discount code — plus early access to new arrivals and pet care tips.
+                Enter your email and we\'ll send you an exclusive discount code — plus early access to new arrivals and pet care tips.
               </p>
               <form onSubmit={handleSubmit} className="space-y-3">
                 <input
@@ -108,7 +108,7 @@ export default function EmailPopup() {
                 onClick={dismiss}
                 className="w-full text-center text-xs text-gray-400 hover:text-gray-600 mt-3 transition-colors"
               >
-                No thanks, I'll pay full price
+                No thanks, I\'ll pay full price
               </button>
             </>
           )}

@@ -82,7 +82,7 @@ const vetTips = [
   {
     icon: '😌',
     title: 'Never Punish — Redirect Instead',
-    desc: "Kittens don't respond to punishment — it creates fear without changing the behavior. When they scratch furniture or play-bite, redirect immediately to an appropriate toy or scratching surface. Praise and reward the redirect.",
+    desc: "Kittens don\'t respond to punishment — it creates fear without changing the behavior. When they scratch furniture or play-bite, redirect immediately to an appropriate toy or scratching surface. Praise and reward the redirect.",
   },
 ];
 
@@ -150,7 +150,7 @@ export default function KittensPage() {
             <div className="text-5xl mb-4">🐱</div>
             <h1 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
               New Kitten?<br />
-              <span className="text-purple-200">Here's What They Actually Need</span>
+              <span className="text-purple-200">Here\'s What They Actually Need</span>
             </h1>
             <p className="text-purple-100 text-lg max-w-2xl mx-auto mb-8">
               Vet-approved essentials for the first month — from a safe hideaway to play gear that develops healthy habits. Skip the overwhelm and start with what works.
@@ -167,7 +167,7 @@ export default function KittensPage() {
         <section className="py-12 px-4 bg-purple-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-bold text-center text-navy-900 mb-2">First Month Checklist</h2>
-            <p className="text-gray-500 text-center text-sm mb-8">Staged so you don't overwhelm your kitten (or yourself)</p>
+            <p className="text-gray-500 text-center text-sm mb-8">Staged so you don\'t overwhelm your kitten (or yourself)</p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {weeklyChecklist.map(({ week, icon, items }) => (
                 <div key={week} className="bg-white rounded-2xl p-5 shadow-sm border border-purple-100">
@@ -281,7 +281,7 @@ export default function KittensPage() {
         <section className="bg-purple-600 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🐱 <strong>Vet tip:</strong> Book your kitten's first vet visit within 48–72 hours of bringing them home — not because something is wrong, but to establish a health baseline before they're exposed to the rest of your environment.
+              🐱 <strong>Vet tip:</strong> Book your kitten\'s first vet visit within 48–72 hours of bringing them home — not because something is wrong, but to establish a health baseline before they\'re exposed to the rest of your environment.
             </p>
           </div>
         </section>

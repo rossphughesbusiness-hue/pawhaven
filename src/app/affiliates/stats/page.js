@@ -59,7 +59,7 @@ function StatsContent() {
       <div className="max-w-md mx-auto text-center py-20 px-4">
         <div className="text-5xl mb-4">❓</div>
         <h1 className="text-2xl font-black text-navy-900 mb-3">Code Not Found</h1>
-        <p className="text-gray-500 mb-4">The code <strong>{code}</strong> wasn't found. Check your approval email for the correct code.</p>
+        <p className="text-gray-500 mb-4">The code <strong>{code}</strong> wasn\'t found. Check your approval email for the correct code.</p>
         <Link href="/affiliates" className="text-brand-500 font-bold hover:underline">Back to affiliate program →</Link>
       </div>
     );

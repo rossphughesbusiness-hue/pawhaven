@@ -48,7 +48,7 @@ const features = [
   {
     icon: '🌍',
     title: 'Sourced Globally, Tested Locally',
-    desc: "We source from the world's best manufacturers and test every product personally before we sell it.",
+    desc: "We source from the world\'s best manufacturers and test every product personally before we sell it.",
   },
   {
     icon: '💚',
@@ -63,7 +63,7 @@ const testimonials = [
     city: 'Austin, TX',
     pet: 'Golden Retriever Mom',
     stars: 5,
-    text: "My dog used to inhale his food so fast he'd get sick every week. PawHaven's slow feeder completely fixed it. It's become part of our daily routine — he actually enjoys meals now!",
+    text: "My dog used to inhale his food so fast he\'d get sick every week. PawHaven\'s slow feeder completely fixed it. It\'s become part of our daily routine — he actually enjoys meals now!",
     product: 'Maze Slow Feeder Bowl',
     emoji: '🥣',
   },
@@ -72,7 +72,7 @@ const testimonials = [
     city: 'Denver, CO',
     pet: 'Anxious Pup Parent',
     stars: 5,
-    text: "The lick mat is a MIRACLE. My dog has severe storm anxiety. Now I smear peanut butter on this mat during thunder and she's completely calm. Wish I found it years ago.",
+    text: "The lick mat is a MIRACLE. My dog has severe storm anxiety. Now I smear peanut butter on this mat during thunder and she\'s completely calm. Wish I found it years ago.",
     product: 'Calming Lick Mat',
     emoji: '🐾',
   },
@@ -81,7 +81,7 @@ const testimonials = [
     city: 'Seattle, WA',
     pet: 'Urban Dog Owner',
     stars: 5,
-    text: "The LED collar gives me peace of mind on every nighttime walk. Cars actually slow down now. Holds charge for 4 nights. My dog barely notices he's wearing it.",
+    text: "The LED collar gives me peace of mind on every nighttime walk. Cars actually slow down now. Holds charge for 4 nights. My dog barely notices he\'s wearing it.",
     product: 'SafeGlow LED Collar',
     emoji: '✨',
   },
@@ -272,7 +272,7 @@ export default function HomePage() {
                 href="/quiz"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-full text-lg border border-white/20 transition-all duration-200 hover:-translate-y-0.5"
               >
-                ✨ Find My Pet's Match
+                ✨ Find My Pet\'s Match
               </Link>
             </div>
 
@@ -476,7 +476,7 @@ export default function HomePage() {
               Why Pet Owners Choose Us
             </h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">
-              We're pet owners too. We only sell what we'd give our own animals.
+              We\'re pet owners too. We only sell what we\'d give our own animals.
             </p>
           </div>
 

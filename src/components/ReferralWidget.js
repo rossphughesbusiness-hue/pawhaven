@@ -7,7 +7,7 @@ const BASE_URL = 'https://pawhavenpets.org';
 
 /**
  * Shown on the success page.
- * Derives the customer's referral code from the Stripe session ID and renders
+ * Derives the customer\'s referral code from the Stripe session ID and renders
  * a shareable link + copy / social share buttons.
  */
 export default function ReferralWidget() {

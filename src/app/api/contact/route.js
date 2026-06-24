@@ -68,7 +68,7 @@ export async function POST(req) {
             <p style="color:#9ca3af;margin:0;font-size:14px">Our team typically replies within 24 hours</p>
           </div>
           <div style="background:#ffffff;padding:28px 32px;border:1px solid #e5e7eb;border-top:none">
-            <p style="color:#374151;margin:0 0 16px 0">Here's a copy of what you sent us:</p>
+            <p style="color:#374151;margin:0 0 16px 0">Here\'s a copy of what you sent us:</p>
             <div style="background:#f9fafb;border-left:3px solid #f97316;padding:14px 16px;border-radius:4px;font-size:13px;color:#6b7280;font-style:italic;line-height:1.6">"${preview}"</div>
             <div style="margin:24px 0 0 0;background:#fff7ed;border-radius:10px;padding:16px 20px">
               <p style="margin:0 0 8px 0;font-weight:700;color:#c2410c;font-size:13px">While you wait…</p>

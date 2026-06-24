@@ -64,7 +64,7 @@ export default function AffiliatesPage() {
             Earn <span className="text-emerald-400 font-bold">15% commission</span> on every sale you refer. Your audience saves 10%. Free products for all accepted affiliates.
           </p>
           <a href="#apply" className="inline-block bg-brand-500 hover:bg-brand-400 text-white font-bold text-base px-8 py-4 rounded-full transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5">
-            Apply Now — It's Free →
+            Apply Now — It\'s Free →
           </a>
         </div>
       </section>
@@ -138,8 +138,8 @@ export default function AffiliatesPage() {
             <div className="text-center bg-emerald-50 border border-emerald-200 rounded-3xl p-12">
               <div className="text-5xl mb-4">🎉</div>
               <h3 className="text-2xl font-black text-navy-900 mb-3">Application Received!</h3>
-              <p className="text-gray-600 mb-2">We'll review your application and email you within 48 hours.</p>
-              <p className="text-gray-400 text-sm">Check your spam folder if you don't hear back.</p>
+              <p className="text-gray-600 mb-2">We\'ll review your application and email you within 48 hours.</p>
+              <p className="text-gray-400 text-sm">Check your spam folder if you don\'t hear back.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="bg-gray-50 rounded-3xl p-8 border border-gray-100 space-y-5">
@@ -223,7 +223,7 @@ export default function AffiliatesPage() {
                   rows={3}
                   value={form.why}
                   onChange={e => setForm(f => ({ ...f, why: e.target.value }))}
-                  placeholder="Tell us about your audience, your pets, or content you've made that performed well…"
+                  placeholder="Tell us about your audience, your pets, or content you\'ve made that performed well…"
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm bg-white resize-none"
                 />
               </div>

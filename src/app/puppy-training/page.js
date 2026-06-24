@@ -57,7 +57,7 @@ const trainingMethods = [
     method: 'Crate Training',
     summary: 'Build a safe, calm space',
     desc: 'Crates are not punishment — they become a den where puppies feel safe. Introduce the crate with the door open, high-value treats inside, and never force your puppy in. Progress to closing the door only after your puppy enters voluntarily. Most puppies adapt within a week.',
-    tip: 'A lick mat with frozen peanut butter inside the crate extends your puppy's calm crate time and associates it with reward.',
+    tip: 'A lick mat with frozen peanut butter inside the crate extends your puppy\'s calm crate time and associates it with reward.',
   },
   {
     icon: '🦮',
@@ -212,7 +212,7 @@ export default function PuppyTrainingPage() {
         <section className="py-12 px-4 bg-amber-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-bold text-center text-gray-900 mb-2">The 4 Core Puppy Training Methods</h2>
-            <p className="text-gray-500 text-center text-sm mb-8">Master these and you've covered 90% of what your puppy needs to learn</p>
+            <p className="text-gray-500 text-center text-sm mb-8">Master these and you\'ve covered 90% of what your puppy needs to learn</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {trainingMethods.map(({ icon, method, summary, desc, tip }) => (
                 <div key={method} className="bg-white rounded-2xl p-5 shadow-sm border border-amber-100">
@@ -340,7 +340,7 @@ export default function PuppyTrainingPage() {
         <section className="bg-amber-600 text-white py-8 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg font-semibold">
-              🎓 <strong>Vet tip:</strong> The #1 mistake new puppy owners make isn't using the wrong command — it's waiting too long to start. Every week past 8 weeks that passes without training is a week of unintentional habits being reinforced.
+              🎓 <strong>Vet tip:</strong> The #1 mistake new puppy owners make isn\'t using the wrong command — it\'s waiting too long to start. Every week past 8 weeks that passes without training is a week of unintentional habits being reinforced.
             </p>
           </div>
         </section>

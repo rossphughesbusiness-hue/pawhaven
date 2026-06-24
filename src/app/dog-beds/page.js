@@ -115,7 +115,7 @@ export default function DogBedsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-5xl mb-4">🛏️</div>
             <h1 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
-              Dog Beds They'll<br />
+              Dog Beds They\'ll<br />
               <span className="text-yellow-300">Actually Sleep In</span>
             </h1>
             <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-8">

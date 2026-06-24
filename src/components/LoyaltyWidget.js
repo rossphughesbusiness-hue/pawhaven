@@ -6,7 +6,7 @@ import { useSearchParams } from 'next/navigation';
 const NEXT_REWARD_AT = 100;
 
 /**
- * Shown on the success page. Fetches the customer's PawPoints balance
+ * Shown on the success page. Fetches the customer\'s PawPoints balance
  * from Redis (via /api/loyalty) using the email from the Stripe session.
  */
 export default function LoyaltyWidget() {

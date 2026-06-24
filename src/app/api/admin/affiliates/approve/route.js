@@ -69,7 +69,7 @@ export async function POST(req) {
       body: JSON.stringify({
         from: 'PawHaven <orders@pawhavenpets.org>',
         to: [email],
-        subject: `🎉 You're in! Your PawHaven affiliate code is ${code}`,
+        subject: `🎉 You\'re in! Your PawHaven affiliate code is ${code}`,
         html: `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"></head>
@@ -87,7 +87,7 @@ export async function POST(req) {
         <tr>
           <td style="padding:36px 40px;">
             <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
-              You've been approved! Here's everything you need to start earning <strong>${commissionPct}% commission</strong> on every sale you refer.
+              You\'ve been approved! Here\'s everything you need to start earning <strong>${commissionPct}% commission</strong> on every sale you refer.
             </p>
 
             <!-- Code box -->

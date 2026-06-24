@@ -23,7 +23,7 @@ async function getCJToken() {
 }
 
 /**
- * Fetch CJ product variants and attempt to match the customer's selected
+ * Fetch CJ product variants and attempt to match the customer\'s selected
  * variant options (color, size, etc.). Falls back to the first variant.
  */
 async function resolveVariantId(pid, selectedVariants, token) {
@@ -148,8 +148,8 @@ function buildConfirmationEmail({ customerName, orderRef, sessionId, lineItems, 
               Thanks for your order, ${customerName}! 🎉
             </p>
             <p style="margin:0 0 28px;font-size:15px;color:#64748b;line-height:1.6;">
-              We've received your payment and your order is on its way to our fulfillment team.
-              You'll receive a shipping update once your package is on the move.
+              We\'ve received your payment and your order is on its way to our fulfillment team.
+              You\'ll receive a shipping update once your package is on the move.
             </p>
 
             <!-- Order ref + track button -->
@@ -262,7 +262,7 @@ async function sendLoyaltyRewardEmail({ to, customerName, pointsEarned }) {
         <tr>
           <td style="padding:36px 40px;text-align:center;">
             <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
-              Amazing, ${firstName}! 🎉 You've reached <strong style="color:#1a2b4a;">100 PawPoints</strong> and unlocked a <strong style="color:#f97316;">$10 discount</strong> on your next order. Use this code at checkout:
+              Amazing, ${firstName}! 🎉 You\'ve reached <strong style="color:#1a2b4a;">100 PawPoints</strong> and unlocked a <strong style="color:#f97316;">$10 discount</strong> on your next order. Use this code at checkout:
             </p>
             <div style="background:#fffbeb;border:2px dashed #f59e0b;border-radius:14px;padding:20px 30px;margin:0 auto 28px;display:inline-block;">
               <div style="font-size:11px;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Your Reward Code</div>
@@ -333,7 +333,7 @@ async function sendReferralRewardEmail({ to, friendName }) {
         <tr>
           <td style="padding:36px 40px;text-align:center;">
             <p style="margin:0 0 24px;font-size:16px;color:#64748b;line-height:1.7;">
-              Great news — <strong style="color:#1a2b4a;">${friendName || 'Your friend'}</strong> just completed their first PawHaven order using your referral link. As a thank-you, here's <strong>10% off</strong> your next order!
+              Great news — <strong style="color:#1a2b4a;">${friendName || 'Your friend'}</strong> just completed their first PawHaven order using your referral link. As a thank-you, here\'s <strong>10% off</strong> your next order!
             </p>
             <div style="background:#fff7ed;border:2px dashed #fed7aa;border-radius:14px;padding:20px 30px;margin:0 auto 28px;display:inline-block;">
               <div style="font-size:11px;font-weight:700;color:#9a3412;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Your Reward Code</div>
@@ -705,7 +705,7 @@ export async function POST(req) {
 
   // ── Referral: store mapping + send reward to referrer ────────────────────────
   if (customerEmail) {
-    // Derive this customer's own referral code from the session ID
+    // Derive this customer\'s own referral code from the session ID
     const myRefCode = session.id.replace(/^cs_(test|live)_/, '').slice(0, 8).toUpperCase();
     try {
       await redisSave(`referral:${myRefCode}`, { email: customerEmail }, 365 * 24 * 60 * 60);

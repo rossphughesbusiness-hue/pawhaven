@@ -285,11 +285,11 @@ function OrderTrackingInner() {
 
         {/* Helper text */}
         <div style={{ textAlign: 'center', marginTop: 24, fontSize: 13, color: '#94a3b8' }}>
-          Can't find your order?{' '}
+          Can\'t find your order?{' '}
           <Link href="/contact" style={{ color: '#f97316', textDecoration: 'none', fontWeight: 600 }}>
             Contact us
           </Link>{' '}
-          and we'll help right away.
+          and we\'ll help right away.
         </div>
       </div>
     </div>

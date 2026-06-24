@@ -122,7 +122,7 @@ export default function IndoorCatsPage() {
       {/* What they need */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-black text-navy-900 text-center mb-10">The 4 Things Indoor Cats Need (That Most Don't Get)</h2>
+          <h2 className="text-2xl font-black text-navy-900 text-center mb-10">The 4 Things Indoor Cats Need (That Most Don\'t Get)</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {NEEDS.map((n) => (
               <div key={n.title} className="flex gap-4 bg-gray-50 rounded-2xl p-5 border border-gray-100">

@@ -79,7 +79,7 @@ export async function POST(req) {
           <td style="background:linear-gradient(135deg,#1a2b4a,#2d3f6b);padding:32px 40px;text-align:center;">
             <div style="font-size:36px;margin-bottom:6px;">🐾</div>
             <div style="color:#ffffff;font-size:22px;font-weight:800;">Application Received, ${name.split(' ')[0]}!</div>
-            <div style="color:rgba(255,255,255,0.75);font-size:14px;margin-top:4px;">We'll review and respond within 48 hours</div>
+            <div style="color:rgba(255,255,255,0.75);font-size:14px;margin-top:4px;">We\'ll review and respond within 48 hours</div>
           </td>
         </tr>
         <tr>
@@ -96,7 +96,7 @@ export async function POST(req) {
               </table>
             </div>
             <p style="margin:0 0 24px;font-size:14px;color:#64748b;line-height:1.7;">
-              If approved, you'll receive your unique affiliate link, discount code, and a free product bundle to kick off your partnership.
+              If approved, you\'ll receive your unique affiliate link, discount code, and a free product bundle to kick off your partnership.
             </p>
             <div style="text-align:center;">
               <a href="${BASE}/affiliates" style="display:inline-block;background:#f97316;color:#ffffff;font-weight:800;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
@@ -164,7 +164,7 @@ export async function POST(req) {
             </p>` : ''}
 
             <div style="background:#0f172a;border-radius:8px;padding:14px 16px;">
-              <div style="font-size:10px;color:#475569;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Manual approval (if button doesn't work)</div>
+              <div style="font-size:10px;color:#475569;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Manual approval (if button doesn\'t work)</div>
               <code style="font-size:11px;color:#64748b;word-break:break-all;">curl -X POST ${BASE}/api/admin/affiliates/approve -H "Authorization: Bearer YOUR_ADMIN_SECRET" -H "Content-Type: application/json" -d '{"email":"${email}","name":"${name}","commissionPct":15}'</code>
             </div>
           </td>

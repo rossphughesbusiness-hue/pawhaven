@@ -88,7 +88,7 @@ export default function DogsPage({ searchParams }) {
               Everything Your Dog Deserves
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg">
-              Vet-recommended accessories built to improve your dog's health, safety, and happiness — whether they're a pup or a senior.
+              Vet-recommended accessories built to improve your dog\'s health, safety, and happiness — whether they\'re a pup or a senior.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -101,7 +101,7 @@ export default function DogsPage({ searchParams }) {
                 href="/quiz"
                 className="bg-white/10 hover:bg-white/20 text-white font-bold px-7 py-3.5 rounded-full border border-white/20 transition-all backdrop-blur-sm"
               >
-                🎯 Find My Dog's Perfect Match
+                🎯 Find My Dog\'s Perfect Match
               </Link>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function DogsPage({ searchParams }) {
             </p>
             <p>
               Not sure what your dog needs? Take our <Link href="/quiz" className="text-brand-500 font-semibold hover:underline">2-minute pet quiz</Link> and
-              we'll match them with their perfect accessories — based on their size, breed type, and your priorities.
+              we\'ll match them with their perfect accessories — based on their size, breed type, and your priorities.
             </p>
           </div>
         </div>
