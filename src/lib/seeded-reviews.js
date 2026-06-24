@@ -851,3 +851,7 @@ export const SEEDED_REVIEWS = {
     },
   ],
 };
+
+export function getSeededReviews(slug) {
+  return SEEDED_REVIEWS[slug] || [];
+}

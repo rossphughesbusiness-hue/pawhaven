@@ -1,4 +1,5 @@
-import FAQClient, { FAQ } from './FAQClient';
+import FAQClient from './FAQClient';
+import { FAQ } from './faq-data';
 
 export const metadata = {
   title: 'FAQ — Shipping, Returns & Product Questions | PawHaven',
