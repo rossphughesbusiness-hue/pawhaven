@@ -42,6 +42,16 @@ export default function PurchaseEvents() {
             currency,
           });
         }
+
+        // ── Google Ads conversion event ──
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'conversion', {
+            send_to: 'AW-18269545115/xQLDCO7Og8UcEJvFzIdE',
+            value: parseFloat(total),
+            currency,
+            transaction_id: orderId,
+          });
+        }
       })
       .catch(() => {});
   }, [sessionId]);
