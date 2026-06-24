@@ -4498,7 +4498,6 @@ Common houseplants widely owned and routinely toxic: pothos, philodendron, dieff
 Act before symptoms appear. By the time a pet shows clinical signs of poisoning, absorption is often well underway. Call ASPCA Poison Control (888-426-4435) or your vet with: the substance name, estimated amount ingested, and your pet\'s weight. Do not induce vomiting without instruction — for acids, alkalis, and petroleum products it causes additional damage. The best outcome always starts with an early call.
     `,
   },
-,
   {
     slug: 'best-no-pull-harness-for-large-dogs-2026',
     title: 'Best No-Pull Harness for Large Dogs 2026',
