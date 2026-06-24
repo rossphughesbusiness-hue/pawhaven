@@ -41,7 +41,9 @@ export const metadata = {
   ],
   verification: {
     google: 'ey1uN2nerFau2k3XHR8AHIyw-3BxoYf0nk2pF1mSctA',
-    other: { 'p:domain_verify': ['d5ab5f89a0a24e3ff917e5ae0f4c8fb0'] },
+  },
+  other: {
+    'p:domain_verify': 'd5ab5f89a0a24e3ff917e5ae0f4c8fb0',
   },
   openGraph: {
     title: 'PawHaven — Your Pet Deserves the Best',
