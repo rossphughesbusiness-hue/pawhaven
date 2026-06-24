@@ -36,9 +36,9 @@ function productToItem(product) {
   const price = product.price.toFixed(2);
   const comparePrice = product.comparePrice ? product.comparePrice.toFixed(2) : null;
   const category = GOOGLE_CATEGORY[product.category] || GOOGLE_CATEGORY.Dogs;
-  const gtin = product.supplierProductId
-    ? `<g:gtin>${escapeXml(product.supplierProductId)}</g:gtin>`
-    : '';
+  const realSupplierId = product.supplierProductId && !String(product.supplierProductId).startsWith('cj-placeholder')
+    ? product.supplierProductId : null;
+  const gtin = realSupplierId ? `<g:gtin>${escapeXml(realSupplierId)}</g:gtin>` : '';
   const salePrice = comparePrice
     ? `<g:sale_price>${price} USD</g:sale_price>\n    <g:price>${comparePrice} USD</g:price>`
     : `<g:price>${price} USD</g:price>`;
