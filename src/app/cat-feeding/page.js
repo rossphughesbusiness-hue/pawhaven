@@ -127,12 +127,25 @@ const faqJsonLd = {
   })),
 };
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'Cat Feeding', item: 'https://pawhavenpets.org/cat-feeding' },
+  ],
+};
+
 export default function CatFeedingPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <div className="min-h-screen bg-white">

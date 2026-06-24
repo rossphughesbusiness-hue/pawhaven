@@ -68,6 +68,15 @@ const faqJsonLd = {
   ],
 };
 
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pawhavenpets.org' },
+    { '@type': 'ListItem', position: 2, name: 'New Arrivals', item: 'https://pawhavenpets.org/new-arrivals' },
+  ],
+};
+
 export default function NewArrivalsPage() {
   const newProducts = NEW_SLUGS.map((slug) =>
     products.find((p) => p.slug === slug)
@@ -78,6 +87,10 @@ export default function NewArrivalsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       {/* ─── HERO ─── */}
