@@ -631,7 +631,7 @@ export const products = [
     badge: null,
     badgeColor: null,
     image: IMGS.laserToy,
-    images: [IMGS.laserToy, `${AE}/S16eae996e29648bf9abe0a98dc29ebcfY.jpg`, `${AE}/Sf7ceec2b7a0f4c1280f6eb03d68a1a7cI.jpg`],
+    images: ['https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=600&q=85&fm=jpg&fit=crop', `${AE}/S16eae996e29648bf9abe0a98dc29ebcfY.jpg`, `${AE}/Sf7ceec2b7a0f4c1280f6eb03d68a1a7cI.jpg`],
     emoji: '🔴',
     stock: 167,
     soldCount: 3540,

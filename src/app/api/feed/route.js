@@ -13,6 +13,12 @@ const GOOGLE_CATEGORY = {
 const CONDITION = 'new';
 const AVAILABILITY = 'in stock';
 
+// Force JPEG on Unsplash URLs — Merchant Center requires JPEG/PNG/GIF
+function forceJpeg(url) {
+  if (!url || !url.includes('unsplash.com')) return url;
+  return url.replace(/auto=format/g, 'fm=jpg').replace(/&fm=jpg&fm=jpg/g, '&fm=jpg');
+}
+
 function escapeXml(str) {
   if (!str) return '';
   return String(str)
@@ -25,8 +31,8 @@ function escapeXml(str) {
 
 function productToItem(product) {
   const url = `${BASE}/products/${product.slug}`;
-  const imageLink = product.images?.[0] || product.image || '';
-  const additionalImages = (product.images || []).slice(1, 4);
+  const imageLink = forceJpeg(product.images?.[0] || product.image || '');
+  const additionalImages = (product.images || []).slice(1, 4).map(forceJpeg);
   const price = product.price.toFixed(2);
   const comparePrice = product.comparePrice ? product.comparePrice.toFixed(2) : null;
   const category = GOOGLE_CATEGORY[product.category] || GOOGLE_CATEGORY.Dogs;
