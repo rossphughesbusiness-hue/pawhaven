@@ -148,6 +148,19 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
+        {/* ── Pinterest Tag ── */}
+        <Script id="pinterest-tag-init" strategy="afterInteractive">
+          {`
+            !function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var n=window.pintrk;n.queue=[],n.version="3.0";var t=document.createElement("script");t.async=!0,t.src=e;var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+            pintrk('load','2613953406633',{np:"sc"});
+            pintrk('page');
+          `}
+        </Script>
+        <noscript>
+          <img height="1" width="1" style={{display:'none'}} alt=""
+            src="https://ct.pinterest.com/v3/?event=init&tid=2613953406633&noscript=1" />
+        </noscript>
+
         {/* ── TikTok Pixel ── */}
         {TIKTOK_PIXEL_ID && (
           <Script id="tiktok-pixel-init" strategy="afterInteractive">
