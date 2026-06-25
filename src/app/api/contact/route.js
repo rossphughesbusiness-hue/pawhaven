@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import Stripe from 'stripe';
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
@@ -43,8 +42,8 @@ COMMON QUESTIONS & ANSWERS:
 Q: Where is my order?
 A: Direct them to pawhavenpets.org/order-tracking. Orders ship within 1-2 business days, then take 7-15 business days to arrive. If they have an order ID in their message, reference it.
 
-Q: How do I return something?
-A: 30-day window from delivery. Email support@pawhavenpets.org with order ID. Mail item back. Refund within 5 business days. No questions asked, no restocking fee.
+Q: How do I return something / request a refund?
+A: Direct them to pawhavenpets.org/refund — our self-service refund form. Orders under $50 placed within 30 days are refunded automatically in minutes. Larger orders are reviewed within 1–2 business days. They need their order ID (from confirmation email) and the email they ordered with.
 
 Q: What payment methods do you accept?
 A: All major credit/debit cards and PayPal via Stripe's secure checkout.
@@ -115,40 +114,6 @@ Respond in this exact JSON format (no markdown, just raw JSON):
   } catch {
     console.error('[contact] Claude returned non-JSON:', text);
     return null;
-  }
-}
-
-// ─── Stripe refund ─────────────────────────────────────────────────────────────
-
-async function issueStripeRefund(orderId) {
-  const stripeKey = process.env.STRIPE_SECRET_KEY;
-  if (!stripeKey || !orderId) return { success: false, reason: 'missing credentials or order ID' };
-
-  try {
-    const stripe = new Stripe(stripeKey);
-
-    // Search for the payment intent by metadata or recent charges
-    // Order IDs in PawHaven are the last 12 chars of payment_intent uppercased
-    // We search recent payment intents to find a match
-    const paymentIntents = await stripe.paymentIntents.list({ limit: 100 });
-    const match = paymentIntents.data.find(
-      (pi) => pi.id.slice(-12).toUpperCase() === orderId.toUpperCase() ||
-               (pi.metadata?.order_id || '').toUpperCase() === orderId.toUpperCase()
-    );
-
-    if (!match) return { success: false, reason: `No payment intent found for order ${orderId}` };
-
-    // Only auto-refund if amount is under $40
-    const amountUsd = match.amount / 100;
-    if (amountUsd > 40) {
-      return { success: false, reason: `Order value $${amountUsd.toFixed(2)} exceeds $40 auto-refund threshold` };
-    }
-
-    const refund = await stripe.refunds.create({ payment_intent: match.id });
-    return { success: true, refundId: refund.id, amount: amountUsd };
-  } catch (err) {
-    console.error('[contact] Stripe refund error:', err.message);
-    return { success: false, reason: err.message };
   }
 }
 
@@ -244,22 +209,12 @@ export async function POST(req) {
 
     const category = triage?.category || 'ESCALATE';
     const shouldEscalate = !triage || category === 'ESCALATE' || category === 'COMPLAINT';
-    let refundIssued = false;
 
-    // ── Auto-refund for RETURN_REFUND under $40 ───────────────────────────────
-    if (category === 'RETURN_REFUND' && triage?.orderId) {
-      const refundResult = await issueStripeRefund(triage.orderId);
-      if (refundResult.success) {
-        refundIssued = true;
-        console.log(`[contact] Auto-refunded order ${triage.orderId}: $${refundResult.amount}`);
-        // Append refund confirmation to reply
-        if (triage.reply) {
-          triage.reply += '\n\nGreat news — we\'ve already processed your refund automatically. You\'ll see it back on your card within 3-5 business days. No need to ship anything back for orders under $40!';
-        }
-      } else {
-        console.log(`[contact] Auto-refund skipped for ${triage.orderId}: ${refundResult.reason}`);
-        shouldEscalate === false; // still send AI reply, just no auto-refund
-      }
+    // ── RETURN_REFUND: direct to self-service refund page ────────────────────
+    // Refunds are handled by /api/refund (with Stripe auto-approve + Redis logging).
+    // Override the AI reply to send them to the self-service form.
+    if (category === 'RETURN_REFUND') {
+      triage.reply = `Hi ${name},\n\nThanks for reaching out! To get your refund started as quickly as possible, please use our self-service refund form at pawhavenpets.org/refund — you'll just need your order ID (from your confirmation email) and the email you ordered with.\n\nOrders under $50 placed within 30 days are refunded automatically within minutes. Larger orders are reviewed within 1–2 business days. You'll receive an email confirmation either way.\n\nThe PawHaven Team`;
     }
 
     // ── Send AI reply to customer ─────────────────────────────────────────────
@@ -269,7 +224,7 @@ export async function POST(req) {
         to: [email],
         reply_to: 'support@pawhavenpets.org',
         subject: `Re: Your message to PawHaven 🐾`,
-        html: customerReplyHtml(name, triage.reply, category, refundIssued),
+        html: customerReplyHtml(name, triage.reply, category, false),
       });
     } else {
       // Fallback generic reply if AI failed

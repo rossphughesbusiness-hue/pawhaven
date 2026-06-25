@@ -118,6 +118,7 @@ export default function Footer() {
                 { href: '/loyalty', label: '🏆 PawPoints Rewards' },
                 { href: '/affiliates', label: '🤝 Affiliate Program' },
                 { href: '/legal/refund', label: 'Shipping & Returns' },
+                { href: '/refund', label: '↩️ Refund Request' },
                 { href: 'mailto:support@pawhavenpets.org', label: 'support@pawhavenpets.org' },
               ].map((link) => (
                 <li key={link.label}>

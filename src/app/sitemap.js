@@ -262,6 +262,12 @@ export default function sitemap() {
     ...productUrls,
     ...blogUrls,
     {
+      url: `${BASE}/refund`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
       url: `${BASE}/faq`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

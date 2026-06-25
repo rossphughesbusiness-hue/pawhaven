@@ -23,6 +23,10 @@
     {
       "path": "/api/cron/transit-upsell",
       "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/cron/blog-generator",
+      "schedule": "0 6 * * 2"
     }
   ]
 }

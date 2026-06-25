@@ -97,7 +97,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
           {[
             { icon: '📦', title: 'Track Your Order', desc: 'Check your shipment status in real time.', href: '/order-tracking' },
-            { icon: '↩️', title: 'Start a Return', desc: 'We offer 30-day hassle-free returns.', href: '/legal/refund' },
+            { icon: '↩️', title: 'Request a Refund', desc: 'Start your return in 60 seconds.', href: '/refund' },
             { icon: '✉️', title: 'Email Support', desc: 'support@pawhavenpets.org', href: 'mailto:support@pawhavenpets.org' },
           ].map((item) => (
             <div key={item.title} className="bg-white rounded-2xl p-6 border border-gray-100 text-center">
