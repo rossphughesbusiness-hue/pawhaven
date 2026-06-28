@@ -1,30 +1,40 @@
+import { Redis } from '@upstash/redis';
+
+export const runtime = 'nodejs';
+
 export async function POST(req) {
   try {
-    const { type, id, name } = await req.json();
-    if (!type || !id) return new Response('ok', { status: 200 });
+    const body = await req.json();
+    const { type, id, name, path } = body;
 
-    const url = process.env.UPSTASH_REDIS_REST_URL;
-    const token = process.env.UPSTASH_REDIS_REST_TOKEN;
-    if (!url || !token) return new Response('ok', { status: 200 });
+    const redis = new Redis({
+      url: process.env.UPSTASH_REDIS_REST_URL,
+      token: process.env.UPSTASH_REDIS_REST_TOKEN,
+    });
 
     const today = new Date().toISOString().slice(0, 10);
 
-    // Increment total views and daily views for this product
-    await Promise.all([
-      fetch(`${url}/hincrby/product:${id}/views/1`, {
-        headers: { Authorization: `Bearer ${token}` },
-      }),
-      fetch(`${url}/zincrby/daily:${today}/1/${id}`, {
-        headers: { Authorization: `Bearer ${token}` },
-      }),
-      // Store product name for display
-      fetch(`${url}/hset/product:${id}/name/${encodeURIComponent(name || id)}`, {
-        headers: { Authorization: `Bearer ${token}` },
-      }),
-    ]);
+    if (type === 'product_view' && id) {
+      // Product-level tracking
+      await Promise.all([
+        redis.hincrby(`product:${id}`, 'views', 1),
+        redis.zincrby(`daily:${today}`, 1, String(id)),
+        redis.hset(`product:${id}`, { name: name || String(id) }),
+      ]);
+    }
+
+    if (type === 'pageview' && path) {
+      // Site-wide page view tracking
+      await Promise.all([
+        redis.incr('pageviews:total'),
+        redis.incr(`pageviews:daily:${today}`),
+        redis.zincrby('pageviews:pages', 1, path),
+      ]);
+    }
 
     return new Response('ok', { status: 200 });
-  } catch {
+  } catch (err) {
+    console.error('[track] error:', err);
     return new Response('ok', { status: 200 });
   }
 }
