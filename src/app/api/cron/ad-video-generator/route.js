@@ -297,26 +297,51 @@ async function uploadToR2(videoUrl, slug, month) {
   if (!videoRes.ok) throw new Error('Failed to download video from Runway');
   const videoBuffer = await videoRes.arrayBuffer();
 
-  // S3-compatible upload to Cloudflare R2
+  // S3-compatible upload to Cloudflare R2 via AWS Signature v4
   const key = `ad-videos/${month}/${slug}.mp4`;
   const endpoint = `https://${accountId}.r2.cloudflarestorage.com`;
+  const url = `${endpoint}/${bucket}/${key}`;
 
-  // Use AWS-compatible S3 PUT (simplified — no SDK needed for a single PUT)
-  // For production, use @aws-sdk/client-s3 or the aws4 package for proper signing
-  const { S3Client, PutObjectCommand } = await import('@aws-sdk/client-s3');
-  const s3 = new S3Client({
-    region: 'auto',
-    endpoint,
-    credentials: { accessKeyId, secretAccessKey: secretKey },
+  // Build AWS Signature v4 manually (no SDK dependency needed)
+  const now = new Date();
+  const dateStr = now.toISOString().replace(/[:-]|\.\d{3}/g, '').slice(0, 15) + 'Z';
+  const dateShort = dateStr.slice(0, 8);
+  const region = 'auto';
+  const service = 's3';
+
+  const body = Buffer.from(videoBuffer);
+  const { createHash, createHmac } = await import('node:crypto');
+  const payloadHash = createHash('sha256').update(body).digest('hex');
+
+  const headers = {
+    'content-type': 'video/mp4',
+    'host': `${accountId}.r2.cloudflarestorage.com`,
+    'x-amz-content-sha256': payloadHash,
+    'x-amz-date': dateStr,
+  };
+
+  const signedHeaders = Object.keys(headers).sort().join(';');
+  const canonicalHeaders = Object.keys(headers).sort().map(k => `${k}:${headers[k]}\n`).join('');
+  const canonicalRequest = ['PUT', `/${bucket}/${key}`, '', canonicalHeaders, signedHeaders, payloadHash].join('\n');
+  const credentialScope = `${dateShort}/${region}/${service}/aws4_request`;
+  const stringToSign = ['AWS4-HMAC-SHA256', dateStr, credentialScope, createHash('sha256').update(canonicalRequest).digest('hex')].join('\n');
+
+  const hmac = (key, data) => createHmac('sha256', key).update(data).digest();
+  const signingKey = hmac(hmac(hmac(hmac(`AWS4${secretKey}`, dateShort), region), service), 'aws4_request');
+  const signature = createHmac('sha256', signingKey).update(stringToSign).digest('hex');
+
+  const authHeader = `AWS4-HMAC-SHA256 Credential=${accessKeyId}/${credentialScope}, SignedHeaders=${signedHeaders}, Signature=${signature}`;
+
+  const uploadRes = await fetch(url, {
+    method: 'PUT',
+    headers: { ...headers, 'Authorization': authHeader, 'Cache-Control': 'public, max-age=31536000' },
+    body,
   });
 
-  await s3.send(new PutObjectCommand({
-    Bucket: bucket,
-    Key: key,
-    Body: Buffer.from(videoBuffer),
-    ContentType: 'video/mp4',
-    CacheControl: 'public, max-age=31536000',
-  }));
+  if (!uploadRes.ok) {
+    const errText = await uploadRes.text();
+    throw new Error(`R2 upload failed ${uploadRes.status}: ${errText}`);
+  }
 
   return `${publicUrl}/${key}`;
 }

@@ -25,10 +25,6 @@
       "schedule": "0 9 * * *"
     },
     {
-      "path": "/api/cron/blog-generator",
-      "schedule": "0 6 * * 2"
-    },
-    {
       "path": "/api/cron/ad-video-generator",
       "schedule": "0 7 * * 0"
     }
