@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Outdoor Cat Accessories 2026 — Safety Gear for Cats That Go Outside | PawHaven',
-  description: 'Shop vet-approved outdoor cat accessories for cats that go outside. Safety collars, GPS trackers, enrichment toys, grooming tools, and window perches for adventurous cats.',
+  description: 'Shop expert-curated outdoor cat accessories for cats that go outside. Safety collars, GPS trackers, enrichment toys, grooming tools, and window perches for adventurous cats.',
   alternates: { canonical: 'https://pawhavenpets.org/outdoor-cats' },
   openGraph: {
     title: 'Outdoor Cat Accessories 2026 | PawHaven',
@@ -141,7 +141,7 @@ export default function OutdoorCatsPage() {
               Cats that go outside need more than luck — they need ID tags, the right gear, and enrichment that satisfies their adventurous instincts safely.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '🏷️ ID & tracking', '🌿 Enrichment gear', '📦 Free shipping $50+'].map(b => (
+              {['🔬 Expert-reviewed', '🏷️ ID & tracking', '🌿 Enrichment gear', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>

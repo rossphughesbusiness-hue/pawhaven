@@ -4,7 +4,7 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Best Products for Senior Dogs (7+) — PawHaven',
-  description: 'Vet-recommended accessories for aging dogs: orthopedic beds, slow feeders, joint-friendly harnesses, and calming products. Free shipping over $50.',
+  description: 'Expert-recommended accessories for aging dogs: orthopedic beds, slow feeders, joint-friendly harnesses, and calming products. Free shipping over $50.',
   alternates: { canonical: 'https://pawhavenpets.org/senior-dogs' },
   openGraph: {
     title: 'Best Products for Senior Dogs — PawHaven',
@@ -120,7 +120,7 @@ export default function SeniorDogsPage() {
       <section id="products" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">Vet-Approved</p>
+            <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">Expert-Curated</p>
             <h2 className="text-3xl sm:text-4xl font-black text-navy-900 mb-4">Top Picks for Senior Dogs</h2>
             <p className="text-gray-500 max-w-xl mx-auto">
               Every product selected for joint health, digestive support, and comfort — the areas senior dogs need most.

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Best Cat Food Bowls 2026 — Slow Feeders, Puzzle Bowls & Lick Mats | PawHaven',
-  description: 'How to slow feed a cat safely, choose the best cat food bowls, and use a cat puzzle feeder to prevent vomiting and bloat. Vet-backed feeding guide for every life stage.',
+  description: 'How to slow feed a cat safely, choose the best cat food bowls, and use a cat puzzle feeder to prevent vomiting and bloat. Research-backed feeding guide for every life stage.',
   alternates: { canonical: 'https://pawhavenpets.org/cat-feeding' },
   openGraph: {
     title: 'Cat Feeding Done Right 2026 | PawHaven',
@@ -158,10 +158,10 @@ export default function CatFeedingPage() {
               <span className="text-violet-200">Slow, Enriching, Healthy</span>
             </h1>
             <p className="text-violet-100 text-lg max-w-2xl mx-auto mb-8">
-              Portion control, slow feeding, hydration, and meal timing — the vet-backed feeding playbook for every life stage. Plus the best cat food bowls and puzzle feeders to stop vomiting and support healthy weight.
+              Portion control, slow feeding, hydration, and meal timing — the research-backed feeding playbook for every life stage. Plus the best cat food bowls and puzzle feeders to stop vomiting and support healthy weight.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🏅 Vet-backed tips', '🐾 All life stages', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🏅 Research-backed tips', '🐾 All life stages', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -269,7 +269,7 @@ export default function CatFeedingPage() {
         {/* Vet tips */}
         <section className="py-12 px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">4 Vet-Backed Cat Feeding Tips</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">4 Research-Backed Cat Feeding Tips</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {vetTips.map(({ tip, why }) => (
                 <div key={tip} className="bg-violet-50 rounded-2xl p-5 border border-violet-100 shadow-sm flex gap-3">

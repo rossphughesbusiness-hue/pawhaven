@@ -4,7 +4,7 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Best Products for Anxious Pets — Calming Dog & Cat Accessories | PawHaven',
-  description: 'Vet-recommended calming products for anxious dogs and cats. Lick mats, puzzle feeders, orthopedic beds, and enrichment toys that reduce stress naturally.',
+  description: 'Expert-recommended calming products for anxious dogs and cats. Lick mats, puzzle feeders, orthopedic beds, and enrichment toys that reduce stress naturally.',
   alternates: { canonical: 'https://pawhavenpets.org/anxiety' },
   openGraph: {
     title: 'Calming Products for Anxious Pets — PawHaven',
@@ -94,7 +94,7 @@ export default function AnxietyPage() {
             Calm Your Anxious Pet<br className="hidden sm:block" /> Naturally
           </h1>
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Drug-free, vet-approved products that reduce stress and anxiety in dogs and cats through enrichment, comfort, and natural calming mechanisms.
+            Drug-free, expert-curated products that reduce stress and anxiety in dogs and cats through enrichment, comfort, and natural calming mechanisms.
           </p>
           <Link
             href="#products"
@@ -127,7 +127,7 @@ export default function AnxietyPage() {
       <section id="products" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-purple-500 font-bold text-sm uppercase tracking-widest mb-3">Vet-Recommended</p>
+            <p className="text-purple-500 font-bold text-sm uppercase tracking-widest mb-3">Expert-Recommended</p>
             <h2 className="text-3xl sm:text-4xl font-black text-navy-900 mb-4">Top Calming Products</h2>
             <p className="text-gray-500 max-w-xl mx-auto">
               Chosen for their clinically-backed calming mechanisms — no supplements, no side effects.

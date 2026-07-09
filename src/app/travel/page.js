@@ -5,7 +5,7 @@ import { products } from '@/lib/products';
 export const metadata = {
   title: 'Best Pet Travel Accessories for Dogs & Cats (2026) | PawHaven',
   description:
-    'Stress-free travel with your pet starts with the right gear. Waterproof car hammocks, collapsible travel bowls, and airline-approved cat carrier backpacks — all vet-approved.',
+    'Stress-free travel with your pet starts with the right gear. Waterproof car hammocks, collapsible travel bowls, and airline-approved cat carrier backpacks — all expert-curated.',
   alternates: { canonical: 'https://pawhavenpets.org/travel' },
   openGraph: {
     title: 'Best Pet Travel Accessories 2026 | PawHaven',
@@ -125,7 +125,7 @@ export default function TravelPage() {
                 { n: '67%', label: 'of pet owners travel with pets' },
                 { n: '2 min', label: 'Car hammock install time' },
                 { n: 'Airline ✓', label: 'Carrier backpack approved' },
-                { n: '4.8★', label: 'Average traveler rating' },
+                { n: '5/5', label: 'Satisfaction Guarantee' },
               ].map((s) => (
                 <div key={s.label}>
                   <div className="text-2xl font-black">{s.n}</div>

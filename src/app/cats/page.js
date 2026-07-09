@@ -8,7 +8,7 @@ export const metadata = {
   alternates: { canonical: 'https://pawhavenpets.org/cats' },
   openGraph: {
     title: 'Premium Cat Accessories — PawHaven',
-    description: 'Everything your cat deserves — vet-approved accessories for health, enrichment, and comfort.',
+    description: 'Everything your cat deserves — expert-curated accessories for health, enrichment, and comfort.',
     url: 'https://pawhavenpets.org/cats',
     type: 'website',
   },
@@ -26,7 +26,7 @@ const CATEGORIES = [
 ];
 
 const HIGHLIGHTS = [
-  { icon: '🩺', title: 'Vet-Recommended', desc: 'Cat health is our priority — every product is vetted.' },
+  { icon: '🩺', title: 'Expert-Recommended', desc: 'Cat health is our priority — every product is vetted.' },
   { icon: '🚚', title: 'Free Shipping',   desc: 'Free on all orders over $50. Arrives in 7–14 days.' },
   { icon: '↩️', title: '30-Day Returns',  desc: 'If your cat isn\'t impressed, neither is your bill.' },
   { icon: '😸', title: 'Cat-Approved',    desc: 'Tested by real cats (and their very opinionated owners).' },

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Large Dog Accessories & Gear for Big Breeds 2026 | PawHaven',
-  description: 'The best large dog accessories and gear for big breeds. Orthopedic beds, heavy-duty toys, and pro-grade leashes built for dogs 50 lbs and up. Vet-reviewed.',
+  description: 'The best large dog accessories and gear for big breeds. Orthopedic beds, heavy-duty toys, and pro-grade leashes built for dogs 50 lbs and up. Expert-reviewed.',
   alternates: { canonical: 'https://pawhavenpets.org/large-dogs' },
   openGraph: {
     title: 'Best Products for Large Breeds 2026 | PawHaven',
@@ -141,7 +141,7 @@ export default function LargeDogsPage() {
               <span className="text-yellow-300">Big Dogs</span>
             </h1>
             <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-8">
-              Large dog accessories engineered for strength, joint health, and long-term durability. Every product is size-rated and vet-reviewed for breeds 50 lbs and up.
+              Large dog accessories engineered for strength, joint health, and long-term durability. Every product is size-rated and expert-reviewed for breeds 50 lbs and up.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
               {['🦴 Joint-support bedding', '💪 Heavy-duty toys', '🐾 Big-breed leashes', '📦 Free shipping $50+'].map(b => (
@@ -212,7 +212,7 @@ export default function LargeDogsPage() {
         <section className="py-14 px-4 bg-amber-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top Picks for Large Breeds</h2>
-            <p className="text-gray-500 text-center mb-10">Size-rated, vet-reviewed, and built to last</p>
+            <p className="text-gray-500 text-center mb-10">Size-rated, expert-reviewed, and built to last</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link

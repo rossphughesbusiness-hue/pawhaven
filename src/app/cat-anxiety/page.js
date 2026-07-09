@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Cat Anxiety Relief 2026 — Calming Products for Stressed Cats | PawHaven',
-  description: 'Vet-approved calming products for anxious cats. Lick mats, cave beds, and enrichment tools that reduce stress, hiding, overgrooming, and litter box avoidance.',
+  description: 'Expert-curated calming products for anxious cats. Lick mats, cave beds, and enrichment tools that reduce stress, hiding, overgrooming, and litter box avoidance.',
   alternates: { canonical: 'https://pawhavenpets.org/cat-anxiety' },
   openGraph: {
     title: 'Cat Anxiety Relief 2026 | PawHaven',
@@ -170,10 +170,10 @@ export default function CatAnxietyPage() {
               <span className="text-purple-200">for Anxious Cats</span>
             </h1>
             <p className="text-purple-100 text-lg max-w-2xl mx-auto mb-8">
-              Cats hide stress better than any pet — and suffer more for it. Vet-recommended hideaways, lick mats, and enrichment tools that address the root causes of feline anxiety.
+              Cats hide stress better than any pet — and suffer more for it. Expert-recommended hideaways, lick mats, and enrichment tools that address the root causes of feline anxiety.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '🐾 Cat-specific', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🔬 Expert-reviewed', '🐾 Cat-specific', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -219,7 +219,7 @@ export default function CatAnxietyPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top Calming Products for Cats</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-recommended tools for stressed, anxious, and reactive cats</p>
+            <p className="text-gray-500 text-center mb-10">Expert-recommended tools for stressed, anxious, and reactive cats</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link

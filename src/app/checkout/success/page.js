@@ -71,7 +71,7 @@ export default function SuccessPage() {
           <p className="text-xs font-bold text-brand-500 uppercase tracking-widest mb-2">While you wait…</p>
           <h2 className="text-2xl font-black text-navy-900">Treat them to a little more 🐾</h2>
           <p className="text-gray-500 text-sm mt-2">
-            Our best-sellers — loved by 10,000+ pet owners.
+            Our best-sellers — loved by pet owners across the country.
           </p>
         </div>
 

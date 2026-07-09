@@ -187,7 +187,7 @@ function buildRecommendationEmail(customerName, recommendations) {
             <!-- Social proof nudge -->
             <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;text-align:center;">
               <div style="font-size:13px;color:#166534;font-weight:600;">
-                ⭐ Join 10,000+ happy pet owners — free shipping on orders over $50
+                ⭐ Join growing community of pet owners — free shipping on orders over $50
               </div>
             </div>
           </td>

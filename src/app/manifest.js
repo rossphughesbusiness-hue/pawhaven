@@ -2,7 +2,7 @@ export default function manifest() {
   return {
     name: 'PawHaven — Premium Pet Accessories',
     short_name: 'PawHaven',
-    description: 'Shop vet-recommended pet accessories for dogs and cats. Free shipping over $50.',
+    description: 'Shop expert-recommended pet accessories for dogs and cats. Free shipping over $50.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

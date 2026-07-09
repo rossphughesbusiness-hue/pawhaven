@@ -5,7 +5,7 @@ import { products } from '@/lib/products';
 export const metadata = {
   title: 'Best Dog Walking Accessories (2026) — Harness, Leash & More | PawHaven',
   description:
-    'Everything you need for safer, more enjoyable walks. No-pull harnesses, retractable leashes, LED collars, treat pouches, and paw cleaners — all vet-approved.',
+    'Everything you need for safer, more enjoyable walks. No-pull harnesses, retractable leashes, LED collars, treat pouches, and paw cleaners — all expert-curated.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-walking' },
   openGraph: {
     title: 'Best Dog Walking Accessories 2026 | PawHaven',
@@ -128,7 +128,7 @@ export default function DogWalkingPage() {
         <div id="products" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-black text-gray-900 mb-3">Walking Essentials</h2>
-            <p className="text-gray-500">Five products. One perfect walk. All vet-recommended.</p>
+            <p className="text-gray-500">Five products. One perfect walk. All expert-recommended.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

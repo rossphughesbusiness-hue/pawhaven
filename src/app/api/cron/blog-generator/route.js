@@ -33,7 +33,7 @@ const TOPICS = [
   { title: 'Grain-Free Dog Food: Is It Safe? The Science in Plain English', category: 'Dogs', tag: 'Health' },
   // Dogs — grooming
   { title: 'How to Desensitise a Dog to Nail Trims Without Stress', category: 'Dogs', tag: 'Grooming' },
-  { title: 'Best Dog Shampoos for Sensitive Skin (Vet-Approved)', category: 'Dogs', tag: 'Grooming' },
+  { title: 'Best Dog Shampoos for Sensitive Skin (Expert-Curated)', category: 'Dogs', tag: 'Grooming' },
   { title: 'How to Clean a Dog\'s Ears Safely at Home', category: 'Dogs', tag: 'Grooming' },
   // Dogs — puppies
   { title: 'Puppy Sleep Guide: How Much Sleep Puppies Need and How to Get It', category: 'Dogs', tag: 'Training' },

@@ -5,11 +5,11 @@ import { products } from '@/lib/products';
 export const metadata = {
   title: 'Best Pet Grooming Tools for Dogs & Cats (2026) | PawHaven',
   description:
-    'Shop vet-approved grooming tools that make coat care easy and stress-free. Self-cleaning brushes, deshedding gloves, and paw cleaners for dogs and cats.',
+    'Shop expert-curated grooming tools that make coat care easy and stress-free. Self-cleaning brushes, deshedding gloves, and paw cleaners for dogs and cats.',
   alternates: { canonical: 'https://pawhavenpets.org/grooming' },
   openGraph: {
     title: 'Best Pet Grooming Tools for Dogs & Cats | PawHaven',
-    description: 'Self-cleaning brushes, deshedding gloves, and paw cleaners — all vet-approved.',
+    description: 'Self-cleaning brushes, deshedding gloves, and paw cleaners — all expert-curated.',
     url: 'https://pawhavenpets.org/grooming',
   },
 };
@@ -125,7 +125,7 @@ export default function GroomingPage() {
                 { n: '3', label: 'Grooming Essentials' },
                 { n: '25%', label: 'Less Shedding (avg)' },
                 { n: '5 sec', label: 'Paw Clean Time' },
-                { n: '4.8★', label: 'Average Rating' },
+                { n: '5/5', label: 'Return Policy' },
               ].map((s) => (
                 <div key={s.label}>
                   <div className="text-2xl font-black">{s.n}</div>

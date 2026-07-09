@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Build Your Own Bundle — Save Up to 20% | PawHaven',
-  description: 'Pick any 2–4 products and save up to 20% off. Mix and match from our full catalog of vet-approved pet accessories.',
+  description: 'Pick any 2–4 products and save up to 20% off. Mix and match from our full catalog of expert-curated pet accessories.',
   alternates: { canonical: 'https://pawhavenpets.org/build-a-bundle' },
   openGraph: {
     title: 'Build Your Own Bundle — PawHaven',

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Best Cat Toys 2026 — Interactive, Laser & Tunnel Toys | PawHaven',
-  description: 'Shop vet-approved cat toys that get even the laziest cats moving. Feather wands, automatic laser toys, crinkle tunnels and more. Free shipping on orders over $50.',
+  description: 'Shop expert-curated cat toys that get even the laziest cats moving. Feather wands, automatic laser toys, crinkle tunnels and more. Free shipping on orders over $50.',
   alternates: { canonical: 'https://pawhavenpets.org/cat-toys' },
   openGraph: {
     title: 'Best Cat Toys 2026 | PawHaven',
@@ -119,10 +119,10 @@ export default function CatToysPage() {
               <span className="text-purple-200">Even the Laziest Cats</span>
             </h1>
             <p className="text-purple-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-approved toys engineered around feline prey drive — feather wands, auto lasers, and crinkle tunnels that trigger the hunt instinct every indoor cat still has.
+              Expert-curated toys engineered around feline prey drive — feather wands, auto lasers, and crinkle tunnels that trigger the hunt instinct every indoor cat still has.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🐾 Prey-drive designed', '🔬 Vet-reviewed', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🐾 Prey-drive designed', '🔬 Expert-reviewed', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -200,7 +200,7 @@ export default function CatToysPage() {
         {/* Play tips */}
         <section className="py-12 px-4 bg-purple-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">Vet-Backed Play Tips</h2>
+            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">Research-Backed Play Tips</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {playTips.map(({ tip, why }) => (
                 <div key={tip} className="bg-white rounded-2xl p-5 border border-purple-100 shadow-sm flex gap-3">

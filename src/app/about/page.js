@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About PawHaven — Our Story',
-  description: 'PawHaven was built by pet owners who were tired of overpriced, low-quality accessories. We source vet-approved products directly and ship them to your door.',
+  description: 'PawHaven was built by pet owners who were tired of overpriced, low-quality accessories. We source expert-curated products directly and ship them to your door.',
   alternates: { canonical: 'https://pawhavenpets.org/about' },
 };
 
 const values = [
   {
     icon: '🔬',
-    title: 'Vet-Reviewed, Always',
-    desc: 'Every product in our catalog is reviewed against veterinarian guidelines before we list it. If a vet wouldn\'t recommend it, we don\'t sell it.',
+    title: 'Quality-Tested, Always',
+    desc: 'Every product in our catalog is evaluated for material safety, durability, and construction before we list it. If we wouldn\'t use it with our own pets, it doesn\'t make the cut.',
   },
   {
     icon: '🌍',
@@ -30,10 +30,10 @@ const values = [
 ];
 
 const stats = [
-  { value: '10,000+', label: 'Happy Pet Owners' },
   { value: '40+', label: 'Curated Products' },
-  { value: '4.8★', label: 'Average Rating' },
+  { value: 'Free', label: 'Shipping Over $50' },
   { value: '30 Days', label: 'Free Returns' },
+  { value: '24hr', label: 'Support Response' },
 ];
 
 const team = [
@@ -51,7 +51,7 @@ const organizationJsonLd = {
   name: 'PawHaven',
   url: 'https://pawhavenpets.org',
   logo: 'https://pawhavenpets.org/logo.png',
-  description: 'Vet-approved pet accessories for dogs and cats, shipped direct.',
+  description: 'Quality-tested pet accessories for dogs and cats, shipped direct.',
   contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://pawhavenpets.org/contact' },
 };
 
@@ -112,7 +112,7 @@ export default function AboutPage() {
           </p>
           <p>
             That list became PawHaven. Every product in our catalog went through the same process:
-            real-world testing, material verification, vet review, and a simple question — would we
+            real-world testing, material verification, and a simple question — would we
             buy this for our own pets? If the answer wasn\'t a clear yes, it didn\'t make the cut.
           </p>
           <p>

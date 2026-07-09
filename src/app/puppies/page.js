@@ -8,7 +8,7 @@ export const metadata = {
   alternates: { canonical: 'https://pawhavenpets.org/puppies' },
   openGraph: {
     title: 'Best Puppy Accessories & Supplies — PawHaven',
-    description: 'Set your new puppy up for success with vet-recommended accessories for feeding, training, safety, and play.',
+    description: 'Set your new puppy up for success with expert-recommended accessories for feeding, training, safety, and play.',
     url: 'https://pawhavenpets.org/puppies',
     type: 'website',
   },
@@ -100,7 +100,7 @@ export default function PuppiesPage() {
             Everything Your New<br className="hidden sm:block" /> Puppy Needs
           </h1>
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Vet-recommended gear to start your puppy off right — healthy eating habits, safe walks, mental stimulation, and calm settling from day one.
+            Expert-recommended gear to start your puppy off right — healthy eating habits, safe walks, mental stimulation, and calm settling from day one.
           </p>
           <Link
             href="#products"
@@ -191,7 +191,7 @@ export default function PuppiesPage() {
         <div className="max-w-xl mx-auto px-4">
           <div className="text-4xl mb-4">🐶</div>
           <h2 className="text-3xl font-black mb-4">Set Your Puppy Up for Life</h2>
-          <p className="text-white/80 mb-8">Free shipping on orders over $50. 30-day returns. Vet-approved products.</p>
+          <p className="text-white/80 mb-8">Free shipping on orders over $50. 30-day returns. Expert-curated products.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/dogs" className="inline-block bg-white text-brand-500 font-bold text-base px-8 py-4 rounded-full hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5">
               All Dog Products →

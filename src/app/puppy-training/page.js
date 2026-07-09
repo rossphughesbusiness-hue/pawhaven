@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Puppy Training Tips 2026 — How to Train a Puppy | PawHaven',
-  description: 'Vet-backed puppy training tips covering positive reinforcement, crate training, leash basics, and socialization. Shop training essentials: treat pouches, harnesses & lick mats.',
+  description: 'Research-backed puppy training tips covering positive reinforcement, crate training, leash basics, and socialization. Shop training essentials: treat pouches, harnesses & lick mats.',
   alternates: { canonical: 'https://pawhavenpets.org/puppy-training' },
   openGraph: {
     title: 'Puppy Training Tips 2026 | PawHaven',
@@ -181,10 +181,10 @@ export default function PuppyTrainingPage() {
               <span className="text-yellow-200">That Actually Work</span>
             </h1>
             <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-8">
-              Positive reinforcement, crate training, leash basics, and socialization — the vet-backed playbook for training a puppy from week 8 to 6 months. Plus the essentials that make every session faster and more effective.
+              Positive reinforcement, crate training, leash basics, and socialization — the research-backed playbook for training a puppy from week 8 to 6 months. Plus the essentials that make every session faster and more effective.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🏅 Vet-backed methods', '⏱️ 3–5 min sessions', '🐾 Start at 8 weeks', '📦 Free shipping $50+'].map(b => (
+              {['🏅 Research-backed methods', '⏱️ 3–5 min sessions', '🐾 Start at 8 weeks', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -318,7 +318,7 @@ export default function PuppyTrainingPage() {
         {/* Vet tips */}
         <section className="py-12 px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">4 Vet-Backed Puppy Training Tips</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">4 Research-Backed Puppy Training Tips</h2>
             <p className="text-gray-500 text-center text-sm mb-8">The details that separate owners who see fast results from those who struggle for months</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {vetTips.map(({ icon, tip, detail }) => (

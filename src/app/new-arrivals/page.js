@@ -5,7 +5,7 @@ import { products } from '@/lib/products';
 export const metadata = {
   title: 'New Arrivals 2026 — Just Added to PawHaven',
   description:
-    'Five new vet-reviewed products just landed at PawHaven — snuffle mats, paw balm, cat puzzle feeders, a self-grooming corner brush, and a reflective safety vest. Shop what\'s new.',
+    'Five new expert-reviewed products just landed at PawHaven — snuffle mats, paw balm, cat puzzle feeders, a self-grooming corner brush, and a reflective safety vest. Shop what\'s new.',
   alternates: { canonical: 'https://pawhavenpets.org/new-arrivals' },
   openGraph: {
     title: 'New Arrivals 2026 — Just Added to PawHaven',
@@ -110,7 +110,7 @@ export default function NewArrivalsPage() {
             Just Dropped — New Products at PawHaven
           </h1>
           <p className="text-indigo-100 text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-            Five new vet-reviewed products added this month. Every one fills a gap we heard about from customers — here&apos;s what we added and why.
+            Five new expert-reviewed products added this month. Every one fills a gap we heard about from customers — here&apos;s what we added and why.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

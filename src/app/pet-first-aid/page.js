@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Pet First Aid Guide 2026 — What Every Owner Needs to Know | PawHaven',
-  description: 'Know what to do when your pet is hurt or sick. Emergency first aid steps for dogs and cats — from cut paws to heatstroke to toxic ingestion — with vet-reviewed guidance.',
+  description: 'Know what to do when your pet is hurt or sick. Emergency first aid steps for dogs and cats — from cut paws to heatstroke to toxic ingestion — with expert-reviewed guidance.',
   alternates: { canonical: 'https://pawhavenpets.org/pet-first-aid' },
   openGraph: {
     title: 'Pet First Aid Guide 2026 | PawHaven',
-    description: 'Vet-reviewed emergency guidance for pet owners — heatstroke, toxic ingestion, cut paws, seizures, and more.',
+    description: 'Expert-reviewed emergency guidance for pet owners — heatstroke, toxic ingestion, cut paws, seizures, and more.',
     url: 'https://pawhavenpets.org/pet-first-aid',
   },
 };
@@ -238,10 +238,10 @@ export default function PetFirstAidPage() {
               <span className="text-red-200">What Every Owner Should Know</span>
             </h1>
             <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-reviewed guidance for common pet emergencies — when to rush to the ER, when to call your vet, and when to monitor at home. Bookmark this page before you need it.
+              Expert-reviewed guidance for common pet emergencies — when to rush to the ER, when to call your vet, and when to monitor at home. Bookmark this page before you need it.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '🚨 Emergency guide', '🐶 Dogs & cats', '📋 Printable checklist'].map(b => (
+              {['🔬 Expert-reviewed', '🚨 Emergency guide', '🐶 Dogs & cats', '📋 Printable checklist'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -286,7 +286,7 @@ export default function PetFirstAidPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">8 Common Pet Emergencies — What to Do Immediately</h2>
-            <p className="text-gray-500 text-center mb-8 text-sm">Vet-reviewed first steps for the most frequent emergency situations</p>
+            <p className="text-gray-500 text-center mb-8 text-sm">Expert-reviewed first steps for the most frequent emergency situations</p>
             <div className="space-y-3">
               {emergencies.map(({ scenario, immediate, urgency }) => (
                 <div key={scenario} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">

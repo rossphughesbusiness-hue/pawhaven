@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Dog Enrichment Toys & Activities 2026 — Mental Stimulation for Dogs | PawHaven',
-  description: 'Shop vet-recommended dog enrichment products. Puzzle feeders, lick mats, tug toys and slow feeders that tire out bored dogs mentally — without leaving the house.',
+  description: 'Shop expert-recommended dog enrichment products. Puzzle feeders, lick mats, tug toys and slow feeders that tire out bored dogs mentally — without leaving the house.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-enrichment' },
   openGraph: {
     title: 'Dog Enrichment Toys 2026 | PawHaven',
@@ -171,10 +171,10 @@ export default function DogEnrichmentPage() {
               <span className="text-emerald-200">Brain, Not Just Their Legs</span>
             </h1>
             <p className="text-emerald-100 text-lg max-w-2xl mx-auto mb-8">
-              15 minutes of mental enrichment exhausts a dog as much as a 45-minute walk. Puzzle feeders, lick mats, slow feeders, and tug toys — the vet-backed toolkit for calmer, happier dogs.
+              15 minutes of mental enrichment exhausts a dog as much as a 45-minute walk. Puzzle feeders, lick mats, slow feeders, and tug toys — the research-backed toolkit for calmer, happier dogs.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-recommended', '🧠 Behaviour-backed', '🐾 All breeds & ages', '📦 Free shipping $50+'].map(b => (
+              {['🔬 Expert-recommended', '🧠 Behaviour-backed', '🐾 All breeds & ages', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -228,7 +228,7 @@ export default function DogEnrichmentPage() {
         <section className="py-14 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top Enrichment Products</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-recommended for mental stimulation, boredom prevention, and calmer behaviour</p>
+            <p className="text-gray-500 text-center mb-10">Expert-recommended for mental stimulation, boredom prevention, and calmer behaviour</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               {featured.map((p) => (
                 <Link

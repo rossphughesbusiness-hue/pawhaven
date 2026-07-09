@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Best Dog Beds 2026 — Orthopedic, Cooling & Cozy | PawHaven',
-  description: 'Shop vet-approved dog beds for every breed and sleep style. Orthopedic memory foam for seniors, cooling gel mats for summer, and cozy bolster beds for puppies.',
+  description: 'Shop expert-curated dog beds for every breed and sleep style. Orthopedic memory foam for seniors, cooling gel mats for summer, and cozy bolster beds for puppies.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-beds' },
   openGraph: {
     title: 'Best Dog Beds 2026 | PawHaven',
@@ -119,10 +119,10 @@ export default function DogBedsPage() {
               <span className="text-yellow-300">Actually Sleep In</span>
             </h1>
             <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-8">
-              Orthopedic memory foam for seniors, cooling gel for summer, cozy bolsters for pups. Every bed is vet-reviewed for support, safety, and washability.
+              Orthopedic memory foam for seniors, cooling gel for summer, cozy bolsters for pups. Every bed is expert-reviewed for support, safety, and washability.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🦴 Joint-relieving foam', '🔬 Vet-reviewed', '🧺 Machine-washable covers', '📦 Free shipping $50+'].map(b => (
+              {['🦴 Joint-relieving foam', '🔬 Expert-reviewed', '🧺 Machine-washable covers', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -152,7 +152,7 @@ export default function DogBedsPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top-Rated Dog Beds</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-approved comfort for dogs of every age and breed</p>
+            <p className="text-gray-500 text-center mb-10">Expert-curated comfort for dogs of every age and breed</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link

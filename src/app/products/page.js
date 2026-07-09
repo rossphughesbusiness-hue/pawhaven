@@ -4,12 +4,12 @@ import { products } from '@/lib/products';
 export const metadata = {
   title: 'Shop Premium Pet Accessories — Dogs & Cats | PawHaven',
   description:
-    'Browse 30+ vet-approved pet accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys, and more — all with free shipping on orders over $50.',
+    'Browse 30+ expert-curated pet accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys, and more — all with free shipping on orders over $50.',
   alternates: { canonical: 'https://pawhavenpets.org/products' },
   openGraph: {
     title: 'Shop Premium Pet Accessories | PawHaven',
     description:
-      'Vet-approved accessories for dogs and cats. Free shipping on $50+. 30-day returns.',
+      'Expert-curated accessories for dogs and cats. Free shipping on $50+. 30-day returns.',
     url: 'https://pawhavenpets.org/products',
     images: [
       {
@@ -26,7 +26,7 @@ const itemListJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'PawHaven Pet Accessories',
-  description: 'Premium vet-approved accessories for dogs and cats',
+  description: 'Premium expert-curated accessories for dogs and cats',
   url: 'https://pawhavenpets.org/products',
   numberOfItems: products.length,
   itemListElement: products.map((p, i) => ({

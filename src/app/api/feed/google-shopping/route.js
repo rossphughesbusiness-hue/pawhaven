@@ -103,7 +103,7 @@ export async function GET() {
   <channel>
     <title>${STORE_NAME} — Premium Pet Accessories</title>
     <link>${BASE}</link>
-    <description>Shop vet-approved accessories for dogs and cats. Free shipping on orders over $50.</description>
+    <description>Shop expert-curated accessories for dogs and cats. Free shipping on orders over $50.</description>
     ${items}
   </channel>
 </rss>`;

@@ -8,11 +8,11 @@ import { getBundles } from '@/lib/bundles';
 export const metadata = {
   title: 'PawHaven — Premium Pet Accessories for Dogs & Cats',
   description:
-    'Shop vet-approved accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys and more. Free shipping on orders over $50. 30-day returns.',
+    'Shop expert-curated accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys and more. Free shipping on orders over $50. 30-day returns.',
   alternates: { canonical: 'https://pawhavenpets.org' },
   openGraph: {
     title: 'PawHaven — Premium Pet Accessories',
-    description: 'Vet-approved accessories for dogs and cats. Free shipping on $50+.',
+    description: 'Expert-curated accessories for dogs and cats. Free shipping on $50+.',
     url: 'https://pawhavenpets.org',
     siteName: 'PawHaven',
     images: [
@@ -28,7 +28,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PawHaven — Premium Pet Accessories',
-    description: 'Vet-approved accessories for dogs and cats. Free shipping on $50+.',
+    description: 'Expert-curated accessories for dogs and cats. Free shipping on $50+.',
   },
 };
 
@@ -36,14 +36,14 @@ const trustItems = [
   { icon: '🚚', title: 'Free Shipping', desc: 'On orders over $50' },
   { icon: '↩️', title: '30-Day Returns', desc: 'Hassle-free, no questions asked' },
   { icon: '🛡️', title: 'Secure Checkout', desc: '256-bit SSL encryption' },
-  { icon: '⭐', title: '10K+ Reviews', desc: 'Trusted by pet lovers nationwide' },
+  { icon: '⭐', title: 'Satisfaction Guaranteed', desc: 'Trusted by pet lovers nationwide' },
 ];
 
 const features = [
   {
     icon: '🔬',
-    title: 'Vet-Approved Products',
-    desc: 'Every item is reviewed and recommended by licensed veterinarians before it ever reaches our store.',
+    title: 'Quality-Tested Products',
+    desc: 'Every item is reviewed for safety, durability, and value before it ever reaches our store.',
   },
   {
     icon: '🌍',
@@ -115,9 +115,9 @@ const testimonials = [
 ];
 
 const stats = [
-  { value: '10,000+', label: 'Happy Pet Owners' },
-  { value: '4.8★', label: 'Average Rating' },
-  { value: '40+', label: 'Vet-Approved Products' },
+  { value: '40+', label: 'Curated Products' },
+  { value: '30 Days', label: 'Free Returns' },
+  { value: '40+', label: 'Quality-Tested Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
 
@@ -203,7 +203,7 @@ const websiteJsonLd = {
       '@id': 'https://pawhavenpets.org/#website',
       url: 'https://pawhavenpets.org',
       name: 'PawHaven',
-      description: 'Premium vet-recommended pet accessories for dogs and cats.',
+      description: 'Premium expert-recommended pet accessories for dogs and cats.',
       potentialAction: {
         '@type': 'SearchAction',
         target: { '@type': 'EntryPoint', urlTemplate: 'https://pawhavenpets.org/products?q={search_term_string}' },
@@ -243,7 +243,7 @@ export default function HomePage() {
             {/* Pre-headline pill */}
             <div className="inline-flex items-center gap-2 bg-brand-500/20 border border-brand-500/30 text-brand-300 text-sm font-semibold px-4 py-2 rounded-full mb-6 animate-fade-in">
               <span className="w-2 h-2 bg-brand-400 rounded-full animate-pulse" />
-              Trusted by 10,000+ Pet Owners
+              Trusted by Pet Owners Everywhere
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight text-balance mb-6 animate-fade-up">
@@ -254,7 +254,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: '0.1s' }}>
-              Vet-approved accessories that make dogs and cats healthier, calmer,
+              Expert-curated accessories that make dogs and cats healthier, calmer,
               and happier. Free shipping on orders over $50.
             </p>
 
@@ -278,7 +278,7 @@ export default function HomePage() {
 
             {/* Social proof strip */}
             <div className="flex flex-wrap items-center gap-6 mt-10 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-              {['⭐⭐⭐⭐⭐ 4.8/5 Rating', '📦 Ships in 1–2 Days', '🔒 Secure Checkout'].map((item) => (
+              {['✅ 30-Day Returns', '📦 Ships in 1–2 Days', '🔒 Secure Checkout'].map((item) => (
                 <span key={item} className="text-gray-400 text-sm font-medium">
                   {item}
                 </span>
@@ -389,7 +389,7 @@ export default function HomePage() {
               Our Best Sellers
             </h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">
-              The products pet owners order again and again — vet-approved, community-loved.
+              The products pet owners order again and again — expert-curated, community-loved.
             </p>
           </div>
 

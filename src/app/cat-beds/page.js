@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Best Cat Beds 2026 — Cave Beds, Window Perches & More | PawHaven',
-  description: 'Shop vet-approved cat beds that cats actually use. Cozy cave beds, window perches, donut beds and more. Find the perfect sleep spot for your cat\'s personality.',
+  description: 'Shop expert-curated cat beds that cats actually use. Cozy cave beds, window perches, donut beds and more. Find the perfect sleep spot for your cat\'s personality.',
   alternates: { canonical: 'https://pawhavenpets.org/cat-beds' },
   openGraph: {
     title: 'Best Cat Beds 2026 | PawHaven',
@@ -142,7 +142,7 @@ export default function CatBedsPage() {
               Cave beds for anxious cats, window perches for bird-watchers, donut beds for curlers. Every bed is chosen for the sleep preference cats actually have — not the one we imagine they have.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '🐾 Cat-tested', '🧺 Machine-washable', '📦 Free shipping $50+'].map(b => (
+              {['🔬 Expert-reviewed', '🐾 Cat-tested', '🧺 Machine-washable', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>

@@ -2,11 +2,11 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Cat Grooming Guide 2026 — Best Tools & How to Groom a Cat at Home | PawHaven',
-  description: 'Learn how to groom a cat at home with vet-backed tips and the best cat grooming tools. Self-cleaning slicker brushes, paw cleaners, nail grinders & more.',
+  description: 'Learn how to groom a cat at home with research-backed tips and the best cat grooming tools. Self-cleaning slicker brushes, paw cleaners, nail grinders & more.',
   alternates: { canonical: 'https://pawhavenpets.org/cat-grooming' },
   openGraph: {
     title: 'Cat Grooming Guide 2026 | PawHaven',
-    description: 'Vet-backed cat grooming tools and step-by-step guidance for coat, nails, ears, and teeth.',
+    description: 'Research-backed cat grooming tools and step-by-step guidance for coat, nails, ears, and teeth.',
     url: 'https://pawhavenpets.org/cat-grooming',
   },
 };
@@ -58,7 +58,7 @@ const groomingTypes = [
   {
     icon: '👂',
     type: 'Ear Cleaning',
-    desc: 'Check ears weekly for wax, debris, or odor. Clean monthly with a vet-approved solution and a cotton ball. Never insert anything into the ear canal.',
+    desc: 'Check ears weekly for wax, debris, or odor. Clean monthly with a expert-curated solution and a cotton ball. Never insert anything into the ear canal.',
   },
   {
     icon: '🦷',
@@ -153,10 +153,10 @@ export default function CatGroomingPage() {
               <span className="text-teal-200">Done Right, Stress-Free</span>
             </h1>
             <p className="text-teal-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-backed tools and techniques for coat brushing, nail trimming, ear care, and dental hygiene. Everything you need to keep your cat healthy between vet visits.
+              Research-backed tools and techniques for coat brushing, nail trimming, ear care, and dental hygiene. Everything you need to keep your cat healthy between vet visits.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🐾 Vet-backed tips', '✂️ Right-sized tools', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🐾 Research-backed tips', '✂️ Right-sized tools', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -184,7 +184,7 @@ export default function CatGroomingPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top-Rated Cat Grooming Tools</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-recommended picks for brushing, paws, and nail care</p>
+            <p className="text-gray-500 text-center mb-10">Expert-recommended picks for brushing, paws, and nail care</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link
@@ -233,7 +233,7 @@ export default function CatGroomingPage() {
         {/* Grooming tips */}
         <section className="py-12 px-4 bg-teal-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">4 Vet-Backed Grooming Tips</h2>
+            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">4 Research-Backed Grooming Tips</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {groomingTips.map(({ tip, why }) => (
                 <div key={tip} className="bg-white rounded-2xl p-5 border border-teal-100 shadow-sm flex gap-3">

@@ -2,12 +2,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Dog Health Guide 2026 — Signs, Prevention & Vet-Backed Tips | PawHaven',
-  description: 'Learn the early signs your dog is sick, build a preventive care routine, and discover vet-backed tips for dental, joint, weight, and mental health.',
+  title: 'Dog Health Guide 2026 — Signs, Prevention & Research-Backed Tips | PawHaven',
+  description: 'Learn the early signs your dog is sick, build a preventive care routine, and discover research-backed tips for dental, joint, weight, and mental health.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-health' },
   openGraph: {
-    title: 'Dog Health Guide 2026 — Signs, Prevention & Vet-Backed Tips | PawHaven',
-    description: 'Vet-backed preventive care, monthly health checklists, and early warning signs every dog owner should know.',
+    title: 'Dog Health Guide 2026 — Signs, Prevention & Research-Backed Tips | PawHaven',
+    description: 'Research-backed preventive care, monthly health checklists, and early warning signs every dog owner should know.',
     url: 'https://pawhavenpets.org/dog-health',
   },
 };
@@ -159,13 +159,13 @@ export default function DogHealthPage() {
             <div className="text-5xl mb-4">🏥</div>
             <h1 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
               Dog Health —<br />
-              <span className="text-emerald-200">Prevention, Early Signs & Vet-Backed Care</span>
+              <span className="text-emerald-200">Prevention, Early Signs & Research-Backed Care</span>
             </h1>
             <p className="text-emerald-100 text-lg max-w-2xl mx-auto mb-8">
               The most important health decisions happen before your dog shows symptoms. Learn what to watch for, how to build a preventive routine, and what vets actually recommend.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🩺 Vet-backed advice', '📋 Monthly checklist', '🐶 All breeds & ages', '📦 Free shipping $50+'].map(b => (
+              {['🩺 Research-backed advice', '📋 Monthly checklist', '🐶 All breeds & ages', '📦 Free shipping $50+'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -192,7 +192,7 @@ export default function DogHealthPage() {
         {/* Featured products */}
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Vet-Recommended Health Essentials</h2>
+            <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Expert-Recommended Health Essentials</h2>
             <p className="text-gray-500 text-center mb-10">Products that support preventive care, joint health, and stress reduction</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (

@@ -4,7 +4,7 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Best Accessories for Small Dogs — PawHaven',
-  description: 'The best harnesses, feeders, toys, and beds for small dog breeds. Vet-recommended picks sized right for Chihuahuas, Yorkies, Shih Tzus, and more.',
+  description: 'The best harnesses, feeders, toys, and beds for small dog breeds. Expert-recommended picks sized right for Chihuahuas, Yorkies, Shih Tzus, and more.',
   alternates: { canonical: 'https://pawhavenpets.org/small-dogs' },
   openGraph: {
     title: 'Best Accessories for Small Dogs — PawHaven',

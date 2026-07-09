@@ -4,7 +4,7 @@ import { getAllPosts } from '@/lib/blog';
 
 export const metadata = {
   title: 'Pet Care Blog — Tips, Guides & Product Reviews | PawHaven',
-  description: 'Vet-approved advice on dog nutrition, anxiety, grooming, training, and cat enrichment. Plus honest product reviews from real pet owners.',
+  description: 'Expert-curated advice on dog nutrition, anxiety, grooming, training, and cat enrichment. Plus honest product reviews from real pet owners.',
   alternates: { canonical: 'https://pawhavenpets.org/blog' },
   openGraph: {
     title: 'Pet Care Blog | PawHaven',
@@ -28,7 +28,7 @@ export default function BlogPage() {
           <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">PawHaven Blog</p>
           <h1 className="text-4xl sm:text-5xl font-black text-navy-900 mb-4">Pet Care, Simplified</h1>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Vet-reviewed guides on feeding, health, safety, and the products that actually make a difference.
+            Expert-reviewed guides on feeding, health, safety, and the products that actually make a difference.
           </p>
         </div>
       </div>

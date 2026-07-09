@@ -4,7 +4,7 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Best Dog Training Accessories & Gear 2026 | PawHaven',
-  description: 'Vet-recommended dog training accessories: treat pouches, step-in harnesses, leashes, and reward toys. Everything you need for positive reinforcement training.',
+  description: 'Expert-recommended dog training accessories: treat pouches, step-in harnesses, leashes, and reward toys. Everything you need for positive reinforcement training.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-training' },
   openGraph: {
     title: 'Best Dog Training Accessories & Gear 2026 — PawHaven',

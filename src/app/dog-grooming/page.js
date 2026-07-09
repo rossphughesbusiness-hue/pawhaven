@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Dog Grooming at Home 2026 — Best Tools & Step-by-Step Guide | PawHaven',
-  description: 'Vet-backed dog grooming tools and techniques for coat brushing, nail care, paw cleaning, and deshedding. Everything you need to groom your dog at home.',
+  description: 'Research-backed dog grooming tools and techniques for coat brushing, nail care, paw cleaning, and deshedding. Everything you need to groom your dog at home.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-grooming' },
   openGraph: {
     title: 'Dog Grooming at Home 2026 | PawHaven',
-    description: 'The right tools and techniques for brushing, nail trims, paw care, and deshedding — vet-approved dog grooming at home.',
+    description: 'The right tools and techniques for brushing, nail trims, paw care, and deshedding — expert-curated dog grooming at home.',
     url: 'https://pawhavenpets.org/dog-grooming',
   },
 };
@@ -185,10 +185,10 @@ export default function DogGroomingPage() {
               <span className="text-amber-200">The Right Tools, Done Right</span>
             </h1>
             <p className="text-amber-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-backed tools and step-by-step guidance for coat brushing, paw cleaning, nail care, and deshedding. Save on groomer fees without sacrificing quality.
+              Research-backed tools and step-by-step guidance for coat brushing, paw cleaning, nail care, and deshedding. Save on groomer fees without sacrificing quality.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🐾 Vet-backed tips', '🐕 Breed-specific advice', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🐾 Research-backed tips', '🐕 Breed-specific advice', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -216,7 +216,7 @@ export default function DogGroomingPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top-Rated Dog Grooming Tools</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-recommended picks for brushing, paw care, and coat health</p>
+            <p className="text-gray-500 text-center mb-10">Expert-recommended picks for brushing, paw care, and coat health</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link
@@ -299,7 +299,7 @@ export default function DogGroomingPage() {
         {/* Grooming tips */}
         <section className="py-12 px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">4 Vet-Backed Grooming Tips</h2>
+            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">4 Research-Backed Grooming Tips</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {groomingTips.map(({ tip, why }) => (
                 <div key={tip} className="bg-amber-50 rounded-2xl p-5 border border-amber-100 shadow-sm flex gap-3">

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Best Dog Toys 2026 — Interactive, Tug & Puzzle Toys | PawHaven',
-  description: 'Shop vet-approved dog toys for every play style. Squeaky toys, puzzle feeders, tug ropes and more. Durable, non-toxic, and guaranteed to keep tails wagging.',
+  description: 'Shop expert-curated dog toys for every play style. Squeaky toys, puzzle feeders, tug ropes and more. Durable, non-toxic, and guaranteed to keep tails wagging.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-toys' },
   openGraph: {
     title: 'Best Dog Toys 2026 | PawHaven',
@@ -47,7 +47,7 @@ const featured = [
 
 const toyTypes = [
   { icon: '🦆', type: 'Squeaky & Plush', desc: 'Satisfies prey drive and provides comfort. Great for gentle chewers and dogs who love to carry toys.' },
-  { icon: '🧩', type: 'Puzzle & Feeder', desc: 'Slows eating, prevents boredom, and provides mental stimulation. Vet-recommended for high-energy breeds.' },
+  { icon: '🧩', type: 'Puzzle & Feeder', desc: 'Slows eating, prevents boredom, and provides mental stimulation. Expert-recommended for high-energy breeds.' },
   { icon: '💪', type: 'Tug & Rope', desc: 'Builds the bond between dog and owner while cleaning teeth. Ideal for power chewers.' },
   { icon: '🎾', type: 'Fetch & Chase', desc: 'Provides aerobic exercise and satisfies instinctive chase behavior. Best used in outdoor spaces.' },
 ];
@@ -112,10 +112,10 @@ export default function DogToysPage() {
               <span className="text-yellow-200">Hold Up</span>
             </h1>
             <p className="text-orange-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-approved toys for every play style — from gentle squeakers to puzzle feeders to indestructible tug ropes. Non-toxic materials, zero flimsy fillers.
+              Expert-curated toys for every play style — from gentle squeakers to puzzle feeders to indestructible tug ropes. Non-toxic materials, zero flimsy fillers.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🐾 Non-toxic materials', '🔬 Vet-reviewed', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🐾 Non-toxic materials', '🔬 Expert-reviewed', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>

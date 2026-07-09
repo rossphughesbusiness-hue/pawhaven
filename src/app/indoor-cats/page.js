@@ -4,7 +4,7 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Best Products for Indoor Cats — PawHaven',
-  description: 'The best toys, perches, water fountains, and enrichment products to keep indoor cats healthy, stimulated, and happy. Vet-recommended picks.',
+  description: 'The best toys, perches, water fountains, and enrichment products to keep indoor cats healthy, stimulated, and happy. Expert-recommended picks.',
   alternates: { canonical: 'https://pawhavenpets.org/indoor-cats' },
   openGraph: {
     title: 'Best Products for Indoor Cats — PawHaven',
@@ -160,7 +160,7 @@ export default function IndoorCatsPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-black text-navy-900 mb-3">Top Picks for Indoor Cats</h2>
-            <p className="text-gray-500 max-w-xl mx-auto">Vet-recommended for enrichment, hydration, and mental wellbeing.</p>
+            <p className="text-gray-500 max-w-xl mx-auto">Expert-recommended for enrichment, hydration, and mental wellbeing.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featured.map((p) => <ProductCard key={p.id} product={p} />)}

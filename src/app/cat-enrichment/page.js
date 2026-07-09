@@ -238,7 +238,7 @@ export default function CatEnrichmentPage() {
         <div className="max-w-xl mx-auto px-4">
           <div className="text-4xl mb-4">🐱</div>
           <h2 className="text-3xl font-black mb-4">Give Your Cat the Stimulation They Need</h2>
-          <p className="text-white/80 mb-8">Free shipping over $50. 30-day returns. Vet-recommended products.</p>
+          <p className="text-white/80 mb-8">Free shipping over $50. 30-day returns. Expert-recommended products.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/cats" className="inline-block bg-white text-purple-600 font-bold text-base px-8 py-4 rounded-full hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5">
               All Cat Products →

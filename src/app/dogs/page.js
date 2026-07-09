@@ -4,11 +4,11 @@ import { products } from '@/lib/products';
 
 export const metadata = {
   title: 'Dog Accessories — PawHaven',
-  description: 'Shop vet-recommended dog accessories: slow feeder bowls, harnesses, LED collars, orthopedic beds, and more. Free shipping over $50.',
+  description: 'Shop expert-recommended dog accessories: slow feeder bowls, harnesses, LED collars, orthopedic beds, and more. Free shipping over $50.',
   alternates: { canonical: 'https://pawhavenpets.org/dogs' },
   openGraph: {
     title: 'Premium Dog Accessories — PawHaven',
-    description: 'Everything your dog deserves — vet-approved accessories for health, safety, comfort, and play.',
+    description: 'Everything your dog deserves — expert-curated accessories for health, safety, comfort, and play.',
     url: 'https://pawhavenpets.org/dogs',
     type: 'website',
   },
@@ -28,10 +28,10 @@ const CATEGORIES = [
 ];
 
 const HIGHLIGHTS = [
-  { icon: '🩺', title: 'Vet-Approved',    desc: 'Every product reviewed by licensed vets before listing.' },
+  { icon: '🩺', title: 'Expert-Curated',    desc: 'Every product reviewed by licensed vets before listing.' },
   { icon: '🚚', title: 'Free Shipping',   desc: 'Free on orders over $50. Fast 7–14 day delivery.' },
   { icon: '↩️', title: '30-Day Returns',  desc: 'Not happy? Return it, no questions asked.' },
-  { icon: '⭐', title: '10,000+ Reviews', desc: 'Trusted by dog owners across the country.' },
+  { icon: '⭐', title: 'Satisfaction Guaranteed', desc: 'We stand behind every product with a 30-day return policy.' },
 ];
 
 const FEATURED_SLUGS = [
@@ -88,7 +88,7 @@ export default function DogsPage({ searchParams }) {
               Everything Your Dog Deserves
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg">
-              Vet-recommended accessories built to improve your dog\'s health, safety, and happiness — whether they\'re a pup or a senior.
+              Expert-recommended accessories built to improve your dog\'s health, safety, and happiness — whether they\'re a pup or a senior.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -158,7 +158,7 @@ export default function DogsPage({ searchParams }) {
               <Link href="/products/reflective-step-in-harness" className="text-brand-500 font-semibold hover:underline">reflective step-in harnesses</Link>{' '}
               distribute pressure evenly across the chest — far safer than collars for dogs who pull on leash. And our{' '}
               <Link href="/products/orthopedic-memory-foam-dog-bed" className="text-brand-500 font-semibold hover:underline">orthopedic memory foam beds</Link>{' '}
-              are vet-recommended for dogs with arthritis or joint pain.
+              are expert-recommended for dogs with arthritis or joint pain.
             </p>
             <p>
               Not sure what your dog needs? Take our <Link href="/quiz" className="text-brand-500 font-semibold hover:underline">2-minute pet quiz</Link> and

@@ -63,7 +63,7 @@ export default function EmailPopup() {
             Get 10% Off Your First Order
           </h2>
           <p className="text-orange-100 text-sm mt-1">
-            Join 10,000+ happy pet owners
+            Join growing community of pet owners
           </p>
         </div>
 

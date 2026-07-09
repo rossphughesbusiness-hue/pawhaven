@@ -154,7 +154,7 @@ function getBody(slug, name, price) {
     'cat-puzzle-slow-feeder': `Indoor cats need mental challenges — our puzzle feeder turns every meal into a stimulating hunt. Rotating chambers and sliding covers keep them engaged. Vets love it. Cats obsess over it.`,
     'self-cleaning-slicker-brush': `The Self-Cleaning Slicker Brush collects loose fur in seconds — press the button and it pops right off. No mess, no pulling fur from bristles. Works on every coat type.`,
     'dog-water-bottle-leakproof': `Built-in drinking trough fills at a squeeze, tips back without a drop wasted. Clips to your bag. One-handed. Your dog drinks fresh water on every walk, hike, or road trip.`,
-    'maze-slow-feeder-bowl': `Dogs who bolt their food risk bloating and vomiting. Our maze slow feeder cuts eating speed by 10x and turns mealtime into a rewarding puzzle. Vet-recommended, dishwasher safe.`,
+    'maze-slow-feeder-bowl': `Dogs who bolt their food risk bloating and vomiting. Our maze slow feeder cuts eating speed by 10x and turns mealtime into a rewarding puzzle. Expert-recommended, dishwasher safe.`,
     'dog-anxiety-wrap': `Gentle constant pressure wraps calm your dog's nervous system in minutes — during storms, fireworks, and vet visits. Drug-free. Vet-endorsed. Works in under 2 minutes.`,
   };
   return bodies[slug] || `${name} — loved by pet owners, designed for results. Just $${price}.`;
@@ -206,7 +206,7 @@ function getGoogleDesc(slug) {
     'cat-puzzle-slow-feeder': 'Puzzle feeders turn mealtime into mental enrichment. Reduces anxiety & overeating in cats.',
     'self-cleaning-slicker-brush': 'Self-cleaning slicker brush ejects fur at the press of a button. No mess, happy dog.',
     'dog-water-bottle-leakproof': 'Leakproof squeeze bottle with built-in trough. Perfect for hikes, walks & road trips.',
-    'maze-slow-feeder-bowl': 'Vet-recommended maze bowl slows eating by 10x. Prevents bloating & aids digestion.',
+    'maze-slow-feeder-bowl': 'Expert-recommended maze bowl slows eating by 10x. Prevents bloating & aids digestion.',
     'dog-anxiety-wrap': 'Gentle pressure wraps ease dog anxiety in minutes. Drug-free, vet-endorsed relief.',
   };
   return descs[slug] || 'Shop premium pet accessories at PawHaven. Free shipping on orders over $35.';

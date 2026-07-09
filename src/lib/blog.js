@@ -1,7 +1,7 @@
 export const posts = [
   {
     slug: 'best-slow-feeder-bowls-for-dogs',
-    title: 'Best Slow Feeder Bowls for Dogs in 2026 (Vet-Approved)',
+    title: 'Best Slow Feeder Bowls for Dogs in 2026 (Expert-Curated)',
     description: 'Does your dog eat too fast? We tested the top slow feeder bowls to help with bloat, digestion, and anxiety. Here are our top picks for 2026.',
     date: '2026-06-01',
     readTime: '6 min read',
@@ -9,7 +9,7 @@ export const posts = [
     emoji: '🥣',
     heroImage: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=85&auto=format&fit=crop',
     content: `
-If your dog inhales their food in seconds, you\'re not alone — and it\'s more dangerous than most owners realize. Eating too fast can cause bloat (gastric dilatation-volvulus), vomiting, and long-term digestive issues. Slow feeder bowls are one of the most vet-recommended tools to fix this.
+If your dog inhales their food in seconds, you\'re not alone — and it\'s more dangerous than most owners realize. Eating too fast can cause bloat (gastric dilatation-volvulus), vomiting, and long-term digestive issues. Slow feeder bowls are one of the most expert-recommended tools to fix this.
 
 We tested over a dozen slow feeders with real dogs of different sizes and breeds. Here\'s what we found.
 
@@ -68,7 +68,7 @@ If your dog eats fast, a slow feeder bowl isn\'t optional — it\'s a health too
   },
   {
     slug: 'how-to-calm-an-anxious-dog',
-    title: 'How to Calm an Anxious Dog: 7 Vet-Approved Methods That Actually Work',
+    title: 'How to Calm an Anxious Dog: 7 Expert-Curated Methods That Actually Work',
     description: 'Dog anxiety affects 1 in 4 pets. Here are 7 science-backed methods to help your dog feel safe — including tools vets actually recommend.',
     date: '2026-06-08',
     readTime: '8 min read',
@@ -3202,7 +3202,7 @@ From there, add one enrichment activity per week until you\'ve built a full dail
   {
     slug: 'senior-cat-care-guide-2026',
     title: 'Senior Cat Care Guide 2026: Everything Changes at 7',
-    excerpt: "What your cat needs changes significantly after age 7. Vet-backed guide to sleep, enrichment, nutrition, grooming, and health checks for older cats.",
+    excerpt: "What your cat needs changes significantly after age 7. Research-backed guide to sleep, enrichment, nutrition, grooming, and health checks for older cats.",
     category: 'Cats',
     tag: 'Health',
     date: '2026-06-19',
@@ -3760,8 +3760,8 @@ Dogs that feel heard — whose signals are responded to — need to escalate les
   },
   {
     slug: 'best-accessories-for-large-dogs-2026',
-    title: 'Best Accessories for Large Dogs in 2026 (Vet-Approved Picks)',
-    description: 'From orthopedic beds to heavy-duty tug toys, these are the best large dog accessories for big breeds in 2026 — vet-reviewed and size-rated.',
+    title: 'Best Accessories for Large Dogs in 2026 (Expert-Curated Picks)',
+    description: 'From orthopedic beds to heavy-duty tug toys, these are the best large dog accessories for big breeds in 2026 — expert-reviewed and size-rated.',
     date: '2026-06-23',
     readTime: '7 min read',
     category: 'Dogs',
@@ -3883,8 +3883,8 @@ You don\'t need to be a professional trainer. You need to be present, patient, a
 
   {
     slug: 'how-to-groom-a-cat-at-home',
-    title: 'How to Groom a Cat at Home: A Vet-Backed Step-by-Step Guide',
-    description: 'Learn how to groom a cat at home safely and effectively — coat brushing, nail trimming, ear care, and dental hygiene with vet-backed techniques and the right tools.',
+    title: 'How to Groom a Cat at Home: A Research-Backed Step-by-Step Guide',
+    description: 'Learn how to groom a cat at home safely and effectively — coat brushing, nail trimming, ear care, and dental hygiene with research-backed techniques and the right tools.',
     date: '2026-06-23',
     readTime: '8 min read',
     category: 'Cats',
@@ -3926,7 +3926,7 @@ Indoor cats don\'t wear their nails down on rough surfaces, so regular trimming 
 
 Cats\' ears are largely self-cleaning — the goal is inspection and occasional cleaning when needed, not routine cleaning of a healthy ear. Healthy ears are pale pink inside, odorless, and free of visible debris. Signs of a problem: dark discharge, strong odor, excessive scratching at the ear, or head shaking — all warrant a vet visit, as they may indicate ear mites or infection.
 
-**When cleaning is needed:** Use a vet-approved ear cleaning solution and a cotton ball — never a cotton swab inside the ear canal. Apply a few drops of solution, massage the base of the ear for 20–30 seconds, let your cat shake their head, then wipe the outer canal with the cotton ball.
+**When cleaning is needed:** Use a expert-curated ear cleaning solution and a cotton ball — never a cotton swab inside the ear canal. Apply a few drops of solution, massage the base of the ear for 20–30 seconds, let your cat shake their head, then wipe the outer canal with the cotton ball.
 
 **Frequency:** Monthly inspection; cleaning only when you see visible buildup.
 
@@ -4380,7 +4380,7 @@ A cat that eats too fast is not being greedy — they\'re following instincts th
   {
     slug: 'pet-first-aid-kit-essentials',
     title: 'What to Put in a Pet First Aid Kit — The Complete 2026 List',
-    description: 'A vet-reviewed list of everything you need in a pet first aid kit, why each item matters, and what to do in the most common pet emergencies.',
+    description: 'A expert-reviewed list of everything you need in a pet first aid kit, why each item matters, and what to do in the most common pet emergencies.',
     category: 'Dogs',
     tag: 'Safety',
     date: '2026-07-01',
@@ -4650,8 +4650,8 @@ Rain, extreme heat, injury, or a packed schedule — there are plenty of days wh
   },
   {
     slug: 'how-often-should-you-wash-your-dog',
-    title: 'How Often Should You Wash Your Dog? A Vet-Backed Guide by Breed',
-    excerpt: 'The answer depends entirely on coat type, lifestyle, and skin health. Here is the vet-backed guide by breed category.',
+    title: 'How Often Should You Wash Your Dog? A Research-Backed Guide by Breed',
+    excerpt: 'The answer depends entirely on coat type, lifestyle, and skin health. Here is the research-backed guide by breed category.',
     category: 'Dogs',
     tag: 'Grooming',
     date: '2026-07-05',

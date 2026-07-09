@@ -55,10 +55,10 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/pet-dog-cat-slow-feeder-bowls-anti-choking-slow-feeder-dish-bowl-home-dog-eating-plate-anti-gulping-bowl-supplies-p-1653041912300969984.html',
     supplierCost: 2.50,
     shippingDays: '5–8 days',
-    shortDescription: 'Vet-recommended slow feeder that prevents dangerous bloating, aids digestion, and makes mealtime fun.',
-    description: 'Help your dog eat slower and healthier with our veterinarian-approved maze slow feeder. Dogs who eat too fast are at risk for bloating, gulping, and digestive issues. Our maze design forces dogs to work for each bite — slowing them down by up to 10x and turning mealtime into a stimulating puzzle they love.',
+    shortDescription: 'Expert-recommended slow feeder that prevents dangerous bloating, aids digestion, and makes mealtime fun.',
+    description: 'Help your dog eat slower and healthier with our maze slow feeder. Dogs who eat too fast are at risk for bloating, gulping, and digestive issues. Our maze design forces dogs to work for each bite — slowing them down by up to 10x and turning mealtime into a stimulating puzzle they love.',
     features: [
-      { icon: '🛡️', title: 'Vet Recommended', desc: 'Reduces dangerous bloating and gulping' },
+      { icon: '🛡️', title: 'Helps Prevent Bloating', desc: 'Reduces dangerous bloating and gulping' },
       { icon: '🧠', title: 'Mental Stimulation', desc: 'Engages their mind during every meal' },
       { icon: '🍽️', title: 'Non-Slip Base', desc: 'Stays in place even for enthusiastic eaters' },
       { icon: '✨', title: 'Dishwasher Safe', desc: 'BPA-free, top-rack dishwasher friendly' },
@@ -173,7 +173,7 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/automatic-pet-cat-water-fountain-with-led-lighting-usb-dogs-cats-mute-drinker-feeder-bowl-drinking-dispenser-p-D885D946-07B7-41B4-A333-35E334AFCB1D.html',
     supplierCost: 14.00,
     shippingDays: '5–8 days',
-    shortDescription: 'Vet-recommended circulating fountain that encourages cats to drink more water. Triple filtration, whisper-quiet.',
+    shortDescription: 'Expert-recommended circulating fountain that encourages cats to drink more water. Triple filtration, whisper-quiet.',
     description: 'Cats evolved in deserts and instinctively prefer running water over standing water. Most cats are chronically dehydrated, leading to kidney disease and urinary issues. Our Silent Cat Water Fountain mimics a natural stream, encouraging cats to drink 3x more, with a whisper-quiet (< 30 dB) pump and triple-filtration system.',
     features: [
       { icon: '🤫', title: 'Whisper Quiet', desc: 'Under 30 dB — won\'t disturb sleep' },

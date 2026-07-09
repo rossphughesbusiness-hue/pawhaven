@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Dog Anxiety Relief 2026 — Calming Products That Actually Work | PawHaven',
-  description: 'Vet-approved calming products for anxious dogs. Lick mats, puzzle feeders, and comfort beds that reduce separation anxiety, noise phobia, and stress without sedation.',
+  description: 'Expert-curated calming products for anxious dogs. Lick mats, puzzle feeders, and comfort beds that reduce separation anxiety, noise phobia, and stress without sedation.',
   alternates: { canonical: 'https://pawhavenpets.org/dog-anxiety' },
   openGraph: {
     title: 'Dog Anxiety Relief 2026 | PawHaven',
@@ -166,10 +166,10 @@ export default function DogAnxietyPage() {
               <span className="text-blue-200">for Anxious Dogs</span>
             </h1>
             <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-recommended tools that reduce separation anxiety, noise phobia, and stress — without sedation. Lick mats, enrichment feeders, and comfort products that actually work.
+              Expert-recommended tools that reduce separation anxiety, noise phobia, and stress — without sedation. Lick mats, enrichment feeders, and comfort products that actually work.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '💊 Drug-free options', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🔬 Expert-reviewed', '💊 Drug-free options', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -213,7 +213,7 @@ export default function DogAnxietyPage() {
         <section className="py-14 px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-black text-navy-900 mb-2 text-center">Top Calming Products</h2>
-            <p className="text-gray-500 text-center mb-10">Vet-recommended, drug-free anxiety relief for dogs</p>
+            <p className="text-gray-500 text-center mb-10">Expert-recommended, drug-free anxiety relief for dogs</p>
             <div className="grid sm:grid-cols-3 gap-6">
               {featured.map((p) => (
                 <Link

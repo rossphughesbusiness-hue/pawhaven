@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Kitten Essentials 2026 — New Cat Supplies & Accessories | PawHaven',
-  description: 'Everything you need for a new kitten: cave beds, feather wands, litter training tips, slow feeders, and calming aids. Vet-approved kitten starter kit.',
+  description: 'Everything you need for a new kitten: cave beds, feather wands, litter training tips, slow feeders, and calming aids. Expert-curated kitten starter kit.',
   alternates: { canonical: 'https://pawhavenpets.org/kittens' },
   openGraph: {
     title: 'Kitten Essentials 2026 | PawHaven',
-    description: 'Set your new kitten up for a confident, healthy life with vet-approved first-month essentials.',
+    description: 'Set your new kitten up for a confident, healthy life with expert-curated first-month essentials.',
     url: 'https://pawhavenpets.org/kittens',
   },
 };
@@ -153,10 +153,10 @@ export default function KittensPage() {
               <span className="text-purple-200">Here\'s What They Actually Need</span>
             </h1>
             <p className="text-purple-100 text-lg max-w-2xl mx-auto mb-8">
-              Vet-approved essentials for the first month — from a safe hideaway to play gear that develops healthy habits. Skip the overwhelm and start with what works.
+              Expert-curated essentials for the first month — from a safe hideaway to play gear that develops healthy habits. Skip the overwhelm and start with what works.
             </p>
             <div className="flex flex-wrap justify-center gap-3 text-sm">
-              {['🔬 Vet-reviewed', '🐾 Kitten-safe', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
+              {['🔬 Expert-reviewed', '🐾 Kitten-safe', '📦 Free shipping $50+', '↩️ 30-day returns'].map(b => (
                 <span key={b} className="bg-white/20 backdrop-blur px-4 py-2 rounded-full font-medium">{b}</span>
               ))}
             </div>
@@ -242,7 +242,7 @@ export default function KittensPage() {
         {/* Vet tips */}
         <section className="py-12 px-4 bg-purple-50">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">Vet-Backed First-Month Tips</h2>
+            <h2 className="text-2xl font-bold text-navy-900 mb-8 text-center">Research-Backed First-Month Tips</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {vetTips.map(({ icon, title, desc }) => (
                 <div key={title} className="bg-white rounded-2xl p-5 shadow-sm border border-purple-100 flex gap-4">
