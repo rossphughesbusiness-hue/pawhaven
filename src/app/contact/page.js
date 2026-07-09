@@ -112,6 +112,34 @@ export default function ContactPage() {
           ))}
         </div>
 
+        {/* Business / trust info */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-6 mb-10 flex flex-col sm:flex-row gap-6 items-start">
+          <div className="flex-1">
+            <h2 className="font-black text-navy-900 text-lg mb-1">PawHaven</h2>
+            <p className="text-gray-500 text-sm mb-3">Premium pet accessories — dropshipped directly to your door.</p>
+            <div className="space-y-1.5 text-sm text-gray-600">
+              <div>📧 <a href="mailto:support@pawhavenpets.org" className="text-brand-500 hover:underline">support@pawhavenpets.org</a></div>
+              <div>🕐 Response within 24 hours, 7 days a week</div>
+              <div>🌐 <a href="https://pawhavenpets.org" className="text-brand-500 hover:underline">pawhavenpets.org</a></div>
+            </div>
+          </div>
+          <div className="flex-1">
+            <div className="grid grid-cols-2 gap-3 text-sm">
+              {[
+                { icon: '🛡️', text: '30-Day Returns, No Questions' },
+                { icon: '🔒', text: 'Stripe Secure Checkout' },
+                { icon: '📦', text: 'Ships in 1–2 Business Days' },
+                { icon: '✅', text: 'Quality-Tested Products' },
+              ].map((b) => (
+                <div key={b.text} className="flex items-start gap-2 bg-gray-50 rounded-xl p-3">
+                  <span>{b.icon}</span>
+                  <span className="text-gray-700 font-medium">{b.text}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         {/* FAQ */}
         <h2 className="text-2xl font-black text-navy-900 mb-6">Frequently Asked Questions</h2>
         <div className="space-y-3 mb-16">

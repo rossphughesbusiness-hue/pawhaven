@@ -27,6 +27,14 @@
     {
       "path": "/api/cron/ad-video-generator",
       "schedule": "0 7 * * 0"
+    },
+    {
+      "path": "/api/cron/blog-generator",
+      "schedule": "0 6 * * 1"
+    },
+    {
+      "path": "/api/cron/performance",
+      "schedule": "0 8 * * 1"
     }
   ]
 }

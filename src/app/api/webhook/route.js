@@ -847,5 +847,32 @@ export async function POST(req) {
     }
   }
 
+  // ── Per-product revenue + order tracking ──────────────────────────────────
+  try {
+    const today = new Date().toISOString().slice(0, 10);
+    const orderRevenue = (session.amount_total || 0) / 100;
+
+    // Daily revenue total
+    await redisSave(`revenue:daily:${today}`, orderRevenue + (parseFloat(await redisGet(`revenue:daily:${today}`) || '0')));
+
+    // Per-product order counts (from cart metadata — exact store product IDs)
+    for (const item of cartItems) {
+      if (!item.id) continue;
+      const qty = item.qty || 1;
+      const productKey = `product_perf:${item.id}`;
+      const existing = await redisGet(productKey) || { orders: 0, units: 0, lastOrderDate: null };
+      await redisSave(productKey, {
+        id: item.id,
+        orders: (existing.orders || 0) + 1,
+        units: (existing.units || 0) + qty,
+        lastOrderDate: today,
+      }, 365 * 24 * 60 * 60);
+    }
+
+    console.log(`[webhook] 📊 Revenue tracked: $${orderRevenue.toFixed(2)} for ${cartItems.length} item type(s)`);
+  } catch (err) {
+    console.error('[webhook] Revenue tracking error:', err.message);
+  }
+
   return NextResponse.json({ received: true });
 }

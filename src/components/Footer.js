@@ -21,11 +21,12 @@ export default function Footer() {
               product is hand-picked for quality, safety, and your pet\'s happiness.
             </p>
             {/* Trust badges */}
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 mb-4">
               {[
-                '🔒 Secure Checkout',
-                '📦 Free Returns',
-                '⭐ 10K+ Happy Pets',
+                '🔒 Stripe Secure Checkout',
+                '↩️ 30-Day Free Returns',
+                '📦 Ships in 1–2 Days',
+                '✅ Quality-Tested Products',
               ].map((badge) => (
                 <span
                   key={badge}
@@ -35,6 +36,9 @@ export default function Footer() {
                 </span>
               ))}
             </div>
+            <p className="text-gray-500 text-xs">
+              Questions? <a href="mailto:support@pawhavenpets.org" className="text-brand-400 hover:underline">support@pawhavenpets.org</a> · Response within 24 hours
+            </p>
           </div>
 
           {/* Shop */}
