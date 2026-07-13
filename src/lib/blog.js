@@ -4870,6 +4870,67 @@ Dogs show happiness clearly. Cats are subtler, and their contentment signals are
 
 Start with a vet check to rule out physical causes, then look at the environment: adequate hiding spaces, vertical territory, daily play sessions, and consistent routine cover most behavioral causes of low-grade feline unhappiness.
     `,
+  },
+  {
+    slug: 'why-cat-not-eating-causes-vet',
+    title: "Why Is My Cat Not Eating? Common Causes and When to See a Vet",
+    excerpt: "A cat refusing food is always concerning. Learn the most common reasons behind appetite loss—from stress to serious health issues—and discover the warning signs that mean it's time to call your vet.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-07-13',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+When your cat pushes away their bowl, it's easy to worry. Unlike dogs, cats can develop serious health complications quickly if they stop eating. Understanding the difference between a minor appetite dip and a genuine emergency is crucial for every cat owner.
+
+## Common Non-Medical Reasons for Loss of Appetite
+
+**Environmental stress** is one of the most overlooked culprits. Cats are sensitive creatures—moving house, new pets, loud renovations, or even changes to their routine can suppress their appetite. If you've recently introduced a new family member or rearranged your home, give your cat time to adjust.
+
+**Food preferences** matter more than many owners realise. Your cat might be bored with their current diet, or the food has gone stale. Try rotating between quality brands or offering fresh wet food alongside dry kibble. Some cats also prefer their food at room temperature rather than straight from the fridge.
+
+**Bowl-related issues** can be surprisingly common. Some cats dislike eating from plastic bowls (they can retain odours and flavours), while others are sensitive to their whiskers touching the bowl rim. Switching to stainless steel or ceramic bowls, or using wider, shallower options, often helps. Many owners find that **slow feeders** or puzzle feeders work well too—they engage your cat's natural hunting instincts and make mealtimes more interesting.
+
+**Dental problems** fall into the grey area between behavioural and medical. If your cat is interested in food but seems to struggle chewing, check their mouth for tartar buildup, broken teeth, or inflamed gums. Dental disease is painful and a genuine appetite suppressant.
+
+## Medical Causes Worth Taking Seriously
+
+**Hyperthyroidism** is extremely common in older cats and causes rapid metabolism, yet paradoxically, some cats eat less despite increased energy needs. Other signs include weight loss, increased thirst, and hyperactivity.
+
+**Kidney disease** affects a large proportion of senior cats. Early signs include loss of appetite, increased water intake, and lethargy. Blood work is essential for diagnosis.
+
+**Diabetes, infections, and gastrointestinal issues**—including inflammatory bowel disease, parasites, and food allergies—all suppress appetite. Vomiting, diarrhoea, or changes in litter box habits alongside reduced eating are red flags.
+
+**Nausea and medication side effects** can occur after vaccinations, dental work, or if your cat has started new medication. This usually resolves within 24 hours, but persistent loss of appetite warrants investigation.
+
+## The Danger Window: Why Timing Matters
+
+Unlike dogs, cats metabolise stored fat differently. If a cat stops eating for more than 48 hours, **hepatic lipidosis** (fatty liver disease) can develop—a serious, sometimes fatal condition. This is why veterinary attention shouldn't be delayed.
+
+## Signs You Should Contact Your Vet Immediately
+
+- Appetite loss lasting more than 24 hours
+- Vomiting or diarrhoea accompanying reduced eating
+- Lethargy, hiding, or unusual behaviour
+- Breathing difficulties or drooling
+- Weight loss over recent weeks
+- Increased water intake
+- Your cat is elderly, very young, or has pre-existing health conditions
+
+## What to Do Right Now
+
+**Offer tempting food.** Try warming wet food slightly, offering cooked chicken, or using **lick mats** with wet food, yoghurt, or pumpkin purée to make eating more appealing and easier if they're unwell.
+
+**Check the environment.** Ensure food is away from the litter tray, in a quiet spot. Some cats eat better with company; others prefer solitude.
+
+**Monitor closely.** Note how long it's been since your cat ate, any other symptoms, and their water intake. Bring this information to your vet appointment.
+
+**Book a vet visit.** If appetite loss persists beyond 24 hours or is accompanied by other symptoms, don't wait. Your vet can run blood work, check for dental disease, and identify any underlying conditions.
+
+## The Bottom Line
+
+Whilst occasional appetite dips happen, persistent refusal to eat is your cat's way of telling you something's wrong. Trust your instincts—you know your cat best. A quick vet visit rules out serious illness and gives you peace of mind. When in doubt, it's always better to check early than to wait and risk complications.
+    `,
   }
 ]
 
@@ -4961,6 +5022,7 @@ const POST_RELEVANCE = {
   'how-to-get-cat-to-drink-more-water':        ['Health', 'Cat Feeding', 'Cats'],
   'cat-scratching-furniture-solutions':        ['Enrichment', 'Cats', 'Toys'],
   'how-to-tell-if-your-cat-is-happy':          ['Health', 'Cats', 'Enrichment', 'Anxiety Relief'],
+  'why-cat-not-eating-causes-vet': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
