@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { products } from '@/lib/products';
 
+export const dynamic = 'force-dynamic';
+
 const BASE = 'https://pawhavenpets.org';
 
 // Google Product Category IDs for pet accessories
