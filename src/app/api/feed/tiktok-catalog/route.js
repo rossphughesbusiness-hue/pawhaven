@@ -11,6 +11,8 @@
 
 import { products } from '@/lib/products';
 
+export const dynamic = 'force-dynamic';
+
 const BASE = 'https://pawhavenpets.org';
 const BRAND = 'PawHaven';
 
