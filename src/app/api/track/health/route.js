@@ -1,3 +1,5 @@
+
+export const dynamic = 'force-dynamic';
 /**
  * GET /api/track/health
  * Verifies Redis connection and returns current pageview + product view counts.
