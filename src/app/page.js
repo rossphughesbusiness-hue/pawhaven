@@ -36,19 +36,19 @@ const trustItems = [
   { icon: '🚚', title: 'Free Shipping', desc: 'On orders over $50' },
   { icon: '↩️', title: '30-Day Returns', desc: 'Hassle-free, no questions asked' },
   { icon: '🛡️', title: 'Secure Checkout', desc: '256-bit SSL encryption' },
-  { icon: '⭐', title: 'Satisfaction Guaranteed', desc: 'Trusted by pet lovers nationwide' },
+  { icon: '⭐', title: 'Satisfaction Guaranteed', desc: '30-day money-back guarantee' },
 ];
 
 const features = [
   {
     icon: '🔬',
-    title: 'Quality-Tested Products',
-    desc: 'Every item is reviewed for safety, durability, and value before it ever reaches our store.',
+    title: 'Carefully Selected Products',
+    desc: 'Every item is chosen for safety, durability, and value before it is listed in our store.',
   },
   {
     icon: '🌍',
-    title: 'Sourced Globally, Tested Locally',
-    desc: "We source from the world\'s best manufacturers and test every product personally before we sell it.",
+    title: 'Sourced From Trusted Manufacturers',
+    desc: 'We work with established manufacturers and review product quality and materials before listing.',
   },
   {
     icon: '💚',
@@ -61,7 +61,7 @@ const features = [
 const stats = [
   { value: '40+', label: 'Curated Products' },
   { value: '30 Days', label: 'Free Returns' },
-  { value: '40+', label: 'Quality-Tested Products' },
+  { value: '40+', label: 'Carefully Selected Products' },
   { value: '30 Days', label: 'Free Returns' },
 ];
 
@@ -420,7 +420,7 @@ export default function HomePage() {
               Why Pet Owners Choose Us
             </h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">
-              We\'re pet owners too. We only sell what we\'d give our own animals.
+              We&apos;re pet owners too. We only sell what we&apos;d give our own animals.
             </p>
           </div>
 
