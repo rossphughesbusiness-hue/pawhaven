@@ -14,6 +14,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.pexels.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'pawhavenpets.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.pawhavenpets.org',
+      },
     ],
   },
 };
