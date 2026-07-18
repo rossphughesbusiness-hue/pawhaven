@@ -25,10 +25,13 @@ export async function POST(req) {
     }
 
     const promo = promoCodes.data[0];
-    const coupon = promo.coupon;
+    let coupon = promo.coupon;
 
-    // Check coupon is still valid
-    if (!coupon.valid) {
+    // coupon may arrive as an ID string or be missing if it was deleted in Stripe
+    if (typeof coupon === 'string') {
+      coupon = await stripe.coupons.retrieve(coupon).catch(() => null);
+    }
+    if (!coupon || coupon.deleted || !coupon.valid) {
       return NextResponse.json({ error: 'This coupon is no longer valid' }, { status: 404 });
     }
 
