@@ -18,9 +18,7 @@ const featured = [
     name: 'Feather Wand Cat Teaser',
     tag: 'Toys',
     price: 11.99,
-    comparePrice: 18.99,
     img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Mimics bird movement to trigger natural prey drive — gets even lazy cats running.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Interactive Automatic Laser Toy',
     tag: 'Toys',
     price: 22.99,
-    comparePrice: 34.99,
     img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=85&auto=format&fit=crop',
-    badge: '34% off',
     blurb: '15-minute auto-shutoff, 3 speed modes — hands-free play while you work.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Cat Tunnel Crinkle Play Tube',
     tag: 'Play',
     price: 27.99,
-    comparePrice: 44.99,
     img: 'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: 'T-junction tunnel with crinkle walls — ambush, sprint, and hide instincts all covered.',
   },
 ];
@@ -165,9 +159,6 @@ export default function CatToysPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -178,7 +169,6 @@ export default function CatToysPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-purple-600 font-semibold text-sm">Shop →</span>
                     </div>

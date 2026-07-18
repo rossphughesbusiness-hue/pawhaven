@@ -62,7 +62,7 @@ const faqJsonLd = {
       name: 'Are new arrivals on sale or discounted?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'New arrivals are priced at their standard retail price, but all customers get 10% off their first order with code WELCOME10 — which applies to new arrivals too. We also run periodic flash sales at /sale where new arrivals may be included.',
+        text: 'New arrivals are priced at their standard retail price, and all customers get 10% off their first order with code WELCOME10 — which applies to new arrivals too.',
       },
     },
   ],
@@ -245,7 +245,6 @@ export default function NewArrivalsPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
               { href: '/products', label: '🛍️ All Products', desc: 'Full catalog' },
-              { href: '/sale', label: '🔥 Flash Sale', desc: 'Limited-time deals' },
               { href: '/dogs', label: '🐶 Dog Products', desc: 'Everything for dogs' },
               { href: '/cats', label: '🐱 Cat Products', desc: 'Everything for cats' },
             ].map(({ href, label, desc }) => (

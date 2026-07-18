@@ -17,9 +17,7 @@ const featured = [
     name: 'Self-Cleaning Slicker Brush',
     tag: 'Grooming',
     price: 24.99,
-    comparePrice: 39.99,
     img: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Fine steel pins remove undercoat and tangles — one-click retract ejects fur instantly.',
   },
   {
@@ -27,9 +25,7 @@ const featured = [
     name: 'Portable Paw Cleaner',
     tag: 'Grooming',
     price: 18.99,
-    comparePrice: 29.99,
     img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Soft silicone bristles lift dirt from paws in seconds — gentle enough for daily use.',
   },
   {
@@ -37,9 +33,7 @@ const featured = [
     name: 'Pet Nail Grinder (Rechargeable)',
     tag: 'Nails',
     price: 28.99,
-    comparePrice: 44.99,
     img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=85&auto=format&fit=crop',
-    badge: '36% off',
     blurb: 'Quiet motor, 2-speed settings — smoother edges than clippers, no splitting risk.',
   },
 ];
@@ -198,9 +192,6 @@ export default function CatGroomingPage() {
                       alt={p.name}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-teal-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -211,7 +202,6 @@ export default function CatGroomingPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-teal-700 font-semibold text-sm">Shop →</span>
                     </div>

@@ -19,12 +19,10 @@ import ProductCard from '@/components/ProductCard';
 import AddToCartButton from './AddToCartButton';
 import ImageGallery from './ImageGallery';
 import ViewTracker from './ViewTracker';
-import ViewerCount from './ViewerCount';
 import TrustBadges from '@/components/TrustBadges';
 import WishlistButton from '@/components/WishlistButton';
 import ShareButtons from '@/components/ShareButtons';
 import BackInStockForm from '@/components/BackInStockForm';
-import CountdownTimer from './CountdownTimer';
 import StickyAddToCart from './StickyAddToCart';
 import RecentlyViewed from './RecentlyViewed';
 
@@ -52,29 +50,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-function StarRating({ rating, count }) {
-  return (
-    <div className="flex items-center gap-2">
-      <div className="flex gap-0.5">
-        {[1, 2, 3, 4, 5].map((s) => (
-          <svg
-            key={s}
-            xmlns="http://www.w3.org/2000/svg"
-            className={`h-5 w-5 ${s <= Math.round(rating) ? 'text-amber-400' : 'text-gray-200'}`}
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-          </svg>
-        ))}
-      </div>
-      <span className="text-sm text-gray-600 font-medium">
-        {rating} · {count.toLocaleString()} reviews
-      </span>
-    </div>
-  );
-}
-
 export default function ProductPage({ params }) {
   const product = getProductBySlug(params.slug);
   if (!product) notFound();
@@ -83,9 +58,6 @@ export default function ProductPage({ params }) {
   const relatedPosts = getRelatedPosts(product, 3);
   const fbtCompanions = getFBT(product.slug, products);
   const sizeGuideType = SIZE_GUIDE_MAP[product.slug] || null;
-  const savings = product.comparePrice
-    ? (product.comparePrice - product.price).toFixed(2)
-    : null;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -105,20 +77,6 @@ export default function ProductPage({ params }) {
         : 'https://schema.org/OutOfStock',
       seller: { '@type': 'Organization', name: 'PawHaven' },
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
-    review: product.reviews.slice(0, 3).map((r) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.name },
-      reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
-      reviewBody: r.text,
-      datePublished: r.date,
-    })),
   };
 
   const breadcrumbJsonLd = {
@@ -172,8 +130,6 @@ export default function ProductPage({ params }) {
                 </h1>
                 <WishlistButton product={product} size="lg" className="mt-1 flex-shrink-0" />
               </div>
-              <StarRating rating={product.rating} count={product.reviewCount} />
-              <ViewerCount productId={product.id} />
             </div>
 
             {/* Price */}
@@ -181,16 +137,6 @@ export default function ProductPage({ params }) {
               <span className="text-4xl font-black text-navy-900">
                 ${product.price.toFixed(2)}
               </span>
-              {product.comparePrice && (
-                <span className="text-xl text-gray-400 line-through">
-                  ${product.comparePrice.toFixed(2)}
-                </span>
-              )}
-              {savings && (
-                <span className="bg-red-50 text-red-600 text-sm font-bold px-3 py-1 rounded-full">
-                  You save ${savings}
-                </span>
-              )}
             </div>
 
             {/* Short description */}
@@ -202,7 +148,7 @@ export default function ProductPage({ params }) {
             <div className="bg-emerald-50 rounded-2xl p-4 flex flex-col gap-2">
               <div className="flex items-center gap-2 text-emerald-700 text-sm font-semibold">
                 <span>✓</span>
-                <span>In Stock — {product.stock} units remaining</span>
+                <span>{product.stock > 0 ? 'In Stock' : 'Currently unavailable'}</span>
               </div>
               <div className="flex items-center gap-2 text-emerald-700 text-sm">
                 <span>🚚</span>
@@ -216,9 +162,6 @@ export default function ProductPage({ params }) {
 
             {/* Share */}
             <ShareButtons product={product} />
-
-            {/* Countdown timer */}
-            <CountdownTimer />
 
             {/* Back in stock form (low stock) */}
             {product.stock < 10 && <BackInStockForm product={product} />}
@@ -256,37 +199,7 @@ export default function ProductPage({ params }) {
           </div>
         </div>
 
-        {/* ─── Reviews ─── */}
-        <div className="mt-20">
-          <h2 className="text-2xl font-black text-navy-900 mb-8">
-            Customer Reviews ({product.reviewCount.toLocaleString()})
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {product.reviews.map((review, i) => (
-              <div key={i} className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: review.rating }).map((_, j) => (
-                    <span key={j} className="text-amber-400">★</span>
-                  ))}
-                </div>
-                <p className="text-gray-700 text-sm leading-relaxed italic mb-4">
-                  "{review.text}"
-                </p>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-sm font-bold text-brand-600">
-                    {review.name.charAt(0)}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-navy-900 text-sm">{review.name}</div>
-                    <div className="text-gray-400 text-xs">{review.date} · Verified Purchase</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* ─── Community Reviews + Submit Form ─── */}
+        {/* ─── Customer Reviews (real, submitted by verified customers) ─── */}
         <DynamicReviews slug={product.slug} />
         <ReviewForm slug={product.slug} productName={product.name} />
 

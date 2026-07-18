@@ -18,9 +18,7 @@ const featured = [
     name: 'IQ Puzzle Feeder Toy',
     tag: 'Enrichment',
     price: 27.99,
-    comparePrice: 39.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '30% off',
     blurb: 'Two difficulty levels for growing challenge — tires out high-energy dogs in 15 minutes.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Repetitive licking activates the parasympathetic nervous system — the science of calm.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Heavy-Duty Rope Tug Toy',
     tag: 'Play',
     price: 16.99,
-    comparePrice: 26.99,
     img: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Tug engages problem-solving and bonding simultaneously — 10 min = 30 min walk.',
   },
   {
@@ -48,9 +42,7 @@ const featured = [
     name: 'Maze Slow Feeder Bowl',
     tag: 'Feeding',
     price: 24.99,
-    comparePrice: 39.99,
     img: 'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: 'Turns every meal into a 10-minute puzzle — slows eating and satisfies scent instincts.',
   },
   {
@@ -58,9 +50,7 @@ const featured = [
     name: 'Crinkle Squeaky Toy Bundle',
     tag: 'Toys',
     price: 16.99,
-    comparePrice: 27.99,
     img: 'https://images.unsplash.com/photo-1534361960057-19f4434a5fd6?w=600&q=85&auto=format&fit=crop',
-    badge: '39% off',
     blurb: 'Multi-sensory textures and sounds engage sight, smell, and prey drive all at once.',
   },
 ];
@@ -244,9 +234,6 @@ export default function DogEnrichmentPage() {
                       height={480}
                       className="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-2 left-2 bg-emerald-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                      {p.badge}
-                    </span>
                   </div>
                   <div className="p-3">
                     <p className="text-xs text-emerald-700 font-medium mb-0.5">{p.tag}</p>
@@ -254,7 +241,6 @@ export default function DogEnrichmentPage() {
                     <p className="text-xs text-gray-400 mb-2 leading-tight hidden sm:block">{p.blurb}</p>
                     <div className="flex items-center gap-2">
                       <span className="font-black text-navy-900 text-sm">${p.price}</span>
-                      <span className="text-gray-400 text-xs line-through">${p.comparePrice}</span>
                     </div>
                   </div>
                 </Link>

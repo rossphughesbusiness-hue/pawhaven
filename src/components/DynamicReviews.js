@@ -19,7 +19,7 @@ function ReviewCard({ review }) {
         </div>
         <div>
           <div className="font-semibold text-navy-900 text-sm">{review.name}</div>
-          <div className="text-gray-400 text-xs">{review.date} · Verified Purchase</div>
+          <div className="text-gray-400 text-xs">{review.date}</div>
         </div>
       </div>
     </div>

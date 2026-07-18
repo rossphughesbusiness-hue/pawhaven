@@ -140,7 +140,6 @@ function buildRecommendationEmail(customerName, recommendations) {
             <div style="padding:12px;">
               ${savings > 0 ? `<div style="display:inline-block;background:#fef2f2;color:#ef4444;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;margin-bottom:6px;">${savings}% OFF</div>` : ''}
               <div style="font-size:13px;font-weight:700;color:#1a2b4a;line-height:1.3;margin-bottom:4px;">${p.name}</div>
-              <div style="font-size:12px;color:#94a3b8;margin-bottom:6px;">⭐ ${p.rating} (${(p.reviewCount || 0).toLocaleString()})</div>
               <div style="font-size:14px;font-weight:800;color:#f97316;">$${p.price.toFixed(2)}</div>
               ${p.comparePrice ? `<div style="font-size:11px;color:#94a3b8;text-decoration:line-through;">$${p.comparePrice.toFixed(2)}</div>` : ''}
             </div>

@@ -6,6 +6,8 @@
 cd "$(dirname "$0")"
 rm -f .git/index.lock .git/HEAD.lock
 
+git pull --rebase --autostash origin main
+
 git add -A
 
 echo ""
@@ -15,7 +17,7 @@ echo ""
 
 read -p "Enter commit message (or press Enter for default): " MSG
 if [ -z "$MSG" ]; then
-  MSG="chore: update pawhaven"
+  MSG="fix: remove all fabricated reviews, testimonials, urgency widgets, fake sale pricing and unsubstantiated claims sitewide"
 fi
 
 git commit -m "$MSG"

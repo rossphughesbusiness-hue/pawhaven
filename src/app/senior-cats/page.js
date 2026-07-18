@@ -18,9 +18,7 @@ const featured = [
     name: 'Cozy Cat Cave Hideaway',
     tag: 'Comfort',
     price: 44.99,
-    comparePrice: 64.99,
     img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=85&auto=format&fit=crop',
-    badge: '31% off',
     blurb: 'Enclosed wool cave relieves anxiety — senior cats spend more time hiding as they age.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Slows eating and reduces stress — particularly effective for senior cats with anxiety.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Cat Window Perch Hammock',
     tag: 'Enrichment',
     price: 29.99,
-    comparePrice: 44.99,
     img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Passive enrichment from a secure perch — perfect for cats that can no longer jump as high.',
   },
 ];
@@ -221,9 +215,6 @@ export default function SeniorCatsPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-rose-600 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -234,7 +225,6 @@ export default function SeniorCatsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-rose-600 font-semibold text-sm">Shop →</span>
                     </div>

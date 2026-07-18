@@ -237,7 +237,7 @@ export default function DogTrainingPage() {
         <div className="max-w-xl mx-auto px-4">
           <div className="text-4xl mb-4">🎯</div>
           <h2 className="text-3xl font-black mb-4">Ready to Train Smarter?</h2>
-          <p className="text-white/80 mb-8">Free shipping on orders over $50. 30-day returns. Trusted by thousands of dog owners.</p>
+          <p className="text-white/80 mb-8">Free shipping on orders over $50. 30-day returns.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/dogs" className="inline-block bg-white text-indigo-600 font-bold text-base px-8 py-4 rounded-full hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5">
               All Dog Products →

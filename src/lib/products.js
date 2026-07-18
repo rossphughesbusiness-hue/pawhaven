@@ -35,11 +35,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Feeding',
     price: 24.99,
-    comparePrice: 39.99,
-    rating: 4.8,
-    reviewCount: 1243,
-    badge: 'Best Seller',
-    badgeColor: 'bg-brand-500',
     image: IMGS.slowFeeder,
     images: [
       `${CJI}/1d320cc0-82e7-40a8-a4f0-677ec0d56fdf.png`,
@@ -55,18 +50,13 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/pet-dog-cat-slow-feeder-bowls-anti-choking-slow-feeder-dish-bowl-home-dog-eating-plate-anti-gulping-bowl-supplies-p-1653041912300969984.html',
     supplierCost: 2.50,
     shippingDays: '5–8 days',
-    shortDescription: 'Expert-recommended slow feeder that prevents dangerous bloating, aids digestion, and makes mealtime fun.',
+    shortDescription: 'Maze-design slow feeder that encourages slower eating, aids digestion, and makes mealtime fun.',
     description: 'Help your dog eat slower and healthier with our maze slow feeder. Dogs who eat too fast are at risk for bloating, gulping, and digestive issues. Our maze design forces dogs to work for each bite — slowing them down by up to 10x and turning mealtime into a stimulating puzzle they love.',
     features: [
       { icon: '🛡️', title: 'Helps Prevent Bloating', desc: 'Reduces dangerous bloating and gulping' },
       { icon: '🧠', title: 'Mental Stimulation', desc: 'Engages their mind during every meal' },
       { icon: '🍽️', title: 'Non-Slip Base', desc: 'Stays in place even for enthusiastic eaters' },
       { icon: '✨', title: 'Dishwasher Safe', desc: 'BPA-free, top-rack dishwasher friendly' },
-    ],
-    reviews: [
-      { name: 'Sarah M.', rating: 5, date: 'May 2026', text: 'My dog used to inhale his food so fast he\'d get sick every week. This bowl completely fixed it. He actually enjoys his meals now — it\'s like a game for him!' },
-      { name: 'Tom K.', rating: 5, date: 'April 2026', text: 'Our vet suggested a slow feeder and I\'m so glad I found this one. Great quality, easy to clean, and my boxer takes 10 minutes to finish instead of 30 seconds.' },
-      { name: 'Linda R.', rating: 4, date: 'April 2026', text: 'Works perfectly for our medium-sized lab. Only thing I\'d change is a slightly deeper maze but otherwise 10/10.' },
     ],
   },
   {
@@ -77,11 +67,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Anxiety Relief',
     price: 19.99,
-    comparePrice: 34.99,
-    rating: 4.9,
-    reviewCount: 2891,
-    badge: 'Fan Favorite',
-    badgeColor: 'bg-emerald-500',
     image: IMGS.lickMat,
     images: [IMGS.lickMat, `${AE}/S0f7980c000a74b8d806d4a3149e21f206.jpg_960x960q75.jpg`, `${AE}/S1bb8396138c54b6ea9cdbb1774b40528o.jpg_960x960q75.jpg`],
     variants: [
@@ -96,18 +81,13 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/dog-slow-feeder-bowl-silicone-lick-mat-toy-p-2511110130591619600.html',
     supplierCost: 2.50,
     shippingDays: '5–8 days',
-    shortDescription: 'Spread peanut butter, yogurt, or wet food and instantly calm an anxious dog. TikTok\'s most viral pet product.',
+    shortDescription: 'Spread peanut butter, yogurt, or wet food to give your dog a calming, long-lasting treat activity.',
     description: 'The Calming Lick Mat is the easiest, fastest way to soothe an anxious dog. Whether it\'s bath time, thunderstorms, vet visits, or just a high-energy evening — spread any soft treat on the textured surface and watch your dog relax in minutes. Licking releases endorphins naturally, reducing stress without medication.',
     features: [
       { icon: '😌', title: 'Anxiety Relief', desc: 'Natural endorphin release through licking' },
       { icon: '🛁', title: 'Bath Time Hero', desc: 'Stick to the wall for hands-free bathing' },
       { icon: '🌿', title: 'Food-Grade Silicone', desc: '100% safe, BPA-free, dishwasher safe' },
       { icon: '🧲', title: 'Suction Cup Mount', desc: 'Sticks to walls, floors, or tub sides' },
-    ],
-    reviews: [
-      { name: 'Jessica T.', rating: 5, date: 'May 2026', text: 'My anxious dog is now calm during thunderstorms because I give her peanut butter on this mat. Absolute lifesaver. Bought 3 more as gifts.' },
-      { name: 'Marcus D.', rating: 5, date: 'May 2026', text: 'Game changer for bath time. My dog HATED baths. Now he\'s too busy licking to care. Wish I found this years ago.' },
-      { name: 'Amy P.', rating: 5, date: 'March 2026', text: 'So simple but so effective. I freeze yogurt in it for a summer treat. My dog goes absolutely nuts for it.' },
     ],
   },
   {
@@ -118,11 +98,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Grooming',
     price: 22.99,
-    comparePrice: 34.99,
-    rating: 4.7,
-    reviewCount: 876,
-    badge: 'New Arrival',
-    badgeColor: 'bg-sky-500',
     image: IMGS.pawCleaner,
     images: [IMGS.pawCleaner, `${AE}/Sfd938aac34fa4011ac64fa47c6ecac5bT.jpg_960x960q75.jpg`, `${AE}/Se3a1ed1518434648ba6903882d573afcY.jpg_960x960q75.jpg`],
     variants: [
@@ -144,11 +119,6 @@ export const products = [
       { icon: '💧', title: 'Leak-Proof Lid', desc: 'Won\'t spill in your bag or car' },
       { icon: '📏', title: '3 Sizes', desc: 'Small, Medium, Large — fits any breed' },
     ],
-    reviews: [
-      { name: 'Rachel B.', rating: 5, date: 'May 2026', text: 'Worth every penny. My golden retriever loves playing in mud and this thing saves my floors every single day.' },
-      { name: 'Chris V.', rating: 4, date: 'April 2026', text: 'Really well made. My dog was suspicious at first but got used to it after 2-3 uses. Now he just sticks his paw in without a fuss.' },
-      { name: 'Dana H.', rating: 5, date: 'March 2026', text: 'Bought the large for my German shepherd and it fits perfectly. Simple concept but brilliantly executed.' },
-    ],
   },
   {
     id: 4,
@@ -158,11 +128,6 @@ export const products = [
     category: 'Cats',
     tag: 'Health',
     price: 54.99,
-    comparePrice: 79.99,
-    rating: 4.8,
-    reviewCount: 3102,
-    badge: 'Top Rated',
-    badgeColor: 'bg-violet-500',
     image: IMGS.catFountain,
     images: [IMGS.catFountain, `${AE}/S461dbcc3d1e24121b0eb1d0b14a9bac2R.png_960x960.png`, `${AE}/S0f55a30d5eae42f9a9470c515b295275N.png_960x960.png`],
     emoji: '🐱',
@@ -173,18 +138,13 @@ export const products = [
     supplierProductUrl: 'https://cjdropshipping.com/product/automatic-pet-cat-water-fountain-with-led-lighting-usb-dogs-cats-mute-drinker-feeder-bowl-drinking-dispenser-p-D885D946-07B7-41B4-A333-35E334AFCB1D.html',
     supplierCost: 14.00,
     shippingDays: '5–8 days',
-    shortDescription: 'Expert-recommended circulating fountain that encourages cats to drink more water. Triple filtration, whisper-quiet.',
+    shortDescription: 'Circulating fountain that encourages cats to drink more water. Triple filtration, whisper-quiet.',
     description: 'Cats evolved in deserts and instinctively prefer running water over standing water. Most cats are chronically dehydrated, leading to kidney disease and urinary issues. Our Silent Cat Water Fountain mimics a natural stream, encouraging cats to drink 3x more, with a whisper-quiet (< 30 dB) pump and triple-filtration system.',
     features: [
       { icon: '🤫', title: 'Whisper Quiet', desc: 'Under 30 dB — won\'t disturb sleep' },
       { icon: '🔬', title: 'Triple Filtration', desc: 'Removes chlorine, hair, and impurities' },
       { icon: '💧', title: '2.5L Capacity', desc: 'Perfect for multi-cat households' },
       { icon: '🌙', title: 'LED Indicator', desc: 'Soft night light, signals low water' },
-    ],
-    reviews: [
-      { name: 'Olivia C.', rating: 5, date: 'May 2026', text: 'My cat ignored his water bowl for years. This fountain? He\'s obsessed. Our vet said his kidney numbers improved at his last checkup. Incredible.' },
-      { name: 'James F.', rating: 5, date: 'April 2026', text: 'So quiet I forget it\'s running. My two cats fight over who gets to drink from it first. Worth every dollar.' },
-      { name: 'Patricia N.', rating: 5, date: 'March 2026', text: 'Easy to set up, easy to clean, and my picky cat approved it immediately.' },
     ],
   },
   {
@@ -195,11 +155,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Safety',
     price: 24.99,
-    comparePrice: 39.99,
-    rating: 4.9,
-    reviewCount: 1567,
-    badge: 'Safety Pick',
-    badgeColor: 'bg-yellow-500',
     image: IMGS.ledCollar,
     images: [IMGS.ledCollar, `${AE}/Sa74b9dc04d9944f1bc2f159ea0793d27y.jpg_960x960q75.jpg`, `${AE}/S3ae6d743f41744a996d89ef3cfbd875fr.jpg_960x960q75.jpg`],
     variants: [
@@ -222,11 +177,6 @@ export const products = [
       { icon: '🌊', title: 'IPX6 Waterproof', desc: 'Rain, puddles, rivers — no problem' },
       { icon: '💡', title: '3 Light Modes', desc: 'Steady, slow flash, fast flash' },
     ],
-    reviews: [
-      { name: 'Mike R.', rating: 5, date: 'May 2026', text: 'Peace of mind on every nighttime walk. Super bright, holds charge for 3-4 nights, and my dog doesn\'t notice he\'s wearing it.' },
-      { name: 'Sandra K.', rating: 5, date: 'April 2026', text: 'Cars actually slow down when they see my dog now. I\'ve had three neighbors ask where I got it.' },
-      { name: 'Derek W.', rating: 5, date: 'March 2026', text: 'Great quality collar overall. The LED strip is bright without being annoyingly bright.' },
-    ],
   },
 
   // ─── DOGS ─────────────────────────────────────────────────────────────────
@@ -238,11 +188,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Comfort',
     price: 79.99,
-    comparePrice: 129.99,
-    rating: 4.8,
-    reviewCount: 2314,
-    badge: 'Vet Approved',
-    badgeColor: 'bg-brand-500',
     image: IMGS.dogBed,
     images: [IMGS.dogBed, `${AE}/Sf47a4f5e12014eadb35510dd97551a87y.jpg_960x960q75.jpg`, `${AE}/S713fa2da18604cf4a0e9a33a61fa098aZ.jpg_960x960q75.jpg`],
     variants: [
@@ -265,11 +210,6 @@ export const products = [
       { icon: '🌡️', title: 'Temperature Neutral', desc: 'Doesn\'t trap heat like cheap foam' },
       { icon: '📏', title: '4 Sizes', desc: 'S, M, L, XL — up to 120 lbs' },
     ],
-    reviews: [
-      { name: 'Brenda T.', rating: 5, date: 'May 2026', text: 'My 12-year-old lab gets up so much easier in the morning. I can\'t believe the difference this bed made in just two weeks.' },
-      { name: 'Paul M.', rating: 5, date: 'April 2026', text: 'Bought the XL for my Great Dane. Held up perfectly, and he chose it immediately over his old bed.' },
-      { name: 'Nancy K.', rating: 4, date: 'March 2026', text: 'Great bed, ships well. My dog took two days to accept it but now won\'t leave it.' },
-    ],
   },
   {
     id: 7,
@@ -279,11 +219,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Grooming',
     price: 18.99,
-    comparePrice: 29.99,
-    rating: 4.7,
-    reviewCount: 1876,
-    badge: null,
-    badgeColor: null,
     image: IMGS.slickerBrush,
     images: [IMGS.slickerBrush, `${AE}/Sd852b4bc4dc04855908d23ce8bdb701c4.jpg_960x960q75.jpg`, `${AE}/S8a6322cacedd42ce9e21c0b0de0fb1ddp.jpg_960x960q75.jpg`],
     emoji: '🪮',
@@ -302,11 +237,6 @@ export const products = [
       { icon: '🤲', title: 'Ergonomic Grip', desc: 'Non-slip handle, comfortable for long sessions' },
       { icon: '🐕', title: 'All Coat Types', desc: 'Works on short, medium, and long fur' },
     ],
-    reviews: [
-      { name: 'Kelly S.', rating: 5, date: 'May 2026', text: 'The self-cleaning feature is a game-changer. My golden sheds constantly and this brush collects so much in one pass.' },
-      { name: 'John D.', rating: 5, date: 'April 2026', text: 'My husky actually enjoys being brushed now because this doesn\'t pull like our old brush did. 10/10.' },
-      { name: 'Fiona R.', rating: 4, date: 'March 2026', text: 'Good quality brush. The self-clean mechanism works well. Would recommend for medium to long-haired dogs.' },
-    ],
   },
   {
     id: 8,
@@ -316,11 +246,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Outdoor',
     price: 29.99,
-    comparePrice: 44.99,
-    rating: 4.6,
-    reviewCount: 943,
-    badge: null,
-    badgeColor: null,
     image: IMGS.dogLeash,
     images: [IMGS.dogLeash, `${AE}/Sbcf31a45b6854f5f823250726ef89eceo.jpg_960x960q75.jpg`, `${AE}/S9f1a7658431846d6badd4bfd2aeaf8e36.jpg_960x960q75.jpg`],
     variants: [
@@ -343,11 +268,6 @@ export const products = [
       { icon: '💪', title: '110 lb Rated', desc: 'Heavy-duty cord for large breeds' },
       { icon: '💡', title: 'LED Torch', desc: 'Built-in flashlight for night walks' },
     ],
-    reviews: [
-      { name: 'Tyler B.', rating: 5, date: 'May 2026', text: 'Best retractable leash I\'ve owned. The brake is super responsive and the cord hasn\'t tangled once in 3 months.' },
-      { name: 'Maria L.', rating: 4, date: 'April 2026', text: 'Good quality, comfortable handle. My 70lb lab can\'t pull it out of my hand. The LED is a nice bonus.' },
-      { name: 'Greg H.', rating: 5, date: 'March 2026', text: 'Replaced 3 cheap leashes with this one. Zero regrets.' },
-    ],
   },
   {
     id: 9,
@@ -357,11 +277,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Toys',
     price: 16.99,
-    comparePrice: 27.99,
-    rating: 4.8,
-    reviewCount: 3210,
-    badge: 'Best Value',
-    badgeColor: 'bg-orange-500',
     image: IMGS.squeakyToys,
     images: [IMGS.squeakyToys, `${AE}/Sc895309997904d0e9f23a94aa59211c7n.jpg_960x960q75.jpg`, `${AE}/S136679bd58204bac93f422c64cc127754.jpg_960x960q75.jpg`],
     emoji: '🧸',
@@ -380,11 +295,6 @@ export const products = [
       { icon: '🪡', title: 'Double-Stitched', desc: 'Reinforced seams for aggressive chewers' },
       { icon: '🌿', title: 'Non-Toxic', desc: 'Safe dyes, tested for pet safety' },
     ],
-    reviews: [
-      { name: 'Abby S.', rating: 5, date: 'May 2026', text: 'My dog carries the duck everywhere. These toys have lasted 2 months with daily play — impressive.' },
-      { name: 'Ron F.', rating: 5, date: 'April 2026', text: 'Great value for a set of 5. My golden puppy has destroyed other toys in minutes but these held up.' },
-      { name: 'Cathy W.', rating: 4, date: 'March 2026', text: 'All 5 toys are great quality. One squeaker stopped working after a month but everything else is solid.' },
-    ],
   },
   {
     id: 12,
@@ -394,11 +304,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Enrichment',
     price: 27.99,
-    comparePrice: 39.99,
-    rating: 4.8,
-    reviewCount: 1432,
-    badge: null,
-    badgeColor: null,
     image: IMGS.puzzleFeeder,
     images: [IMGS.puzzleFeeder, `${AE}/Sce65839a727841a39aa1c48941d6b586J.jpg_960x960q75.jpg`, `${AE}/Sdebdfb33971941659426a6ae3ecdac6dL.jpg_960x960q75.jpg`],
     emoji: '🧩',
@@ -417,11 +322,6 @@ export const products = [
       { icon: '✨', title: 'Dishwasher Safe', desc: 'BPA-free plastic, easy cleanup' },
       { icon: '🐾', title: 'All Breeds', desc: 'Works for dogs of any size and age' },
     ],
-    reviews: [
-      { name: 'Claire B.', rating: 5, date: 'May 2026', text: 'My hyperactive border collie is calm after 20 minutes with this toy. Nothing else has come close to wearing him out mentally.' },
-      { name: 'Dan L.', rating: 5, date: 'April 2026', text: 'My lab mastered level 1 in a day and is working on level 2. Great quality, great concept.' },
-      { name: 'Molly S.', rating: 4, date: 'March 2026', text: 'Love this for my senior dog — keeps his mind sharp. Some treats get stuck in corners but it\'s worth it.' },
-    ],
   },
   {
     id: 13,
@@ -431,11 +331,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Travel',
     price: 49.99,
-    comparePrice: 69.99,
-    rating: 4.7,
-    reviewCount: 2109,
-    badge: null,
-    badgeColor: null,
     image: IMGS.carHammock,
     images: [IMGS.carHammock, `${AE}/S7ad2ce9c0d28435ba5c51138d43f10a13.png`, `${AE}/S3964ec60a9344a0482371cea1ea5ee42v.png`],
     emoji: '🚗',
@@ -454,11 +349,6 @@ export const products = [
       { icon: '🐾', title: 'Mesh Window', desc: 'Dog can see you, you can see them' },
       { icon: '💧', title: 'Waterproof', desc: 'Wipes clean, machine washable too' },
     ],
-    reviews: [
-      { name: 'Emma J.', rating: 5, date: 'May 2026', text: 'My two labs used to destroy my back seat on every road trip. This hammock is indestructible and fits perfectly.' },
-      { name: 'Kevin R.', rating: 5, date: 'April 2026', text: 'Easy to install and my dog actually seems calmer in the car now that he has his own defined space.' },
-      { name: 'Susan W.', rating: 4, date: 'March 2026', text: 'Really solid product. Wish the side flaps were a bit bigger but overall excellent quality.' },
-    ],
   },
   {
     id: 14,
@@ -468,11 +358,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Travel',
     price: 14.99,
-    comparePrice: 22.99,
-    rating: 4.6,
-    reviewCount: 4311,
-    badge: null,
-    badgeColor: null,
     image: IMGS.travelBowls,
     images: [IMGS.travelBowls, `${AE}/Scaf10d852c2545cd9eeb887d67929581P.jpg_960x960q75.jpg`, `${AE}/Scc740e010af64876940a231455349963W.jpg_960x960q75.jpg`],
     variants: [
@@ -494,11 +379,6 @@ export const products = [
       { icon: '🔗', title: 'Carabiner Clip', desc: 'Attaches to backpack, belt, or stroller' },
       { icon: '🌿', title: 'Food-Grade Silicone', desc: 'BPA-free, dishwasher safe' },
     ],
-    reviews: [
-      { name: 'Heather M.', rating: 5, date: 'May 2026', text: 'These go in my hiking pack every single time. Lightweight, easy to clean, and my dog loves them.' },
-      { name: 'Aaron P.', rating: 5, date: 'April 2026', text: 'Genius design. I clip them to my leash bag and forget they\'re there until I need them.' },
-      { name: 'Julia F.', rating: 4, date: 'March 2026', text: 'Great value for a 2-pack. Minor quibble: the carabiner is a bit stiff but it works fine.' },
-    ],
   },
   {
     id: 15,
@@ -508,11 +388,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Safety',
     price: 32.99,
-    comparePrice: 49.99,
-    rating: 4.8,
-    reviewCount: 1789,
-    badge: null,
-    badgeColor: null,
     image: IMGS.harness,
     images: [IMGS.harness, `${AE}/S285380c911bc45048435cb87526cce14j.jpg_960x960q75.jpg`, `${AE}/S088109914f5d4449be0bc15982b9acb52.jpg_960x960q75.jpg`],
     variants: [
@@ -535,11 +410,6 @@ export const products = [
       { icon: '🎽', title: 'Step-In Style', desc: 'Most dogs accept it without resistance' },
       { icon: '📏', title: '5 Sizes', desc: 'XS through XL — chest girth 12"–40"' },
     ],
-    reviews: [
-      { name: 'Tina L.', rating: 5, date: 'May 2026', text: 'My dog used to choke herself pulling on a collar. This harness stopped pulling behavior almost immediately.' },
-      { name: 'Oliver G.', rating: 5, date: 'April 2026', text: 'Great quality stitching, easy to put on, and the reflective material is genuinely bright. Love it.' },
-      { name: 'Zoe C.', rating: 4, date: 'March 2026', text: 'Fits my beagle perfectly using the size guide. The front clip works as advertised.' },
-    ],
   },
 
   // ─── CATS ─────────────────────────────────────────────────────────────────
@@ -551,11 +421,6 @@ export const products = [
     category: 'Cats',
     tag: 'Toys',
     price: 11.99,
-    comparePrice: 18.99,
-    rating: 4.8,
-    reviewCount: 6720,
-    badge: null,
-    badgeColor: null,
     image: IMGS.featherWand,
     images: [IMGS.featherWand, `${AE}/Sc508e040e5634dda96bc922a7c46ed8dg.jpg_960x960q75.jpg`, `${AE}/Sc09ad92aaba049b68ae5d12f4c39f9b9W.jpg_960x960q75.jpg`],
     emoji: '🪶',
@@ -574,11 +439,6 @@ export const products = [
       { icon: '🎯', title: 'Unpredictable Motion', desc: 'Flexible tip creates erratic movement' },
       { icon: '🔄', title: 'Replaceable Lure', desc: 'Swap out feathers when they wear out' },
     ],
-    reviews: [
-      { name: 'Nina B.', rating: 5, date: 'May 2026', text: 'My indoor cat is finally getting exercise. She goes absolutely feral for this thing every evening.' },
-      { name: 'Alex K.', rating: 5, date: 'April 2026', text: 'My 10-year-old cat plays like a kitten with this. Nothing else gets her off the couch.' },
-      { name: 'Vera S.', rating: 4, date: 'March 2026', text: 'Great toy, my cat loves it. The feathers did shed a bit but nothing problematic.' },
-    ],
   },
   {
     id: 18,
@@ -588,11 +448,6 @@ export const products = [
     category: 'Cats',
     tag: 'Comfort',
     price: 29.99,
-    comparePrice: 44.99,
-    rating: 4.7,
-    reviewCount: 2876,
-    badge: null,
-    badgeColor: null,
     image: IMGS.windowPerch,
     images: [IMGS.windowPerch, `${AE}/S0024591c12fa41ac954fdf8a71f340b89.jpg_960x960q75.jpg`, `${AE}/Sfc0c918d4c2c4ffaa17206d4e3f205242.jpg_960x960q75.jpg`],
     emoji: '🪟',
@@ -611,11 +466,6 @@ export const products = [
       { icon: '🐦', title: '\'Bird TV\'', desc: 'Best enrichment for indoor cats' },
       { icon: '🧺', title: 'Washable Pad', desc: 'Removable fleece pad, machine washable' },
     ],
-    reviews: [
-      { name: 'Carla T.', rating: 5, date: 'May 2026', text: 'My cat is on this perch every morning watching the birds. The suction cups have held up for 6 months.' },
-      { name: 'Mia F.', rating: 5, date: 'April 2026', text: 'Best $30 I\'ve spent on my cat. She\'s no longer knocking things off my window sill.' },
-      { name: 'Henry B.', rating: 4, date: 'March 2026', text: 'My 18-pound cat has been on this daily for 3 months. The suction cups haven\'t budged.' },
-    ],
   },
   {
     id: 19,
@@ -625,11 +475,6 @@ export const products = [
     category: 'Cats',
     tag: 'Toys',
     price: 22.99,
-    comparePrice: 34.99,
-    rating: 4.6,
-    reviewCount: 3540,
-    badge: null,
-    badgeColor: null,
     image: IMGS.laserToy,
     images: ['https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=600&q=85&fm=jpg&fit=crop', `${AE}/S16eae996e29648bf9abe0a98dc29ebcfY.jpg`, `${AE}/Sf7ceec2b7a0f4c1280f6eb03d68a1a7cI.jpg`],
     emoji: '🔴',
@@ -648,11 +493,6 @@ export const products = [
       { icon: '🎚️', title: '3 Speed Modes', desc: 'Match your cat\'s energy level' },
       { icon: '🔋', title: 'USB Rechargeable', desc: 'No AA batteries ever again' },
     ],
-    reviews: [
-      { name: 'Tara M.', rating: 5, date: 'May 2026', text: 'My cat goes insane for this. I put it on while I work and she\'s entertained for the full 15 minutes.' },
-      { name: 'Louis R.', rating: 4, date: 'April 2026', text: 'Great concept, works as advertised. My cat figured out the pattern after a few days on slow mode — switched to fast and she\'s hooked again.' },
-      { name: 'Pam H.', rating: 5, date: 'March 2026', text: 'I have two cats and they both chase this simultaneously. Best cat toy I\'ve tried.' },
-    ],
   },
   {
     id: 20,
@@ -662,11 +502,6 @@ export const products = [
     category: 'Cats',
     tag: 'Travel',
     price: 59.99,
-    comparePrice: 89.99,
-    rating: 4.8,
-    reviewCount: 1923,
-    badge: 'Top Rated',
-    badgeColor: 'bg-violet-500',
     image: IMGS.catBackpack,
     images: [IMGS.catBackpack, `${AE}/S8ba24ba4c9b34db68582331f6bd066ae3.jpg_960x960q75.jpg`, `${AE}/Sfd28c0a541e148278dd05e8e0940760aM.jpg_960x960q75.jpg`],
     variants: [
@@ -688,11 +523,6 @@ export const products = [
       { icon: '✈️', title: 'Airline Approved', desc: 'Fits under most airline seats' },
       { icon: '🎒', title: 'Ergonomic Straps', desc: 'Padded for long-distance comfort' },
     ],
-    reviews: [
-      { name: 'Chloe R.', rating: 5, date: 'May 2026', text: 'My cat actually looks relaxed when I take her out now. The bubble window is adorable and she loves watching the world go by.' },
-      { name: 'Ian S.', rating: 5, date: 'April 2026', text: 'Took this on a flight. Perfect fit under the seat. My cat slept the whole way. Amazing product.' },
-      { name: 'Kim T.', rating: 4, date: 'March 2026', text: 'Great backpack, super sturdy. The only thing I\'d improve is the interior padding — it could be a bit thicker.' },
-    ],
   },
   {
     id: 22,
@@ -702,11 +532,6 @@ export const products = [
     category: 'Cats',
     tag: 'Grooming',
     price: 17.99,
-    comparePrice: 27.99,
-    rating: 4.8,
-    reviewCount: 5103,
-    badge: null,
-    badgeColor: null,
     image: IMGS.groomingGlove,
     images: [IMGS.groomingGlove, `${AE}/Abdab5895245741c0b4a0257b6b5928dag.jpg_960x960q75.jpg`, `${AE}/A23492eac5889459cbc6da2e968d1c3d5d.jpg_960x960q75.jpg`],
     variants: [
@@ -728,11 +553,6 @@ export const products = [
       { icon: '🐈', title: 'Long & Short Hair', desc: 'Works on all coat types' },
       { icon: '🧹', title: 'Easy Fur Removal', desc: 'Collected fur peels off in one piece' },
     ],
-    reviews: [
-      { name: 'Jess T.', rating: 5, date: 'May 2026', text: 'My cat used to hide when I brought out the brush. Now she runs toward me when she sees the glove.' },
-      { name: 'Mark R.', rating: 5, date: 'April 2026', text: 'The amount of fur this collects in one session is genuinely shocking. Less fur on my couch, happier cat.' },
-      { name: 'Lily S.', rating: 4, date: 'March 2026', text: 'Works great on my long-haired cat. The glove feels a bit large for my hand but it functions perfectly.' },
-    ],
   },
   {
     id: 24,
@@ -742,11 +562,6 @@ export const products = [
     category: 'Cats',
     tag: 'Comfort',
     price: 44.99,
-    comparePrice: 64.99,
-    rating: 4.9,
-    reviewCount: 3891,
-    badge: null,
-    badgeColor: null,
     image: IMGS.catCave,
     images: [IMGS.catCave, `${AE}/Seed4cf898ecb413db25b9f389ea5f494D.jpg_960x960q75.jpg`, `${AE}/S25c1378590ed418b82b05845d755703dp.jpg_960x960q75.jpg`],
     variants: [
@@ -769,11 +584,6 @@ export const products = [
       { icon: '😌', title: 'Anxiety Reducing', desc: 'Enclosed dark space = immediate calm' },
       { icon: '✋', title: 'Handmade', desc: 'Each cave is individually crafted' },
     ],
-    reviews: [
-      { name: 'Ellie G.', rating: 5, date: 'May 2026', text: 'My anxious rescue cat was in this cave within 10 minutes of it arriving. She sleeps in it every night now.' },
-      { name: 'Noah R.', rating: 5, date: 'April 2026', text: 'The quality of the wool is outstanding. My two cats both somehow cram in together. It\'s adorable.' },
-      { name: 'Julia M.', rating: 5, date: 'March 2026', text: 'Worth the price for the quality alone. My cat has never looked more relaxed.' },
-    ],
   },
   // ─── NEW PRODUCTS 25–30 ───────────────────────────────────────────────────
   {
@@ -784,11 +594,6 @@ export const products = [
     category: 'Cats',
     tag: 'Cat Feeding',
     price: 22.99,
-    comparePrice: 36.99,
-    rating: 4.7,
-    reviewCount: 892,
-    badge: 'New',
-    badgeColor: 'bg-emerald-500',
     image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=85&auto=format&fit=crop',
@@ -810,11 +615,6 @@ export const products = [
       { icon: '🧠', title: 'Mental Enrichment', desc: 'Turns every meal into a mini puzzle' },
       { icon: '✨', title: 'Dishwasher Safe', desc: 'BPA-free, top-rack safe for easy cleaning' },
     ],
-    reviews: [
-      { name: 'Patricia K.', rating: 5, date: 'June 2026', text: 'My cat was throwing up almost every day from eating too fast. This bowl completely stopped it within the first week.' },
-      { name: 'Michael T.', rating: 5, date: 'May 2026', text: 'The maze pattern is shallow enough that my cat doesn\'t struggle with it — she just has to slow down. Perfect.' },
-      { name: 'Sandra B.', rating: 4, date: 'May 2026', text: 'Great quality and works well. My Siamese took about two days to figure it out but now uses it happily every meal.' },
-    ],
   },
   {
     id: 26,
@@ -824,11 +624,6 @@ export const products = [
     category: 'Cats',
     tag: 'Play',
     price: 27.99,
-    comparePrice: 44.99,
-    rating: 4.8,
-    reviewCount: 1547,
-    badge: 'Fan Favorite',
-    badgeColor: 'bg-purple-500',
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
@@ -850,11 +645,6 @@ export const products = [
       { icon: '📦', title: 'Collapses Flat', desc: 'Stores under a sofa, sets up in seconds' },
       { icon: '🏃', title: 'Full-Body Exercise', desc: 'Sprint, hide, ambush — real physical activity' },
     ],
-    reviews: [
-      { name: 'Amanda R.', rating: 5, date: 'June 2026', text: 'My lazy cat who never plays has lost her mind for this tunnel. She runs through it 50 times a day. Best $28 I\'ve ever spent on a cat.' },
-      { name: 'James L.', rating: 5, date: 'May 2026', text: 'Both my cats use this simultaneously and somehow haven\'t had a major fight about it. The T-junction is a genius design.' },
-      { name: 'Olivia S.', rating: 4, date: 'May 2026', text: 'Exactly what it promises. The crinkle is louder than expected (good for the cat, slightly annoying for me at 6am) but the quality is great.' },
-    ],
   },
   {
     id: 27,
@@ -864,11 +654,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Comfort',
     price: 34.99,
-    comparePrice: 54.99,
-    rating: 4.7,
-    reviewCount: 2103,
-    badge: 'Summer Essential',
-    badgeColor: 'bg-blue-500',
     image: 'https://images.unsplash.com/photo-1534361960057-19f4434a5fd6?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1534361960057-19f4434a5fd6?w=800&q=85&auto=format&fit=crop',
@@ -893,11 +678,6 @@ export const products = [
       { icon: '✈️', title: 'Travel Friendly', desc: 'Folds flat for crates, car seats, hotels' },
       { icon: '🛡️', title: 'Puncture Resistant', desc: 'Heavy-duty cover withstands dog nails and chewing' },
     ],
-    reviews: [
-      { name: 'David C.', rating: 5, date: 'June 2026', text: 'My bulldog overheats in summer and this mat has been genuinely life-changing for him. He lies on it voluntarily for hours. Gets cold again within 15 minutes of him getting off.' },
-      { name: 'Lisa N.', rating: 5, date: 'May 2026', text: 'Perfect for my senior lab who can\'t regulate temperature as well as she used to. She sought it out immediately — dogs just know.' },
-      { name: 'Tom A.', rating: 4, date: 'May 2026', text: 'Works exactly as described. The large size fits my shepherd perfectly. Only thing: needs about 30 minutes to recharge between long use sessions, but for a non-electric product that\'s impressive.' },
-    ],
   },
   {
     id: 28,
@@ -907,11 +687,6 @@ export const products = [
     category: 'Cats',
     tag: 'Comfort',
     price: 38.99,
-    comparePrice: 59.99,
-    rating: 4.8,
-    reviewCount: 3214,
-    badge: 'Most Recommended',
-    badgeColor: 'bg-amber-500',
     image: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=85&auto=format&fit=crop',
@@ -933,11 +708,6 @@ export const products = [
       { icon: '⚖️', title: 'Weighted Base', desc: 'Rock-solid stability — doesn\'t tip or wobble' },
       { icon: '🏠', title: 'Furniture Saver', desc: 'Most cats redirect within 1–2 weeks of placement' },
     ],
-    reviews: [
-      { name: 'Catherine M.', rating: 5, date: 'June 2026', text: 'My cat used to destroy my couch. I put this post next to the couch exactly as recommended and she uses it exclusively now. Didn\'t touch the couch once in the past three weeks.' },
-      { name: 'Robert K.', rating: 5, date: 'May 2026', text: 'The height is what makes this work. My tall Maine Coon can fully stretch on it, which is what he was looking for. Completely stable.' },
-      { name: 'Helen S.', rating: 4, date: 'May 2026', text: 'Good quality sisal and the base is genuinely heavy. My two cats share it without fights. The sisal is starting to fray after two months of heavy use (which is normal) but it\'s still very functional.' },
-    ],
   },
   {
     id: 29,
@@ -947,11 +717,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Training',
     price: 18.99,
-    comparePrice: 29.99,
-    rating: 4.8,
-    reviewCount: 1876,
-    badge: null,
-    badgeColor: null,
     image: 'https://images.unsplash.com/photo-1581888227599-779811939961?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1581888227599-779811939961?w=800&q=85&auto=format&fit=crop',
@@ -976,11 +741,6 @@ export const products = [
       { icon: '🧻', title: 'Bag Dispenser Built-In', desc: 'Waste bag roll included and ready to pull' },
       { icon: '🧽', title: 'Easy to Clean', desc: 'Wipe-clean interior, machine washable' },
     ],
-    reviews: [
-      { name: 'Brian T.', rating: 5, date: 'June 2026', text: 'Training my puppy went from frustrating to actually fun once I got this. The treat access is instant and she responds so much faster when rewards are immediate.' },
-      { name: 'Nancy H.', rating: 5, date: 'May 2026', text: 'The magnetic closure is genuinely better than zipper pouches. I\'ve gone through three different brands and this is the first one I\'ll reorder.' },
-      { name: 'Paul G.', rating: 4, date: 'April 2026', text: 'Good quality pouch. Holds a decent amount of treats, clips securely, and the bag dispenser actually works unlike some I\'ve tried. The smell of treats does linger a bit between washes but that\'s not unusual for these.' },
-    ],
   },
   {
     id: 30,
@@ -990,11 +750,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Play',
     price: 16.99,
-    comparePrice: 26.99,
-    rating: 4.7,
-    reviewCount: 2891,
-    badge: null,
-    badgeColor: null,
     image: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=800&q=85&auto=format&fit=crop',
@@ -1019,11 +774,6 @@ export const products = [
       { icon: '💪', title: 'Heavy-Duty Construction', desc: 'Triple-knot ends, tight weave for power chewers' },
       { icon: '🤝', title: 'Bonding Through Play', desc: 'Tug strengthens impulse control and trust' },
     ],
-    reviews: [
-      { name: 'Marcus W.', rating: 5, date: 'June 2026', text: 'My pit mix destroys every toy in minutes. This rope has lasted three weeks and counting. The tight weave is different from cheap ropes that unravel immediately.' },
-      { name: 'Rachel P.', rating: 5, date: 'May 2026', text: 'My vet noticed my dog\'s teeth were cleaner at her last checkup and asked what changed. It was this rope. She chews on the knots between tug sessions.' },
-      { name: 'Kevin S.', rating: 4, date: 'May 2026', text: 'Good solid rope. My labs both go crazy for it and it\'s held up well. I got the XL for our 80-lb lab and it\'s the right size. Definitely a product we\'ll repurchase.' },
-    ],
   },
   // ─── CATALOG EXPANSION: 31-35 ─────────────────────────────────────────────
   {
@@ -1034,11 +784,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Walking',
     price: 19.99,
-    comparePrice: 31.99,
-    rating: 4.8,
-    reviewCount: 892,
-    badge: 'Fan Favorite',
-    badgeColor: 'bg-blue-500',
     image: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=800&q=85&auto=format&fit=crop',
@@ -1063,11 +808,6 @@ export const products = [
       '🎒 Carabiner clip included for hands-free carrying',
     ],
     soldCount: 892,
-    reviews: [
-      { name: 'Jamie L.', rating: 5, date: 'June 2026', text: 'Absolute must-have for walks. My golden drinks from it perfectly and nothing leaks in my bag. Bought one for every dog owner I know.' },
-      { name: 'Sandra K.', rating: 5, date: 'May 2026', text: 'The retract mechanism is genius. My picky lab actually drinks from it on the go. Light enough to barely notice in my pocket.' },
-      { name: 'Derek M.', rating: 4, date: 'May 2026', text: 'Works exactly as advertised. My only note is to fill it slightly below max in hot weather since pressure builds up — but it functions perfectly.' },
-    ],
   },
   {
     id: 32,
@@ -1077,11 +817,6 @@ export const products = [
     category: 'Cats',
     tag: 'Play',
     price: 22.99,
-    comparePrice: 34.99,
-    rating: 4.7,
-    reviewCount: 674,
-    badge: 'Top Rated',
-    badgeColor: 'bg-emerald-500',
     image: 'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=85&auto=format&fit=crop',
@@ -1105,11 +840,6 @@ export const products = [
       '🛋️ Proven couch and carpet protector when placed nearby',
       '♻️ Recyclable cardboard — eco-friendly and replaceable',
     ],
-    reviews: [
-      { name: 'Priya S.', rating: 5, date: 'June 2026', text: 'My cats completely stopped scratching the sofa the day this arrived. The catnip helps — they found it immediately and haven\'t left it alone since.' },
-      { name: 'Andrew T.', rating: 5, date: 'May 2026', text: 'Best cheap cat product I\'ve ever bought. All three of my cats use this daily. Ordered a second one to put in the bedroom.' },
-      { name: 'Fiona L.', rating: 4, date: 'May 2026', text: 'Really effective scratcher. The curve is a nice touch — my cats go at it with more enthusiasm than the flat boards I\'ve tried before.' },
-    ],
   },
   {
     id: 33,
@@ -1119,11 +849,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Grooming',
     price: 28.99,
-    comparePrice: 44.99,
-    rating: 4.7,
-    reviewCount: 541,
-    badge: 'Best Seller',
-    badgeColor: 'bg-brand-500',
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
@@ -1147,11 +872,6 @@ export const products = [
       '🛡️ Safety cap prevents over-grinding',
       '🐱 Works on dogs and cats',
     ],
-    reviews: [
-      { name: 'Theresa B.', rating: 5, date: 'June 2026', text: 'My dog bit me every time I tried clippers. First session with this grinder he fell asleep. The quiet motor is genuinely game-changing for anxious dogs.' },
-      { name: 'Carlos R.', rating: 5, date: 'May 2026', text: 'Use it for both my dogs and cats. Takes slightly longer than clippers but the results are smoother and no one panics. Worth every penny.' },
-      { name: 'Linda W.', rating: 4, date: 'May 2026', text: 'Really good product. Takes a session or two for pets to fully relax with it, but by the third trim my cat barely flinched. Would recommend to anyone with a nervous pet.' },
-    ],
   },
   {
     id: 34,
@@ -1161,11 +881,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Outdoor',
     price: 34.99,
-    comparePrice: 54.99,
-    rating: 4.6,
-    reviewCount: 387,
-    badge: 'New',
-    badgeColor: 'bg-indigo-500',
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=85&auto=format&fit=crop',
@@ -1189,11 +904,6 @@ export const products = [
       '🪢 Adjustable velcro belly and neck closures for custom fit',
       '🐕 Available XS–XXL — includes size guide with breed chart',
     ],
-    reviews: [
-      { name: 'Natalie P.', rating: 5, date: 'June 2026', text: 'My beagle comes home completely dry now. The reflective strips are bright and the leash hole works perfectly over her harness. Exactly what I needed.' },
-      { name: 'Tom J.', rating: 4, date: 'May 2026', text: 'Really good quality for the price. I sized up one from the chart and it fits my corgi perfectly. Easy to get on and off even when he\'s wiggly.' },
-      { name: 'Lisa M.', rating: 5, date: 'May 2026', text: 'Waterproof and then some — we walked through a genuine downpour and my lab was bone dry underneath. The velcro stays secure even with a pulling dog.' },
-    ],
   },
   {
     id: 35,
@@ -1203,11 +913,6 @@ export const products = [
     category: 'Cats',
     tag: 'Toys',
     price: 18.99,
-    comparePrice: 29.99,
-    rating: 4.7,
-    reviewCount: 763,
-    badge: 'Fan Favorite',
-    badgeColor: 'bg-blue-500',
     image: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=85&auto=format&fit=crop',
@@ -1231,11 +936,6 @@ export const products = [
       '🛠️ Tool-free assembly in under 2 minutes',
       '🐱 Safe for solo play — entertains cats while owners are away',
     ],
-    reviews: [
-      { name: 'Sophie T.', rating: 5, date: 'June 2026', text: 'My cat who never plays is absolutely obsessed with this. She bats at it for 20 minutes straight and then naps. Best cat toy I\'ve ever bought.' },
-      { name: 'Richard B.', rating: 5, date: 'May 2026', text: 'All three of my cats use this simultaneously. Haven\'t had a single fight over it in two weeks. The three tiers give everyone a ball to play with.' },
-      { name: 'Chloe W.', rating: 4, date: 'May 2026', text: 'Great quality track toy. Sturdy base doesn\'t slide on hardwood. My cats figured it out immediately and it\'s kept them busy while I work from home.' },
-    ],
   },
   {
     id: 36,
@@ -1245,11 +945,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Enrichment',
     price: 27.99,
-    comparePrice: 42.99,
-    rating: 4.8,
-    reviewCount: 312,
-    badge: 'New',
-    badgeColor: 'bg-purple-500',
     image: 'https://images.unsplash.com/photo-1587300003-02b8176a61eb?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1587300003-02b8176a61eb?w=800&q=85&auto=format&fit=crop',
@@ -1272,11 +967,6 @@ export const products = [
       '🌊 Machine washable — rinse, bag, and toss in the laundry',
       '🐾 Non-toxic, pet-safe fleece — safe for all breeds and sizes',
     ],
-    reviews: [
-      { name: 'Amber K.', rating: 5, date: 'June 2026', text: 'My hyperactive border collie is completely wiped out after 20 minutes on this mat. Best enrichment tool I\'ve ever bought — she forgets all about barking at the mailman.' },
-      { name: 'Derek S.', rating: 5, date: 'May 2026', text: 'Used this during thunderstorm season and it keeps my dog calm the whole time. Way better than just a Kong. Worth every penny.' },
-      { name: 'Priya L.', rating: 4, date: 'May 2026', text: 'Great quality and really easy to wash. My golden sniffs it clean in about 15 minutes then settles right down for a nap. Exactly what I was looking for.' },
-    ],
   },
   {
     id: 37,
@@ -1286,11 +976,6 @@ export const products = [
     category: 'Cats',
     tag: 'Grooming',
     price: 16.99,
-    comparePrice: 26.99,
-    rating: 4.7,
-    reviewCount: 218,
-    badge: 'New',
-    badgeColor: 'bg-purple-500',
     image: 'https://images.unsplash.com/photo-1592194996-6589a25d0948?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1592194996-6589a25d0948?w=800&q=85&auto=format&fit=crop',
@@ -1313,11 +998,6 @@ export const products = [
       '🐱 Catnip pouch slot built in to attract reluctant cats',
       '♻️ Easy to clean — bristles pull free for a quick rinse',
     ],
-    reviews: [
-      { name: 'Megan R.', rating: 5, date: 'June 2026', text: 'My cats were using this within an hour of mounting it. The catnip slot was the trick — now they go for it every morning and my couch has noticeably less fur on it.' },
-      { name: 'Ben T.', rating: 4, date: 'May 2026', text: 'Simple idea, works really well. Adhesive has held for two months with no issues. Worth the price just for the hairball reduction.' },
-      { name: 'Yuki N.', rating: 5, date: 'May 2026', text: 'Three cats, all obsessed. I put one in the hallway and one in the bedroom and they rotate between them. Shedding season has been so much more manageable this year.' },
-    ],
   },
   {
     id: 38,
@@ -1327,11 +1007,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Grooming',
     price: 12.99,
-    comparePrice: 19.99,
-    rating: 4.9,
-    reviewCount: 405,
-    badge: 'Top Rated',
-    badgeColor: 'bg-yellow-500',
     image: 'https://images.unsplash.com/photo-1535930891776-0539ec2ecb2b?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1535930891776-0539ec2ecb2b?w=800&q=85&auto=format&fit=crop',
@@ -1354,11 +1029,6 @@ export const products = [
       '🌡️ Protects against hot pavement, ice salt, and rough terrain',
       '✏️ Twist-up stick applicator — precise, mess-free application',
     ],
-    reviews: [
-      { name: 'Claire B.', rating: 5, date: 'June 2026', text: 'My lab\'s paws were a cracked mess after winter. Two weeks of this balm and they look completely healed. The stick format is so easy — done in 30 seconds before every walk.' },
-      { name: 'James H.', rating: 5, date: 'May 2026', text: 'I was skeptical but the results are undeniable. My dog\'s paws are visibly softer and he doesn\'t lick them constantly anymore. All-natural formula is a huge plus.' },
-      { name: 'Sandra P.', rating: 5, date: 'May 2026', text: 'Perfect size to throw in your bag. The twist-up stick means you don\'t have to touch the product at all — just apply directly to each pad. So convenient.' },
-    ],
   },
   {
     id: 39,
@@ -1368,11 +1038,6 @@ export const products = [
     category: 'Cats',
     tag: 'Cat Feeding',
     price: 21.99,
-    comparePrice: 33.99,
-    rating: 4.7,
-    reviewCount: 189,
-    badge: 'New',
-    badgeColor: 'bg-purple-500',
     image: 'https://images.unsplash.com/photo-1561037414-61da46a1b1d4?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1561037414-61da46a1b1d4?w=800&q=85&auto=format&fit=crop',
@@ -1395,11 +1060,6 @@ export const products = [
       '🍽️ Slows eating by up to 10x — reduces vomiting and bloating',
       '🧼 Dishwasher-safe, food-grade ABS plastic — BPA-free',
     ],
-    reviews: [
-      { name: 'Hannah L.', rating: 5, date: 'June 2026', text: 'My cat went from inhaling food in 30 seconds to spending 10 minutes on each meal. No more vomiting after eating! The puzzle clearly engages her — she looks satisfied afterward.' },
-      { name: 'Oliver C.', rating: 5, date: 'May 2026', text: 'This was recommended by my vet for a cat who eats too fast and this is the first product that actually worked. Durable, dishwasher safe, and my cat loves the challenge.' },
-      { name: 'Natasha F.', rating: 4, date: 'May 2026', text: 'Great enrichment feeder. The three levels mean she doesn\'t get bored and the non-slip base keeps it in place. I refill the wells twice a day and she stays busy.' },
-    ],
   },
   {
     id: 40,
@@ -1409,11 +1069,6 @@ export const products = [
     category: 'Dogs',
     tag: 'Safety',
     price: 24.99,
-    comparePrice: 39.99,
-    rating: 4.8,
-    reviewCount: 156,
-    badge: 'New',
-    badgeColor: 'bg-purple-500',
     image: 'https://images.unsplash.com/photo-1550159939-1a021f5166a5?w=800&q=85&auto=format&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1550159939-1a021f5166a5?w=800&q=85&auto=format&fit=crop',
@@ -1436,11 +1091,6 @@ export const products = [
       '🔗 Back leash D-ring — works over any harness or collar',
       '🪢 Adjustable velcro neck and chest — fits XS to XXL securely',
     ],
-    reviews: [
-      { name: 'Kevin M.', rating: 5, date: 'June 2026', text: 'I walk my dog at 5am every day and this vest makes me feel so much better about cars. You can see it reflecting from a full block away. Fits my beagle perfectly.' },
-      { name: 'Rachel S.', rating: 5, date: 'May 2026', text: 'Bought this for hiking at dawn and dusk. The reflective strips are genuinely impressive — my partner spotted our dog from 400 feet up the trail. Worth every cent for the peace of mind.' },
-      { name: 'Carlos D.', rating: 4, date: 'May 2026', text: 'Good quality and the adjustability is great. I have two dogs — different sizes — and both got a comfortable fit following the size guide. The D-ring for the leash is a smart design.' },
-    ],
   },
 ];
 
@@ -1449,9 +1099,7 @@ export function getProductBySlug(slug) {
 }
 
 export function getFeaturedProducts() {
-  return products.filter((p) =>
-    ['Best Seller', 'Fan Favorite', 'Top Rated'].includes(p.badge)
-  );
+  return products.filter((p) => p.stock > 0).slice(0, 6);
 }
 
 export function getRelatedProducts(currentSlug, limit = 4) {

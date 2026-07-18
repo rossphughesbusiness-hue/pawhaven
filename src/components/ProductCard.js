@@ -104,14 +104,6 @@ export default function ProductCard({ product }) {
             {product.name}
           </h3>
 
-          {/* Rating */}
-          <div className="flex items-center gap-2 mb-3">
-            <StarRating rating={product.rating} />
-            <span className="text-xs text-gray-500 font-medium">
-              {product.rating} ({product.reviewCount.toLocaleString()})
-            </span>
-          </div>
-
           {/* Price row */}
           <div className="flex items-baseline gap-2">
             <span className="text-xl font-black text-navy-900">

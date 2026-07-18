@@ -18,9 +18,7 @@ const featured = [
     name: 'Orthopedic Memory Foam Dog Bed',
     tag: 'Comfort',
     price: 79.99,
-    comparePrice: 129.99,
     img: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: '4" memory foam relieves joint pressure — a vet favourite for senior dogs.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Dog Cooling Gel Mat',
     tag: 'Comfort',
     price: 34.99,
-    comparePrice: 54.99,
     img: 'https://images.unsplash.com/photo-1534361960057-19f4434a5fd6?w=600&q=85&auto=format&fit=crop',
-    badge: '36% off',
     blurb: 'Self-cooling gel cools on contact — no electricity or refrigeration needed.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Freeze with peanut butter or yogurt for a calming, slow-lick experience.',
   },
 ];
@@ -168,9 +162,6 @@ export default function DogBedsPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-amber-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -181,7 +172,6 @@ export default function DogBedsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-amber-700 font-semibold text-sm">Shop →</span>
                     </div>

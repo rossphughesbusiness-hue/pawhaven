@@ -18,9 +18,7 @@ const featured = [
     name: 'Orthopedic Memory Foam Dog Bed',
     tag: 'Comfort',
     price: 79.99,
-    comparePrice: 129.99,
     img: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: 'Therapeutic memory foam relieves joint pressure and supports spinal alignment — recommended for dogs with arthritis or hip dysplasia.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Wellness',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Licking releases endorphins and reduces cortisol — peer-reviewed stress relief for anxious dogs, vet visits, and grooming sessions.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Self-Cleaning Slicker Brush',
     tag: 'Grooming',
     price: 24.99,
-    comparePrice: 39.99,
     img: 'https://images.unsplash.com/photo-1535930891776-0539ec2ecb2b?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Regular brushing distributes skin oils, catches lumps early, and prevents painful matting — a key part of at-home preventive care.',
   },
 ];
@@ -209,9 +203,6 @@ export default function DogHealthPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -222,7 +213,6 @@ export default function DogHealthPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-emerald-700 font-semibold text-sm">Shop →</span>
                     </div>

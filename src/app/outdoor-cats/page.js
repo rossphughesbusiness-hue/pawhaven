@@ -17,9 +17,7 @@ const featured = [
     name: 'Cat Window Perch Hammock',
     tag: 'Enrichment',
     price: 29.99,
-    comparePrice: 44.99,
     img: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Gives outdoor cats a safe vantage point indoors — satisfies the urge to watch without the risks outside.',
   },
   {
@@ -27,9 +25,7 @@ const featured = [
     name: 'Self-Cleaning Slicker Brush',
     tag: 'Grooming',
     price: 19.99,
-    comparePrice: 29.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Removes burrs, debris, and loose fur after outdoor adventures — retractable pins for easy cleaning.',
   },
   {
@@ -37,9 +33,7 @@ const featured = [
     name: 'Cat Tunnel Crinkle Play Tube',
     tag: 'Play',
     price: 22.99,
-    comparePrice: 34.99,
     img: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600&q=85&auto=format&fit=crop',
-    badge: '34% off',
     blurb: 'Channels outdoor hunting instincts indoors — crinkle texture and peek holes engage cats for hours.',
   },
 ];
@@ -199,9 +193,6 @@ export default function OutdoorCatsPage() {
                       alt={p.name}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-green-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -212,7 +203,6 @@ export default function OutdoorCatsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-gray-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-green-700 font-semibold text-sm">Shop →</span>
                     </div>

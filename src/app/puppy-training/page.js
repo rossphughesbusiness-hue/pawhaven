@@ -17,9 +17,7 @@ const featured = [
     name: 'Rapid Reward Treat Pouch',
     tag: 'Training',
     price: 19.99,
-    comparePrice: 29.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Magnetic closure delivers treats in under 1 second — the timing difference between a trained and untrained puppy.',
   },
   {
@@ -27,9 +25,7 @@ const featured = [
     name: 'Reflective Step-In Harness',
     tag: 'Walking',
     price: 34.99,
-    comparePrice: 54.99,
     img: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=600&q=85&auto=format&fit=crop',
-    badge: '36% off',
     blurb: 'Step-in design makes harness training a 10-second routine. Reflective strips for early-morning or evening walks.',
   },
   {
@@ -37,9 +33,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Use during crate introductions or vet visits — repetitive licking calms the nervous system within minutes.',
   },
 ];
@@ -251,9 +245,6 @@ export default function PuppyTrainingPage() {
                       alt={p.name}
                       className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-2 left-2 bg-amber-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                      {p.badge}
-                    </span>
                   </div>
                   <div className="p-4">
                     <p className="text-xs text-amber-700 font-medium mb-0.5">{p.tag}</p>
@@ -261,7 +252,6 @@ export default function PuppyTrainingPage() {
                     <p className="text-xs text-gray-400 mb-3 leading-relaxed">{p.blurb}</p>
                     <div className="flex items-center gap-2">
                       <span className="font-black text-gray-900 text-base">${p.price}</span>
-                      <span className="text-gray-400 text-sm line-through">${p.comparePrice}</span>
                     </div>
                   </div>
                 </Link>

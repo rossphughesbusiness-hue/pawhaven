@@ -17,9 +17,7 @@ const featured = [
     name: 'Orthopedic Memory Foam Dog Bed',
     tag: 'Comfort',
     price: 79.99,
-    comparePrice: 129.99,
     img: 'https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: '4" memory foam built for large breeds — relieves hip and joint pressure overnight.',
   },
   {
@@ -27,9 +25,7 @@ const featured = [
     name: 'Heavy-Duty Rope Tug Toy',
     tag: 'Toys',
     price: 19.99,
-    comparePrice: 32.99,
     img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=85&auto=format&fit=crop',
-    badge: '39% off',
     blurb: 'Triple-braided natural cotton rope rated for dogs up to 120 lbs. Built to last.',
   },
   {
@@ -37,9 +33,7 @@ const featured = [
     name: 'Retractable Pro Dog Leash',
     tag: 'Walking',
     price: 29.99,
-    comparePrice: 49.99,
     img: 'https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=600&q=85&auto=format&fit=crop',
-    badge: '40% off',
     blurb: 'Heavy-duty cord rated for 110 lbs with one-touch brake and anti-slip grip.',
   },
 ];
@@ -226,9 +220,6 @@ export default function LargeDogsPage() {
                       alt={p.name}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-amber-800 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -239,7 +230,6 @@ export default function LargeDogsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-amber-700 font-semibold text-sm">Shop →</span>
                     </div>

@@ -191,16 +191,6 @@ export default function UpsellPage() {
               <h2 className="text-xl font-black text-navy-900 mb-2 leading-tight">{upsell.name}</h2>
               <p className="text-gray-500 text-sm leading-relaxed mb-4 line-clamp-3">{upsell.shortDescription}</p>
 
-              {/* Stars */}
-              <div className="flex items-center gap-1.5 mb-4">
-                <div className="flex gap-0.5">
-                  {[1,2,3,4,5].map((s) => (
-                    <span key={s} className={s <= Math.round(upsell.rating) ? 'text-amber-400' : 'text-gray-200'}>★</span>
-                  ))}
-                </div>
-                <span className="text-gray-400 text-xs">({upsell.reviewCount.toLocaleString()})</span>
-              </div>
-
               {/* Price */}
               <div className="flex items-baseline gap-3 mb-5">
                 <span className="text-3xl font-black text-navy-900">${upsellPrice.toFixed(2)}</span>

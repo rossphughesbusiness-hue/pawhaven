@@ -8,11 +8,11 @@ import { getBundles } from '@/lib/bundles';
 export const metadata = {
   title: 'PawHaven — Premium Pet Accessories for Dogs & Cats',
   description:
-    'Shop expert-curated accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys and more. Free shipping on orders over $50. 30-day returns.',
+    'Shop quality accessories for dogs and cats. Slow feeders, harnesses, cat fountains, puzzle toys and more. Free shipping on orders over $50. 30-day returns.',
   alternates: { canonical: 'https://pawhavenpets.org' },
   openGraph: {
     title: 'PawHaven — Premium Pet Accessories',
-    description: 'Expert-curated accessories for dogs and cats. Free shipping on $50+.',
+    description: 'Quality accessories for dogs and cats. Free shipping on $50+.',
     url: 'https://pawhavenpets.org',
     siteName: 'PawHaven',
     images: [
@@ -28,7 +28,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PawHaven — Premium Pet Accessories',
-    description: 'Expert-curated accessories for dogs and cats. Free shipping on $50+.',
+    description: 'Quality accessories for dogs and cats. Free shipping on $50+.',
   },
 };
 
@@ -57,62 +57,6 @@ const features = [
   },
 ];
 
-const testimonials = [
-  {
-    name: 'Sarah M.',
-    city: 'Austin, TX',
-    pet: 'Golden Retriever Mom',
-    stars: 5,
-    text: "My dog used to inhale his food so fast he\'d get sick every week. PawHaven\'s slow feeder completely fixed it. It\'s become part of our daily routine — he actually enjoys meals now!",
-    product: 'Maze Slow Feeder Bowl',
-    emoji: '🥣',
-  },
-  {
-    name: 'Jessica T.',
-    city: 'Denver, CO',
-    pet: 'Anxious Pup Parent',
-    stars: 5,
-    text: "The lick mat is a MIRACLE. My dog has severe storm anxiety. Now I smear peanut butter on this mat during thunder and she\'s completely calm. Wish I found it years ago.",
-    product: 'Calming Lick Mat',
-    emoji: '🐾',
-  },
-  {
-    name: 'Mike R.',
-    city: 'Seattle, WA',
-    pet: 'Urban Dog Owner',
-    stars: 5,
-    text: "The LED collar gives me peace of mind on every nighttime walk. Cars actually slow down now. Holds charge for 4 nights. My dog barely notices he\'s wearing it.",
-    product: 'SafeGlow LED Collar',
-    emoji: '✨',
-  },
-  {
-    name: 'Amanda K.',
-    city: 'Nashville, TN',
-    pet: 'Cat Mom of 2',
-    stars: 5,
-    text: "My cats stopped fighting over the water bowl the moment I set up this fountain. They both drink so much more water now. The filter is easy to replace and it runs quietly all night.",
-    product: 'Cat Water Fountain',
-    emoji: '💧',
-  },
-  {
-    name: 'David L.',
-    city: 'Miami, FL',
-    pet: 'Rescue Dog Dad',
-    stars: 5,
-    text: "Our rescue has bad hip dysplasia. The orthopedic bed has genuinely improved his quality of life — he sleeps through the night now and gets up in the morning without limping. Worth every penny.",
-    product: 'Orthopedic Dog Bed',
-    emoji: '🛏️',
-  },
-  {
-    name: 'Rachel B.',
-    city: 'Chicago, IL',
-    pet: 'First-Time Pet Owner',
-    stars: 5,
-    text: "I was nervous ordering online for my pup but PawHaven made it so easy. The no-pull harness arrived fast, fits perfectly, and our walks have completely transformed. Already ordered two more things!",
-    product: 'No-Pull Dog Harness',
-    emoji: '🦮',
-  },
-];
 
 const stats = [
   { value: '40+', label: 'Curated Products' },
@@ -203,7 +147,7 @@ const websiteJsonLd = {
       '@id': 'https://pawhavenpets.org/#website',
       url: 'https://pawhavenpets.org',
       name: 'PawHaven',
-      description: 'Premium expert-recommended pet accessories for dogs and cats.',
+      description: 'Quality pet accessories for dogs and cats.',
       potentialAction: {
         '@type': 'SearchAction',
         target: { '@type': 'EntryPoint', urlTemplate: 'https://pawhavenpets.org/products?q={search_term_string}' },
@@ -243,7 +187,7 @@ export default function HomePage() {
             {/* Pre-headline pill */}
             <div className="inline-flex items-center gap-2 bg-brand-500/20 border border-brand-500/30 text-brand-300 text-sm font-semibold px-4 py-2 rounded-full mb-6 animate-fade-in">
               <span className="w-2 h-2 bg-brand-400 rounded-full animate-pulse" />
-              Trusted by Pet Owners Everywhere
+              Free Shipping on Orders $50+
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight text-balance mb-6 animate-fade-up">
@@ -254,7 +198,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: '0.1s' }}>
-              Expert-curated accessories that make dogs and cats healthier, calmer,
+              Thoughtfully chosen accessories that help dogs and cats feel healthier, calmer,
               and happier. Free shipping on orders over $50.
             </p>
 
@@ -272,7 +216,7 @@ export default function HomePage() {
                 href="/quiz"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-full text-lg border border-white/20 transition-all duration-200 hover:-translate-y-0.5"
               >
-                ✨ Find My Pet\'s Match
+                ✨ Find My Pet&apos;s Match
               </Link>
             </div>
 
@@ -389,7 +333,7 @@ export default function HomePage() {
               Our Best Sellers
             </h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">
-              The products pet owners order again and again — expert-curated, community-loved.
+              A hand-picked selection of practical, well-made products for dogs and cats.
             </p>
           </div>
 
@@ -491,61 +435,6 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold text-navy-900 mb-3">{feature.title}</h3>
                 <p className="text-gray-500 leading-relaxed">{feature.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── TESTIMONIALS ─── */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <p className="text-brand-500 font-bold text-sm uppercase tracking-widest mb-3">
-              Customer Love
-            </p>
-            <h2 className="text-4xl sm:text-5xl font-black text-navy-900 mb-4">
-              What Pet Parents Say
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="bg-white rounded-3xl p-7 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1 flex flex-col"
-              >
-                {/* Stars + verified */}
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex gap-0.5">
-                    {Array.from({ length: t.stars }).map((_, i) => (
-                      <span key={i} className="text-amber-400 text-base">★</span>
-                    ))}
-                  </div>
-                  <span className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded-full border border-emerald-100">
-                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    Verified Purchase
-                  </span>
-                </div>
-
-                <p className="text-gray-700 leading-relaxed text-sm flex-1 mb-5">
-                  "{t.text}"
-                </p>
-
-                <div className="flex items-center gap-3 pt-4 border-t border-gray-50">
-                  <div className="w-9 h-9 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center text-sm font-black text-white flex-shrink-0">
-                    {t.name.charAt(0)}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="font-bold text-navy-900 text-sm">{t.name}</div>
-                    <div className="text-gray-400 text-xs">{t.city} · {t.pet}</div>
-                  </div>
-                  <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0">
-                    <span>{t.emoji}</span>
-                  </div>
-                </div>
               </div>
             ))}
           </div>

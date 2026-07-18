@@ -71,7 +71,7 @@ export default function SuccessPage() {
           <p className="text-xs font-bold text-brand-500 uppercase tracking-widest mb-2">While you wait…</p>
           <h2 className="text-2xl font-black text-navy-900">Treat them to a little more 🐾</h2>
           <p className="text-gray-500 text-sm mt-2">
-            Our best-sellers — loved by pet owners across the country.
+            A few more picks your pet might enjoy.
           </p>
         </div>
 
@@ -100,10 +100,6 @@ export default function SuccessPage() {
                 <p className="font-bold text-navy-900 text-sm leading-snug mb-1 group-hover:text-brand-500 transition-colors line-clamp-2">
                   {p.name}
                 </p>
-                <div className="flex items-center gap-1 mb-3">
-                  <span className="text-amber-400 text-xs">{'★'.repeat(Math.round(p.rating))}</span>
-                  <span className="text-gray-400 text-xs">({p.reviewCount.toLocaleString()})</span>
-                </div>
                 <div className="mt-auto flex items-baseline gap-2">
                   <span className="font-black text-navy-900">${p.price.toFixed(2)}</span>
                   {p.comparePrice && (

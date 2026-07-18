@@ -242,12 +242,6 @@ export default function sitemap() {
       priority: 0.75,
     },
     {
-      url: `${BASE}/sale`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
       url: `${BASE}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

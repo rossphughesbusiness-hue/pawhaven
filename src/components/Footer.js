@@ -50,7 +50,6 @@ export default function Footer() {
               {[
                 { href: '/products', label: 'All Products' },
                 { href: '/bundles', label: 'Bundle Deals' },
-                { href: '/sale', label: '🔥 Flash Sale' },
                 { href: '/quiz', label: 'Find My Match ✨' },
                 { href: '/blog', label: 'Pet Care Blog' },
               ].map((link) => (

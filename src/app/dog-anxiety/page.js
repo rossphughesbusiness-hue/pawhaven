@@ -18,9 +18,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Repetitive licking triggers serotonin release — vet\'s first recommendation for mild to moderate anxiety.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Maze Slow Feeder Bowl',
     tag: 'Enrichment',
     price: 19.99,
-    comparePrice: 29.99,
     img: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Mental engagement at mealtimes reduces post-meal pacing and settles anxious dogs faster.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Orthopedic Memory Foam Dog Bed',
     tag: 'Comfort',
     price: 79.99,
-    comparePrice: 129.99,
     img: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: 'A dedicated, consistent sleep space is foundational for anxious dogs — reduces nighttime alertness.',
   },
 ];
@@ -229,9 +223,6 @@ export default function DogAnxietyPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -242,7 +233,6 @@ export default function DogAnxietyPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-blue-600 font-semibold text-sm">Shop →</span>
                     </div>

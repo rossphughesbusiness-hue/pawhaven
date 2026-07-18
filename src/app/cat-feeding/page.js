@@ -17,9 +17,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Slow Feeding',
     price: 14.99,
-    comparePrice: 22.99,
     img: 'https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Spread wet food or treats across the surface — extends mealtime from 30 seconds to 5+ minutes.',
   },
   {
@@ -27,9 +25,7 @@ const featured = [
     name: 'Cat Puzzle Slow Feeder',
     tag: 'Enrichment',
     price: 21.99,
-    comparePrice: 33.99,
     img: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=85&auto=format&fit=crop',
-    badge: '35% off',
     blurb: 'Multi-chamber puzzle that slows eating and provides mental enrichment simultaneously.',
   },
   {
@@ -37,9 +33,7 @@ const featured = [
     name: 'Maze Slow Feeder Bowl',
     tag: 'Portion Control',
     price: 19.99,
-    comparePrice: 29.99,
     img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=85&auto=format&fit=crop',
-    badge: '33% off',
     blurb: 'Interlocking maze ridges slow eating speed by up to 10× — safe for dry and wet food.',
   },
 ];
@@ -204,9 +198,6 @@ export default function CatFeedingPage() {
                       alt={p.name}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-violet-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -217,7 +208,6 @@ export default function CatFeedingPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-gray-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-violet-700 font-semibold text-sm">Shop →</span>
                     </div>

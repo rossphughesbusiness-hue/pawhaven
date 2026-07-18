@@ -18,9 +18,7 @@ const featured = [
     name: 'Crinkle Squeaky Toy Bundle',
     tag: 'Toys',
     price: 16.99,
-    comparePrice: 27.99,
     img: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=600&q=85&auto=format&fit=crop',
-    badge: '39% off',
     blurb: 'Five durable plush toys in one set — squeaky, crinkly, and built to last.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'IQ Puzzle Feeder Toy',
     tag: 'Enrichment',
     price: 27.99,
-    comparePrice: 39.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '30% off',
     blurb: 'Two difficulty levels keep your dog mentally challenged and boredom-free.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Heavy-Duty Rope Tug Toy',
     tag: 'Play',
     price: 16.99,
-    comparePrice: 26.99,
     img: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=600&q=85&auto=format&fit=crop',
-    badge: '37% off',
     blurb: 'Tight-woven cotton rope that survives even the most aggressive chewers.',
   },
 ];
@@ -158,9 +152,6 @@ export default function DogToysPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -171,7 +162,6 @@ export default function DogToysPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-navy-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-orange-500 font-semibold text-sm">Shop →</span>
                     </div>

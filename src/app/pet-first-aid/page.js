@@ -18,9 +18,7 @@ const featured = [
     name: 'Calming Lick Mat',
     tag: 'Anxiety Relief',
     price: 19.99,
-    comparePrice: 34.99,
     img: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=85&auto=format&fit=crop',
-    badge: '42% off',
     blurb: 'Post-stress calm after a vet visit or scary incident — licking reduces cortisol in minutes.',
   },
   {
@@ -28,9 +26,7 @@ const featured = [
     name: 'Orthopedic Memory Foam Dog Bed',
     tag: 'Recovery',
     price: 79.99,
-    comparePrice: 129.99,
     img: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&q=85&auto=format&fit=crop',
-    badge: '38% off',
     blurb: 'Supportive recovery surface for post-surgery, injury, or illness — reduces joint pressure during rest.',
   },
   {
@@ -38,9 +34,7 @@ const featured = [
     name: 'Portable Paw Cleaner',
     tag: 'Grooming',
     price: 22.99,
-    comparePrice: 34.99,
     img: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=600&q=85&auto=format&fit=crop',
-    badge: '34% off',
     blurb: 'Gently clean and rinse cut or irritated paws — silicone bristles remove debris without aggravating wounds.',
   },
 ];
@@ -323,9 +317,6 @@ export default function PetFirstAidPage() {
                       height={480}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-full">
-                      {p.badge}
-                    </span>
                     <span className="absolute top-3 right-3 bg-white/90 text-gray-600 text-xs px-2 py-1 rounded-full">
                       {p.tag}
                     </span>
@@ -336,7 +327,6 @@ export default function PetFirstAidPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <span className="font-black text-gray-900">${p.price}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${p.comparePrice}</span>
                       </div>
                       <span className="text-red-600 font-semibold text-sm">Shop →</span>
                     </div>

@@ -28,7 +28,7 @@ const BADGES = [
       </svg>
     ),
     label: 'Free Shipping',
-    sub: 'On orders $35+',
+    sub: 'On orders $50+',
   },
   {
     icon: (

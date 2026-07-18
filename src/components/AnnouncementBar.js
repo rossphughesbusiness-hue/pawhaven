@@ -9,13 +9,11 @@ export default function AnnouncementBar() {
   return (
     <div className="bg-navy-900 text-white text-sm font-semibold py-2.5 px-4 flex items-center justify-center gap-3 relative">
       <span>
-        🔥 <a href="/sale" className="text-red-400 font-black hover:underline">Flash Sale — up to 40% off</a>
-        {' · '}
-        Use code{' '}
+        🐾 Free shipping on orders $50+ · Use code{' '}
         <span className="bg-brand-500 text-white px-2 py-0.5 rounded font-black tracking-wider text-xs">
           WELCOME10
         </span>{' '}
-        for an extra 10% off · Free shipping on orders $50+
+        for 10% off your first order
       </span>
       <button
         onClick={() => setVisible(false)}
