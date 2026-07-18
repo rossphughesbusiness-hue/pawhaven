@@ -77,18 +77,10 @@ export default function ProductCard({ product }) {
             src={product.image}
             alt={product.name}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="object-cover group-hover:scale-105 transition-transform duration-500"
           />
 
-          {/* Stock warning */}
-          {product.stock < 30 && (
-            <div className="absolute bottom-3 left-0 right-0 flex justify-center z-10">
-              <span className="bg-red-50 text-red-600 text-xs font-semibold px-3 py-1 rounded-full border border-red-100">
-                Only {product.stock} left!
-              </span>
-            </div>
-          )}
         </div>
 
         {/* Info */}
