@@ -22,6 +22,9 @@ export async function POST(req) {
       return NextResponse.json({ error: 'No items in cart' }, { status: 400 });
     }
 
+    // WELCOME10 is applied directly to line-item prices (10% off).
+    const localWelcome = promoCodeId === 'LOCAL_WELCOME10';
+
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
     const line_items = items.map((item) => {
@@ -38,7 +41,9 @@ export async function POST(req) {
             ...(variantDesc && { description: variantDesc }),
             ...(item.image && { images: [item.image] }),
           },
-          unit_amount: Math.round(item.price * 100), // cents
+          unit_amount: localWelcome
+            ? Math.round(item.price * 90) // 10% off, in cents
+            : Math.round(item.price * 100), // cents
         },
         quantity: item.quantity,
       };
@@ -61,7 +66,7 @@ export async function POST(req) {
       payment_method_types: ['card'],
       line_items,
       mode: 'payment',
-      ...(promoCodeId ? { discounts: [{ promotion_code: promoCodeId }] } : { allow_promotion_codes: true }),
+      ...(promoCodeId && !localWelcome ? { discounts: [{ promotion_code: promoCodeId }] } : {}),
       success_url: `${baseUrl}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/cart`,
       phone_number_collection: { enabled: true },
