@@ -14,6 +14,18 @@ export async function POST(req) {
       return NextResponse.json({ error: 'Please enter a coupon code' }, { status: 400 });
     }
 
+    // WELCOME10 is fulfilled natively at checkout (10% off, applied server-side
+    // to line-item prices) so it does not depend on a Stripe coupon object.
+    if (code.trim().toUpperCase() === 'WELCOME10') {
+      return NextResponse.json({
+        id: 'LOCAL_WELCOME10',
+        code: 'WELCOME10',
+        percentOff: 10,
+        amountOff: null,
+        name: 'Welcome 10% Off',
+      });
+    }
+
     const promoCodes = await stripe.promotionCodes.list({
       code: code.trim().toUpperCase(),
       active: true,
