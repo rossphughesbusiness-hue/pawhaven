@@ -22,7 +22,7 @@ function buildFeed() {
   const base = 'https://www.pawhavenpets.org';
   const now = new Date().toUTCString();
 
-  const items = products.map((p) => {
+  const items = products.filter((p) => p.stock > 0).map((p) => {
     const url = `${base}/products/${p.slug}`;
     const imageUrl = p.image?.startsWith('http') ? p.image : `${base}${p.image}`;
     const price = Number(p.price).toFixed(2);
