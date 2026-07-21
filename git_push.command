@@ -17,7 +17,7 @@ echo ""
 
 read -p "Enter commit message (or press Enter for default): " MSG
 if [ -z "$MSG" ]; then
-  MSG="fix: remove all fabricated reviews, testimonials, urgency widgets, fake sale pricing and unsubstantiated claims sitewide"
+  MSG="fix: JPEG-format all Unsplash images; pull placeholder products 36-40 from sale until real supplier links exist"
 fi
 
 git commit -m "$MSG"

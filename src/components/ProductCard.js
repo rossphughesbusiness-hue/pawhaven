@@ -35,6 +35,7 @@ export default function ProductCard({ product }) {
 
   function handleAddToCart(e) {
     e.preventDefault();
+    if (!(product.stock > 0)) return;
     addItem({
       id: product.id,
       slug: product.slug,

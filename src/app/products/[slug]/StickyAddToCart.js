@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useCart } from '@/context/CartContext';
 
 export default function StickyAddToCart({ product }) {
+  if (!(product && product.stock > 0)) return null;
   const { addItem } = useCart();
   const [visible, setVisible] = useState(false);
   const [added, setAdded] = useState(false);

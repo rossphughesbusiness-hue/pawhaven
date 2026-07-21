@@ -88,20 +88,20 @@ export default function AddToCartButton({ product }) {
       {/* Add to cart button */}
       <button
         onClick={handleAdd}
-        disabled={!!missingVariant}
+        disabled={!!missingVariant || !(product.stock > 0)}
         className={`w-full py-4 rounded-2xl font-bold text-lg transition-all duration-200 active:scale-95 ${
           added
             ? 'bg-emerald-500 text-white'
             : 'bg-brand-500 hover:bg-brand-400 text-white hover:shadow-xl hover:shadow-brand-500/40 hover:-translate-y-0.5'
         }`}
       >
-        {added ? '✓ Added to Cart!' : `Add to Cart — $${(product.price * qty).toFixed(2)}`}
+        {!(product.stock > 0) ? 'Currently Unavailable' : added ? '✓ Added to Cart!' : `Add to Cart — $${(product.price * qty).toFixed(2)}`}
       </button>
 
       {/* Buy now */}
       <button
         onClick={handleAdd}
-        disabled={!!missingVariant}
+        disabled={!!missingVariant || !(product.stock > 0)}
         className="w-full py-4 rounded-2xl font-bold text-lg bg-navy-900 hover:bg-navy-800 text-white transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
       >
         Buy Now
