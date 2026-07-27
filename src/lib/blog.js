@@ -5004,6 +5004,67 @@ Watch your cat's coat condition, energy, weight, and litter box habits. If they'
 
 Your cat's nutritional needs are individual. Work with your vet to find the approach that keeps your cat healthy, happy, and well-hydrated for years to come.
     `,
+  },
+  {
+    slug: 'how-to-help-overweight-cat-lose-weight-safely',
+    title: "How to Help an Overweight Cat Lose Weight Safely",
+    excerpt: "Feline obesity affects millions of cats worldwide and can lead to serious health complications. Learn evidence-based strategies to help your cat achieve a healthy weight through diet, exercise, and veterinary guidance.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-07-27',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Understanding Feline Obesity
+
+Overweight cats face significantly increased risks of diabetes, arthritis, heart disease, and reduced lifespan. Unlike dogs, cats are obligate carnivores with unique metabolic needs, making weight management particularly important. If your cat weighs more than 10-15% above their ideal body weight, consulting your vet is the essential first step.
+
+## Get a Professional Baseline
+
+**Schedule a veterinary assessment before starting any weight loss programme.** Your vet will determine your cat's ideal weight, rule out underlying medical conditions (like thyroid disease), and create a personalised plan. They may also recommend bloodwork to establish a health baseline. This professional guidance prevents dangerous rapid weight loss, which can cause hepatic lipidosis (fatty liver disease) in cats.
+
+## Reassess Portion Sizes
+
+Overfeeding is the primary cause of feline obesity. Many cat owners feed by habit rather than caloric need. **Measure meals using a proper food scale or measuring cup—not eyeballing from the bag.** Most indoor cats need 200-250 calories daily, depending on age, activity level, and metabolism.
+
+Transition gradually to a lower-calorie diet (your vet may recommend a prescription option). Over 7-10 days, mix increasing amounts of the new food with the old to avoid digestive upset and feeding resistance.
+
+## Increase Activity Levels
+
+Indoor cats often lack sufficient stimulation and exercise. Introduce interactive play sessions twice daily, even just 10-15 minutes with a wand toy or laser pointer can make a difference. **Puzzle feeders and lick mats from PawHaven are excellent for slowing consumption and encouraging natural hunting behaviours**, engaging both body and mind whilst controlling calorie intake.
+
+Consider vertical spaces like cat trees to encourage climbing, or window perches for enrichment. Some cats even enjoy harness training for supervised outdoor exploration—PawHaven's adjustable cat harnesses provide a safe way to expand their environment.
+
+## Monitor Treat Intake
+
+Treats should constitute no more than 10% of daily calories. Many owners underestimate treat quantities; a few biscuits can equal an entire meal for a cat. **Switch to healthier alternatives like freeze-dried meat treats or reserved portions of their main food**, and use them strategically during play or training sessions rather than ad-lib grazing.
+
+## Feeding Strategy Adjustments
+
+Multiple small meals throughout the day can improve satiety and metabolism. If using wet food, **slow feeders designed for cats help prevent gulping and extend eating time**, which increases satisfaction signals to the brain. Spreading meals also prevents the hunger-induced behavioural issues some cats develop during weight loss.
+
+Consider feeding meals in different locations to encourage movement between eating spaces. Some cats benefit from timed feeders that portion meals automatically.
+
+## Set Realistic Goals
+
+Safe weight loss for cats is typically 1-2% of body weight per week. A cat losing half a kilogram monthly is on track. Rapid weight loss risks serious complications and increases the likelihood of abandoning the programme. Celebrate small victories and stay patient—sustainable results take 6-12 months.
+
+## Track Progress Systematically
+
+Weigh your cat monthly at your vet's surgery for consistency. Body condition scoring (feeling ribs and spine prominence) is equally important. Take photos from above and the side monthly to visually document changes. **A comfortable, supportive cat bed from PawHaven becomes especially valuable as your cat exercises more**, providing proper recovery and reducing joint stress during activity increases.
+
+## Troubleshooting Common Issues
+
+If your cat is begging excessively, ensure they're not bored—increase enrichment before increasing food. If they're resistant to new food, transition more slowly or try warming wet food to enhance palatability. Some cats benefit from interactive feeding—hand-feeding small portions occasionally.
+
+## When to Adjust Your Approach
+
+If weight loss stalls after 4-6 weeks, don't simply reduce calories further—consult your vet. They may adjust the diet formulation, investigate metabolic issues, or modify the exercise plan. **Work closely with your veterinary team throughout the journey.** Regular check-ins every 4-6 weeks keep you accountable and allow professional guidance adjustments.
+
+## The Long-Term Commitment
+
+Weight management isn't temporary—it's a lifestyle adjustment. Once your cat reaches their ideal weight, maintaining portion control and activity levels prevents regain. The effort invested now pays dividends in extended healthy years with your feline companion.
+    `,
   }
 ]
 
@@ -5097,6 +5158,7 @@ const POST_RELEVANCE = {
   'how-to-tell-if-your-cat-is-happy':          ['Health', 'Cats', 'Enrichment', 'Anxiety Relief'],
   'why-cat-not-eating-causes-vet': ["Health","Cats","Grooming"],
   'wet-vs-dry-cat-food-which-is-better': ["Health","Cats","Grooming"],
+  'how-to-help-overweight-cat-lose-weight-safely': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
