@@ -5065,6 +5065,87 @@ If weight loss stalls after 4-6 weeks, don't simply reduce calories further—co
 
 Weight management isn't temporary—it's a lifestyle adjustment. Once your cat reaches their ideal weight, maintaining portion control and activity levels prevents regain. The effort invested now pays dividends in extended healthy years with your feline companion.
     `,
+  },
+  {
+    slug: 'common-cat-illnesses-owners-should-know',
+    title: "Common Cat Illnesses Every Owner Should Know",
+    excerpt: "From urinary tract infections to diabetes, understanding the most common feline health issues helps you spot warning signs early. Learn what symptoms deserve a vet visit and how to support your cat's wellbeing.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-08-03',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Introduction
+
+Cats are masters at hiding discomfort, which means owners need to be extra vigilant about spotting illness early. Knowing the most common feline health conditions—and their warning signs—can make the difference between catching something treatable and letting it progress. Let's walk through the illnesses every cat owner should have on their radar.
+
+## Urinary Tract Infections and Feline Lower Urinary Tract Disease (FLUTD)
+
+**Symptoms:** Straining to urinate, frequent trips to the litter box, blood in urine, crying in the litter box, and inappropriate urination outside the box.
+
+Urinary issues are incredibly common in cats, particularly males. FLUTD can be triggered by stress, diet, dehydration, and infections. It's more than uncomfortable—severe cases can become life-threatening if urine backs up into the kidneys.
+
+Encourage hydration by offering fresh water stations throughout your home, and consider a **slow feeder bowl** to reduce eating-related stress. Keep the litter box spotlessly clean; cats are fussy about their bathroom habits, and a dirty box can contribute to marking behaviour and UTI development.
+
+## Diabetes Mellitus
+
+**Symptoms:** Increased drinking and urination, weight loss despite normal appetite, lethargy, and sweet-smelling breath.
+
+Feline diabetes is on the rise, often linked to obesity and poor diet. The good news? Early detection and dietary management can sometimes reverse it. Your vet may recommend a high-protein, low-carbohydrate diet and insulin injections if needed.
+
+## Chronic Kidney Disease (CKD)
+
+**Symptoms:** Increased drinking and urination, weight loss, poor coat condition, bad breath, and decreased appetite.
+
+This is one of the most common conditions in senior cats. While there's no cure, early diagnosis and management—including prescription diets and regular vet monitoring—can slow progression significantly. Ensure your cat has constant access to fresh water and consider adding a water fountain to encourage drinking.
+
+## Hyperthyroidism
+
+**Symptoms:** Weight loss despite increased appetite, hyperactivity, vomiting, diarrhoea, and excessive grooming.
+
+Hyperthyroidism typically affects older cats and causes the thyroid gland to produce too much hormone. It's treatable through medication, dietary management, or radioactive iodine therapy. Early intervention prevents complications like heart disease.
+
+## Dental Disease
+
+**Symptoms:** Bad breath, difficulty eating, drooling, facial swelling, and behavioural changes like reluctance to play.
+
+Dental problems are surprisingly common in cats and often go unnoticed until severe. Plaque and tartar build-up lead to infections that can spread to the heart, kidneys, and liver. Regular dental check-ups and at-home care—including dental treats and toys—help prevent disease. A **lick mat** filled with wet food or broth encourages natural licking and gum stimulation.
+
+## Feline Infectious Peritonitis (FIP)
+
+**Symptoms:** Fever, lethargy, loss of appetite, weight loss, and fluid accumulation in the abdomen or chest.
+
+FIP is caused by a coronavirus mutation and is serious, though not all cats infected with FCoV develop FIP. Good hygiene, reduced stress, and limiting cat numbers in multi-cat households help reduce risk.
+
+## Asthma and Respiratory Issues
+
+**Symptoms:** Wheezing, coughing, rapid or laboured breathing, and lethargy.
+
+Feline asthma affects the airways and can range from mild to severe. Environmental triggers like litter dust, smoke, and air fresheners play a role. Your vet may prescribe inhalers or corticosteroids. Choose low-dust litter and keep your home well-ventilated.
+
+## Hypoglycaemia and Other Metabolic Issues
+
+**Symptoms:** Lethargy, seizures, collapse, and trembling.
+
+Younger cats may develop low blood sugar, while older cats face various metabolic challenges. Regular vet visits help catch these early.
+
+## When to Call the Vet
+
+Schedule a check-up if you notice:
+- Changes in eating or drinking habits
+- Weight changes (loss or gain)
+- Litter box behaviour changes
+- Lethargy or unusual behaviour
+- Vomiting or diarrhoea lasting more than a day
+- Coat or skin changes
+
+## Prevention and Early Detection
+
+**Annual vet visits** are essential—twice yearly for senior cats over 10 years old. Maintain a healthy weight through proper nutrition and play. Invest in a comfortable **pet bed** to encourage rest and reduce stress-related illness. Keep stress low through environmental enrichment and a predictable routine.
+
+Knowing these common illnesses empowers you to be your cat's best advocate. Trust your instincts: if something feels off, it usually is worth a vet visit. Early intervention saves lives and money.
+    `,
   }
 ]
 
@@ -5159,6 +5240,7 @@ const POST_RELEVANCE = {
   'why-cat-not-eating-causes-vet': ["Health","Cats","Grooming"],
   'wet-vs-dry-cat-food-which-is-better': ["Health","Cats","Grooming"],
   'how-to-help-overweight-cat-lose-weight-safely': ["Health","Cats","Grooming"],
+  'common-cat-illnesses-owners-should-know': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
