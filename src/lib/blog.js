@@ -5146,6 +5146,63 @@ Schedule a check-up if you notice:
 
 Knowing these common illnesses empowers you to be your cat's best advocate. Trust your instincts: if something feels off, it usually is worth a vet visit. Early intervention saves lives and money.
     `,
+  },
+  {
+    slug: 'hairballs-cats-prevent-treat',
+    title: "Hairballs in Cats: How to Prevent and Treat Them",
+    excerpt: "Hairballs are common in cats but preventable. Learn what causes them, when to worry, and practical steps to keep your cat comfortable and healthy.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-08-10',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Why Cats Get Hairballs
+
+Hairballs happen because cats groom themselves constantly. When they lick their fur, loose hairs get swallowed. Most pass through the digestive system harmlessly, but some accumulate in the stomach and form a ball. When your cat's body can't break it down naturally, they'll cough or vomit it up—usually at an inconvenient moment.
+
+Longer-haired breeds are more prone to hairballs, but all cats can develop them. Indoor cats may experience them more frequently since they groom more often when bored or stressed.
+
+## Signs Your Cat Has a Hairball Problem
+
+Occasional vomiting of a hairball is normal, but watch for **repeated coughing, retching without producing anything, loss of appetite, or lethargy**. These signs might indicate a blockage requiring veterinary attention. If your cat hasn't eaten for more than a few hours after a hairball incident, contact your vet.
+
+## Prevention Strategies That Work
+
+**Regular brushing** is your first line of defence. Brush long-haired cats daily and short-haired cats 3–4 times weekly. This removes loose hair before it gets swallowed.
+
+**Hydration matters too.** Cats that drink more water have better digestive function. Consider a cat water fountain—many cats prefer running water and drink more from it.
+
+**Environmental enrichment** reduces stress-related over-grooming. Interactive play sessions, climbing structures, and puzzle toys keep your cat mentally stimulated. A rotating selection of toys prevents boredom and excessive self-grooming.
+
+**Slow feeders can indirectly help** by encouraging mindful eating and better digestion overall. Cats that eat too quickly may experience digestive upset, which can worsen hairball problems. PawHaven's slow feeders are designed for cats and help create calm, controlled mealtimes.
+
+## Dietary Adjustments
+
+Some vets recommend **high-fibre diets** to help move hair through the digestive system more efficiently. Ask your vet whether a fibre supplement or prescription diet might suit your cat. Wet food can also aid digestion better than dry kibble alone.
+
+Probiotic supplements designed for cats may support gut health, though evidence is mixed. Always consult your vet before starting supplements.
+
+## Grooming Tools and Products
+
+Invest in a **quality brush or de-shedding tool** suited to your cat's coat type. Slicker brushes work well for long-haired cats, while rubber grooming mitts suit short-haired breeds. Regular grooming isn't just about preventing hairballs—it strengthens your bond and lets you spot skin issues early.
+
+## When to See a Vet
+
+If your cat vomits repeatedly, shows signs of constipation, or seems in pain, seek veterinary care. **Hairball blockages are emergencies** and can require surgery if severe. Your vet can rule out other digestive issues and recommend treatments like lactulose or specially formulated hairball remedies.
+
+## Creating a Supportive Home Environment
+
+Reduce stress with **comfortable resting spots, vertical spaces, and consistent routines**. A stressed cat grooms excessively, which increases hairball risk. PawHaven's cat beds provide cosy, secure spots where your cat can relax without anxiety.
+
+If your cat spends time outdoors or has access to plants, ensure they're cat-safe. Some cats eat grass intentionally to help with digestion, but toxic plants can cause serious problems.
+
+## The Bottom Line
+
+Hairballs are preventable through **regular grooming, hydration, dietary support, and environmental enrichment**. Most cats never develop serious hairball issues when these preventative measures are in place. Monitor your cat's grooming habits and digestion, and don't hesitate to contact your vet if something seems off.
+
+Remember: a little effort in grooming now saves you from messy surprises later—and keeps your cat happier and healthier for years to come.
+    `,
   }
 ]
 
@@ -5241,6 +5298,7 @@ const POST_RELEVANCE = {
   'wet-vs-dry-cat-food-which-is-better': ["Health","Cats","Grooming"],
   'how-to-help-overweight-cat-lose-weight-safely': ["Health","Cats","Grooming"],
   'common-cat-illnesses-owners-should-know': ["Health","Cats","Grooming"],
+  'hairballs-cats-prevent-treat': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
