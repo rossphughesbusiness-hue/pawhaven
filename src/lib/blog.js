@@ -5203,6 +5203,77 @@ Hairballs are preventable through **regular grooming, hydration, dietary support
 
 Remember: a little effort in grooming now saves you from messy surprises later—and keeps your cat happier and healthier for years to come.
     `,
+  },
+  {
+    slug: 'cat-vomiting-causes-solutions',
+    title: "Why Your Cat Is Vomiting and What to Do About It",
+    excerpt: "Cat vomiting can signal anything from hairballs to serious illness. Learn the common causes, when to call your vet, and practical steps to keep your cat healthy and comfortable.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-08-17',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=800&q=85&auto=format&fit=crop',
+    content: `
+Discovering vomit on your kitchen floor is never pleasant, but occasional cat vomiting isn't always cause for panic. That said, understanding what's behind it—and when it matters—can help you keep your feline friend healthy.
+
+## Why Cats Vomit: The Common Culprits
+
+**Hairballs** remain the most frequent reason cats throw up. As cats groom themselves, they swallow loose fur that accumulates in the stomach and oesophagus. Most of the time, it passes through without issue, but sometimes it needs to come back up.
+
+**Eating too quickly** is another major trigger. Some cats inhale their food, which can irritate the stomach lining and lead to vomiting shortly after meals. If your cat is a speed-eater, a **slow feeder bowl** can make a real difference—it forces them to eat in smaller portions and chew properly, reducing the chance of an upset stomach.
+
+Other common causes include:
+- Dietary sensitivities or sudden food changes
+- Swallowing foreign objects (string, toys, plants)
+- Parasites or infections
+- Pancreatitis or inflammatory bowel disease
+- Kidney disease or hyperthyroidism (especially in older cats)
+
+## When Should You Worry?
+
+Occasional vomiting—once a month or less—is often normal. However, **contact your vet if your cat**:
+
+- Vomits more than once a week
+- Shows signs of lethargy, loss of appetite, or weight loss
+- Vomits bile (yellow or green liquid) repeatedly
+- Strains or shows signs of abdominal pain
+- Has vomited after eating a foreign object
+- Is very young, very old, or has existing health conditions
+
+Persistent vomiting can indicate serious conditions like intestinal blockages, kidney disease, or diabetes. Don't delay a vet visit if you're concerned.
+
+## Practical Solutions to Try at Home
+
+**Manage hairballs proactively.** Regular brushing removes loose fur before your cat swallows it. Long-haired breeds benefit from daily grooming. Hairball-control food formulas, higher-fibre diets, and even cat grass can help too.
+
+**Slow down mealtimes.** As mentioned, a slow feeder forces cats to eat mindfully. Alternatively, try feeding smaller portions more frequently throughout the day rather than one large meal.
+
+**Rule out food triggers.** If vomiting coincides with diet changes, gradually transition to new food over 7–10 days, mixing increasing amounts of the new food with the old. Some cats do better on limited-ingredient diets or prescription foods recommended by your vet.
+
+**Provide fresh water separately.** Some cats vomit if they drink and eat immediately afterward. Place water bowls away from food bowls, and consider a cat water fountain—many cats prefer running water and drink more regularly.
+
+**Create a calm environment.** Stress can trigger vomiting in sensitive cats. Ensure your cat has a quiet space to rest, comfortable bedding (like one of PawHaven's cosy cat beds), and predictable routines.
+
+## When Your Vet Visit Is Essential
+
+Your vet may recommend:
+- Blood and urine tests to rule out systemic disease
+- Ultrasound or X-rays if a foreign object is suspected
+- Dietary trials with prescription foods
+- Anti-nausea medication if vomiting is chronic
+
+Bring notes about frequency, timing (does it happen after meals?), what the vomit looks like, and any other symptoms you've noticed. This information helps your vet narrow down the cause.
+
+## Prevention and Long-Term Care
+
+For cats prone to vomiting, consistency is key. Stick to the same food, maintain regular feeding times, keep your home free of hazards (secure string, rubber bands, and plants), and schedule annual vet check-ups—more frequent for older cats.
+
+Interactive play and enrichment also reduce stress-related vomiting. Toys, climbing trees, and lick mats provide mental stimulation and can help your cat feel more settled.
+
+## The Bottom Line
+
+The occasional hairball or regurgitation after wolfing down dinner is usually nothing to fear. But if your cat is vomiting regularly or showing other signs of illness, don't wait—vomiting can be a symptom of something that needs treatment. Your vet is the best resource for pinpointing the cause and getting your cat back to their happy, healthy self.
+    `,
   }
 ]
 
@@ -5299,6 +5370,7 @@ const POST_RELEVANCE = {
   'how-to-help-overweight-cat-lose-weight-safely': ["Health","Cats","Grooming"],
   'common-cat-illnesses-owners-should-know': ["Health","Cats","Grooming"],
   'hairballs-cats-prevent-treat': ["Health","Cats","Grooming"],
+  'cat-vomiting-causes-solutions': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
