@@ -5274,6 +5274,87 @@ Interactive play and enrichment also reduce stress-related vomiting. Toys, climb
 
 The occasional hairball or regurgitation after wolfing down dinner is usually nothing to fear. But if your cat is vomiting regularly or showing other signs of illness, don't wait—vomiting can be a symptom of something that needs treatment. Your vet is the best resource for pinpointing the cause and getting your cat back to their happy, healthy self.
     `,
+  },
+  {
+    slug: 'why-cats-bite-during-petting-aggression',
+    title: "Why Cats Bite During Petting: Understanding Feline Aggression",
+    excerpt: "Your cat seems happy, then suddenly bites. Petting-induced aggression is common and misunderstood. Learn why it happens and practical ways to prevent it—keeping both you and your cat calm.",
+    category: 'Cats',
+    tag: 'Anxiety Relief',
+    date: '2026-08-24',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1544568100-847a188d0d28?w=800&q=85&auto=format&fit=crop',
+    content: `
+## What Is Petting-Induced Aggression?
+
+It's one of the most confusing moments in cat ownership: your feline is purring contentedly in your lap, and then—without warning—they turn and bite or swat. This sudden shift from affectionate to aggressive is called **petting-induced aggression**, and it's far more common than you might think.
+
+Unlike predatory aggression or fear-based biting, petting-induced aggression happens during moments of apparent bonding. Your cat isn't being spiteful or unpredictable; they're communicating a boundary you've crossed.
+
+## Why Does This Happen?
+
+### Overstimulation
+
+The most common trigger is overstimulation. Cats have sensitive skin, and what feels pleasant for the first few minutes can become overwhelming quickly. Repeated petting activates nerve endings, causing genuine discomfort. Some cats tolerate only 30 seconds of petting before they've had enough; others manage a few minutes. Each cat has their own threshold.
+
+### Inconsistent Sensitivity
+
+Cats have areas of heightened sensitivity—the belly, tail base, and back legs are notorious trouble spots. Even friendly cats may bite if you touch these zones. The skin here is thinner and more densely packed with nerve endings, making it genuinely sensitive rather than a sign your cat doesn't trust you.
+
+### Attention Fatigue
+
+Some cats simply run out of social battery. They enjoy your company for a set period, then need to retreat. Pushing beyond that window triggers a defensive response—the bite is essentially a "stop" button.
+
+### Low Pain Tolerance or Anxiety
+
+Cats with chronic pain, anxiety, or past trauma may be quicker to bite. They're not being aggressive out of malice; they're protecting themselves from sensations that feel threatening. Stressed or anxious cats benefit from calm environments and **interactive toys like lick mats**, which engage them without requiring prolonged physical contact.
+
+## Recognizing the Warning Signs
+
+Your cat *does* warn you before biting—you just need to know what to look for:
+
+- **Tail twitching** or rapid tail movement
+- **Skin rippling** along the back
+- **Ears rotating** or flattening
+- **Dilated pupils**
+- **Whiskers pulled back**
+- **A pause in purring**
+- **Turning head toward your hand**
+
+These signals appear seconds before the bite. Recognising them allows you to stop petting and give your cat space.
+
+## How to Prevent Petting-Induced Aggression
+
+### Keep Sessions Short
+
+Aim for 5–10 strokes, then pause. Observe your cat's response before continuing. If they seem relaxed, continue cautiously. If any warning signs appear, stop immediately.
+
+### Stick to Preferred Zones
+
+Most cats prefer gentle strokes on the head, cheeks, chin, and neck. Avoid the belly, lower back, and tail unless your cat explicitly enjoys it. Let your cat guide the interaction.
+
+### Watch for Fatigue Signals
+
+The moment your cat's tail twitches or their ears flatten, it's time to stop. Respecting this boundary actually strengthens your bond and prevents future biting.
+
+### Create Calm Alternatives
+
+If your cat loves attention but gets overstimulated by petting, offer alternative engagement. A **slow feeder or puzzle feeder** provides rewarding interaction without requiring you to touch them directly. **Lick mats** (frozen with wet food or broth) offer soothing sensory input that calms anxious cats.
+
+### Use Toys for Engagement
+
+Direct their need for interaction toward toys instead. Wand toys, balls, and interactive games satisfy social needs without the overstimulation risk.
+
+## When to Consult a Vet
+
+If your cat's biting is sudden, frequent, or paired with other behavioural changes, consult your vet. Pain from dental disease, arthritis, or skin conditions can trigger aggression. Stress-related biting may also warrant discussion with a feline behaviourist.
+
+## The Takeaway
+
+Petting-induced aggression isn't a flaw in your cat's personality—it's communication. Your cat is telling you their sensory limits have been reached. By learning to read those warning signs and respecting their boundaries, you'll create a more harmonious relationship and reduce biting altogether.
+
+Every cat is unique. Some love extended petting; others prefer brief interactions. The key is observing your individual cat and adjusting your approach accordingly. That's not compromise—that's genuine love.
+    `,
   }
 ]
 
@@ -5371,6 +5452,7 @@ const POST_RELEVANCE = {
   'common-cat-illnesses-owners-should-know': ["Health","Cats","Grooming"],
   'hairballs-cats-prevent-treat': ["Health","Cats","Grooming"],
   'cat-vomiting-causes-solutions': ["Health","Cats","Grooming"],
+  'why-cats-bite-during-petting-aggression': ["Anxiety Relief","Cats","Enrichment","Comfort"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
