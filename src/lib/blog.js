@@ -5511,6 +5511,71 @@ Cat zoomies are a normal, healthy part of feline behaviour. They're your cat's w
 
 The key is ensuring your cat has enough outlet for that energy: play, enrichment, and mental stimulation. Combined with a comfortable home environment and quality toys, your cat's zoomies will remain exactly what they should be—a joyful, silly, and utterly entertaining part of cat ownership.
     `,
+  },
+  {
+    slug: 'why-cats-bring-dead-animals-stop-it',
+    title: "Why Cats Bring You Dead Animals (And Should You Stop It?)",
+    excerpt: "Your cat's gruesome gifts aren't malice—they're actually a sign of love and hunting instinct. Learn what your cat is really trying to tell you and how to redirect this natural behaviour humanely.",
+    category: 'Cats',
+    tag: 'Enrichment',
+    date: '2026-09-14',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Understanding Your Cat's Hunting Instinct
+
+It's 6 a.m., you stumble into the kitchen, and there it is: a "gift" your cat has left by the back door. A mouse. A bird. Sometimes just the remains. Your first reaction might be horror, but before you scold your feline friend, it's worth understanding what's actually happening.
+
+**Cats are obligate carnivores**, meaning hunting isn't just an option for them—it's hardwired into their DNA. Even well-fed house cats retain the instinct to stalk, catch, and kill prey. This drive doesn't switch off because you fill their food bowl twice daily.
+
+## What Your Cat Is Really Saying
+
+Contrary to what some believe, your cat isn't bringing you dead animals as a morbid insult. Research suggests several possible explanations:
+
+**Gift-giving behaviour**: Cats may view their owners as part of their social group (their "colony"). In multi-cat households, cats sometimes share kills with each other as a sign of social bonding. Your dead mouse could genuinely be an offering to a family member who can't hunt.
+
+**Concern for your wellbeing**: Some behaviourists suggest cats recognise that humans are poor hunters. By leaving prey at your feet, your cat might be attempting to provide for you—essentially saying, "You clearly need help feeding yourself."
+
+**Hunting practice**: Young or semi-outdoor cats may simply be practicing their skills and showing off their success. It's not malicious; it's pride.
+
+## Should You Stop It?
+
+The answer is: **yes, you should try to prevent it**—but not by punishing your cat.
+
+Beyond the emotional discomfort, there are practical reasons:
+
+- **Wildlife impact**: Cats are efficient predators. A single cat can kill dozens of small mammals and birds yearly, affecting local ecosystems.
+- **Disease risk**: Handling dead animals exposes you and your cat to parasites, toxoplasmosis, and bacteria.
+- **Safety for your cat**: Outdoor hunting carries risks—from cars, other animals, or territorial conflicts.
+
+## Practical Solutions
+
+**Keep your cat indoors or use a secure catio.** This is the most effective solution. Indoor cats live longer, healthier lives and won't bring home prey. If your cat has outdoor access, consider a secure enclosure or harness training for supervised time outside.
+
+**Redirect the hunting instinct indoors.** Cats need to hunt—it's non-negotiable. Instead of suppressing the urge, channel it into play and enrichment. Interactive toys like feather wands, laser pointers, and automated toys satisfy the stalk-and-pounce sequence. 
+
+**Use puzzle feeders and enrichment toys.** Products like **PawHaven's slow feeders and puzzle feeders** transform mealtime into a hunting experience, engaging your cat's natural predatory behaviours in a controlled way. **Lick mats** and food-dispensing toys also extend feeding time and mental stimulation.
+
+**Try motion-activated toys and rotating toys.** Cats lose interest quickly, so variety matters. Toys that move unpredictably (like small robotic mice) tap into hunting drives without real prey.
+
+**Install a microchip cat door.** If your cat has outdoor access, a selective door lets only your cat in—preventing them from bringing "trophies" inside.
+
+**Consider a collar-mounted warning bell.** While debated, some studies suggest audible warnings can reduce successful catches, giving prey a slight advantage. It won't stop a determined hunter, but every bit helps.
+
+## The Training Reality
+
+You cannot train a cat not to hunt in the traditional sense. Punishment—yelling, rubbing their nose in it—doesn't work and damages your relationship. Cats don't understand moral judgement; they only know they've done something that triggered a scary human reaction.
+
+Instead, focus on **prevention and redirection**. If your cat brings prey inside, calmly take it away and immediately offer an engaging play session with a toy. This reinforces that play happens with you, not with outdoor animals.
+
+## The Bottom Line
+
+Your cat isn't a cold-blooded killer—they're a perfectly evolved predator following millions of years of instinct. The most humane approach isn't punishment; it's understanding their needs and meeting them safely.
+
+**Keeping your cat indoors or in a secure space, combined with robust enrichment through toys and puzzle feeders**, gives your cat the mental and physical stimulation they crave whilst protecting local wildlife and keeping them safe.
+
+Yes, you might miss the "gifts." But your cat will be happier, safer, and you'll sleep soundly without wondering what's waiting for you at dawn.
+    `,
   }
 ]
 
@@ -5611,6 +5676,7 @@ const POST_RELEVANCE = {
   'why-cats-bite-during-petting-aggression': ["Anxiety Relief","Cats","Enrichment","Comfort"],
   'bond-shy-fearful-cat-anxiety-relief': ["Anxiety Relief","Cats","Enrichment","Comfort"],
   'cat-zoomies-why-they-happen-what-they-mean': ["Enrichment","Cats","Toys","Play","Anxiety Relief"],
+  'why-cats-bring-dead-animals-stop-it': ["Enrichment","Cats","Toys","Play","Anxiety Relief"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
