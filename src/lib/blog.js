@@ -5643,6 +5643,112 @@ Enrichment items like puzzle feeders, window perches for bird-watching, and lick
 
 Multi-cat households thrive on **structure, resources, and patience.** Give each cat their own space, food station, and enrichment. Introduce new cats slowly and address conflicts early. With thoughtful management, cats can share a home peacefully—and sometimes even become genuine friends.
     `,
+  },
+  {
+    slug: 'how-to-brush-cat-hates-being-brushed',
+    title: "How to Brush a Cat That Hates Being Brushed",
+    excerpt: "Does your cat flee at the sight of a brush? Learn practical, cat-approved techniques to make grooming stress-free for even the most resistant feline. Transform brushing from a battle into bonding time.",
+    category: 'Cats',
+    tag: 'Grooming',
+    date: '2026-09-28',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Why Does Your Cat Resist Brushing?
+
+Before tackling the how, it helps to understand the why. Cats often dislike brushing because:
+
+- **Sensitivity**: Their skin is more sensitive than ours, and vigorous brushing can feel uncomfortable
+- **Loss of control**: Cats are independent creatures; restraint triggers their fight response
+- **Negative past experiences**: One bad grooming session can sour them forever
+- **Overstimulation**: Some cats have a low tolerance threshold for touch
+
+The good news? With patience and the right approach, most cats can learn to tolerate—even enjoy—brushing.
+
+## Start With the Right Tools
+
+Not all brushes are created equal. A harsh slicker brush or metal comb can feel painful on sensitive skin, making resistance worse.
+
+**Invest in a soft, purpose-built grooming tool.** Look for:
+- Rubber grooming mitts (feel like a gentle massage)
+- Wide-tooth combs for longer coats
+- Soft-bristled brushes designed specifically for cats
+
+A quality tool makes an enormous difference in how your cat perceives the experience.
+
+## Build Positive Associations First
+
+**Don't launch straight into a full grooming session.** Instead, introduce the brush slowly:
+
+1. Leave the brush out where your cat can sniff and investigate
+2. Reward curiosity with treats or praise
+3. Touch your cat with the brush—no strokes yet—for 5 seconds, then reward
+4. Gradually increase duration over several days
+
+This desensitisation process might take a week or two, but it's worth every moment. Your cat learns the brush isn't a threat.
+
+## Timing Is Everything
+
+Try brushing when your cat is naturally calm:
+- After a meal
+- During their afternoon rest period
+- After a play session with their favourite toy
+
+**Avoid brushing** when they're alert, hunting, or already overstimulated. Even a naturally resistant cat is more cooperative when relaxed.
+
+## The Technique Matters
+
+Once your cat tolerates the brush, use these gentle methods:
+
+- **Brush with the fur**, never against it
+- Use **light, short strokes**—not firm pressure
+- Focus on areas they enjoy: cheeks, chin, and behind the ears
+- Avoid sensitive spots (belly, paws, tail base) until trust is built
+- Keep sessions **short**: 2–5 minutes is ideal
+
+If your cat begins showing stress signals (tail thrashing, ears back, skin twitching), stop immediately. It's better to end on a positive note than push through resistance.
+
+## Use Positive Reinforcement
+
+**Reward compliance heavily.** Have high-value treats nearby—something your cat rarely gets. Praise enthusiastically during and after brushing. Some cats respond better to play rewards than food.
+
+If brushing correlates with good things in your cat's mind, they'll gradually become more willing.
+
+## Consider Environmental Factors
+
+Your cat's comfort extends beyond the brush itself:
+
+- **Groom in a quiet, familiar space** where they feel safe
+- Keep the room temperature comfortable
+- Minimise distractions from other pets
+- Some cats feel calmer with white noise in the background
+
+A relaxed environment reduces anxiety before you even touch the brush.
+
+## Break Up Longer Sessions
+
+If your cat has a long coat requiring thorough grooming, **split it into multiple short sessions over several days** rather than one marathon session. Three 3-minute sessions are far less stressful than one 10-minute ordeal.
+
+## When Prevention Beats the Battle
+
+For cats that remain resistant to brushing, **provide alternatives that reduce matting naturally:**
+
+- Use a **lick mat** filled with wet food or treats to keep them engaged during grooming time
+- **Interactive toys** that stimulate play help prevent mat-forming tangles
+- A comfortable **cat bed** in a sunny spot encourages rest and natural self-grooming
+
+These tools create a grooming-friendly lifestyle without forcing the brush itself.
+
+## Know When to Seek Help
+
+If your cat shows extreme fear or aggression, consult your vet. Some cats have underlying skin sensitivity or pain that makes touch genuinely distressing. A professional groomer experienced with anxious cats is also worth considering—sometimes a neutral person in a familiar setting makes all the difference.
+
+## Final Thoughts
+
+Brushing a cat that hates it requires **patience, consistency, and respect for their boundaries.** Progress might be slow, but every small improvement counts. Your cat isn't being difficult—they're communicating their needs. Listen, adjust, and celebrate small wins.
+
+With these strategies, even the most brush-averse feline can learn that grooming isn't something to fear.
+    `,
   }
 ]
 
@@ -5745,6 +5851,7 @@ const POST_RELEVANCE = {
   'cat-zoomies-why-they-happen-what-they-mean': ["Enrichment","Cats","Toys","Play","Anxiety Relief"],
   'why-cats-bring-dead-animals-stop-it': ["Enrichment","Cats","Toys","Play","Anxiety Relief"],
   'multi-cat-household-guide-preventing-resolving-conflict': ["Anxiety Relief","Cats","Enrichment","Comfort"],
+  'how-to-brush-cat-hates-being-brushed': ["Grooming","Cats","Health"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
