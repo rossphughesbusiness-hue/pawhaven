@@ -5822,6 +5822,69 @@ Long-haired cat grooming isn't complicated—it just requires consistency. Inves
 
 Start this week. Your long-haired beauty will thank you.
     `,
+  },
+  {
+    slug: 'how-to-trim-cat-nails-without-getting-scratched',
+    title: "How to Trim Cat Nails Without Getting Scratched",
+    excerpt: "Cat nail trimming doesn't have to be a battle. Learn proven techniques, the right tools, and calm-down strategies that keep both you and your feline safe during grooming.",
+    category: 'Cats',
+    tag: 'Grooming',
+    date: '2026-10-12',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Why Cat Nail Trimming Matters
+
+Regular nail trimming is one of the most overlooked aspects of cat care—yet it's genuinely important. Overgrown nails can cause discomfort, lead to ingrown claws, and damage your furniture and skin. The good news? With patience and the right approach, you can trim your cat's nails safely without turning it into a wrestling match.
+
+## Prepare Yourself and Your Cat
+
+**Choose the right time.** Pick a moment when your cat is naturally calm—after a meal or during their sleepy afternoon hours. Never attempt nail trimming when your cat is playful or agitated.
+
+**Set up a calm environment.** Find a quiet space with good lighting. Dim rooms make it harder to see the nail's quick (the pink vein inside), which increases your risk of cutting too short and causing bleeding. A small, confined area also prevents your cat from bolting mid-trim.
+
+**Handle practice before trimming.** Spend a few days gently handling your cat's paws without trimming. Extend each claw, touch the nail, and reward with treats. This desensitization reduces anxiety when you bring out the clippers.
+
+## Get the Right Tools
+
+**Invest in proper cat nail clippers.** Scissor-style clippers work best for cats—they give you better control than guillotine-style trimmers. Dull clippers crush the nail instead of cutting cleanly, causing pain and increasing your cat's resistance. Keep them sharp or replace them annually.
+
+**Have a styptic pencil or powder on hand.** Accidents happen. If you catch the quick and it bleeds, a styptic product stops bleeding within seconds. Keep it within arm's reach before you start.
+
+Consider pairing your grooming routine with calming aids. Many cat owners find that using a **lick mat** filled with treats or wet food 15 minutes before trimming helps settle their cat's nervous system and provides a gentle distraction during the process.
+
+## The Trimming Technique
+
+**Hold your cat securely but gently.** Sit with your cat on your lap or between your legs (facing away from you). Never restrain them aggressively—this triggers defensive scratching. If your cat struggles, it's better to stop and try again later than to force it.
+
+**Extract one claw at a time.** Gently press the pad between your thumb and finger to extend the claw. Work on one paw, then take a break before moving to the next.
+
+**Identify the quick.** Look at the claw's cross-section. You'll see a dark centre (the quick) surrounded by lighter keratin. Trim only the clear or light portion, staying at least 2mm away from the quick. When in doubt, trim less rather than more.
+
+**Make one clean cut.** Position clippers perpendicular to the nail and cut decisively. Hesitant, partial cuts are more painful and increase the chance of splitting the nail.
+
+**Don't panic if there's bleeding.** If you catch the quick, it's uncomfortable but not dangerous. Apply styptic powder, stay calm (your cat mirrors your energy), and continue once bleeding stops. One nick won't traumatise your cat if you remain relaxed.
+
+## Managing Difficult Cats
+
+Some cats are simply resistant to nail trimming—and that's okay. You have options.
+
+**Try breaking it into sessions.** Trim only one or two nails per day. This reduces overwhelming your cat and makes the process feel less invasive.
+
+**Ask your vet for help.** Many vets will trim nails for £15–£30, or show you techniques tailored to your cat's temperament. Some cats cooperate better with a calm professional presence.
+
+**Use environmental enrichment.** A comfortable **cat bed** nearby creates a safe retreat space, and having treats readily available helps build positive associations with grooming time.
+
+## Aftercare and Frequency
+
+Most cats need nail trimming every 2–4 weeks, though indoor cats often need it more frequently than outdoor cats. After trimming, give your cat space to decompress. A brief play session or treat reward strengthens the positive association.
+
+## The Bottom Line
+
+Nail trimming doesn't require aggression—it requires preparation, the right tools, and a calm attitude. Start small, go slowly, and remember that your cat picks up on your confidence. With consistent, gentle practice, you'll find this essential grooming task becomes routine for both of you.
+
+**Ready to groom at home?** Start with quality clippers and a calm environment. Your cat—and your furniture—will thank you.
+    `,
   }
 ]
 
@@ -5926,6 +5989,7 @@ const POST_RELEVANCE = {
   'multi-cat-household-guide-preventing-resolving-conflict': ["Anxiety Relief","Cats","Enrichment","Comfort"],
   'how-to-brush-cat-hates-being-brushed': ["Grooming","Cats","Health"],
   'long-haired-cat-grooming-tools-routine': ["Grooming","Cats","Health"],
+  'how-to-trim-cat-nails-without-getting-scratched': ["Grooming","Cats","Health"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
