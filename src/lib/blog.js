@@ -5885,6 +5885,102 @@ Nail trimming doesn't require aggression—it requires preparation, the right to
 
 **Ready to groom at home?** Start with quality clippers and a calm environment. Your cat—and your furniture—will thank you.
     `,
+  },
+  {
+    slug: 'new-kitten-week-1-what-to-expect-prepare',
+    title: "New Kitten Week 1: What to Expect and How to Prepare",
+    excerpt: "Bringing home your first kitten is exciting but can feel overwhelming. This guide walks you through the essential setup, health checks, and behavioural cues you'll encounter during that crucial first week.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-10-19',
+    readTime: '6 min read',
+    img: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Bringing Your Kitten Home: The First 24 Hours
+
+The first day is about **calm transitions, not exploration marathons**. Your kitten will likely be stressed from travel and unfamiliar surroundings. Resist the urge to show them the whole house immediately. Instead, confine them to a single room—ideally a bedroom or quiet living space—with food, water, a litter tray, and a safe hiding spot.
+
+Kittens often need a few hours to decompress. They may hide under furniture, refuse food, or seem withdrawn. This is completely normal. Avoid excessive handling or inviting visitors on day one. Let your kitten set the pace for interaction.
+
+## Essential Supplies You'll Need Immediately
+
+Before your kitten arrives, have these ready:
+
+- **Litter tray and litter** (unscented or mild scent initially)
+- **Food and water bowls** (separate, ideally ceramic or stainless steel)
+- **Kitten-appropriate wet and dry food** (ask the breeder or rescue what they've been eating)
+- **A comfortable bed or sleeping space** (kittens love secure, elevated spots—consider a cosy pet bed from PawHaven)
+- **Toys for play and mental stimulation**
+- **Scratching post or scratch pad**
+- **ID collar and microchip details**
+- **Grooming supplies** (soft brush, nail clippers)
+- **First aid kit and any prescribed medications**
+
+## Feeding and Nutrition in Week One
+
+**Stick with what they know.** Ask the previous carer for the exact food brand and type. Sudden diet changes cause digestive upset. If you want to transition to different food, do it gradually over 7–10 days, mixing increasing amounts of new food with the old.
+
+Kittens aged 8–12 weeks need **three to four meals daily**. Most vets recommend high-quality kitten formula until 12 months old. Portion sizes vary by brand—always check the packaging.
+
+Place food and water in a quiet corner away from the litter tray. Some kittens are fussy eaters initially due to stress; a little warm water mixed into wet food can help. If your kitten refuses food for more than 24 hours, contact your vet.
+
+## Litter Training and Toilet Habits
+
+Most kittens instinctively use a litter tray, but reinforcement helps. Place the tray in a quiet, accessible location away from food. After meals, play, or naps, gently place your kitten in the tray.
+
+Accidents happen—never punish. Simply clean the spot thoroughly with enzymatic cleaner to remove scent markers. If accidents persist beyond week two, consult your vet; urinary issues need professional assessment.
+
+**Pro tip:** Kittens are naturally clean creatures. A slow feeder bowl can actually help regulate digestion and reduce litter tray stress by promoting healthier eating habits.
+
+## Health Checks and Vet Visits
+
+**Schedule a vet appointment within the first few days.** The vet will:
+
+- Check for congenital defects or parasites
+- Confirm age and sex
+- Discuss vaccination schedules (most start at 8 weeks)
+- Advise on flea and worm prevention
+- Review microchipping and insurance options
+
+Bring any documentation from the breeder or rescue, including existing vaccinations and medical history.
+
+## Understanding Kitten Behaviour This Week
+
+Expect **high energy alternating with deep sleep**—kittens can nap 16–20 hours daily. They're learning their new territory through smell and touch, so they may rub against furniture, your hands, and walls. This is scent-marking; it's comforting for them.
+
+Biting and pouncing are normal play behaviours, not aggression. Redirect biting to appropriate toys rather than punishing. Interactive play with feather wands or toy mice helps burn energy and builds your bond.
+
+## Creating a Safe Environment
+
+**Kitten-proof thoroughly:**
+
+- Secure loose electrical cords
+- Remove toxic plants (lilies, poinsettias, dieffenbachia)
+- Store cleaning products, medications, and small objects safely
+- Cover or secure windows to prevent falls
+- Ensure litter tray, food, and water are always accessible
+
+Provide **vertical spaces** for climbing and observing—cats feel safer with height advantage. A multi-level cat tree or wall-mounted shelves work well.
+
+## Sleep and Comfort
+
+Kittens thrive with a quiet, secure sleeping area. A dedicated bed in a low-traffic corner helps them feel safe. Some kittens prefer enclosed spaces like boxes or caves; PawHaven's range of cosy kitten beds offers both security and comfort for quality rest.
+
+## When to Call the Vet
+
+Contact your vet immediately if you notice:
+
+- **Persistent diarrhoea or vomiting**
+- **No appetite for 24+ hours**
+- **Excessive meowing or distress**
+- **Difficulty breathing or wheezing**
+- **Discharge from eyes or nose**
+- **Lethargy beyond normal sleeping patterns**
+
+## Final Thoughts
+
+Your kitten's first week sets the tone for their entire life with you. Patience, consistency, and a quiet, predictable environment are your best tools. Within days, your kitten will begin exploring, playing, and bonding with you. Welcome to the rewarding adventure of kitten parenthood.
+    `,
   }
 ]
 
@@ -5990,6 +6086,7 @@ const POST_RELEVANCE = {
   'how-to-brush-cat-hates-being-brushed': ["Grooming","Cats","Health"],
   'long-haired-cat-grooming-tools-routine': ["Grooming","Cats","Health"],
   'how-to-trim-cat-nails-without-getting-scratched': ["Grooming","Cats","Health"],
+  'new-kitten-week-1-what-to-expect-prepare': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
