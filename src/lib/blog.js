@@ -6050,6 +6050,101 @@ Litter training a kitten is straightforward when you prioritise cleanliness, con
 
 Remember: every kitten is unique. Some train faster, others need a few extra days. The key is maintaining your routine without frustration. You've got this!
     `,
+  },
+  {
+    slug: 'kitten-vaccinations-schedule-costs-protection',
+    title: "Kitten Vaccinations: Complete Schedule, Costs, and Protection Guide",
+    excerpt: "Vaccinating your kitten is one of the most important health decisions you'll make. Learn the recommended schedule, what each vaccine protects against, and what to expect cost-wise.",
+    category: 'Cats',
+    tag: 'Health',
+    date: '2026-11-02',
+    readTime: '7 min read',
+    img: 'https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Why Kitten Vaccinations Matter
+
+Vaccinations are your kitten's first line of defence against serious, sometimes fatal diseases. Kittens are particularly vulnerable because their immune systems are still developing, and they haven't yet built natural immunity to common feline illnesses. Starting vaccinations early and following a proper schedule sets the foundation for a long, healthy life.
+
+**Core vaccinations are essential for every kitten**, regardless of lifestyle. Non-core vaccines depend on your kitten's individual risk factors and where you live.
+
+## The Standard Kitten Vaccination Schedule
+
+Most vets recommend starting vaccinations between 6 and 8 weeks of age. Here's what a typical schedule looks like:
+
+**8–12 weeks:** First round of core vaccines (FVRCP or similar, depending on your region)
+
+**12–16 weeks:** Second round of core vaccines
+
+**16–20 weeks:** Final booster (FVRCP) and rabies vaccine (required by law in most areas)
+
+**1 year:** First annual booster
+
+**Every 1–3 years thereafter:** Booster shots (your vet will advise based on the vaccine type)
+
+If you adopt an older kitten and don't know their history, your vet may recommend starting fresh or running a titer test to check immunity levels.
+
+## Core vs. Non-Core Vaccines
+
+### Core Vaccines
+
+These protect against the most common and serious feline diseases:
+
+**FVRCP (or FVRCCP):** This combination vaccine protects against:
+- Feline Viral Rhinotracheitis (FVR) – a respiratory infection
+- Feline Calicivirus (FCV) – another respiratory virus
+- Feline Panleukopenia (FP) – a highly contagious and often fatal gastrointestinal disease
+- Some versions also include Feline Chlamydia (the C)
+
+**Rabies:** Required by law in most countries. Rabies is fatal once symptoms appear and poses a public health risk.
+
+### Non-Core Vaccines
+
+Your vet may recommend these based on your kitten's lifestyle:
+
+- **Feline Leukaemia Virus (FeLV):** Recommended for outdoor cats or those with access to outdoor areas. Indoor-only cats may not need it.
+- **Feline Immunodeficiency Virus (FIV):** For cats at higher risk of exposure through fighting or contact with infected cats.
+- **Bordetella and Chlamydia:** If your kitten will be around many other cats (boarding, shelters, multi-cat households).
+
+Discuss your kitten's risk profile with your vet to decide which non-core vaccines make sense.
+
+## What to Expect During Vaccination Visits
+
+Your vet will conduct a physical examination before vaccinating to ensure your kitten is healthy enough for shots. Mild side effects like letharness, reduced appetite, or slight swelling at the injection site are normal and usually resolve within 24–48 hours.
+
+Severe reactions (difficulty breathing, severe swelling, collapse) are rare but require immediate attention.
+
+**Pro tip:** Bring your kitten in a secure, comfortable carrier—a stressed kitten is harder to examine. Our **PawHaven carriers with plush bedding** provide a calm environment that makes vet visits less intimidating.
+
+## Vaccination Costs in the UK and US
+
+Costs vary by location and clinic:
+
+**UK:** £20–£60 per vaccination visit; a complete kitten course typically costs £50–£150.
+
+**US:** $50–$150 per vaccination visit; a complete kitten series often runs $100–$300.
+
+Non-core vaccines and rabies boosters may add £10–£30 (UK) or $15–$50 (US) per shot.
+
+Many practices offer kitten packages that bundle visits and vaccines at a slight discount. Some charities offer low-cost vaccination clinics in underserved areas.
+
+## After Vaccination: Care Tips
+
+After vaccinations, keep your kitten calm and indoors for 24–48 hours. Monitor for any unusual symptoms. Some kittens feel slightly under the weather—offer their favorite toys or a **PawHaven lick mat** with wet food or broth to encourage gentle play and hydration without overstimulation.
+
+Maintain a record of all vaccinations; you'll need proof for boarding, travel, or adoption applications.
+
+## Common Questions
+
+**Can I vaccinate my kitten at home?** No. Vaccinations must be administered by a licensed veterinarian who can assess your kitten's health and manage any reactions.
+
+**What if I miss a vaccination date?** Contact your vet. Depending on how late you are, you may need to restart the series or just give a booster.
+
+**Are vaccines safe?** Yes. The risks from vaccine-preventable diseases far outweigh the minimal risk of vaccination side effects.
+
+## Final Thoughts
+
+Following your vet's vaccination recommendations protects your kitten, your family, and your community. Start on schedule, keep records, and maintain regular check-ups. A healthy, vaccinated kitten grows into a resilient adult cat—and that's the best investment you can make in their future.
+    `,
   }
 ]
 
@@ -6157,6 +6252,7 @@ const POST_RELEVANCE = {
   'how-to-trim-cat-nails-without-getting-scratched': ["Grooming","Cats","Health"],
   'new-kitten-week-1-what-to-expect-prepare': ["Health","Cats","Grooming"],
   'how-to-litter-train-kitten-7-days': ["Health","Cats","Grooming"],
+  'kitten-vaccinations-schedule-costs-protection': ["Health","Cats","Grooming"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
