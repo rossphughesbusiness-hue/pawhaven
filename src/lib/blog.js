@@ -6145,6 +6145,88 @@ Maintain a record of all vaccinations; you'll need proof for boarding, travel, o
 
 Following your vet's vaccination recommendations protects your kitten, your family, and your community. Start on schedule, keep records, and maintain regular check-ups. A healthy, vaccinated kitten grows into a resilient adult cat—and that's the best investment you can make in their future.
     `,
+  },
+  {
+    slug: 'cat-window-perches-bird-watching-station',
+    title: "Cat Window Perches: How to Set Up the Perfect Bird-Watching Station",
+    excerpt: "Window perches tap into your cat's natural hunting instincts while keeping them entertained indoors. Discover how to create an enriching bird-watching setup that'll have your feline glued to the glass.",
+    category: 'Cats',
+    tag: 'Enrichment',
+    date: '2026-11-09',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?w=800&q=85&auto=format&fit=crop',
+    content: `
+## Why Window Perches Matter for Indoor Cats
+
+Cats are natural hunters, and even the most content indoor cat needs mental stimulation. A window perch transforms an ordinary windowsill into a source of endless entertainment—birds, squirrels, leaves, and passing activity all become part of your cat's daily viewing schedule.
+
+Beyond boredom relief, window perches provide:
+
+- **Vertical territory**, which cats instinctively seek for security
+- **Natural light exposure**, supporting healthy vitamin D synthesis
+- **Environmental enrichment** that reduces stress and behavioral problems
+- **A healthy outlet for predatory instincts** without actual hunting
+
+Vets widely recommend window access as part of a comprehensive enrichment strategy for indoor cats.
+
+## Choosing the Right Window Perch
+
+Not all perches are created equal. Consider these factors:
+
+**Material and Durability**
+Look for perches with sturdy suction cups or brackets that won't fail under your cat's weight. Soft-sided perches are comfortable but need regular cleaning. Hard platforms are easier to maintain and typically last longer.
+
+**Size and Weight Capacity**
+Measure your cat and choose a perch with at least a few inches of overhang on each side. Larger or multiple cats need wider, more robust options. Most quality perches support 30+ pounds.
+
+**Window Type Compatibility**
+Suction cup perches work best on clean, smooth glass. If you have textured or older windows, consider bracket-mounted options instead. Corner perches fit snugly in window frames without suction cups.
+
+**Comfort Features**
+Cushioning makes long sits more pleasant. If your chosen perch lacks padding, adding a washable mat transforms it into a luxury spot your cat won't leave.
+
+## Creating the Ideal Bird-Watching Environment
+
+**Position Strategically**
+Place the perch at the cat's eye level when sitting. Mid-to-upper windowsills work best, as they provide security (cats like height) while maximizing outdoor visibility. South or east-facing windows tend to offer the most activity.
+
+**Maximize Natural Light**
+Clean windows regularly—dust and grime reduce viewing clarity and attract fewer outdoor visitors. Consider lightweight, sheer curtains that filter light without blocking the view.
+
+**Add Visual Interest Outdoors**
+If your window faces a quiet wall, set up a bird feeder or small water dish outside. This dramatically increases activity and keeps your cat engaged. Even a potted plant or two can attract insects and birds.
+
+**Reduce Glare and Reflections**
+If your room is brightly lit, your cat sees their own reflection instead of outdoor activity. Dim interior lights slightly, or position the perch where afternoon sun creates less reflection.
+
+## Enhancing the Experience
+
+**Combine Perches with Other Enrichment**
+Pair your window station with interactive toys to maintain peak engagement. Keep a **lick mat** or slow feeder puzzle nearby—some cats enjoy snacking while they watch, which creates a cosy, den-like atmosphere.
+
+**Rotate View Locations**
+If possible, set up multiple perches on different windows. Cats appreciate variety, and different views offer different entertainment—birds at one window, squirrels at another.
+
+**Create a Comfortable Lounge Zone**
+Add a soft bed or blanket near the window perch for cats who want to rest between viewing sessions. A perch that doubles as a bed encourages longer periods of relaxation and observation.
+
+**Screen Safety**
+Ensure window screens are secure. Even indoor cats can be tempted to chase, and an unsecured screen is a hazard. Check regularly for damage.
+
+## Maintenance and Hygiene
+
+Window perches collect dust, pollen, and cat hair. Clean suction cups monthly to maintain grip. Wash cushioned perches weekly if possible, or use a pet-safe disinfectant spray. Non-removable cushioning benefits from occasional brushing to remove loose fur.
+
+## Making It a Daily Habit
+
+Place your cat on the perch during calm times—early morning or late afternoon when outdoor activity peaks. Some cats naturally gravitate to windows; others need encouragement. Positive associations develop when birds or activity coincide with perch time.
+
+A well-stocked window perch isn't just entertainment—it's a window into your cat's natural world, delivered safely from your living room. With the right setup, you'll find your feline has discovered their favourite spot in the home.
+
+---
+
+*Ready to upgrade your cat's view? Shop durable, comfortable window perches at PawHaven, along with enrichment accessories to complete the setup.*
+    `,
   }
 ]
 
@@ -6253,6 +6335,7 @@ const POST_RELEVANCE = {
   'new-kitten-week-1-what-to-expect-prepare': ["Health","Cats","Grooming"],
   'how-to-litter-train-kitten-7-days': ["Health","Cats","Grooming"],
   'kitten-vaccinations-schedule-costs-protection': ["Health","Cats","Grooming"],
+  'cat-window-perches-bird-watching-station': ["Enrichment","Cats","Toys","Play","Anxiety Relief"],
 };
 
 export function getRelatedPosts(product, limit = 3) {
